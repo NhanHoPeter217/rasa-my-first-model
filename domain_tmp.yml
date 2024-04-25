@@ -1,0 +1,55 @@
+version: "3.1"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+- working_time
+- contact
+- exam_time
+- exam_venue
+- select_exam_date
+- fee_inquiry
+- student_discount
+- late_graduate_discount
+- exam_registration_docs
+- certification_requirement
+- thanks
+
+responses:
+  utter_working_time:
+  - text: "Thứ 2 đến thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 17h) ; thứ 7 (sáng từ 8h00 - 11h30)"
+
+  utter_contact:
+  - text: "Trung tâm Khảo thí – Trường Đại học Sài Gòn, số 4 Nguyễn Trãi, phường 3, quận 5, TP HCM\nemail: etc@sgu.edu.vn\nđiện thoại: 028.3924.4690."
+
+  utter_exam_time:
+  - text: "Dự kiến tổ chức 1 tháng 1 kỳ, lịch thi hàng tháng sẽ được thông báo trên trang web"
+
+  utter_exam_venue:
+  - text: "Cơ sở chính Trường Đại học Sài Gòn, 273 An Dương Vương, phường 3, quận 5, TP HCM"
+
+  utter_select_exam_date:
+  - text: "Hiện tại chưa lựa chọn được ngày thi."
+
+  utter_fee_inquiry:
+  - text: "1.800.000 / thí sinh. Lệ phí thi dành riêng cho viên chức, học viên, sinh viên, học sinh Trường Đại học Sài Gòn, Trường Trung học Thực hành Sài Gòn, Trường Tiểu học Thực hành Đại học Sài Gòn (kèm minh chứng thẻ sinh viên/học viên còn hạn hoặc Giấy xác nhận sinh viên/học viên): 1.200.000 đ/thí sinh"
+
+  utter_student_discount:
+  - text: "Đối với sinh viên/ học viên cao học còn đang theo học của trường (kèm theo thẻ sinh viên/học viên còn hạn hoặc Giấy xác nhận sinh viên/học viên có xác nhận của trường) thì sẽ được xét giảm lệ phí thi."
+
+  utter_late_graduate_discount:
+  - text: "Vẫn được xem xét giảm với điều kiện có Giấy xác nhận sinh viên (có đóng dấu xác nhận) xác nhận vẫn còn là sinh viên đến học kỳ của thời điểm đăng ký thi"
+
+  utter_exam_registration_docs:
+  - text: "1. Phiếu đăng ký thi (tải ở thông báo ghi danh) hoặc lấy trực tiếp ở Phòng ghi danh\n
+           2. 2 ảnh 2x6\n
+           3. Photo CCCD/CMND/Hộ chiếu\n
+           4. Photo thẻ viên chức hoặc thẻ sinh viên, học viên còn hạn/ Giấy xác nhận sinh viên, học viên (đối với viên chức, học viên, sinh viên, học sinh Trường Đại học Sài Gòn, Trường Trung học Thực hành Sài Gòn, Trường Tiểu học Thực hành Đại học Sài Gòn)"
+
+  utter_certification_requirement:
+  - text: "Hiện tại chưa bắt buộc phải công chứng"
+
+  utter_thanks:
+  - text: "Rất vui được hỗ trợ cho em. em cần trợ giúp thêm điều gì không?\n"
