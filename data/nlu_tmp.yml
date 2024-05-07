@@ -286,3 +286,122 @@ nlu:
       - em cảm ơn thày cô ạ
       - à em biết rồi em cảm ơn ạ
       - em xin cảm ơn!
+
+  - intent: ask_student_id_notarization
+    examples: |
+    Thẻ sinh viên/học viên cao học có cần công chứng không?
+    
+  - intent: ask_competition_registration_process
+    examples: |
+    - Làm thế nào để đăng ký thi?
+    - Mình cần làm gì để đăng ký thi?
+    - Các bước đăng ký thi bao gồm những gì?
+    - Thủ tục đăng ký thi là gì?
+    - Đăng ký thi như thế nào?
+
+  - intent: competition_registration_process_far
+    examples: |
+    - Làm thế nào để thí sinh ở xa có thể đăng ký thi?
+    - Có cách nào để đăng ký thi từ xa không?
+    - Tôi ở xa, có thể đăng ký thi trực tuyến được không?
+    - Cần làm gì để hoàn tất thủ tục đăng ký thi từ xa?
+    - Ở xa thì đăng ký như thế nào?
+
+  - intent: ask_practice_papers
+    examples: |
+    - Bên mình có [tài liệu ôn thi]{"entity":"practice"} không ạ?
+    - Cho hỏi có [tài liệu ôn thi]{"entity":"practice"} không ạ?
+    - Có nhận [ôn luyện]{"entity":"practice"} không ạ?
+  
+  - intent: ask_certification_retrieval_place
+    examples: |
+    - Nhận [chứng chỉ]{"entity": "certification"} ở đâu vậy ạ?
+    - Tôi có thể nhận [chứng chỉ]{"entity": "certification"} ở đâu?
+    - Địa điểm nhận [chứng chỉ]{"entity": "certification"} là ở đâu?
+    - Nơi nào tôi có thể nhận [chứng chỉ]{"entity": "certification"}?
+    - Có thể nhận [chứng chỉ]{"entity": "certification"} ở đâu?
+
+  - intent: ask_certification_retrieval_requirement
+    examples: |
+    - Cách để nhận [chứng chỉ]{"entity": "certification"}?
+    - Cách lấy [chứng chỉ]{"entity": "certification"}?
+    - Nhận [chứng chỉ]{"entity": "certification"} thì cầm theo gì?
+    - Nhận [chứng chỉ]{"entity": "certification"} cầm gì?
+    - Lấy [chứng chỉ]{"entity": "certification"} cần cầm gì?
+    - Lấy [chứng chỉ]{"entity": "certification"} thì cầm theo gì?
+    - [chứng chỉ]{"entity": "certification"} yêu cầu những tài liệu gì?
+    - Mang gì khi đi nhận [chứng chỉ]{"entity": "certification"}?
+    - Lấy [chứng chỉ]{"entity": "certification"} cần phải cung cấp giấy tờ gì?
+  
+  - intent: intercede_certification_retrieval
+    examples: |
+    - Có thể nhận [chứng chỉ]{"entity": "certification"} giùm được không?
+    - Muốn nhờ người nhận giùm thì cần giấy tờ gì?
+
+  - intent: ask_competition_result_date
+    examples: |
+    - Bao giờ có kết quả thi?
+  
+  - intent: ask_competition_certification_date
+  - examples: |
+    - Bao giờ có [chứng chỉ]{"entity": "certification"}?
+    - Thi xong có [chứng chỉ]{"entity": "certification"} ngay không?
+  
+  - intent: ask_competition_information
+  - examples: |
+    - Làm sao để biết [số báo danh]{"entity" : "competition_information", "role": "competition_id"}?
+    - Làm sao để biết [phòng thi]{"entity": "competition_information", "role": "competition_room"}?
+    - Làm sao để biết [số báo danh]{"entity" : "competition_information", "role": "competition_id"}, [phòng thi]{"entity": "competition_information", "role": "competition_room"}?
+  
+  - intent: ask_competition_result_process
+  - examples: |
+    - Làm sao để biết [điểm thi]{"entity": "competition_result"}?
+    - Tôi muốn hỏi [điểm thi]{"entity": "competition_result"}
+    - Cho mình hỏi [điểm thi]{"entity": "competition_result"} với ạ
+    - Em muốn biết [điểm thi]{"entity": "competition_result"} ạ
+
+  - intent: ask_certification_retrieval_immediately
+  - examples: |
+    - Có thể muốn nhận [chứng chỉ]{"entity": "certification"} ngay được không?
+    - Muốn nhận [chứng chỉ]{"entity": "certification"} ngay thì làm thế nào?
+    - Mình muốn nhận [chứng chỉ]{"entity": "certification"} gấp thì làm sao ạ?
+    - Có cấp giấy xác nhận điểm tạm thời không?
+
+  - intent: ask_result_paper
+  - examples: |
+    - Em muốn lấy [giấy xác nhận điểm]{"entity": "result_paper"} thì làm sao ạ
+    - Cách nhận [giấy xác nhận điểm]{"entity": "result_paper"}
+    - [giấy xác nhận điểm]{"entity": "result_paper"} lấy như thế nào?
+    - [giấy xác nhận điểm]{"entity": "result_paper"} lấy ở đâu?
+  
+  - intent: ask_a2_requirement
+  - examples: |
+    - Đăng ký thi [A2]{"entity":"competition_level"} như thế nào?
+    - Đăng ký thi [B1]{"entity":"competition_level"} như thế nào?
+    - Đăng ký thi [B2]{"entity":"competition_level"} như thế nào?
+    - Đăng ký thi [C1]{"entity":"competition_level"} như thế nào?
+    - Đăng ký thi [C2]{"entity":"competition_level"} như thế nào?
+    - Thời gian tổ chức thi [A2]{"entity": "competition_level"}?
+    - Thời gian tổ chức thi [B1]{"entity": "competition_level"}?
+    - Thời gian tổ chức thi [B2]{"entity": "competition_level"}?
+    - Thời gian tổ chức thi [C1]{"entity": "competition_level"}?
+    - Thời gian tổ chức thi [C2]{"entity": "competition_level"}?
+
+  - intent: ask_retest_fee
+  - examples: |
+    - Thi lại có được giảm giá [tiền thi]{"entity": "competition_fee"} không?
+    - Thi lại [phí]{"entity": "competition_fee"} như thế nào?
+    - Thi lại [phí]{"entity": "competition_fee"} ra sao?
+    - Thi lại [phí]{"entity": "competition_fee"} có giảm giá không?
+    - Trường hợp em thi lại thì sao?
+    - Em thi lại có được giảm giá không?
+  
+  - intent: ask_delay
+  - examples: |
+    - Có thể [dời]{"entity": "delay"} ngày thi được không?
+    - Em muốn [dời]{"entity": "delay"} ngày thi được không ạ?
+    - Mình muốn [dời]{"entity": "delay"} ngày thi thì sao ạ?
+  
+  - intent: ask_cancel+ask_refund
+  - examples: |
+    - [Không muốn thi]{"entity":"cancel"} nữa thì có được [hoàn] lệ phí thi không?
