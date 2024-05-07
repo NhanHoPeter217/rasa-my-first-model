@@ -5,808 +5,128 @@ session_config:
   carry_over_slots_to_new_session: true
 
 intents:
+- working_time
+- contact
+- exam_time
+- exam_venue
+- select_exam_date
+- fee_inquiry
+- student_discount
+- late_graduate_discount
+- exam_registration_docs
+- certification_requirement
 - thanks
-- greet
-- sorry
-- ask_registration_online
-- additional_docs_after_applying_online
-- ask_time_for_results
-- admission_paper
-- admission_application_time
-- requirements_registration_docs
-- school_start_time
-- admission_procedure_time
-- admission_on_11_9
-- admission_after_11_9
-- do_not_understand
-- admission_records
-- additional_required
-- docs_notarize
-- docs_photocopy
-- area_field_in_registration_docs
-- registry_from_other_regions
-- ask_fees
-- ask_school_info
-- number_occupations_school_train
-- ask_can_choose_training_facility
-- ask_change_wish
-- registry_many_wish
-- registry_with_school_profile
-- apply_directly
-- score_combine_shool_profile
-- registry_school_profile_now
-- registration_form
-- apply_shool_profile_with_graduation_exam_score
-- ask_majors_apply_school_profile
-- apply_shool_profile_and_graduation_exam_score
-- ask_study_and_work
-- ask_late_admission
-- pre_registration_priority
-- scholarship
-- ask_bridging_learning
-- where_admission_paper_send
-- change_registry_options
-- ask_study_saturday_and_sunday
-- registry_graduation_exam_score
-- change_majors
-- admission_options
-- mechatronics_apply_school_profile
-- refrigeration_targets
-- english_language_majors
-- english_language_majors_job
-- where_english_language_majors_training
-- english_entrance_certificate
-- ask_school_offer_english_training
-- 2nd_degree_english
-- sewing_technology_pedagogy
-- fashion_designer_majors
-- sewing_technology
-- score_combine_sewing_technology
-- job_ratio_uppon_graduation
-- sewing_technology_apply_school_profile
-- fitness_and_english_subjects
-- engineering_majors
-- information_technology_majors
-- where_infomation_technology_majors_training
-- learn_information_technology_majors_master
-- software_testing_majors
-- web_technology_majors
-- when_registry_majors
-- graphic_design_majors
-- technology_software_majors
-- girl_favorite_majors
-- mechanical_majors
-- pedagory_majors
-- ask_easy_majors
-- ask_3rd_facility_training_mechanical
-- car_majors
-- car_majors_targets
-- ask_car_technology_majors_apply_school_profile
-- ask_majors_have_chance_work_abroad
-- ask_car_and_mechatronics_majors
-- industrial_electricity_majors
-- electronic_majors
-- automation_majors
-- mechatronics_majors
-- accountant_majors
-- 2nd_degree_accountant
-- business_administration_majors
-- registry_social_science_score_combine
-- ask_college_training
-- college_or_university_training
-- where_student_code
-- registration_methods
-- ask_admissions_office_phone_number
-- conditions_direct_admission
-- ask_1st_batch_admission_list
-- said_pass_admission
-- pass_admission_but_not_receive_notice
-- ask_admission_procedure
-- wrong_infomation
-- apply_score_grade_12
-- apply_score_grade_11
-- receive_notice_when_change_majors
-- ask_how_many_enrollments
-- 1st_round_admission
-- 2nd_round_admission
-- 3rd_round_admission
-- ask_dormitory
-- ask_pass_admission_rate
-- ask_supporting_policies
-- ask_clubs
-- ask_standard_admission_score
-- ask_floor_admission_score
-- choose_resgitration_options_when_low_score
-- ask_area_points
-- with_this_score_should_choose_majors
-- ask_talent_class
-- ask_school_targets
-- ask_study_credits
-- ask_tuition
-- how_many_months_1_year_study
-- ask_curriculum_vitae
-- ask_Doan_book
-- ask_link_list_admission
-- ask_school_code
-- move_to_spkt_hung_yen
-- vocational_school_want_register
-- ask_4th_facility
-- ask_affiliate_program
-- add_documents_later
-- ask_health_insurance
-- ask_demographic_docs
-- ask_2nd_facility
-- ask_haiduong_facility
-- ask_3rd_facility_training_car_majors
-- ask_3rd_facility_training_english_language_majors
-- wrong_registration_information
-- no_indentification_number
-- ask_audience_policy
-- unknown_intent
-- ask_khoaichau_facility
-- ask_football_ground
-- where_facility_admission
-- successful_data_entry
-- want_to_enter_talent_class_after_1_year_of_study
-- how_many_years_to_study_if_have_high_school_diploma
-- ask_school_training_weld
-- ask_4x6_photo_mandatory
-- ask_military_service_transfer
-- lost_military_service_document
-- where_submit_documents
-- ask_timeserving
-- ask_time_intern
-- ask_time_training
-- ask_college_transfer_study
-- ask_diploma_2
-- ask_student_card
-- ask_admission_when_graduating_from_previous_years
-- ask_admission_conditions
-- worried
-- name_person
-- ask_acronyms
+- ask_student_id_notarization
+- ask_competition_registration_process
+- competition_registration_process_far
+- ask_practice_papers
+- ask_certification_retrieval_place
+- ask_certification_retrieval_requirement
+- intercede_certification_retrieval
+- ask_competition_result_date
+- ask_competition_certification_date
+- ask_competition_information
+- ask_competition_result_process
+- ask_certification_retrieval_immediately
+- ask_result_paper
+- ask_a2_requirement
+- ask_retest_fee
+- ask_delay
+- ask_cancel
+- ask_refund
 
 responses:
+  utter_working_time:
+  - text: "Thứ 2 đến thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 17h) ; thứ 7 (sáng từ 8h00 - 11h30)"
+
+  utter_contact:
+  - text: "Trung tâm Khảo thí – Trường Đại học Sài Gòn, số 4 Nguyễn Trãi, phường 3, quận 5, TP HCM\nemail: etc@sgu.edu.vn\nđiện thoại: 028.3924.4690."
+
+  utter_exam_time:
+  - text: "Dự kiến tổ chức 1 tháng 1 kỳ, lịch thi hàng tháng sẽ được thông báo trên trang web"
+
+  utter_exam_venue:
+  - text: "Cơ sở chính Trường Đại học Sài Gòn, 273 An Dương Vương, phường 3, quận 5, TP HCM"
+
+  utter_select_exam_date:
+  - text: "Hiện tại chưa lựa chọn được ngày thi."
+
+  utter_fee_inquiry:
+  - text: "1.800.000 / thí sinh. Lệ phí thi dành riêng cho viên chức, học viên, sinh viên, học sinh Trường Đại học Sài Gòn, Trường Trung học Thực hành Sài Gòn, Trường Tiểu học Thực hành Đại học Sài Gòn (kèm minh chứng thẻ sinh viên/học viên còn hạn hoặc Giấy xác nhận sinh viên/học viên): 1.200.000 đ/thí sinh"
+
+  utter_student_discount:
+  - text: "Đối với sinh viên/ học viên cao học còn đang theo học của trường (kèm theo thẻ sinh viên/học viên còn hạn hoặc Giấy xác nhận sinh viên/học viên có xác nhận của trường) thì sẽ được xét giảm lệ phí thi."
+
+  utter_late_graduate_discount:
+  - text: "Vẫn được xem xét giảm với điều kiện có Giấy xác nhận sinh viên (có đóng dấu xác nhận) xác nhận vẫn còn là sinh viên đến học kỳ của thời điểm đăng ký thi"
+
+  utter_exam_registration_docs:
+  - text: "1. Phiếu đăng ký thi (tải ở thông báo ghi danh) hoặc lấy trực tiếp ở Phòng ghi danh\n
+           2. 2 ảnh 2x6\n
+           3. Photo CCCD/CMND/Hộ chiếu\n
+           4. Photo thẻ viên chức hoặc thẻ sinh viên, học viên còn hạn/ Giấy xác nhận sinh viên, học viên (đối với viên chức, học viên, sinh viên, học sinh Trường Đại học Sài Gòn, Trường Trung học Thực hành Sài Gòn, Trường Tiểu học Thực hành Đại học Sài Gòn)"
+
+  utter_certification_requirement:
+  - text: "Hiện tại chưa bắt buộc phải công chứng"
+
   utter_thanks:
-  - text: "Rất vui được hỗ trợ cho em. em cần trợ giúp thêm điều gì không?\n"
+  - text: "Rất vui được hỗ trợ cho bạn. Bạn cần trợ giúp thêm điều gì không?"
+  - text: "Rất hân hạnh được hỗ trợ bạn. Bạn còn thắc mắc gì thêm không?"
 
-  utter_greet:
-  - text: Chào bạn, trường đại học sư phạm kỹ thuật hưng yên có thể giúp gì cho bạn?
-  - text: Chào em, em cần gì?
+  utter_student_id_notarization:
+  - text: "Thẻ sinh viên / học viên cao học chỉ cần bản photo em nhé"
 
-  utter_sorry:
-  - text: "Không sao em nhé. em cần trợ giúp gì thêm không?\n"
+  utter_competition_registration_process:
+  - text: "1. Đăng ký trực tiếp tại phòng Ghi danh (có thể nhờ người đăng ký hộ)
+2. Gửi hồ sơ đến địa chỉ sô 4 Nguyễn Trãi, phường 3, quận 5, TP HCM trong thời hạn đăng ký"
 
-  utter_ask_registration_online:
-  - text: "Trường vẫn đang xét tuyển bằng hình thức online em nhé\nEm đăng ký tại đây nhé! http://utehy.edu.vn/#/registration, điền đầy đủ thông tin yêu cầu và bấm gửi là nhà trường đã nhận được hồ sơ của em rồi nhé!\nThời gian nhận hồ sơ bắt đầu từ 5/2020, thông tin tuyển sinh của nhà trường em đọc kỹ tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n"
+  utter_competition_registration_process_far:
+  - text: "1. Có thể nhờ người đăng ký hộ, đến trực tiếp tại Trung tâm
+2. Gửi hồ sơ đến Trung tâm theo địa chỉ số 4 Nguyễn Trãi, phường 3, quận 5, TP Hồ Chí Minh trong thời gian hạn đăng ký. Trong trường hợp thời điểm gửi hồ sơ quá gần hạn đăng ký, liên hệ Trung tâm để được xác nhận thông tin."
 
-  utter_additional_docs_after_applying_online:
-  - text: "Không em nhé, sau này em nộp bổ sung học bạ photo và giấy chứng nhận tốt nghiệp tạm thời về nhà trường thôi\n"
+  utter_practice_papers:
+  - text: "Nếu bạn đang tìm kiếm tài liệu ôn thi. Hãy liên hệ Trung tâm Ngoại ngữ – Trường Đại học Sài Gòn, số 4 Nguyễn Trãi, phường 3, quận 5, TP HCM,
+Điện thoại: 028.66536787"
 
-  utter_ask_time_for_results:
-  - text: "Khoảng 30/6 nhà trường sẽ có thông báo trúng tuyển đợt 1. em vào link sau để tra cứu tên mình trong danh sách nhé \nhttp://www.utehy.edu.vn/#/search-ts \nHoặc kiểm tra thông tin của mình tại địa chỉ này: http://utehy.edu.vn/#/news-list/news-detail/507ac44c-f65d-40c7-aec1-53edb782abd0\nNếu không có, em có thể liên hệ sđt: 02213713423 của ban thư ký tuyển sinh để hỏi thông tin\nNếu có thì ba ngày sau, em sẽ nhận được giấy báo gửi về tận nhà!\n"
+  utter_certification_retrieval_place:
+  - text: "Chứng chỉ sẽ nhận trực tiếp tại Trung tâm Ngoại ngữ – Trường Đại học Sài Gòn, số 4 Nguyễn Trãi, phường 3, quận 5, TP HCM,
+Điện thoại: 028.66536787"
 
-  utter_admission_paper:
-  - text: "Nếu trúng tuyển thì nhà trường sẽ gửi giấy báo về địa chỉ em ghi trên hồ sơ đăng kí online hoặc đăng kí trực tiếp nhé\nTất cả đều sẽ cập nhật danh sách trên fanpage và website trường\nEm tra cứu danh sách trúng tuyển tại đây :http://utehy.edu.vn/#/search-tt hoặc và like page: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks để cập nhật các thông tin mới nhất nhé\n"
+  utter_certification_retrieval_requirement:
+  - text: "Khi đi nhận chứng chỉ cầm theo CCCD/CMND/ hộ chiếu để xác minh chính chủ nhận"
 
-  utter_admission_application_time:
-  - text: "Thời gian nhận hồ sơ bắt đầu từ 5/2020 em nhé, thông tin tuyển sinh của nhà trường em đọc kỹ tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n- em có thể đăng ký xét tuyển trực tuyến tại: http://www.utehy.edu.vn/#/registration\n- hoặc em có thể đến trực tiếp các cơ sở của trường, sẽ có người hướng dẫn em làm hồ sơ xét tuyển nhé:\n   cơ sở khoái châu: trung tâm tuyển sinh & truyền thông, xã dân tiến, khoái châu, hưng yên\n   cơ sở mỹ hào: tx mỹ hào, mỹ hào hưng yên\n   cơ sở hải dương: 189 nguyễn lương bằng, tp hải dương\n"
+  utter_intercede_certification_retrieval:
+  - text: "Trong trường hợp nhận giùm chứng chỉ, người nhận giùm cần cầm theo Giấy ủy quyền có xác nhận của cơ quan chức năng kèm sao y công chứng giấy tờ tùy thân của người đi thi và người nhận giùm"
 
-  utter_requirements_registration_docs:
-  - text: "- em chuẩn bị hồ sơ gồm những giấy tờ sau:\n   + bản sao học bạ thpt (hoặc tương đương);\n   + bản sao bằng tốt nghiệp thpt (hoặc tương đương) hoặc giấy chứng nhận tốt nghiệp tạm thời đối với thí sinh tốt nghiệp năm 2021;\n   + phiếu đăng ký xét tuyển (theo mẫu của trường đại học spkt hưng yên có sẵn trên web và trên fanpage).\nEm mang hồ sơ trực tiếp đến cơ sở nào gần nhà em nhất, thuận tiện đi lại cho em nhất để nộp.\n- hoặc em có thể đăng ký online qua link: http://www.utehy.edu.vn/#/registration, sau này em nộp bổ sung học bạ photo và giấy chứng nhận tốt nghiệp tạm thời về nhà trường nữa thôi\n"
+  utter_competition_result_date:
+  - text: "Kết quả thi sẽ có sau trung bình 3 ngày làm việc kể từ ngày thi"
 
-  utter_school_start_time:
-  - text: "11/09, em mang theo hồ sơ với đầy đủ giấy tờ theo hướng dẫn để nhập học\n14/9 có lịch học luôn e nhé, em chú ý theo dõi nhé: http://www.utehy.edu.vn/#/\n"
+  utter_competition_certification_date:
+  - text: "Trung bình trong vòng 30 ngày làm việc kể từ đăng tải kết quả thi.
+Khi nào hoàn tất các thủ tục cấp chứng chỉ, Trung tâm sẽ đăng thông báo tại trang web."
 
-  utter_admission_procedure_time:
-  - text: "Thời gian nhập học sẽ được ghi trên giấy báo nhập học em nhé. các đợt nhập học đồng thời cũng được công bố trên các trang thông tin của nhà trường như trang fanpage và website. em chú ý theo dõi\nEm nhập học trong ngày ghi trên giấy báo nhé. thời gian trong giờ hành chính.\nCó thể nhập học muộn không quá 15 ngày kể từ ngày nhận giấy báo nhập học.\nTrường có gần 2900 chỉ tiêu và tuyển đủ thì thôi. điểm thi thí sinh năm nay khá cao nên e cân nhắc nhập học sớm cho chắc chắn đỗ nhé.\n"
+  utter_competition_information:
+  - text: "Trước ngày thi 3 ngày, tra cứu tại trang web bằng số CCCD/CMND/hộ chiếu"
 
-  utter_admission_on_11_9:
-  - text: "Ngày 11/9 em đem hồ sơ và đến lúc 8:00 giờ, đúng địa chỉ trong giấy báo để nhập học nhé\n- mục 1, 2, 3,4, 5 bản photo nên công chứng và mang bản gốc đi đối chiếu.\n- mục 6: lý lịch hssv mua tại hiệu sách và làm cả 2 bản (tham khảo cách viết hồ sơ hssv trên google).\n- mục 7 em ra công an xã xin mẫu.\n- mục 8: giấy chuyển nghĩa vụ quân sự xin tại xã đội, phường đội, giấy chuyển sinh hoạt đoàn =  sổ đoàn. thẻ bảo hiểm y tế nếu hết hạn hoặc mất, có thể đăng ký mua mới tại trường.\n- nhớ đem theo giấy chứng nhận kết quả thì tốt nghiệp năm 2020 (dòng cuối cùng mặt trước của giấy báo ghi rõ).\nChú ý: khi đến nhập học mang đầy đủ giấy tờ và các khoản phí như đã thông báo. nếu thiếu giấy tờ gì có thể nộp bổ sung sau.\n"
+  utter_competition_result_process:
+  - text: "Bạn có thể tra cứu tại trang web bằng số CCCD/CMND/hộ chiếu"
 
-  utter_admission_after_11_9:
-  - text: "T7, cn nhà trường nghỉ, 14/9 có lịch học tại trường luôn rồi\nNên em đến đúng ngày 11/9 em đem hồ sơ đã nêu trên giấy báo đến để làm thủ tục nhập học nhé\n"
+  utter_certification_retrieval_immediately:
+  - text: "Trong thời gian đợi có chứng chỉ, Trung tâm sẽ hỗ trợ cấp Giấy xác nhận kết quả thi cho trường hợp nào có nhu cầu."
 
-  utter_do_not_understand:
-  - text: "Em chưa hiểu điều gì?\n"
+  utter_result_paper:
+  - text: "Đối với Giấy Xác nhận điểm, sau khi có kết quả điểm thi, gửi mail yêu cầu đến địa chỉ mail etc@sgu.edu.vn.
+Thời gian có Giấy xác nhận là 3-7 ngày tính từ lúc có mail phản hồi."
 
-  utter_admission_records:
-  - text: "Các giấy tờ cần chuẩn bị, giấy tờ nào cần photo hoặc công chứng nhà trường ghi rõ trong giấy báo em nhé.\n  - mục 1, 2, 3,4, 5 bản photo nên công chứng và mang bản gốc đi đối chiếu.\n  - mục 6: lý lịch hssv mua tại hiệu sách và làm cả 2 bản (tham khảo cách viết hồ sơ hssv trên google).\n  - mục 7 em ra công an xã xin mẫu.\n  - mục 8: giấy chuyển nghĩa vụ quân sự xin tại xã đội, phường đội, giấy chuyển sinh hoạt đoàn =  sổ đoàn. thẻ bảo hiểm y tế nếu hết hạn hoặc mất, có thể đăng ký mua mới tại trường.\n  - nhớ đem theo giấy chứng nhận kết quả thì tốt nghiệp năm 2020 (dòng cuối cùng mặt trước của giấy báo ghi rõ).\n  - khi đến nhập học mang đầy đủ giấy tờ và các khoản phí như đã thông báo. nếu thiếu giấy tờ gì có thể nộp bổ sung sau.\nĐây là hướng dẫn viết hồ sơ lý lịch để em tham khảo: https://thi.tuyensinh247.com/huong-dan-dien-so-yeu-ly-lich-hoc-sinh-sinh-vien-c24a30160.html\nMã hồ sơ đăng ký xét tuyển là số dưới mã vạch trong giấy chứng nhận kết quả thi - thông tin cùng em.\n"
+  utter_a2_requirement:
+  - text: "Đăng ký thi A2 (bậc 2/6) giống như đăng ký thi bậc 3-5.
+Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăng ký thi cùng bậc của đợt đăng ký. Không đủ người đăng ký thì dời đợt thi tiếp theo."
 
-  utter_additional_required:
-  - text: "Những thứ cần chuẩn bị đã được ghi trong giấy báo rồi em nhé, em không cần mang gì thêm\nKhi đến nhập học mang đầy đủ giấy tờ và các khoản phí như đã thông báo. nếu thiếu giấy tờ gì có thể nộp bổ sung sau.\n"
+  utter_retest_fee:
+  - text: "Trong trường hợp đăng ký thi lại, lệ phí thi sẽ như đăng ký thi mới."
 
-  utter_docs_notarize:
-  - text: "Mục 1, 2, 3,4, 5 bản photo nên công chứng và mang bản gốc đi đối chiếu nhé em\nKhi đến nhập học mang đầy đủ giấy tờ và các khoản phí như đã thông báo. nếu thiếu giấy tờ gì có thể nộp bổ sung sau.\n"
+  utter_delay:
+  - text: "Nếu bạn muốn dời thi, thì trong thời gian còn hạn đăng ký, Trung tâm vẫn hỗ trợ dời hồ sơ và lệ phí đã nộp qua kỳ tiếp theo"
 
-  utter_docs_photocopy:
-  - text: "Mục 1, 2, 3,4, 5 bản photo nên công chứng và mang bản gốc đi đối chiếu nhé em\nhttp://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80 Em xem kỹ hướng dẫn trong thông báo tuyển sinh mục 9, 10\n"
-
-  utter_area_field_in_registration_docs:
-  - text: "Bộ giáo dục & đào tạo quy định như sau: \n+ khu vực 1 (kv1): cộng ưu tiên 0,75 điểm\n   khu vực 1 là các xã khu vực i, ii, iii thuộc vùng dân tộc và miền núi theo quy định hiện hành tương ứng với thời gian học thpt hoặc trung cấp của thí sinh; các xã đặc biệt khó khăn vùng bãi ngang ven biển và hải đảo; các xã đặc biệt khó khăn, xã biên giới, xã an toàn khu vào diện đầu tư của chương trình 135 theo quy định của thủ tướng chính phủ. \n\n+ khu vực 2 (kv2): cộng ưu tiên 0,25 điểm\n   khu vực 2 là các thị xã, thành phố trực thuộc tỉnh; các thị xã, huyện ngoại thành của thành phố trực thuộc trung ương (trừ các xã thuộc kv1).\n\n+ khu vực 2 nông thôn (kv2-nt): cộng ưu tiên 0,5 điểm \n   khu vực 2 nông thôn bao gồm các địa phương không thuộc kv1, kv2, kv3.\n\n+ khu vực 3: không được công điểm ưu tiên \n   khu vực 3 là các quận nội thành của thành phố trực thuộc trung ương.\n- nếu điền sai, khi nhập học em có thể sửa lại nhé - thông tin cùng em!\n"
-
-  utter_registry_from_other_regions:
-  - text: "Em có thể xét tuyển online nhé. đây là đường dẫn đến trang đăng ký: \nhttp://www.utehy.edu.vn/#/registration\n"
-
-  utter_ask_fees:
-  - text: "Khi đến nhập học em mang đầy đủ giấy tờ và các khoản phí như đã thông báo ngoài ra không còn khoản phí nào.\nNếu thiếu giấy tờ gì có thể nộp bổ sung sau em nhé\nTiền phí hồ sơ em có thể tham khảo trên thông báo tại website của nhà trường\n"
-
-  utter_ask_school_info:
-  - text: "Nhà trường hiện đang đào tạo tại 3 cơ sở:\n  + cơ sở khoái châu: xã dân tiến, huyện khoái châu, tỉnh hưng yên  đt: 02213689888\n  + cơ sở mỹ hào: nhân hòa, thị xã mỹ hào, tỉnh hưng yên  đt: 02113689555\n  + cơ sở hải dương: phường tân bình, thành phố hải dương, tỉnh hải dương đt: 02113689333\nEm đọc thêm ở link này: http://www.utehy.edu.vn/#/news-list/news-detail/73958047-4549-4216-8504-5a4446bc667d và mục 5. các thông tin cần thiết để thí sinh đkxt vào các ngành của trường: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80 để biết thêm chi tiết nhé\n"
-
-  utter_number_occupations_school_train:
-  - text: "Năm 2021, nhà trường tuyển sinh 22 ngành đào tạo. các ngành này đều là những ngành hot đang được xã hội tìm kiếm nguồn nhân lực chất lượng cao đó đó cơ hội việc làm sau khi tốt nghiệp là rất lớn. nhà trường có đội ngũ giảng viên trình độ chuyên môn cao, cơ sở vật chất khang trang hiện đại đảm bảo chất lượng đào tạo tốt nhất cho sinh viên của mình.\nEm tham khảo thêm tại đây để xem chi tiết nhé: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n"
-
-  utter_ask_can_choose_training_facility:
-  - text: "Thí sinh trúng tuyển các ngành có đào tạo ở 2 hoặc 3 cơ sở được quyền lựa chọn địa điểm nhập học và học tập em nhé\nEm đọc thêm mục 5. các thông tin cần thiết để thí sinh đkxt vào các ngành của trường: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n"
-
-  utter_ask_change_wish:
-  - text: "Em có thể đăng ký online qua link: http://utehy.edu.vn/#/registration\nNếu có nhiều nguyện vọng, em truy cập vào link sau và chuyển nguyện vọng em muốn nhất lên nv1 nhé (mã trường skh)\nhttp://thisinh.thitotnghiepthpt.edu.vn/\n"
-
-  utter_registry_many_wish:
-  - text: "Được em nhé, đăng ký nhiều nguyện vọng sẽ tăng tỷ lệ đỗ của em, nhưng thích ngành nào thì hãy đăng ký ngành đó nhé!\n"
-
-  utter_registry_with_school_profile:
-  - text: "Điều kiện xét tuyển học bạ:\n- đối với xét tuyển dựa vào kết quả học tập lớp 12 hoặc lớp 11 ghi trong học bạ thpt(hoặc tương đương): tổng điểm của 3 môn trong tổ hợp dùng để xét tuyển + điểm ưu tiên khu vực, đối tượng >=18,0. riếng đối với ngành sư phạm công nghệ, sư phạm tiếng anh (chỉ xét kết quả học tập lớp 12): điểm trung bình cộng của 3 môn trong tổ hợp dùng để xét tuyển >=8,0 điểm và có học lực lớp 12 xếp loại giỏi hoặc điểm xét tốt nghiệp từ 8,0 trở lên.\n\nEm tham khảo thêm mục 10.2. xét tuyển dựa vào kết quả học tập lớp 11 hoặc lớp 12 thpt: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n- nếu đủ điều kiện: em có thể đăng ký qua: http://113.160.133.144:1902/#/registration\nEm chỉ cần điền đúng và đủ thông tin vào link trên là dc nhé, lấy kết quả học tập lớp 11. nhà trường công bố kết quả sơ tuyển sau 30/6\n- hoặc em có thể đến trực tiếp các cơ sở của trường, sẽ có người hướng dẫn em làm hồ sơ xét tuyển nhé:\n   cơ sở khoái châu: trung tâm tuyển sinh & truyền thông, xã dân tiến, khoái châu, hưng yên\n   cơ sở mỹ hào: tx mỹ hào, mỹ hào hưng yên\n   cơ sở hải dương: 189 nguyễn lương bằng, tp hải dương\n"
-
-  utter_apply_directly:
-  - text: "Em có thể đến trực tiếp các cơ sở của trường nhé\nCơ sở khoái châu: trung tâm tuyển sinh & truyền thông, xã dân tiến, khoái châu, hưng yên\nCơ sở mỹ hào: tx mỹ hào, mỹ hào hưng yên\nCơ sở hải dương: 189 nguyễn lương bằng, tp hải dương\n"
-
-  utter_score_combine_shool_profile:
-  - text: "Điều kiện xét tuyển học bạ:\n- đối với xét tuyển dựa vào kết quả học tập lớp 12 hoặc lớp 11 ghi trong học bạ thpt(hoặc tương đương): tổng điểm của 3 môn trong tổ hợp dùng để xét tuyển + điểm ưu tiên khu vực, đối tượng >=18,0. riếng đối với ngành sư phạm công nghệ, sư phạm tiếng anh (chỉ xét kết quả học tập lớp 12): điểm trung bình cộng của 3 môn trong tổ hợp dùng để xét tuyển >=8,0 điểm và có học lực lớp 12 xếp loại giỏi hoặc điểm xét tốt nghiệp từ 8,0 trở lên.\n\nEm có thể tham khảo ví dụ sau:\nCông nghệ thông tin xét tuyển theo tổ hợp môn a00; a01; d07; d01.\nTổng điểm của 3 môn trong tổ hợp dùng để xét tuyển + điểm ưu tiên khu vực, đối tượng ≥ 18,0đ\nTổ hợp môn d01= điểm tb cả năm môn toán lớp 12  + điểm tb cả năm môn văn lớp 12 + điểm tb cả năm môn tiếng anh lớp 12  >= 18,0đ\nĐiểm trúng tuyển vào trường xét tuyển dựa vào kết quả học tập lớp 11 hoặc 12 ghi trong học bạ thpt (hoặc tương đương)>=18đ\n"
-
-  utter_registry_school_profile_now:
-  - text: "Thời gian nhận hồ sơ bắt đầu từ 5/2020 em nhé, thông tin tuyển sinh của nhà trường em đọc kỹ tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\nXét tuyển dựa vào kết quả học tập lớp 12 hoặc lớp 11 ghi trong học bạ thpt (hoặc tương đương) theo tổ hợp 3 môn tương ứng với các tổ hợp môn thi thpt quốc gia dùng để xét tuyển đại học.\nVd: công nghệ thông tin xét tuyển theo tổ hợp môn a00; a01; d07; d01.\nTổng điểm của 3 môn trong tổ hợp dùng để xét tuyển + điểm ưu tiên khu vực, đối tượng ≥ 18,0đ\n\nNếu em xác định xét tuyển bằng học bạ lớp 12 em có thể lựa chọn theo 3 cách:\n- cách 1: đăng ký xét tuyển online trên web và fanpage trường: http://www.utehy.edu.vn/#/registration\nNếu trúng tuyển nhà trường sẽ tự động gửi giấy báo về địa chỉ mà em cung cấp. trên giấy báo đó sẽ có hướng dẫn rất chi tiết cụ thể cho em.\nEm hãy thường xuyên theo dõi cập nhật các thông tin mới về tuyển sinh trên web và fanpage trường\n- cách 2: nộp hồ sơ qua đường bưu điện: em chuẩn bị hồ sơ gồm những giấy tờ sau:\n   + bản sao học bạ thpt (hoặc tương đương);\n   + bản sao bằng tốt nghiệp thpt (hoặc tương đương) hoặc giấy chứng nhận tốt nghiệp tạm thời đối với thí sinh tốt nghiệp năm 2021;\n   + phiếu đăng ký xét tuyển (theo mẫu của trường đại học spkt hưng yên có sẵn trên web và trên fanpage).\nEm mang hồ sơ ra bưu điện gần nhà em nhất và gửi về địa chỉ:\nTrung tâm tuyển sinh và truyền thông – trường đại học spkt hưng yên – dân tiến, khoái châu, hưng yên. số điện thoại: 02213.689.333\nNội dung: hồ sơ xét tuyển đại học chính quy năm 2021.\n- cách 3: nộp hồ sơ trực tiếp tại 3 cơ sở của nhà trường.\nEm chuẩn bị hồ sơ gồm những giấy tờ sau:\n   + bản sao học bạ thpt (hoặc tương đương);\n   + bản sao bằng tốt nghiệp thpt (hoặc tương đương) hoặc giấy chứng nhận tốt nghiệp tạm thời đối với thí sinh tốt nghiệp năm 2021;\n   + phiếu đăng ký xét tuyển (theo mẫu của trường đại học spkt hưng yên có sẵn trên web và trên fanpage).\nEm mang hồ sơ trực tiếp đến cơ sở nào gần nhà em nhất, thuận tiện đi lại cho em nhất để nộp.\n"
-
-  utter_registration_form:
-  - text: "- em đăng ký xét tuyển bằng đường link sau: http://utehy.edu.vn/#/registration\n- hoặc em có thể đến trực tiếp các cơ sở của trường, sẽ có người hướng dẫn em làm hồ sơ xét tuyển nhé:\nEm tải phiểu đk xét tuyển tại đây http://tuyensinh.utehy.edu.vn/announcement.aspx?id=1080 và điền đầy đủ thông tin vào nhé\n  + cơ sở khoái châu: trung tâm tuyển sinh & truyền thông, xã dân tiến, khoái châu, hưng yên\n  + cơ sở mỹ hào: tx mỹ hào, mỹ hào hưng yên\n  + cơ sở hải dương: 189 nguyễn lương bằng, tp hải dương\n"
-
-  utter_apply_shool_profile_with_graduation_exam_score:
-  - text: "Xét học bạ hay điểm thi đều học cùng lớp chung thầy cô chung chương trình đào tạo\n"
-
-  utter_ask_majors_apply_school_profile:
-  - text: "Tất cả các ngành đều có thể xét tuyển bằng học bạ em nhé\n"
-
-  utter_apply_shool_profile_and_graduation_exam_score:
-  - text: "Em lựa chọn phương thức nào phù hợp với em thì em nộp hồ sơ theo phương thức đó. em có thể tham gia xét tuyển cùng một lúc cả 2 phương thức để gia tăng các cơ hội trúng tuyển cho mình.\n"
-
-  utter_ask_study_and_work:
-  - text: "Em xem thêm thông tin tại website của trường nhé: http://www.utehy.edu.vn/#/news-list/list/e9ed3757-5daf-4ec2-ba2d-7199ce9b7242\n"
-
-  utter_ask_late_admission:
-  - text: "Nhà trường xét tuyển liên tục và nhập học liên tục bắt đầu từ ngày 11/9 nhé! nên em đăng ký trước sẽ được nhập học trước, nhà trường sẽ có kế hoạch sắp xếp hợp lý cho đừng đợt\n"
-
-  utter_pre_registration_priority:
-  - text: "Đăng ký trước sẽ được xét trước nhé, còn kết quả sẽ có theo từng đợt, giấy sẽ gửi cùng lúc về địa chỉ mà em đăng ký, nên nếu chưa nhận được thì em chịu khó đợi thêm nhé\n"
-
-  utter_scholarship:
-  - text: "Học bổng hàng kỳ dựa vào điểm tổng kết kỳ đó từ cao xuống thấp. không kể lớp nào\n"
-
-  utter_ask_bridging_learning:
-  - text: "Phát triển ứng dụng di động là một phần của lĩnh vực phát triển phần mềm, vào học các em sẽ được dạy sử dụng các ngôn ngữ lập trình để tạo nên các ứng dụng (applications) trên các thiết bị di động như điện thoại và máy tính bảng, ví dụ như các ứng dụng thanh toán trực tuyến, ứng dụng đặt xe, ứng dụng giao hàng, ứng dụng đặt và giao món ăn,...\nEm xem thêm thông tin tại đây: http://fit.utehy.edu.vn/\n"
-
-  utter_where_admission_paper_send:
-  - text: "Giấy báo nhập học gửi về sau thời điểm nộp phiếu đăng ký xt hoặc đăng ký xét tuyển online theo thông báo của nhà trường. theo đó, khi nào em có giấy chứng nhận tốt nghiệp em nộp lại nhà trường sẽ gửi giấy báo nhập học chính thức.\nNếu đã có tên trong danh sách trúng tuyển, nhưng quá thời gian nhà trường công bố mà chưa nhận được giấy báo thì em có thể lên 1 trong 3 cơ sở gần nhất để nhận giấy báo nhé.\n"
-
-  utter_change_registry_options:
-  - text: "Em không cần đổi nhé\nKhông có bất kỳ sự phân biệt nào giữa các thí sinh trúng tuyển theo kết quả kỳ thi thpt quốc gia và thí sinh trúng tuyển theo kết quả học tập lớp 11 và lớp 12 (xét học bạ). theo đó, các bạn sẽ được học cùng một lớp, cùng một chương trình đào tạo, cùng thời gian đào tạo, thụ hưởng cơ sở vật chất như nhau và sau khi tốt nghiệp sẽ đều nhận được bằng đh chính quy, phôi bằng do bộ gd-đt cấp.\nThông tin cùng em!\n"
-
-  utter_ask_study_saturday_and_sunday:
-  - text: "Trường không học ca tối em nhé, có học t7 và không học cn\n"
-
-  utter_registry_graduation_exam_score:
-  - text: "Thời gian nhận hồ sơ bắt đầu từ 5/2020, thông tin tuyển sinh của nhà trường em đọc kỹ tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\nEm có thể đăng ký online hoặc trực tiếp, ngay sau khi có điểm em đăng ký luôn nhé\nĐiểm thi cao thì em đăng ký xét tuyển bằng điểm thi. hai phương thức xét học bạ và xét điểm thi vào học là như nhau không có sự phân biệt nào. nên em trúng tuyển cái nào trước em nhập học trước cũng không sao. nếu không cao lắm thì em nên xét học bạ cho tỷ lệ đỗ cao nhé vì năm nay nhiều bạn điểm cao\n- đây là đường dẫn đến trang đăng ký: http://www.utehy.edu.vn/#/registration\n- hoặc em có thể đến trực tiếp các cơ sở của trường, sẽ có người hướng dẫn em làm hồ sơ xét tuyển nhé:\n   cơ sở khoái châu: trung tâm tuyển sinh & truyền thông, xã dân tiến, khoái châu, hưng yên\n   cơ sở mỹ hào: tx mỹ hào, mỹ hào hưng yên\n   cơ sở hải dương: 189 nguyễn lương bằng, tp hải dương\n"
-
-  utter_change_majors:
-  - text: "Dc em nhé. em chờ giấy báo gửi về nhà. ngày 11/9 đến nhập học em chuẩn bị các thủ tục khác bình thường. sẽ có bộ phận hỗ trợ em chuyển ngành\n"
-
-  utter_admission_options:
-  - text: "Em có thể chọn một trong các cách sau, không nhất thiết phải đến tận trường nhé\n- cách 1: đăng ký xét tuyển online trên website và fanpage của nhà trường: http://www.utehy.edu.vn/#/registration\nNếu trúng tuyển nhà trường sẽ tự động gửi giấy báo về địa chỉ mà em cung cấp. trên giấy báo đó sẽ có hướng dẫn rất chi tiết cụ thể cho em.\n\n- cách 2: nộp hồ sơ qua đường bưu điện: em chuẩn bị hồ sơ gồm những giấy tờ sau:\n+ bản sao học bạ thpt (hoặc tương đương);\n+ bản sao bằng tốt nghiệp thpt (hoặc tương đương) hoặc giấy chứng nhận tốt nghiệp tạm thời đối với thí sinh tốt nghiệp năm 2021;\n+ phiếu đăng ký xét tuyển (theo mẫu của trường đại học spkt hưng yên có sẵn trên web và trên fanpage).\nEm mang hồ sơ ra bưu điện gần nhà em nhất và gửi về địa chỉ:\nTrung tâm tuyển sinh và truyền thông – trường đại học spkt hưng yên – dân tiến, khoái châu, hưng yên. số điện thoại: 02213.689.333\nNội dung: hồ sơ xét tuyển đại học chính quy năm 2021.\n\n- cách 3: nộp hồ sơ trực tiếp tại 3 cơ sở của nhà trường.\nEm chuẩn bị hồ sơ gồm những giấy tờ sau:\n+ bản sao học bạ thpt (hoặc tương đương);\n+ bản sao bằng tốt nghiệp thpt (hoặc tương đương) hoặc giấy chứng nhận tốt nghiệp tạm thời đối với thí sinh tốt nghiệp năm 2021;\n+ phiếu đăng ký xét tuyển (theo mẫu của trường đại học spkt hưng yên có sẵn trên web và trên fanpage).\n"
-
-  utter_mechatronics_apply_school_profile:
-  - text: "Ngành nào cũng có thể xét học bạ em nhé\nNhà trường vẫn đang xét tuyển! em có thể đăng ký trực tiếp hoặc online\nhttp://utehy.edu.vn/#/registration\nEm chỉ cần điền đúng và đủ thông tin vào link trên là dc nhé, lấy kết quả học tập lớp 11. nhà trường công bố kết quả sơ tuyển sau 30/6\nHoặc em có thể đến trực tiếp các cơ sở của trường nhé sẽ có người hướng dẫn làm hồ sơ xét tuyển:\nCơ sở khoái châu: trung tâm tuyển sinh & truyền thông, xã dân tiến, khoái châu, hưng yên : 02213.689.888\nCơ sở mỹ hào: tx mỹ hào, mỹ hào hưng yên\nCơ sở hải dương: 189 nguyễn lương bằng, tp hải dương\n"
-
-  utter_refrigeration_targets:
-  - text: "Em xem thêm tại đây: http://khoacokhidongluc.utehy.edu.vn/\nNhớ like fanpage để nhận các thông tin mới nhất nhé: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks\n"
-
-  utter_english_language_majors:
-  - text: "Em xem thêm tại đây: http://khoangoaingu.utehy.edu.vn/\nNhớ like fanpage để nhận các thông tin mới nhất nhé: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks\n"
-
-  utter_english_language_majors_job:
-  - text: "Rất nhiều em nhé: phiên dịch viên, giáo viên tiếng anh,.. tuỳ vào năng lực và sự cố gắng của em trong quá trình học nhé\nEm xem thêm tại đây: http://khoangoaingu.utehy.edu.vn/\nNhớ like fanpage để nhận các thông tin mới nhất nhé: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks\n"
-
-  utter_where_english_language_majors_training:
-  - text: "Ngôn ngữ anh có đào tạo tại cả 3 cơ sở nhé:\n  + cơ sở khoái châu: trung tâm tuyển sinh & truyền thông, xã dân tiến, khoái châu, hưng yên\n  + cơ sở mỹ hào: tx mỹ hào, mỹ hào hưng yên\n  + cơ sở hải dương: 189 nguyễn lương bằng, tp hải dương\nEm xem thêm tại đây: http://khoangoaingu.utehy.edu.vn/\nNhớ like fanpage để nhận các thông tin mới nhất nhé: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks\n"
-
-  utter_english_entrance_certificate:
-  - text: "Sẽ có 1 bài thi đánh giá năng lực tiếng anh đầu vào, kiểm tra xem trình độ của bạn đến đâu để nhà trường lên kế hoạch dạy và học cho phù hợp nhất\n"
-
-  utter_ask_school_offer_english_training:
-  - text: "Nhà trường có đào tạo các học phần tiếng anh em nhé, cụ thể có tiếng anh b1, b2, tiếng anh 1, 2,3 và tiếng anh chuyên ngành nhé\n"
-
-  utter_2nd_degree_english:
-  - text: "Em mang hồ sơ đến trường nhập học như bình thường, sẽ có bộ phận hướng dẫn nhé\n"
-
-  utter_sewing_technology_pedagogy:
-  - text: "Em mang hồ sơ đến trường nhập học như bình thường, sẽ có bộ phận hướng dẫn nhé\n"
-
-  utter_fashion_designer_majors:
-  - text: "Em xem thêm tại đây: http://khoamay.utehy.edu.vn/\nNhớ like fanpage để nhận các thông tin mới nhất nhé: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks\n"
-
-  utter_sewing_technology:
-  - text: "Ngành công nghệ may của trường đào tạo tại 2 cơ sở:\n   cơ sở mỹ hào: tx mỹ hào, mỹ hào hưng yên\n   cơ sở hải dương: 189 nguyễn lương bằng, tp hải dương\nEm xem thông tin khoa may của trường tại đây: http://khoamay.utehy.edu.vn/\n"
-
-  utter_score_combine_sewing_technology:
-  - text: "Em xem các môn được xét tuyển ngành công nghệ may tại mục 5: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n"
-
-  utter_job_ratio_uppon_graduation:
-  - text: "Sinh viên trường ra trường tỷ lệ có việc làm từ 90-98% nhé, tuỳ vào sự cố gắng của các em nữa, trường mình dạy theo hướng ứng dụng nên các em không cần lo nhé\n"
-
-  utter_sewing_technology_apply_school_profile:
-  - text: "Ngành nào cũng có thể xét học bạ em nhé\n+ nhà trường vẫn đang xét tuyển! em có thể đăng ký trực tiếp hoặc online: http://113.160.133.144:1902/#/registration\nEm chỉ cần điền đúng và đủ thông tin vào link trên là dc nhé, lấy kết quả học tập lớp 11. nhà trường công bố kết quả sơ tuyển sau 30/6\n+ hoặc em có thể đến trực tiếp các cơ sở của trường nhé sẽ có người hướng dẫn làm hồ sơ xt:\n   cơ sở khoái châu: trung tâm tuyển sinh & truyền thông, xã dân tiến, khoái châu, hưng yên : 02213.689.888\n   cơ sở mỹ hào: tx mỹ hào, mỹ hào hưng yên\n   cơ sở hải dương: 189 nguyễn lương bằng, tp hải dương\n"
-
-  utter_fitness_and_english_subjects:
-  - text: "Môn thể dục và tiếng anh ngành nào cũng có nhé\n"
-
-  utter_engineering_majors:
-  - text: "Em có thể xem tại đây:\n- thông tin về trường: http://www.utehy.edu.vn/#/news-list/news-detail/73958047-4549-4216-8504-5a4446bc667d\n- khoa cntt: http://fit.utehy.edu.vn/\n- khoa điện tử: http://fee.utehy.edu.vn/\n- khoa cơ khí: http://fme.utehy.edu.vn/\n- khoa cơ khí động lực: http://khoacokhidongluc.utehy.edu.vn/\nNgoài ra có thể xem thông tin tuyển sinh các ngành tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n"
-
-  utter_information_technology_majors:
-  - text: "Năm nay công nghệ thông tin lấy 200 chỉ tiêu, em có thể học tại cs2 hoặc cs3:\n- cơ sở 2 mỹ hào: nhân hòa, thị xã mỹ hào, tỉnh hưng yên\n- cơ sở 3 hải dương: phường tân bình, thành phố hải dương, tỉnh hải dương\nEm xem thêm thông tin tại đây: http://fit.utehy.edu.vn/\n+ em có thể xét tuyển tại đây: http://113.160.133.144:1902/#/registration\n+ hoặc em có thể đến trực tiếp các cơ sở của trường, sẽ có người hướng dẫn em làm hồ sơ xét tuyển nhé:\n   cơ sở khoái châu: trung tâm tuyển sinh & truyền thông, xã dân tiến, khoái châu, hưng yên\n   cơ sở mỹ hào: tx mỹ hào, mỹ hào hưng yên\n   cơ sở hải dương: 189 nguyễn lương bằng, tp hải dương\nThông tin về các cơ sở tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/73958047-4549-4216-8504-5a4446bc667d\n"
-
-  utter_where_infomation_technology_majors_training:
-  - text: "Năm nay công nghệ thông tin lấy 200 chỉ tiêu, chỉ đào tạo tại cs2 hoặc cs3:\n- cơ sở 2 mỹ hào: nhân hòa, thị xã mỹ hào, tỉnh hưng yên\n- cơ sở 3 hải dương: phường tân bình, thành phố hải dương, tỉnh hải dương\nEm xem thêm thông tin tại đây: http://fit.utehy.edu.vn/\nThông tin về các cơ sở tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/73958047-4549-4216-8504-5a4446bc667d\n"
-
-  utter_learn_information_technology_majors_master:
-  - text: "Đào tạo đại học chính quy 4 năm, nếu em đủ điều kiện có thể học tiếp thạc sĩ 1.5 năm nhé\nEm xem thêm thông tin tại đây: http://fit.utehy.edu.vn/\n"
-
-  utter_software_testing_majors:
-  - text: "Công nghệ web là một thuật ngữ chung đề cập đến nhiều ngôn ngữ và gói đa phương tiện được sử dụng kết hợp với nhau, để tạo ra các trang web. mỗi công nghệ có chức năng riêng biệt và cần yêu cầu sử dụng kép ít nhất thêm một công nghệ khác.\nKhi vào học em sẽ được dạy các ngôn ngữ và framwork để tạo ra các trang web cả về phần bề nổi (giao diện) lẫn xử lý bên trong\nEm xem thêm thông tin tại đây: http://fit.utehy.edu.vn/\n"
-
-  utter_web_technology_majors:
-  - text: "Kiểm thử phần mềm là kiểm soát chất lượng phần mềm trước khi được đem vào sử dụng em nhé, em tra gg để biết thêm thông tin nhé kiểm thử phần mềm thuộc khoa công nghệ thông tin, em xem thêm tại đây: http://fit.utehy.edu.vn/\n"
-
-  utter_when_registry_majors:
-  - text: "Đăng ký chuyên ngành vào kỳ 2 năm nhất nhé, em được tự do đăng ký vào chuyên ngành mình thích\n"
-
-  utter_graphic_design_majors:
-  - text: "Thiết kế đồ họa - một trong những ngành học hấp dẫn của lĩnh vực nghệ thuật ứng dụng. đây thuộc những ngành hot hiện nay\nEm xem thêm tại đây: http://fit.utehy.edu.vn/\nNhớ like fanpage để nhận các thông tin mới nhất nhé: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks\n"
-
-  utter_technology_software_majors:
-  - text: "Bộ môn công nghệ phần mềm (tên tiếng anh là software engineering) là bộ môn chuyên ngành trực thuộc khoa công nghệ thông tin, trường đại học sư phạm kỹ thuật hưng yên\nEm xem thêm tại đây: http://fit.utehy.edu.vn/bo-mon-cong-nghe-phan-mem/\nNhớ like fanpage để nhận các thông tin mới nhất nhé: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks\n"
-
-  utter_girl_favorite_majors:
-  - text: "Em có thể chọn khoa công nghệ may thời trang; khoa kinh tế; khoa ngoại ngữ nhé\nNgoài ra em hứng thù với ngành nào thì cũng có thể chọn, chi tiết tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\nThông tin về các cơ sở tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/73958047-4549-4216-8504-5a4446bc667d\n"
-
-  utter_mechanical_majors:
-  - text: "Ngành công nghệ kỹ thuật cơ khí năm nay lấy 100 chỉ tiêu nhé, chỉ đào tạo tại cơ sở 1\nEm xem thông thông tin tuyển sinh tại đây (mục 5): http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\nThông tin ngành cơ khí xem tại đây: http://fme.utehy.edu.vn/\n"
-
-  utter_pedagory_majors:
-  - text: "Có bạn nhé, bạn sẽ được học nhiều hơn và nâng cao hơn nhé, sau khi học xong em sẽ có bằng sư phạm\n"
-
-  utter_ask_easy_majors:
-  - text: "Bạn có thể chọn một trong những ngành mà trường đang tuyển sinh tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80 để xem ngành nào phù hợp với mình nhé\nNgoài ra bạn có thể xem thông tin trường tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/73958047-4549-4216-8504-5a4446bc667d\n"
-
-  utter_ask_3rd_facility_training_mechanical:
-  - text: "Cơ sở 3 hải dương không có ngành cơ khí em nhé\nEm xem thông thông tin tuyển sinh tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n"
-
-  utter_car_majors:
-  - text: "Ngành công nghệ kỹ thuật ô tô năm nay lấy 330 chỉ tiêu nhé, đào tạo 4 năm tại cs1: cơ sở khoái châu: trung tâm tuyển sinh & truyền thông, xã dân tiến, khoái châu, hưng yên\nBạn xem thông thông tin tuyển sinh tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\nThông tin ngành ô tô tại đây: http://khoacokhidongluc.utehy.edu.vn/intro.aspx?id=6\n"
-
-  utter_car_majors_targets:
-  - text: "Ngành công nghệ kỹ thuật ô tô năm nay lấy 330 chỉ tiêu nhé, đào tạo 4 năm tại cs1: cơ sở khoái châu: trung tâm tuyển sinh & truyền thông, xã dân tiến, khoái châu, hưng yên\nThông tin ngành ô tô tại đây: http://khoacokhidongluc.utehy.edu.vn/intro.aspx?id=6\nBạn like fanpage để cập nhật thông tin mới nhất tại: https://www.facebook.com/daihocsuphamkythuathungyen/\n"
-
-  utter_ask_car_technology_majors_apply_school_profile:
-  - text: "Ngành nào cũng có thể xét học bạ em nhé\nEm xem thêm thông tin về ngành ô tô tại đây: http://khoacokhidongluc.utehy.edu.vn/\n- em có thể đăng ký trực tuyến qua: http://113.160.133.144:1902/#/registration\nEm chỉ cần điền đúng và đủ thông tin vào link trên là dc nhé, lấy kết quả học tập lớp 11. nhà trường công bố kết quả sơ tuyển sau 30/6\n- hoặc em có thể đến trực tiếp các cơ sở của trường nhé sẽ có người hướng dẫn làm hồ sơ xt:\n+ cơ sở khoái châu: trung tâm tuyển sinh & truyền thông, xã dân tiến, khoái châu, hưng yên : 02213.689.888\n+ cơ sở mỹ hào: tx mỹ hào, mỹ hào hưng yên\n+ cơ sở hải dương: 189 nguyễn lương bằng, tp hải dương\n"
-
-  utter_ask_majors_have_chance_work_abroad:
-  - text: "Ngành nào cũng có thể làm việc tại nước ngoài nhé, khả năng có được việc làm và mức lương không phụ thuộc hoàn toàn vào ngành học mà phụ thuộc vào sinh viên nhé\n"
-
-  utter_ask_car_and_mechatronics_majors:
-  - text: "Bạn tham khảo thông tin tại đây: ô tô tại http://khoacokhidongluc.utehy.edu.vn/, điện tử tại đây: http://fme.utehy.edu.vn/\n"
-
-  utter_industrial_electricity_majors:
-  - text: "Điện công nghiệp đào tạo tại cơ sở 1 em nhé\nThông tin về khoa điện, điện tử tại đây: https://fee.utehy.edu.vn/\nEm đọc chi tiết tại mục 5. các thông tin cần thiết để thí sinh đkxt vào các ngành của trường: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n"
-
-  utter_electronic_majors:
-  - text: "Được em, khoa điện - điện tử đào tạo tại cơ sở 1 em nhé\nThông tin về khoa điện, điện tử tại đây: https://fee.utehy.edu.vn/\nEm đọc chi tiết tại mục 5. các thông tin cần thiết để thí sinh đkxt vào các ngành của trường: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n"
-
-  utter_automation_majors:
-  - text: "Điều khiển tự động hoá đào tạo tại cơ sở 1 em nhé\nThông tin về khoa điện, điện tử tại đây: https://fee.utehy.edu.vn/\nEm đọc chi tiết tại mục 5. các thông tin cần thiết để thí sinh đkxt vào các ngành của trường: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n"
-
-  utter_mechatronics_majors:
-  - text: "Công nghệ kỹ thuật cơ điện tử đào tạo tại cơ sở 1 em nhé\nThông tin tại đây: http://fme.utehy.edu.vn/\nEm đọc chi tiết tại mục 5. các thông tin cần thiết để thí sinh đkxt vào các ngành của trường: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n"
-
-  utter_accountant_majors:
-  - text: "Kế toán đào tạo tại cả 3 cơ sở. em muốn học ở cs nào thì mang hồ sơ nhập học đến cơ sở đó để làm thủ tục\nEm đọc chi tiết tại mục 5. các thông tin cần thiết để thí sinh đkxt vào các ngành của trường: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n\nThông tin các cơ sở tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/73958047-4549-4216-8504-5a4446bc667d em tham khảo thêm để lựa chọn cơ sở học phù hợp nhé\n"
-
-  utter_2nd_degree_accountant:
-  - text: "Em tham khảo thêm thông tin tại đây: http://khoakinhte.utehy.edu.vn/\n"
-
-  utter_business_administration_majors:
-  - text: "Quản trị kinh doanh đào tạo tại cơ sở 2 và 3: \n- cơ sở 2 mỹ hào: nhân hòa, thị xã mỹ hào, tỉnh hưng yên\n- cơ sở 3 hải dương: phường tân bình, thành phố hải dương, tỉnh hải dương\nEm có thể xem thông tin chi tiết tại đây nhé: http://khoakinhte.utehy.edu.vn/\n"
-
-  utter_registry_social_science_score_combine:
-  - text: "Trường xét tuyển khối a,b và d. e học khxh có thể xét tuyển bằng học bạ cuối năm lớp 12 bằng các tổ hợp khác nhau trong học bạ. vd công nghệ may xét a00 thì e cộng điểm 3 môn toán lý hóa trong học bạ cuối năm 12, nếu lớn hơn=18đ thì đủ điều kiện để xét tuyển.\n"
-
-  utter_ask_college_training:
-  - text: "Trường không đào tạo hệ cao đẳng hay trung cấp bạn nhé. \nBạn có thể xem thông tin chi tiết tại đây để biết thêm các ngành đào tạo của trường:\nhttp://utehy.edu.vn/#/news-list/list/9d9431a8-1097-41fe-a7a4-6602c6f7bcf7\n"
-
-  utter_college_or_university_training:
-  - text: "Đại học chính quy 4 năm em nhé, đại học vlvh(vừa học vừa làm) 3.5 năm, liên thông 3 năm\nBạn có thể xem thông tin chi tiết tại đây để biết thêm các ngành đào tạo của trường:\nhttp://utehy.edu.vn/#/news-list/list/9d9431a8-1097-41fe-a7a4-6602c6f7bcf7\n"
-
-  utter_where_student_code:
-  - text: "Mã hs.đkxt là là mã số dưới mã vạch trong giấy chứng nhận kết quả thi của em nhé\n"
-
-  utter_registration_methods:
-  - text: "Thân chào em!\nNăm 2021 trường đại học spkt hưng yên tuyển sinh theo 03 phương thức:\n\n- phương thức 1: tuyển thẳng theo quy định của bộ giáo dục và đào tạo\n+ thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi olympic quốc tế, trong đội tuyển quốc gia dự cuộc thi khoa học, kỹ thuật (khkt) quốc tế được xét tuyển thẳng vào đại học theo ngành phù hợp với môn thi hoặc nội dung đề tài dự thi của thí sinh;\n+ thí sinh đoạt giải nhất, nhì, ba tại kỳ thi chọn học sinh giỏi thpt hoặc cuộc thi khkt từ cấp tỉnh trở lên được xét tuyển thẳng vào đại học theo ngành phù hợp với môn thi hoặc nội dung đề tài dự thi của thí sinh đã đoạt giải;\n+ thí sinh đoạt giải nhất, nhì, ba tại các kỳ thi tay nghề khu vực asean và thi tay nghề quốc tế, nếu có bằng tốt nghiệp thpt hoặc bằng tốt nghiệp trung cấp, đã học và thi đạt yêu cầu đủ khối lượng kiến thức văn hóa trung học phổ thông theo quy định của pháp luật được xét tuyển thẳng vào đại học theo ngành phù hợp với với nghề đã đạt giải.\n\n- phương thức 2: xét tuyển dựa vào kết quả học tập lớp 12 hoặc lớp 11 ghi trong học bạ thpt (hoặc tương đương) theo tổ hợp 3 môn tương ứng với các tổ hợp môn thi thpt quốc gia dùng để xét tuyển đại học.\nVd: công nghệ thông tin xét tuyển theo tổ hợp môn a00; a01; d07; d01.\nTổng điểm của 3 môn trong tổ hợp dùng để xét tuyển + điểm ưu tiên khu vực, đối tượng ≥ 18,0đ\nTổ hợp môn d01= điểm tb cả năm môn toán lớp 12  + điểm tb cả năm môn văn lớp 12 + điểm tb cả năm môn tiếng anh lớp 12  >= 18,0đ\n\n- phương thức 3: xét tuyển dựa vào kết quả thi của thí sinh tham dự kỳ thi thpt quốc gia năm 2021.\nĐạt ngưỡng đảm bảo chất lượng theo quy định của trường đại học sư phạm kỹ thuật hưng yên. riêng đối với ngành sư phạm công nghệ, sư phạm tiếng anh thí sinh đạt ngưỡng đảm bảo chất lượng theo quy định của bộ giáo dục và đào tạo. ngưỡng đảm bảo chất lượng được nhà trường công bố sau khi có kết quả kỳ thi thpt quốc gia năm 2021.\nNăm 2021, tổng chỉ tiêu tuyển sinh của trường tăng từ 2.860 lên 3060.\n\nEm tham khảo thêm: điểm trúng tuyển vào trường năm 2020 xét tuyển dựa vào kết quả thi thpt là >= 15đ, 16đ tùy từng ngành đào tạo.\nĐiểm trúng tuyển vào trường xét tuyển dựa vào kết quả học tập lớp 11 hoặc 12 ghi trong học bạ thpt (hoặc tương đương)>=18đ.\nEm lựa chọn phương thức nào phù hợp với em thì em nộp hồ sơ theo phương thức đó. em có thể tham gia xét tuyển cùng một lúc cả 2 phương thức để gia tăng các cơ hội trúng tuyển cho mình\n"
-
-  utter_ask_admissions_office_phone_number:
-  - text: "Bạn cần giúp gì nhỉ\nĐây là sđt của ban thư ký tuyển sinh: 02213713423, bạn liên hệ để được tư vấn chi tiết nhé!\n"
-
-  utter_conditions_direct_admission:
-  - text: "Điều kiện tuyển thẳng theo quy định của bộ giáo dục và đào tạo:\n+ thí sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi olympic quốc tế, trong đội tuyển quốc gia dự cuộc thi khoa học, kỹ thuật (khkt) quốc tế được xét tuyển thẳng vào đại học theo ngành phù hợp với môn thi hoặc nội dung đề tài dự thi của thí sinh;\n+ thí sinh đoạt giải nhất, nhì, ba tại kỳ thi chọn học sinh giỏi thpt hoặc cuộc thi khkt từ cấp tỉnh trở lên được xét tuyển thẳng vào đại học theo ngành phù hợp với môn thi hoặc nội dung đề tài dự thi của thí sinh đã đoạt giải;\n+ thí sinh đoạt giải nhất, nhì, ba tại các kỳ thi tay nghề khu vực asean và thi tay nghề quốc tế, nếu có bằng tốt nghiệp thpt hoặc bằng tốt nghiệp trung cấp, đã học và thi đạt yêu cầu đủ khối lượng kiến thức văn hóa trung học phổ thông theo quy định của pháp luật được xét tuyển thẳng vào đại học theo ngành phù hợp với với nghề đã đạt giải.\n\nThông tin cùng em!\n"
-
-  utter_ask_1st_batch_admission_list:
-  - text: "Sau 30/6 em nhé, danh sách em theo dõi web:http://utehy.edu.vn/#/search-tt  hoặc page nhé\nDanh sách trúng tuyển sẽ được công bố tại đây: http://utehy.edu.vn/#/news-list/news-detail/507ac44c-f65d-40c7-aec1-53edb782abd0\nEm nhớ like trang fanpage trường để cập nhật các thông tin mới nhất nhé: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks \n"
-
-  utter_said_pass_admission:
-  - text: "Chúc mừng em\nEm chờ giấy báo nhập học nhé, 28/8 nhà trường bắt đầu gửi về tận nhà. 11/9 nhập học. trên giấy báo sẽ có hướng dẫn các giấy tờ cần nộp\n"
-
-  utter_pass_admission_but_not_receive_notice:
-  - text: "Giấy báo nhập học gửi về sau thời điểm nộp phiếu đăng ký xét tuyển hoặc đăng ký xét tuyển online theo thông báo của nhà trường nhé. khi nào em có giấy chứng nhận tốt nghiệp em nộp lại nhà trường sẽ gửi giấy báo nhập học chính thức. \nNếu đã có tên trong danh sách trúng tuyển, nhưng quá thời gian nhà trường công bố mà chưa nhận được giấy báo thì em có thể lên 1 trong 3 cơ sở gần nhất để nhận giấy báo nhé.\n"
-
-  utter_ask_admission_procedure:
-  - text: "Ngày 11/9 em đem hồ sơ và đến đúng địa chỉ trong giấy báo để nhập học nhé\n- mục 1, 2, 3,4, 5 bản photo nên công chứng và mang bản gốc đi đối chiếu.\n- mục 6: lý lịch hssv mua tại hiệu sách và làm cả 2 bản (tham khảo cách viết hồ sơ hssv trên google).\n- mục 7 em ra công an xã xin mẫu.\n- mục 8: giấy chuyển nghĩa vụ quân sự xin tại xã đội, phường đội, giấy chuyển sinh hoạt đoàn =  sổ đoàn. thẻ bảo hiểm y tế nếu hết hạn hoặc mất, có thể đăng ký mua mới tại trường.\n- nhớ đem theo giấy chứng nhận kết quả thì tốt nghiệp năm 2020 (dòng cuối cùng mặt trước của giấy báo ghi rõ).\n- khi đến nhập học mang đầy đủ giấy tờ và các khoản phí như đã thông báo. nếu thiếu giấy tờ gì có thể nộp bổ sung sau.\n"
-
-  utter_wrong_infomation:
-  - text: "Sai thông tin có thể sửa lại lúc làm thủ tục nhập học em nhé\n"
-
-  utter_apply_score_grade_12:
-  - text: "Đối với xét tuyển dựa vào kết quả học tập lớp 12 hoặc lớp 11 ghi trong học bạ thpt(hoặc tương đương): tổng điểm của 3 môn trong tổ hợp dùng để xét tuyển + điểm ưu tiên khu vực, đối tượng >=18,0. riếng đối với ngành sư phạm công nghệ, sư phạm tiếng anh (chỉ xét kết quả học tập lớp 12): điểm trung bình cộng của 3 môn trong tổ hợp dùng để xét tuyển >=8,0 điểm và có học lực lớp 12 xếp loại giỏi hoặc điểm xét tốt nghiệp từ 8,0 trở lên.\n\nEm tham khảo thêm mục 10.2. xét tuyển dựa vào kết quả học tập lớp 11 hoặc lớp 12 thpt: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80 \n"
-
-  utter_apply_score_grade_11:
-  - text: "Bộ môn kỹ thuật máy tính (department of computer engineering) là bộ môn trực thuộc khoa công nghệ thông tin, trường đại học sư phạm kỹ thuật hưng yên. bộ môn chịu trách nhiệm nghiên cứu và giảng dạy các học phần thuộc chuyên ngành công nghệ máy tính/phát triển ứng dụng iot.\nNgoài việc học tập, sinh viên chuyên ngành công nghệ máy tính/phát triển ứng dụng iot còn tham gia nghiên cứu khoa học và đạt kết quả cao, điển hình là sản phẩm xe lăn thông minh đã đạt giải nhất tại cuộc thi do tập đoàn intel tổ chức năm 2015.\nEm xem thêm thông tin tại đây: http://fit.utehy.edu.vn/\n"
-
-  utter_receive_notice_when_change_majors:
-  - text: "Tại cs1 thì được luôn nha\n"
-
-  utter_ask_how_many_enrollments:
-  - text: "Đợt 1 từ 5/2020 đến 30/6/2020. dự kiến gày 30/6/2020 nhà trường sẽ công bố kết quả thí sinh đủ điều kiện sơ tuyển vào đại học của trường\nĐợt 2 và các đợt tiếp theo: từ 01/7/2020. em đọc thêm mục 9 ở đây: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\nNhà trường xét tuyển liên tục và nhập học liên tục bắt đầu từ ngày 11/9 nhé!\nNhà trường sẽ nhận và xét tuyển đến khi đủ chỉ tiêu thì sẽ có thông báo dừng không nhận hồ sơ nữa em nhé!\nNên có thể đã dừng nhận từ đợt 1 nếu đủ chỉ tiêu, em xét tuyển thì nộp sớm để tỷ lệ đỗ cao nhé\n"
-
-  utter_1st_round_admission:
-  - text: "Đợt 1: từ tháng 5/2020 đến 30/6/2020. dự kiến ngày 30/6/2020 nhà trường sẽ công bố kết quả thí sinh đủ điều kiện sơ tuyển vào học tại trường, giấy báo nhập học được cấp khi thí sinh được công nhận tốt nghiệp thpt.\nNhà trường nhận hồ sơ và xét tuyển liên tục em nhé, em nộp hồ sơ sớm để tỷ lệ đỗ chắc chắn hơn nhé\nEm theo dõi fanpage trường để cập nhật thông tin mới nhất nhé: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks \n"
-
-  utter_2nd_round_admission:
-  - text: "Đợt 2 và các đợt tiếp theo: từ 01/7/200 em nhé\nNgày 27.9 nhà trường sẽ công bố điểm trúng tuyển bằng hình thức xét tuyển dựa vào điểm thi tn thpt 2020 em nhé.\nNhà trường nhận hồ sơ và xét tuyển liên tục em nhé, em nộp hồ sơ sớm để tỷ lệ đỗ chắc chắn hơn nhé\nEm theo dõi fanpage trường để cập nhật thông tin mới nhất nhé: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks \n"
-
-  utter_3rd_round_admission:
-  - text: "Đợt 2 và các đợt tiếp theo: từ 01/7/200 em nhé\nNhà trường xét tuyển liên tục và nhập học liên tục bắt đầu từ ngày 11/9 nhé!\nNhà trường sẽ nhận và xét tuyển đến khi đủ chỉ tiêu thì sẽ có thông báo dừng không nhận hồ sơ nữa em nhé!\nNên nếu em xét tuyển thì nộp hồ sơ sớm nhé, tránh trường hợp đã đủ chỉ tiêu sẽ không có đợt 3\n"
-
-  utter_ask_dormitory:
-  - text: "Ký túc xá có tại cs mỹ hào và khoái châu, sạch sẽ và thoáng mát và rất rẻ\n   cơ sở khoái châu: trung tâm tuyển sinh & truyền thông, xã dân tiến, khoái châu, hưng yên\n   cơ sở mỹ hào: tx mỹ hào, mỹ hào hưng yên\nEm có thể mang giấy báo nhập học đến ban quản lý ktx để làm thủ tục đăng ký. có nhiều loại phòng 4 người, 6 người, 8 người...với giá dao động từ 70.000đ - 125.000đ/tháng chưa điện nước.\n"
-
-  utter_ask_pass_admission_rate:
-  - text: "Tuỳ từng năm em nhé, nhà trường tuyển sinh liên tục để đủ chỉ tiêu, em nên đăng ký sớm để cơ hội đỗ cao: http://utehy.edu.vn/#/registration \n"
-
-  utter_ask_supporting_policies:
-  - text: "Hộ nghèo ở khu vực miền núi dc miễn giảm\nCòn hộ nghèo ở đồng bằng thì chưa có chính sách miễn giảm nhưng được hỗ trợ vay vốn ở ngân hàng với lãi suất rất thấp\nVề các khoản chế độ cho sinh viên thì theo quy định của nhà nước, nhưng nếu nhà nước quy định được thì em yên tâm sẽ được nha\n"
-
-  utter_ask_clubs:
-  - text: "Thân chào em!\nTheo học tại skh, các bạn sinh viên sẽ được thỏa sức rèn luyện và phát triển toàn diện tại các clb - đội - nhóm. tại mỗi học kỳ, các bạn còn được tham dự hàng trăm hội thảo chuyên đề, các khóa huấn luyện kỹ năng mềm miễn phí.\nCác tài năng sinh viên skh còn được thỏa sức sáng tạo tại hoạt động sinh viên nghiên cứu khoa học, các cuộc thi theo đặc thù từng khoa và vươn xa hơn tại các đấu trường toàn thành, toàn quốc.\nCác giải đá bóng, bóng chuyền, đội nhảy diễn ra thường xuyên\nBên cạnh đó, skh là một trong những trường đại học có nhiều hoạt động đoàn – hội sôi nổi nhất tại tỉnh hưng yênnhư: chiến dịch mùa hè xanh, chiến dịch xuân tình nguyện, phong trào sinh viên 5 tốt, tiếp sức mùa thi,... tham gia các hoạt động này chính là cơ hội để các bạn có thể rèn luyện bản lĩnh, kỹ năng toàn diện cho bản thân.\nDo vậy, skh tự hào sẽ là nơi ươm mầm tài năng, hoàn thiện kiến thức – kỹ năng cho các bạn trên hành trình chinh phục tri thức.\n\nEm có thể tìm hiểu các thông tin về các hoạt động chi tiết tại trang fanpage: https://www.facebook.com/doanthanhnienhoisinhvienutehy/\nThông tin cùng em!\n"
-
-  utter_ask_standard_admission_score:
-  - text: "Nhà trường chưa công bố điểm chuẩn em nhé, điểm chuẩn sẽ phụ thuộc từng ngành học\nEm theo dõi fanpage của trường để cập nhật thông tin mới nhất nhé: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks https://www.youtube.com/channel/ucvy9p7ebcmmhveitk4ypzjg\n"
-
-  utter_ask_floor_admission_score:
-  - text: "http://utehy.edu.vn/#/news-list/news-detail/b0923332-2afe-400e-996c-5485ac3deb58 Em xem chi tiết tại link trên\n"
-
-  utter_choose_resgitration_options_when_low_score:
-  - text: "Điểm năm nay rất cao, nên nếu điểm không được cao em nên đăng ký học bạ cho chắc nhé\nEm có thể dùng học bạ để đăng ký tại http://www.utehy.edu.vn/#/registration\n"
-
-  utter_ask_area_points:
-  - text: "Có em nhé, điểm vùng vẫn được cộng vào điểm xét tuyển nhé\n"
-
-  utter_with_this_score_should_choose_majors:
-  - text: "Em có thể chọn một trong những ngành mà trường đang tuyển sinh tại đây: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\nVà đăng ký tại đây: http://www.utehy.edu.vn/#/registration ; nộp trực tiếp tại 3 cơ sở đào tạo của trường hoặc chuyển phát nhanh (cpn) qua đường bưu điện\nEm tham khảo mục 9. cách thức, thời gian nộp hồ sơ đăng ký xét tuyển (đkxt)\n"
-
-  utter_ask_talent_class:
-  - text: "Em đủ các tiêu chuẩn đăng ký vào lớp tài năng thì em có thể đăng ký xét tuyển vào lớp tài năng nhé\nĐiểm thi tốt nghiệp thpt cao lớn hơn 20 điểm thì có thể đăng ký xét tuyển vào lớp tài năng.\nNăm 2021 sẽ có 04 lớp sinh viên tài năng thuộc các ngành: công nghệ kỹ thuật cơ điện tử; khoa học máy tính; công nghệ kỹ thuật điều khiển và tự động hóa; công nghệ kỹ thuật ô tô. mỗi lớp có sĩ số từ 20 đến 25 sinh viên.\nNhà trường có quỹ học bổng 1 tỷ đồng giành riêng cho sinh viên lớp tài năng, dự kiến ngưỡng điểm xét sinh viên vào các lớp tài năng: tổng điểm 03 môn thi tốt nghiệp thpt năm 2021 của tổ hợp xét tuyển (không tính điểm ưu tiên khu vực và đối tượng) ≥ 20,00 điểm. các lớp sinh viên tài năng được giảng viên có trình độ cao (gs, pgs, ts) trực tiếp giảng dạy, được ở ktx miễn phí.\nHoàn thành khóa học được cấp bằng kỹ sư tài năng\n\nThông tin cùng em!\n"
-
-  utter_ask_school_targets:
-  - text: "Hiện tại chỉ tiêu của trường: 2860, phương thức 1 và 2: 1,430, phương thức 3: 1,430), nhà trường còn có 100 chỉ tiêu dành cho sinh viên học để lấy bằng đại học quốc tế của trường đại học sunmoon-hàn quốc cấp\nEm tham khảo mục 3. phương thức tuyển sinh và 4. chỉ tiêu tuyển sinh: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80 để biết thêm chi tiết\n"
-
-  utter_ask_study_credits:
-  - text: "Hiện tại mỗi tín là 303,000vnđ/tín\nHọc phí áp dụng cho năm học 2020-2021 (dự kiến):\n- sinh viên khối ngành công nghệ, kỹ thuật: 11,70 triệu đồng/sinh viên/năm học\n- sinh viên khối ngành kinh tế, ngoại ngữ:      9,80 triệu đồng/sinh viên/năm học\n"
-
-  utter_ask_tuition:
-  - text: "Học phí áp dụng cho năm học 2020-2021 (dự kiến):\n- sinh viên khối ngành công nghệ, kỹ thuật: 11,70 triệu đồng/sinh viên/năm học\n- sinh viên khối ngành kinh tế, ngoại ngữ:      9,80 triệu đồng/sinh viên/năm học\n"
-
-  utter_how_many_months_1_year_study:
-  - text: "10 tháng em nhé, 2 kỳ mỗi kỳ 5 tháng\n"
-
-  utter_ask_curriculum_vitae:
-  - text: "Mục 6: lý lịch hssv mua tại hiệu sách và làm cả 2 bản (tham khảo cách viết hồ sơ hssv trên google).\nEm điền đầy đủ vào sơ yếu lý lịch và làm 2 bản nhé\n"
-
-  utter_ask_Doan_book:
-  - text: "Em mang cả sổ đoàn đi nhé, không cần công chứng\nKhi đến nhập học mang đầy đủ giấy tờ và các khoản phí như đã thông báo. nếu thiếu giấy tờ gì có thể nộp bổ sung sau\n"
-
-  utter_ask_link_list_admission:
-  - text: "Em tra cứu danh sách trúng tuyển tại đây :http://utehy.edu.vn/#/search-tt hoặc và like page: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks để cập nhật các thông tin mới nhất nhé\n"
-
-  utter_ask_school_code:
-  - text: "\nKý hiệu của trường là skh. skh (viết tắt của sư phạm kỹ thuật hưng yên) em nhé, ký hiệu tiếng anh: utehy\nKhu vực tuyển sinh: toàn quốc,\nLà trường đại học công lập, trực thuộc bộ giáo dục và đào tạo.\nBạn có thể tham khảo thêm thông báo tuyển sinh của nhà trường nhé: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n"
-
-  utter_move_to_spkt_hung_yen:
-  - text: "Có thể chuyển em nhé, em đến trường sẽ có bộ phận hỗ trợ em\n"
-
-  utter_vocational_school_want_register:
-  - text: "Có bằng cấp 3 là được đăng ký xét tuyển nhé\n"
-
-  utter_ask_4th_facility:
-  - text: "Hiện tại trường chỉ có 3 cơ sở:\n- cơ sở khoái châu: xã dân tiến, huyện khoái châu, tỉnh hưng yên\n- cơ sở mỹ hào: nhân hòa, thị xã mỹ hào, tỉnh hưng yên\n- cơ sở hải dương: phường tân bình, thành phố hải dương, tỉnh hải dương\nEm tham khảo thêm thông tin ở đây: http://www.utehy.edu.vn/#/news-list/news-detail/73958047-4549-4216-8504-5a4446bc667d\n"
-
-  utter_ask_affiliate_program:
-  - text: "Nhà trường có liên kết với trường đại học sunmoon- hàn quốc(02 năm học tại trường đại học spkt hưng yên, 02 năm học tại đại học sunmoon-hàn quốc)\nEm quan tâm có thể tìm hiểu nhé\n"
-
-  utter_add_documents_later:
-  - text: "Em chuẩn bị giấy tờ và học phí lên nhập học bình thường theo ngày ghi trên giấy báo nhé.\nMục 1, 2, 3,4, 5 bản photo nên công chứng và mang bản gốc đi đối chiếu.\nKhi đến nhập học mang đầy đủ giấy tờ và các khoản phí như đã thông báo. nếu thiếu giấy tờ gì có thể nộp bổ sung sau\nNhưng em cần bổ sung nhanh nhé\n"
-
-  utter_ask_health_insurance:
-  - text: "Bản photo cccd và thẻ bảo hiểm y tế em công chứng nhé\nMục 1, 2, 3,4, 5 bản photo nên công chứng và mang bản gốc đi đối chiếu.\nKhi đến nhập học em  mang đầy đủ giấy tờ và các khoản phí như đã thông báo. nếu thiếu giấy tờ gì có thể nộp bổ sung sau.\n"
-
-  utter_ask_demographic_docs:
-  - text: "Bản khai nhân khẩu em ra công an xã, phường  xin nhé và nộp cùng hồ sơ nhập học nhé\n"
-
-  utter_ask_2nd_facility:
-  - text: "Cơ sở mỹ hào: tại địa bàn phường nhân hòa, thị xã mỹ hào, tỉnh hưng yên với diện tích: 254.866 m2. cơ sở này được đầu tư hạ tầng và trang thiết bị đồng bộ, hiện đại có khả năng phục vụ trên 20.000 sv. hiện tại là địa điểm học tập của sv các khoa: công nghệ thông tin, kinh tế, công nghệ may và thời trang, ngoại ngữ.\nEm xem thêm thông tin về các cơ sở của trường ở đây nhé: http://www.utehy.edu.vn/#/news-list/news-detail/73958047-4549-4216-8504-5a4446bc667d\n"
-
-  utter_ask_haiduong_facility:
-  - text: "Cơ sở hải dương: tại phường tân bình, thành phố hải dương, tỉnh hải dương với diện tích: 3.375 m2. cơ sở này cung cấp môi trường học tập cho khoảng 1.000 sv của các khoa: kinh tế, công nghệ may và thời trang, ngoại ngữ và sv hệ vừa làm vừa học (theo nhu cầu về địa điểm học tập của người học).\nEm tham khảo thêm mục 2. cơ sở vật chất: http://www.utehy.edu.vn/#/news-list/news-detail/73958047-4549-4216-8504-5a4446bc667d\n"
-
-  utter_ask_3rd_facility_training_car_majors:
-  - text: "Không nhé, cơ sở 3 hải dương chỉ đào tạo: kinh tế, công nghệ may và thời trang, ngoại ngữ và sv hệ vừa làm vừa học em nhé\n"
-
-  utter_ask_3rd_facility_training_english_language_majors:
-  - text: "Có em nhé, em tham khảo thêm mục 2. cơ sở vật chất: http://www.utehy.edu.vn/#/news-list/news-detail/73958047-4549-4216-8504-5a4446bc667d\n"
-
-  utter_wrong_registration_information:
-  - text: "Em kiểm tra cẩn thận lại lần nữa xem mình nhập sai hay nhầm thì có thể đăng ký lại nhé.\nNgành học có thể đổi lại lúc làm thủ tục nhập học\n"
-
-  utter_no_indentification_number:
-  - text: "Sbd là số báo danh dự thi thpt quốc gia của em, nếu năm 2020 e không thi thì em bỏ trống phần đó\n"
-
-  utter_ask_audience_policy:
-  - text: "Em thuộc đối tượng nào thì điền vào đấy: từ 01 đến 07, đối tượng ưu tiên: như con thương binh, liệt sĩ ,nếu không thuộc đối tượng ưu tiên nào em chọn không\n"
-
-  utter_unknown_intent:
-  - text: Xin lỗi bạn, hiện tại tôi chưa hiểu được yêu cầu của bạn.
-
-  utter_ask_khoaichau_facility:
-  - text: "Cơ sở khoái châu: tại địa bàn 2 xã dân tiến và tân dân, huyện khoái châu, tỉnh hưng yên với diện tích: 121.123 m2 cung cấp cơ sở hạ tầng và dịch vụ đào tạo cho khoảng 10.000 sv.\nMột số ngành được đào tạo tại đây như: công nghệ kỹ thuật điện, điện tử, công nghệ chế tạo máy, công nghệ kỹ thuật cơ khí, kỹ thuật hệ thống công nghiệp, cơ điện tử, công nghệ ô tô, điện lạnh điều hoà...\nEm tham khảo mục 5. các thông tin cần thiết để thí sinh đkxt vào các ngành của trường: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\nEm tham khảo mục 2. cơ sở vật chất: http://www.utehy.edu.vn/#/news-list/news-detail/73958047-4549-4216-8504-5a4446bc667d\n"
-
-  utter_ask_football_ground:
-  - text: "Cơ sở khoái châu có sân bóng nhé, 3 cái xung quanh trường\n"
-
-  utter_where_facility_admission:
-  - text: "Em nhập học đúng theo địa điểm ghi trên giấy báo nhé, do ngành em đăng ký chỉ đào tạo tại đó\nThí sinh trúng tuyển các ngành có đào tạo ở 2 hoặc 3 cơ sở mới được quyền lựa chọn địa điểm nhập học và học tập em nhé\n"
-
-  utter_successful_data_entry:
-  - text: "Khi em ấn nút đăng ký và nhận được thông tin nhà trường đã lưu tin thành công tức là nhà trường đã tiếp nhận thông tin đăng ký\nNhà trường sẽ xét duyệt hồ sơ và gửi thông tin sớm nhất đến em\nNếu đủ điều kiện em sẽ nhận được giấy báo nhập học từ 20-25/8 bằng đường bưu điện về địa chỉ nhà.  dự kiến nhập học 7/9/2020.\n"
-
-  utter_want_to_enter_talent_class_after_1_year_of_study:
-  - text: "Em tham khảo thêm nhé: http://utehy.edu.vn/#/news-list/news-detail/250bc1f4-8e88-4695-b4e5-d26d8a8385af\nCó thể đến giáo vụ khoa để biết thêm chi tiết\n"
-
-  utter_how_many_years_to_study_if_have_high_school_diploma:
-  - text: "Bằng trung cấp thì em học liên thông, khoảng 3 năm nhé\n"
-
-  utter_ask_school_training_weld:
-  - text: "Em tham khảo thêm cơ điện tử, điện điện tử nhé: http://www.utehy.edu.vn/#/news-list/news-detail/fc2bd95a-0ec4-4359-a980-05cfcd310a80\n"
-
-  utter_ask_4x6_photo_mandatory:
-  - text: "Ảnh bắt buộc là 4x6 em nhé. em làm đúng như hướng dẫn\n"
-
-  utter_ask_military_service_transfer:
-  - text: "Giấy chyển nghĩa vụ quân sự là bắt buộc và phải chuyển về trường mình em nhé (nếu thiếu thì hoàn thiện sau)\n"
-
-  utter_lost_military_service_document:
-  - text: "Em hoàn thiện các nhập học khác theo giấy báo. ngày 11.9 em lên nhập học bình thường, sẽ có người hướng dẫn em thêm nhé\n"
-
-  utter_where_submit_documents:
-  - text: "Trung tâm tuyển sinh & truyền thông em nhé. em like page trường ngay để cập nhật các thông tin mới nha: https://www.facebook.com/daihocsuphamkythuathungyen/?ref=bookmarks\n"
-
-  utter_ask_timeserving:
-  - text: "Giờ hành chính từ thứ 2 đến chủ nhật em nhé, kể cả chủ nhật vẫn nhận hồ sơ em nhé\n"
-
-  utter_ask_time_intern:
-  - text: "Thường thì sẽ vào năm 3 và năm 4 tuỳ ngành em nhé (khoảng 2 đợt thực tập)\nEm vào trường học các thầy cô sẽ tư vấn rất chi tiết cụ thể cho em. trường đhspkt hưng yên chuyên đào tạo thực hành ứng dụng, thực hành thực tập rất nhiều luôn.\n"
-
-  utter_ask_time_training:
-  - text: "Đại học chính quy, thời gian đào tạo là 4 năm, học phí được quy định theo từng năm nhé\nHọc phí áp dụng cho năm học 2020-2021 (dự kiến):\n  - sinh viên khối ngành công nghệ, kỹ thuật: 11,70 triệu đồng/sinh viên/năm học\n  - sinh viên khối ngành kinh tế, ngoại ngữ:      9,80 triệu đồng/sinh viên/năm học\nThông tin cùng em!\n"
-
-  utter_ask_college_transfer_study:
-  - text: "Học liên thông 3 năm, em đọc thông báo của nhà trường và đăng ký hồ sơ nếu phù hợp nhé: http://www.utehy.edu.vn/#/admissions\nTrường không đào tạo cao đẳng , trường có đào tạo liên thông từ trung cấp lên đại học thôi\nCđ học 3 năm, đại học 4 năm, hơn có 1 năm nhưng vị trí việc làm hoàn toàn khác biệt. kỹ sư lương khác, công nhân - kỹ thuật viên lương khác. học cao đẳng sau này đi làm muốn nâng cao hơn lại phải liên thông mất 2 năm. em tính xem cái nào hợp lý hơn?\n"
-
-  utter_ask_diploma_2:
-  - text: "Đây là sđt của ban thư ký tuyển sinh: 02213713423, em liên hệ để được tư vấn chi tiết nhé!\nEm xem thêm tại đây: http://www.utehy.edu.vn/#/\n"
-
-  utter_ask_student_card:
-  - text: "Vào năm học sẽ được làm em nhé\n"
-
-  utter_ask_admission_when_graduating_from_previous_years:
-  - text: "Tốt nghiệp không quá 4 năm thì vẫn đăng ký được em nhé\nEm chọn một trong các cách sau:\n- đối với xét tuyển dựa vào kết quả thì thpt: đạt ngưỡng đảm bảo chất lượng theo quy định  của trường đại học sư phạm kỹ thuật hưng yên. riêng đối với ngành sư phạm công nghệ, sư phạm tiếng anh thí sinh đạt ngưỡng đảm bảo chất lượng theo quy địng của bộ giáo dục và đào tạo. ngưỡng đảm bảo chất lượng được nhà trường công bố sau khi có kết quả kỳ thì thpt năm 2020;\n- đối với xét tuyển dựa vào kết quả học tập lớp 12 hoặc lớp 11 ghi trong học bạ thpt(hoặc tương đương): tổng điểm của 3 môn trong tổ hợp dùng để xét tuyển + điểm ưu tiên khu vực, đối tượng >=18,0. riếng đối với ngành sư phạm công nghệ, sư phạm tiếng anh (chỉ xét kết quả học tập lớp 12): điểm trung bình cộng của 3 môn trong tổ hợp dùng để xét tuyển >=8,0 điểm và có học lực lớp 12 xếp loại giỏi hoặc điểm xét tốt nghiệp từ 8,0 trở lên.\n"
-
-  utter_ask_admission_conditions:
-  - text: "Điều kiện xét tuyển:\n  + đối với xét tuyển dựa vào kết quả thì thpt: đạt ngưỡng đảm bảo chất lượng theo quy định  của trường đại học sư phạm kỹ thuật hưng yên. riêng đối với ngành sư phạm công nghệ, sư phạm tiếng anh thí sinh đạt ngưỡng đảm bảo chất lượng theo quy địng của bộ giáo dục và đào tạo. ngưỡng đảm bảo chất lượng được nhà trường công bố sau khi có kết quả kỳ thì thpt năm 2020;\n  + đối với xét tuyển dựa vào kết quả học tập lớp 12 hoặc lớp 11 ghi trong học bạ thpt(hoặc tương đương): tổng điểm của 3 môn trong tổ hợp dùng để xét tuyển + điểm ưu tiên khu vực, đối tượng >=18,0. riếng đối với ngành sư phạm công nghệ, sư phạm tiếng anh (chỉ xét kết quả học tập lớp 12): điểm trung bình cộng của 3 môn trong tổ hợp dùng để xét tuyển >=8,0 điểm và có học lực lớp 12 xếp loại giỏi hoặc điểm xét tốt nghiệp từ 8,0 trở lên.\n"
-
-  utter_worried:
-  - text: "Em chờ nhà trường công bố danh sách trúng tuyển trước 27/9 và like fanpage trường để nhận được thông tin mới nhất nhé: https://www.facebook.com/daihocsuphamkythuathungyen/\n"
-
-  utter_name_person:
-  - text: "Chào bạn, bạn cần hỗ trợ gì nhỉ\n"
-
-  utter_ask_acronyms:
-  - text: "Ktx là ký túc xá, đxt: điểm xét tuyển, vhvl: vừa học vừa làm em nhé. em còn gì không rõ không!\n"
-  
-actions:
-  - action_default_fallback
-  - utter_thanks
-  - utter_greet
-  - utter_sorry
-  - utter_ask_registration_online
-  - utter_additional_docs_after_applying_online
-  - utter_ask_time_for_results
-  - utter_admission_paper
-  - utter_admission_application_time
-  - utter_requirements_registration_docs
-  - utter_school_start_time
-  - utter_admission_procedure_time
-  - utter_admission_on_11_9
-  - utter_admission_after_11_9
-  - utter_do_not_understand
-  - utter_admission_records
-  - utter_additional_required
-  - utter_docs_notarize
-  - utter_docs_photocopy
-  - utter_area_field_in_registration_docs
-  - utter_registry_from_other_regions
-  - utter_ask_fees
-  - utter_ask_school_info
-  - utter_number_occupations_school_train
-  - utter_ask_can_choose_training_facility
-  - utter_ask_change_wish
-  - utter_registry_many_wish
-  - utter_registry_with_school_profile
-  - utter_apply_directly
-  - utter_score_combine_shool_profile
-  - utter_registry_school_profile_now
-  - utter_registration_form
-  - utter_apply_shool_profile_with_graduation_exam_score
-  - utter_ask_majors_apply_school_profile
-  - utter_apply_shool_profile_and_graduation_exam_score
-  - utter_ask_study_and_work
-  - utter_ask_late_admission
-  - utter_pre_registration_priority
-  - utter_scholarship
-  - utter_ask_bridging_learning
-  - utter_where_admission_paper_send
-  - utter_change_registry_options
-  - utter_ask_study_saturday_and_sunday
-  - utter_registry_graduation_exam_score
-  - utter_change_majors
-  - utter_admission_options
-  - utter_mechatronics_apply_school_profile
-  - utter_refrigeration_targets
-  - utter_english_language_majors
-  - utter_english_language_majors_job
-  - utter_where_english_language_majors_training
-  - utter_english_entrance_certificate
-  - utter_ask_school_offer_english_training
-  - utter_2nd_degree_english
-  - utter_sewing_technology_pedagogy
-  - utter_fashion_designer_majors
-  - utter_sewing_technology
-  - utter_score_combine_sewing_technology
-  - utter_job_ratio_uppon_graduation
-  - utter_sewing_technology_apply_school_profile
-  - utter_fitness_and_english_subjects
-  - utter_engineering_majors
-  - utter_information_technology_majors
-  - utter_where_infomation_technology_majors_training
-  - utter_learn_information_technology_majors_master
-  - utter_software_testing_majors
-  - utter_web_technology_majors
-  - utter_when_registry_majors
-  - utter_graphic_design_majors
-  - utter_technology_software_majors
-  - utter_girl_favorite_majors
-  - utter_mechanical_majors
-  - utter_pedagory_majors
-  - utter_ask_easy_majors
-  - utter_ask_3rd_facility_training_mechanical
-  - utter_car_majors
-  - utter_car_majors_targets
-  - utter_ask_car_technology_majors_apply_school_profile
-  - utter_ask_majors_have_chance_work_abroad
-  - utter_ask_car_and_mechatronics_majors
-  - utter_industrial_electricity_majors
-  - utter_electronic_majors
-  - utter_automation_majors
-  - utter_mechatronics_majors
-  - utter_accountant_majors
-  - utter_2nd_degree_accountant
-  - utter_business_administration_majors
-  - utter_registry_social_science_score_combine
-  - utter_ask_college_training
-  - utter_college_or_university_training
-  - utter_where_student_code
-  - utter_registration_methods
-  - utter_ask_admissions_office_phone_number
-  - utter_conditions_direct_admission
-  - utter_ask_1st_batch_admission_list
-  - utter_said_pass_admission
-  - utter_pass_admission_but_not_receive_notice
-  - utter_ask_admission_procedure
-  - utter_wrong_infomation
-  - utter_apply_score_grade_12
-  - utter_apply_score_grade_11
-  - utter_receive_notice_when_change_majors
-  - utter_ask_how_many_enrollments
-  - utter_1st_round_admission
-  - utter_2nd_round_admission
-  - utter_3rd_round_admission
-  - utter_ask_dormitory
-  - utter_ask_pass_admission_rate
-  - utter_ask_supporting_policies
-  - utter_ask_clubs
-  - utter_ask_standard_admission_score
-  - utter_ask_floor_admission_score
-  - utter_choose_resgitration_options_when_low_score
-  - utter_ask_area_points
-  - utter_with_this_score_should_choose_majors
-  - utter_ask_talent_class
-  - utter_ask_school_targets
-  - utter_ask_study_credits
-  - utter_ask_tuition
-  - utter_how_many_months_1_year_study
-  - utter_ask_curriculum_vitae
-  - utter_ask_Doan_book
-  - utter_ask_link_list_admission
-  - utter_ask_school_code
-  - utter_move_to_spkt_hung_yen
-  - utter_vocational_school_want_register
-  - utter_ask_4th_facility
-  - utter_ask_affiliate_program
-  - utter_add_documents_later
-  - utter_ask_health_insurance
-  - utter_ask_demographic_docs
-  - utter_ask_2nd_facility
-  - utter_ask_haiduong_facility
-  - utter_ask_3rd_facility_training_car_majors
-  - utter_ask_3rd_facility_training_english_language_majors
-  - utter_wrong_registration_information
-  - utter_no_indentification_number
-  - utter_ask_audience_policy
-  - utter_unknown_intent
-  - utter_ask_khoaichau_facility
-  - utter_ask_football_ground
-  - utter_where_facility_admission
-  - utter_successful_data_entry
-  - utter_want_to_enter_talent_class_after_1_year_of_study
-  - utter_how_many_years_to_study_if_have_high_school_diploma
-  - utter_ask_school_training_weld
-  - utter_ask_4x6_photo_mandatory
-  - utter_ask_military_service_transfer
-  - utter_lost_military_service_document
-  - utter_where_submit_documents
-  - utter_ask_timeserving
-  - utter_ask_time_intern
-  - utter_ask_time_training
-  - utter_ask_college_transfer_study
-  - utter_ask_diploma_2
-  - utter_ask_student_card
-  - utter_ask_admission_when_graduating_from_previous_years
-  - utter_ask_admission_conditions
-  - utter_worried
-  - utter_name_person
-  - utter_ask_acronyms
+  utter_cancel+utter_refund:
+  - text: "Nếu bạn muốn huỷ thi, thì trong thời gian còn hạn đăng ký, hãy cầm biên lai thu tiền đến phòng Ghi danh để được hỗ trợ"
