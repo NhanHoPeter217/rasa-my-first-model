@@ -10,7 +10,12 @@ assistant_id: 20240417-172221-vintage-venison
 # https://rasa.com/docs/rasa/nlu/components/
 language: vi
 
-pipeline: null
+pipeline:
+  - name: "WhitespaceTokenizer"
+    intent_tokenization_flag: True
+    intent_split_symbol: "+"
+  - name: "CountVectorsFeaturizer"
+  - name: "DIETClassifier"
 # # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
 # # If you'd like to customize it, uncomment and adjust the pipeline.
 # # See https://rasa.com/docs/rasa/tuning-your-model for more information.

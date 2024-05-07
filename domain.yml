@@ -5,6 +5,7 @@ session_config:
   carry_over_slots_to_new_session: true
 
 intents:
+- greet
 - working_time
 - contact
 - exam_time
@@ -36,6 +37,10 @@ intents:
 - ask_refund
 
 responses:
+  utter_greet:
+  - text: Chào bạn, trường đại học sư phạm kỹ thuật hưng yên có thể giúp gì cho bạn?
+  - text: Chào em, em cần gì?
+
   utter_working_time:
   - text: "Thứ 2 đến thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 17h) ; thứ 7 (sáng từ 8h00 - 11h30)"
 
@@ -128,5 +133,8 @@ Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăn
   utter_delay:
   - text: "Nếu bạn muốn dời thi, thì trong thời gian còn hạn đăng ký, Trung tâm vẫn hỗ trợ dời hồ sơ và lệ phí đã nộp qua kỳ tiếp theo"
 
-  utter_cancel+utter_refund:
+  utter_cancel:
+  - text: "Nếu bạn muốn huỷ thi, thì trong thời gian còn hạn đăng ký, hãy cầm biên lai thu tiền đến phòng Ghi danh để được hỗ trợ"
+
+  utter_refund:
   - text: "Nếu bạn muốn huỷ thi, thì trong thời gian còn hạn đăng ký, hãy cầm biên lai thu tiền đến phòng Ghi danh để được hỗ trợ"

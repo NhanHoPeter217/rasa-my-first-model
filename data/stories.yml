@@ -1,0 +1,152 @@
+version: "3.1"
+
+stories:
+  - story: thanks
+    steps:
+      - intent: thanks
+      - action: utter_thanks
+
+  - story: greet
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: working_time
+    steps:
+      - intent: working_time
+      - action: utter_working_time
+
+  - story: contact
+    steps:
+      - intent: contact
+      - action: utter_contact
+
+  - story: exam_time
+    steps:
+      - intent: exam_time
+      - action: utter_exam_time
+
+  - story: exam_venue
+    steps:
+      - intent: exam_venue
+      - action: utter_exam_venue
+
+  - story: select_exam_date
+    steps:
+      - intent: select_exam_date
+      - action: utter_select_exam_date
+
+  - story: fee_inquiry
+    steps:
+      - intent: fee_inquiry
+      - action: utter_fee_inquiry
+
+  - story: student_discount
+    steps:
+      - intent: student_discount
+      - action: utter_student_discount
+
+  - story: late_graduate_discount
+    steps:
+      - intent: late_graduate_discount
+      - action: utter_late_graduate_discount
+
+  - story: exam_registration_docs
+    steps:
+      - intent: exam_registration_docs
+      - action: utter_exam_registration_docs
+
+  - story: certification_requirement
+    steps:
+      - intent: certification_requirement
+      - action: utter_certification_requirement
+
+  - story: ask_student_id_notarization
+    steps:
+      - intent: ask_student_id_notarization
+      - action: utter_student_id_notarization
+
+  - story: ask_competition_registration_process
+    steps:
+      - intent: ask_competition_registration_process
+      - action: utter_competition_registration_process
+
+  - story: competition_registration_process_far
+    steps:
+      - intent: competition_registration_process_far
+      - action: utter_competition_registration_process_far
+
+  - story: ask_practice_papers
+    steps:
+      - intent: ask_practice_papers
+      - action: utter_practice_papers
+
+  - story: ask_certification_retrieval_place
+    steps:
+      - intent: ask_certification_retrieval_place
+      - action: utter_certification_retrieval_place
+
+  - story: ask_certification_retrieval_requirement
+    steps:
+      - intent: ask_certification_retrieval_requirement
+      - action: utter_certification_retrieval_requirement
+
+  - story: intercede_certification_retrieval
+    steps:
+      - intent: intercede_certification_retrieval
+      - action: utter_intercede_certification_retrieval
+
+  - story: ask_competition_result_date
+    steps:
+      - intent: ask_competition_result_date
+      - action: utter_competition_result_date
+
+  - story: ask_competition_certification_date
+    steps:
+      - intent: ask_competition_certification_date
+      - action: utter_competition_certification_date
+
+  - story: ask_competition_information
+    steps:
+      - intent: ask_competition_information
+      - action: utter_competition_information
+
+  - story: ask_competition_result_process
+    steps:
+      - intent: ask_competition_result_process
+      - action: utter_competition_result_process
+
+  - story: ask_certification_retrieval_immediately
+    steps:
+      - intent: ask_certification_retrieval_immediately
+      - action: utter_certification_retrieval_immediately
+
+  - story: ask_result_paper
+    steps:
+      - intent: ask_result_paper
+      - action: utter_result_paper
+
+  - story: ask_a2_requirement
+    steps:
+      - intent: ask_a2_requirement
+      - action: utter_a2_requirement
+
+  - story: ask_retest_fee
+    steps:
+      - intent: ask_retest_fee
+      - action: utter_retest_fee
+
+  - story: ask_delay
+    steps:
+      - intent: ask_delay
+      - action: utter_delay
+
+  - story: ask_cancel
+    steps:
+      - intent: ask_cancel
+      - action: utter_cancel
+
+  - story: ask_refund
+    steps:
+      - intent: ask_refund
+      - action: utter_refund
