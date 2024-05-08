@@ -1,22 +1,22 @@
 version: "3.1"
 
-#rules:
-#
-#- rule: Say goodbye anytime the user says goodbye
-#  steps:
-#  - intent: goodbye
-#  - action: utter_goodbye
-#
-#- rule: Say 'I am a bot' anytime the user challenges
-#  steps:
-#  - intent: bot_challenge
-#  - action: utter_iamabot
-- rule: Chào
-  steps:
-  - intent: greet
-  - action: utter_greet
+rules:
+  #
+  #- rule: Say goodbye anytime the user says goodbye
+  #  steps:
+  #  - intent: goodbye
+  #  - action: utter_goodbye
+  #
+  #- rule: Say 'I am a bot' anytime the user challenges
+  #  steps:
+  #  - intent: bot_challenge
+  #  - action: utter_iamabot
+  - rule: Chào
+    steps:
+      - intent: greet
+      - action: utter_greet
 
-- rule: Cảm ơn người dùng
-  steps:
-  - intent: thanks
-  - action: utter_thanks
+  - rule: Cảm ơn người dùng
+    steps:
+      - intent: thanks
+      - action: utter_thanks

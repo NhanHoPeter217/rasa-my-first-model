@@ -155,7 +155,6 @@ nlu:
       - Bao giờ có kết quả thi?
       - Có kết quả thi chưa ạ?
       - Trường có kết quả thi chưa ạ?
-      -
 
   - intent: ask_competition_certification_date
     examples: |
@@ -164,11 +163,12 @@ nlu:
 
   - intent: ask_competition_information
     examples: |
+      - Em xem [sbd](competion_id) ở đâu ạ
       - Làm sao để biết [số báo danh]{"entity" : "competition_information", "role": "competition_id"}?
       - Làm sao để biết [phòng thi]{"entity": "competition_information", "role": "competition_room"}?
       - Làm sao để biết [số báo danh]{"entity" : "competition_information", "role": "competition_id"}, [phòng thi]{"entity": "competition_information", "role": "competition_room"}?
 
-  - intent: ask_competition_result_process
+  - intent: ask_competition_result_processs
     examples: |
       - Làm sao để biết [điểm thi]{"entity": "competition_result"}?
       - Tôi muốn hỏi [điểm thi]{"entity": "competition_result"}

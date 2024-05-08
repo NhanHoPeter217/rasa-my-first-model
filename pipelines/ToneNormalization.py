@@ -11,6 +11,28 @@ from rasa.shared.nlu.training_data.message import Message
 )
 
 class ToneNormalization(GraphComponent):
+    @classmethod
+    def create(
+        cls,
+        config: Dict[Text, Any],
+        model_storage: ModelStorage,
+        resource: Resource,
+        execution_context: ExecutionContext
+    ) -> GraphComponent:
+        
+        print('initialised Tone Normalization')
+        
+        return super().create(config, model_storage, resource, execution_context)
+
+    def process(self, messages: List[Message]) -> List[Message]:
+        print('processing Tone Normalizing...')
+        # Normalize user input
+        for message in messages:
+            message.set("text", message.get("text"))
+        
+        return messages
+
+def replace_all(text: str) -> str:
     dict_map = {
         "òa": "oà",
         "Òa": "Oà",
@@ -58,32 +80,6 @@ class ToneNormalization(GraphComponent):
         "Ụy": "Uỵ",
         "ỤY": "UỴ"
     }
-
-    @classmethod
-    def create(
-        cls,
-        config: Dict[Text, Any],
-        model_storage: ModelStorage,
-        resource: Resource,
-        execution_context: ExecutionContext
-    ) -> GraphComponent:
-        
-        print('initialised ToneNormalization')
-        
-        return super().create(config, model_storage, resource, execution_context)
-
-    def required_packages() -> List[Text]:
-        return []
-
-
-    def process(self, messages: List[Message]) -> List[Message]:
-        # Normalize user input
-        for message in messages:
-            message.data["text"] = self.normalize_tone(message.data["text"])
-        
-        return messages
-    
-    def normalize_tone(self, text: str) -> str:
-        for k, v in self.dict_map.items():
-            text = text.replace(k, v)
-        return text
+    for i, j in dict_map.items():
+        text = str(text.replace(i, j))
+    return text
