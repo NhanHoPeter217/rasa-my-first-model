@@ -1,48 +1,40 @@
 version: "3.1"
 
 nlu:
-  - intent: working_time
+  - intent: ask_working_time
     examples: |
-      - thời gian làm việc
-      - thời gian hoạt động
-      - giờ làm việc
-      - khi nào mở cửa
-      - lịch làm việc
-      - giờ mở cửa
-      - giờ đóng cửa
-      - thời gian hoạt động là gì
+      - Khi nào thì trường [mở cửa](working_time)?
+      - [Giờ làm việc](working_time) của trường là khi nào?
+      - [Thời gian làm việc](working_time) của trường là bao lâu?
+      - [Lịch làm việc](working_time) của trường là gì?
+      - [Mở cửa](working_time) vào lúc mấy giờ?
 
-  - intent: contact
+  - intent: ask_contact
     examples: |
-      - liên hệ
-      - thông tin liên hệ
-      - địa chỉ
-      - email
-      - số điện thoại
-      - thông tin liên lạc
-      - trung tâm khảo thí là ở đâu
-      - địa chỉ liên hệ
+      - [Liên hệ](contact) với trường như thế nào?
+      - [Thông tin liên hệ](contact) của trường là gì?
+      - [Địa chỉ liên hệ](contact) của trường là gì?
 
-  - intent: exam_time
+  - intent: ask_exam_time
     examples: |
       - thời gian tổ chức thi
       - khi nào tổ chức thi
       - thời gian thi là gì
       - lịch thi
 
-  - intent: exam_venue
+  - intent: ask_exam_venue
     examples: |
       - địa điểm tổ chức thi
       - nơi tổ chức thi
       - địa điểm thi là ở đâu
 
-  - intent: select_exam_date
+  - intent: ask_select_exam_date
     examples: |
       - có được chọn ngày thi không?
       - lựa chọn ngày thi
       - Thông báo để 2 ngày thi, có thể lựa ngày thi không?
 
-  - intent: fee_inquiry
+  - intent: ask_fee_inquiry
     examples: |
       - [lệ phí thi](competition_fee)
       - [lệ phí thi](competition_fee) là bao nhiêu?
@@ -57,7 +49,7 @@ nlu:
       - [giá thi](competition_fee) của [trường](organization) là bao nhiêu?
       - [lệ phí thi](competition_fee) [trường](organization) tổ chức là bao nhiêu?
 
-  - intent: student_discount
+  - intent: ask_student_discount
     examples: |
       - là sinh viên của [trường](organization) có được giảm tiền không? 
       - là học viên cao học của [trường](organization) có được giảm tiền không?
@@ -69,7 +61,7 @@ nlu:
       - sinh viên có ưu đãi giảm giá không?
       - học viên cao học được giảm giá không?
 
-  - intent: late_graduate_discount
+  - intent: ask_late_graduate_discount
     examples: |
       - sinh viên tốt nghiệp trễ có thể được giảm [lệ phí thi](competition_fee) không?
       - sinh viên tốt nghiệp trễ có giảm [lệ phí thi](competition_fee) không?
@@ -80,7 +72,7 @@ nlu:
       - sinh viên trễ tốt nghiệp được giảm lệ phí không?
       - tốt nghiệp muộn được giảm tiền không?
 
-  - intent: exam_registration_docs
+  - intent: ask_exam_registration_docs
     examples: |
       - hồ sơ đăng ký thi bao gồm gì?
       - cần những giấy tờ nào để đăng ký thi?
@@ -89,7 +81,7 @@ nlu:
       - hồ sơ thi bao gồm những gì?
       - cần những giấy tờ nào để thi?
 
-  - intent: certification_requirement
+  - intent: ask_certification_requirement
     examples: |
       - cccd/cmnd/hộ chiếu có cần công chứng không?
       - cccd/cmnd/hộ chiếu cần công chứng không?

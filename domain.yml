@@ -150,3 +150,6 @@ Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăn
 
   utter_refund:
   - text: "Nếu bạn muốn huỷ thi, thì trong thời gian còn hạn đăng ký, hãy cầm biên lai thu tiền đến phòng Ghi danh để được hỗ trợ"
+
+  utter_iamanassistant:
+  - text: "Tôi là trợ lý ảo giúp bạn hiểu rõ hơn thông tin về VSTEP. Rất vui khi được giải đáp các thắc mắc của bạn."
