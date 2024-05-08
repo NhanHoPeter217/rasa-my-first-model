@@ -1,16 +1,6 @@
 version: "3.1"
 
 stories:
-  - story: thanks
-    steps:
-      - intent: thanks
-      - action: utter_thanks
-
-  - story: greet
-    steps:
-      - intent: greet
-      - action: utter_greet
-
   - story: working_time
     steps:
       - intent: working_time
@@ -39,6 +29,8 @@ stories:
   - story: fee_inquiry
     steps:
       - intent: fee_inquiry
+        entities:
+          - competition_fee: fee
       - action: utter_fee_inquiry
 
   - story: student_discount
@@ -141,12 +133,24 @@ stories:
       - intent: ask_delay
       - action: utter_delay
 
-  - story: ask_cancel
+  - story: Thí sinh hủy thi
     steps:
       - intent: ask_cancel
-      - action: utter_cancel
+        entities:
+          - cancel: competition_cancel
+      - action: utter_refund
 
-  - story: ask_refund
+  - story: Thí sinh hoàn tiền
     steps:
       - intent: ask_refund
+        entities:
+          - refund: refund
+      - action: utter_refund
+
+  - story: Thí sinh hủy thi và hoàn tiền
+    steps:
+      - intent: ask_cancel+ask_refund
+        entities:
+          - refund: refund
+          - cancel: competition_cancel
       - action: utter_refund

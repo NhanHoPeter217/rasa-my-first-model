@@ -35,14 +35,29 @@ intents:
 - ask_delay
 - ask_cancel
 - ask_refund
+- ask_cancel+ask_refund
+
+entities:
+  - organization
+  - practice
+  - certification
+  - competition_information
+  - competition_result
+  - result_paper
+  - competition_level
+  - competition_fee
+  - delay
+  - refund
+  - cancel
 
 responses:
   utter_greet:
-  - text: Chào bạn, trường đại học sư phạm kỹ thuật hưng yên có thể giúp gì cho bạn?
+  - text: Chào bạn, trường đại học Sài Gòn có thể giúp gì cho bạn?
   - text: Chào em, em cần gì?
 
   utter_working_time:
-  - text: "Thứ 2 đến thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 17h) ; thứ 7 (sáng từ 8h00 - 11h30)"
+  - text: "Thời gian làm việc của Trường ạ:
+Từ Thứ 2 đến Thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 17h) ; thứ 7 (sáng từ 8h00 - 11h30)"
 
   utter_contact:
   - text: "Trung tâm Khảo thí – Trường Đại học Sài Gòn, số 4 Nguyễn Trãi, phường 3, quận 5, TP HCM\nemail: etc@sgu.edu.vn\nđiện thoại: 028.3924.4690."
@@ -82,7 +97,7 @@ responses:
   - text: "Thẻ sinh viên / học viên cao học chỉ cần bản photo em nhé"
 
   utter_competition_registration_process:
-  - text: "1. Đăng ký trực tiếp tại phòng Ghi danh (có thể nhờ người đăng ký hộ)
+  - text: "1. Đăng ký trực tiếp tại phòng Ghi danh (có thể nhờ người đăng ký hộ)\n
 2. Gửi hồ sơ đến địa chỉ sô 4 Nguyễn Trãi, phường 3, quận 5, TP HCM trong thời hạn đăng ký"
 
   utter_competition_registration_process_far:
@@ -101,7 +116,7 @@ responses:
   - text: "Khi đi nhận chứng chỉ cầm theo CCCD/CMND/ hộ chiếu để xác minh chính chủ nhận"
 
   utter_intercede_certification_retrieval:
-  - text: "Trong trường hợp nhận giùm chứng chỉ, người nhận giùm cần cầm theo Giấy ủy quyền có xác nhận của cơ quan chức năng kèm sao y công chứng giấy tờ tùy thân của người đi thi và người nhận giùm"
+  - text: "Trong trường hợp nhận giùm chứng chỉ, người nhận giùm cần cầm theo Giấy uỷ quyền có xác nhận của cơ quan chức năng kèm sao y công chứng giấy tờ tuỳ thân của người đi thi và người nhận giùm"
 
   utter_competition_result_date:
   - text: "Kết quả thi sẽ có sau trung bình 3 ngày làm việc kể từ ngày thi"
@@ -132,9 +147,6 @@ Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăn
 
   utter_delay:
   - text: "Nếu bạn muốn dời thi, thì trong thời gian còn hạn đăng ký, Trung tâm vẫn hỗ trợ dời hồ sơ và lệ phí đã nộp qua kỳ tiếp theo"
-
-  utter_cancel:
-  - text: "Nếu bạn muốn huỷ thi, thì trong thời gian còn hạn đăng ký, hãy cầm biên lai thu tiền đến phòng Ghi danh để được hỗ trợ"
 
   utter_refund:
   - text: "Nếu bạn muốn huỷ thi, thì trong thời gian còn hạn đăng ký, hãy cầm biên lai thu tiền đến phòng Ghi danh để được hỗ trợ"

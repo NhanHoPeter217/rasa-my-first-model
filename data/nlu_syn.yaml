@@ -42,6 +42,17 @@ nlu:
   ####################################
   ##    Competition Registration    ##
   ####################################
+  - synonym: SGU
+    examples: |
+      - trường đại học sài gòn
+      - trường
+      - đại học sài gòn
+      - sgu
+      - đại học sg
+      - ĐHSG
+      - SG university
+      - ad
+
   - synonym: competition_room
     examples: |
       - phòng thi
@@ -53,6 +64,18 @@ nlu:
       - mã báo danh
       - sbd
       - số bd
+
+  - synonym: student_id
+    examples: |
+      - mssv
+      - msch
+      - thẻ mssv
+      - thẻ sv
+      - thẻ cao học
+      - thẻ sinh viên
+      - thẻ học viên cao học
+      - mã số sinh viên
+      - mã số học viên cao học
 
   - synonym: delay
     examples: |
@@ -82,8 +105,11 @@ nlu:
   - synonym: refund
     examples: |
       - hoàn
+      - hoàn tiền
+      - hoàn phí
       - hoàn trả
-      - trả lại
+      - hoàn lại tiền
+      - trả lại tiền
 
   - synonym: level_2
     examples: |

@@ -1,0 +1,450 @@
+version: "3.1"
+
+nlu:
+  - intent: thanks
+    examples: |
+      - em cám ơn ad nhiều ạ
+      - yêu add quá đii
+      - vâng e cám ơn nhé
+      - dạ em cám ơn ạ 
+      - vâng em cám ơn ạ
+      - dạ vầng e biết r  e cảm ơn chị an
+      - vầng ạ e cảm ơn ạ
+      - vầng ạ em cảm ơn ạ
+      - vầng ad 
+      - dạ vầng ạ
+      - thông tin tuyệt vời ạ
+      - à oke bạn
+      - dạ vâng ạ em cảm ơn ah
+      - da e biết ạ
+      - da vâng em cảm ơn ạ 
+      - da vâng ạ
+      - da cô
+      - dạ tl e vs ạ
+      - à, vâng ạ
+      - à vâng
+      - vâng ạ!
+      - vâng đúng r ạ
+      - ạ vâng
+      - vâng ạ 
+      - dạ vâng ạ
+      - dạ vâng ad
+      - dạ r ạ
+      - dạ dạ !
+      - dạ đc ạ
+      - à dạ
+      - dạ vâng ạ!
+      - dạ vâng
+      - dạ vâng ạ 
+      - dạ vâng
+      - dạ vâng ạ
+      - dạ vâng e nhận đc r ạ
+      - ok chị
+      - ok ad
+      - ok ad , ad ơi
+      - ok anh chị
+      - dạ ok em cảm ơn ad
+      - ok em cam ơn nha )))
+      - ok vâng ạ
+      - ok ạ vậy đắng kí lại từ đầu ạ
+      - xong nộp học bạ là ok à a
+      - ok ngon ngay
+      - ok cô
+      - dạ ok ad
+      - vang c , e cảm on
+      - vang em cam on a
+      - vang a
+      - vang ạ
+      - vang a còn bọn em ạ
+      - chị ơi
+      - ad ơi cho em
+      - dạ ad ơi 3
+      - ad ơi?
+      - ad ơi e hỏi
+      - ad ơi em hỏi
+      - vg ah
+      - vg 
+      - vg e cảm ơn ạ
+      - vg em cảm ơn
+      - vg ạ
+      - vg e cảm ad nhiều ạ
+      - vg ạ tks ad
+      - vâg ạ
+      - vâg em cảm ơn ạ
+      - dạ vâg
+      - vâg e cảm ơn ạ
+      - vâg ạk
+      - dạ vâg ạ
+      - à vâg em cảm ơn
+      - vâg em cảm ơn ạ
+      - vâgem cám ơn anh nhiều ạ
+      - dạ vâng e cám ơn ạ
+      - e cám ơn thầy
+      - dạ e cám ơn
+      - dạ e cám ơn ad nhiều nhé ^^
+      - dạ vâng e cảm ơn thầy cô ạ
+      - vâng ạ cảm ơn admin
+      - vâng em cảm các thầy cô ạ
+      - dạ vâng ạ , e cảm ơn thầy cô!
+      - vângem cảm ơn thầy cô ạ
+      - dạ vâng e cảm ơn thầy cô ạ!
+      - dạ em cảm ơn thầy cô ạ!
+      - dạ em cảm ơn ạ
+      - vâng em cảm ơn ad
+      - vâng ạ! em cảm ơn!
+      - vâng ạ em cảm ơn
+      - vâng ạ , em cảm ơn ad
+      - vâng em cảm ơn ad ạ
+      - vâng ,em cảm ơn ạ
+      - à vâng em cảm ơn ạ
+      - vâng em cảm ơn ạ !
+      - vâng ạ em cảm ơn thầy ạ
+      - vâng em cảm on
+      - em cảm ơn bạn tư vấn nhiều nhé 
+      - cảm ơn ad đã tư vấn nhiệt tình ạ
+      - cảm ơn ad đã tư vấn cho e ạ
+      - thank ad
+      - e cam ơn ad
+      - c ơn ad ạ
+      - oke ạthank ad rất nhiều
+      - vâng e c ơn ad ạ
+      - dạ e cảm ơn
+      - dạ e cảm ơn ạh
+      - chúc ad một buổi chiều đầy sức khoẻ 3
+      - dạ e cảm ơn cô
+      - dạ cảm ơn ad ạ
+      - dạ thôie hiểu rồi ạe cảm ơn
+      - dạem cảm ơn ạ!
+      - dạ , em cảm ơn ạ
+      - dạ cho e cảm ơn
+      - dạ em cảm ơn ad ạ
+      - dạ em cảm ơn cô
+      - dạ e c ơn
+      - dạ em hiểu rồi , em cảm ơn ạ!
+      - dạ em cảm ơn ạ
+      - dạ , em cảm ơn ạ!
+      - vânge cảm ơn ạ
+      - vâng e cảm ơn ạ
+      - vâng ạ e cảm ơn ạ
+      - vâng d cảm ơn
+      - vânge cảm ơn ạk
+      - vâng e cảm ơn ad nhiều ak
+      - vâng e cảm ơn e trượt
+      - vâng ạ , e cảm ơn ạ
+      - vâng cảm ơn ad
+      - vângxin cảm ơn
+      - vânge cảm ơn ad ạ
+      - vâng , e cảm ơn ạ
+      - vâng vậy e cảm ơn ad a
+      - vâng ạ e cảm ơn nhé hi
+      - vâng ạ e cảm ơn ạ
+      - vâng e cảm ơn ạ 
+      - vâng ạ cảm ơn pge
+      - vâng cảm ơn chị
+      - vâng m cảm ơn
+      - dạ vâng hihi e cảm ơn ạ
+      - dạ vâng ạ em cảm ơn
+      - dạ vâng ạ e cảm ơn
+      - dạ vâng ạ em cảm ơn ạ
+      - dạ vâng e cảm ơn ạ
+      - dạ vâng em cảm ơn ạ
+      - dạ vâng em cảm ơn ad
+      - dạ vâng ạ e hiểu rùi ạ em cảm on
+      - dạ vâng em cảm ơn ad ạ
+      - dạ vâng em cảm ơn ad!
+      - dạ vâng ạ , e cảm ơn ad nhé
+      - dạ vângem cảm ơn ạ 
+      - dạ vâng ạem cảm ơn ad
+      - dạ vâng cảm ơn trường ạ
+      - dạ vâng ạ em cảm ơn nhà trường ạ
+      - dạ vâng e cảm ơn ad
+      - dạ vâng ạ , em cảm ơn ad nhé
+      - dạ vâng , em cảm ơn ạ
+      - dạ vâng e cảm ơn nhiều ạ
+      - dạ vâng em cảm ơn ad ạ ,em sẽ suy nghĩ thêm ạ
+      - dạ vâng em cảm ơn ad nha
+      - dạ vâng e cảm ơn ạ 
+      - dạ vâng ạem cảm ơn ạ 
+      - dạ vâng cảm ơn ạ
+      - dạ vângem cảm ơn ạ!
+      - dạ vâng , e cảm ơn nhà trường
+      - em cảm ơn khi nào có thắc mắc em liên hệ lại
+      - em c ơn ạ
+      - em xin cảm ơn ạ!
+      - em chân thành cảm ơn 
+      - e cảm ơn nhaa
+      - e cảm ơn add ạ
+      - em cảm ơn ad nhiều !
+      - vậng e cảm ơn ạ
+      - vânh e cảm ơn ạ
+      - cảm ơn cháu nhiều
+      - cảm ơn bạn nhé
+      - ok cảm e cảm ơn ah
+      - à ra vậy em cảm ơn ạ
+      - em cảm ơn ad nhiều ạ
+      - e xin cảm ơn
+      - em hiểu rồi ạ , em cảm ơn
+      - mh cảm ơn
+      - e xin cảm ơn!
+      - em cảm ơn thày cô ạ
+      - à em biết rồi em cảm ơn ạ
+      - em xin cảm ơn!
+
+  - intent: greet
+    examples: |
+      - em xin chào [trường đại học sài gòn]{"entity":"organization"} ạ
+      - hello ad
+      - hi ad
+      - hí
+      - hú hí
+      - halo
+      - hola
+      - dacho e hoi it dc k ạ
+      - chị ơi cho e hỏi
+      - add ơi cho e hỏi ạ
+      - add cho e hỏi ạ
+      - dạ page ơi cho e hỏi
+      - dạ cho em hỏi ạ
+      - cô ơi
+      - admin ơi
+      - em muốn đc [nhà trường]{"entity":"organization"} tư vấn thêm
+      - em muốn được tư vấn ạ
+      - tư vấn cho e đc k ạ
+      - e muốn [trường]{"entity":"organization"} tư vấn cho e 1 vài vấn đề được không ạ
+      - admin tư vấn giúp em với
+      - e cần tư vấn tuyển sinh a
+      - em muốn nhờ ad tư vấn ạ
+      - mong thầy cô tư vấn cho e ạ e cảm ơn
+      - [trường]{"entity":"organization"} có tiện tư vấn cho em không ạ
+      - e cần tư vấn ạ
+      - dạ ac có thể tư vấn cho e với ạ
+      - add có thể tư vấn cho e được ko ạ
+      - ad có thể tư vấn giúp mình không ạ
+      - [trường]{"entity":"organization"} có thể tư vấn giúp e về tuyển sinh được k ạ
+      - chào ad ad có thể tư vấn cho e 1 chút được không ạ?
+      - bạn tư vấn hệ đó giúp mình với ạ
+      - ac có thể tư vấn cho e chút dk a
+      - [trường]{"entity":"organization"} tư vấn thêm cho em về tuyển sinh với ạ
+      - [nhà trường]{"entity":"organization"} có thể tư vấn giúp em
+      - em muốn đc tư vấn ạ
+      - e muốn nhờ [trường]{"entity":"organization"} tư vấn được k ạ
+      - e chào thầy / cô e cần được tư vấn ạ
+      - e muốn đc tư vấn về trường
+      - chào ạ em muốn tư vấn tuyển sinh ạ
+      - thầy ơi
+      - thầy cô ơi
+      - anh ơi
+      - mà anh ơi
+      - [trường]{"entity":"organization"} ơi
+      - [trường]{"entity":"organization"} ới
+      - e là học sinh lớp 12 và e có 1 số thắc mắc về trườngad có thể giải đáp e k ạ?
+      - mong thầy cô tu vấn cho em sớm ạ
+      - mong thầy cô giải đáp giúp em ạ
+      - [nhà trường]{"entity":"organization"} cho hỏi
+      - [nhà trường]{"entity":"organization"} cho em hỏi
+      - [nhà trường]{"entity":"organization"} ơi
+      - [nhà trường]{"entity":"organization"} cho e hỏi tí ạ
+      - [nhà trường]{"entity":"organization"} cho em hỏi ạ
+      - cho e hỏi mấy vấn đề với ad ơi?
+      - [trường]{"entity":"organization"} cho e hỏi ạ
+      - anh chị có thể bớt chút thời gian giúp em đc k ạ
+      - cho em hỏi ạ!!!
+      - cho e hỏi ạ 
+      - thắc mặc 1 chút về nhập học được không ạ
+      - cho em hỏi mới
+      - ad giúp em giải đáp thắc mắc với em cảm ơn
+      - xin giải đáp ạ
+      - mong ad giúp đỡ mk ak!
+      - mong ad có thể bớt chút thời gian giải thắc mắc này giúp emem cảm ơn ad ạ
+      - mong [trường]{"entity":"organization"} giải đáp
+      - mong ad giúp em với
+      - dạ cho em hỏi luôn
+      - dạ cho e hỏi
+      - ad ơi cho em thắc mắc thêm 1 chuyện nữa là
+      - em có chuyện thắc mắc
+      - [trường]{"entity":"organization"} ơi , cho em hỏi ạ
+      - cho em hỏi nốt ạ
+      - cho e hỏi là
+      - ad giải thích giúp e 1 số thắc mắc về [trường]{"entity":"organization"} đc không ạ
+      - dạ vâng , e nhiều thắc mắc lên hỏi ạ
+      - thầy trả lời cho e đúng k ạ em thắc mắc
+      - em hơi thắc mắc
+      - nhà trương em có thắc mắc muốn hỏi a
+      - e có chút thắc mắc ạ
+      - em có chút thắc mắc muốn tư vấn ạ!
+      - [nhà trường]{"entity":"organization"} ơi e có thắc mắc muốn hỏi
+      - em có 1 số thắc mắc về tuyển sinh ạ
+      - e đang thắc mắc đc ad giải thích e cảm ơn ad nhìu ạ
+      - em thắc mắc chỗ 1 đăng kí xét tuyển ạ
+      - cho em hỏi vấn đề này với ạ
+      - dạ [trường]{"entity":"organization"} ơi cho e hỏi ạ
+      - cho mình hỏi nữa là
+      - cô cho em hỏi là
+      - nhưng hiện tại em có vấn đề như này ạ
+      - cho e hỏi a00
+      - ơ cho e hỏi
+      - thế cho e hỏi
+      - cho e hỏi lại
+      - [trường]{"entity":"organization"} ơi cho em hỏi
+      - dạ [trường]{"entity":"organization"} mình cho em hỏi ạ
+      - e muốn hỏi
+      - e muốn hỏi cho bạn
+      - em muốn hỏi
+      - cho em hỏi chút ạ
+      - dạ cho em hỏi là: em năm
+      - [trường]{"entity":"organization"} cho e hỏi là
+      - thầy ơi cho em hỏi ạ
+      - vậy cho em hỏi
+      - tôi có câu hỏibạn có thể trợ giúp không? ad ơi
+      - cho e hỏi chút đc không ạ
+      - ad ơi cho em hỏi chút ạ
+      - cho em hỏi chút với ạ?
+      - [nhà trường]{"entity":"organization"} cho mình hỏi chút ạ
+      - ad ơi cho mình hỏi chút với
+      - mình muốn hỏi chút
+      - [nhà trường]{"entity":"organization"} cho e hỏi 1 chút
+      - dạ cho e hỏi chút được không ạ
+      - add cho e hỏi chút
+      - cho e hỏi chút ạ
+      - cho e hỏi chút được k ạ
+      - cho em hỏi chút về giấy tờ nhập học ạ
+      - alo add cho mình hỏi chút
+      - cho em hỏi 1 chút ạ
+      - cho e hỏi chút đc k ạ
+      - cho e hỏi một chút
+      - dạ cho em hỏi chút được không ạ?
+      - các thầy cô cho e hỏi một chút được không ạ
+      - ad ơi cho em hỏi một chút ạ
+      - [nhà trường]{"entity":"organization"} cho e hỏi chút ạk
+      - dạ cho mình hỏi chút ạ
+      - em muốn hỏi một chút ạ
+      - ad ơi cho e hỏi chút đc không ạ
+      - ad cho e hỏi chút ạ 
+      - dạ ad fanpage cho em hỏi chút được không ạ
+      - ad cho em hỏi chút
+      - có ai chat được bây giờ không?
+      - em hoi cai nay dk k a
+      - ad cho e hỏi xíu
+      - dạ cho em hỏi xíu
+      - cho e hỏi xíu?
+      - dạ ad cho em hỏi xíu ạ
+      - cho e hỏi xíu vs ạ
+      - e hỏi xíu đc k ạ?
+      - ad cho em nhờ chút xíu có đc không ạ ?
+      - thầy cô cho e hỏi vơi ạ
+      - thầy / cô cho em hỏi
+      - thầy ơi em muốn hỏi
+      - chào thầy thầy có thể cho em hỏi tý đc k ạ 
+      - admin ơi cho em hỏi
+      - admin cho e hỏi ạ
+      - admin cho em hỏi
+      - ad hướng dẫn e với ạ
+      - ad hướng dẫn e vs ạ
+      - em ko hiểu 1 vài mục của tờ hướng dẫn
+      - dạ mong ad trả lời giúp em ơi ạ
+      - e muon hỏi
+      - cho e hỏi ít đc k ạ
+      - [trường]{"entity":"organization"} cho em hỏi 1 số vấn đề ạ
+      - mong ad trả lời giúp em với ạ
+      - xin chào em muốn hỏi 1 số câu hỏi ạ
+      - page ơiem có một số câu hỏi page trả lời giúp em với ạ
+      - e cảm ơn va mong ad trả lời giúp e
+      - cho e hỏi 1 số thông tin với ạ
+      - trả lời giúp em vs ạ
+      - ad ơi em muốn hỏi 1 số truyện
+      - ad trả lời e vse dg hóng lm r
+      - ad ơi trả lời giúp e với ạ
+      - có thể cho em hỏi 1 số vc đc k ạ
+      - ad chỉ em với ạ
+      - ad ơi cho e hỏi với ạ
+      - cho em hỏi một vài thông tin được không ạ ?
+      - cho em hỏi với ạ
+      - ad cho em hoi ??
+      - cho e hỏi cái này với ạ
+      - a ơi cho e hỏi với ạ
+      - ad cho e hỏi với ạ
+      - em có nguyện vọng vào trường
+      - cho e hỏi vs ạ
+      - ad cho em hỏi vs ạ
+      - cho e hỏi vs ad
+      - [nhà trường]{"entity":"organization"} cho em hỏi vs ạ?
+      - dạ em có nguyện vọng học ở trường
+      - dạ [trường]{"entity":"organization"} mình cho em hỏi với ạ
+      - ad cho e hỏi mục 7 với ạ
+      - ad chỉ mình với
+      - add ơi add cho em hỏi với ạ
+      - [nhà trường]{"entity":"organization"} cho em hỏi với ạ
+      - rep em với ạ
+      - page ơi em hỏi với đc ko ạ
+      - dạ cho e hỏi với
+      - ad ơi ,cho em hỏi với ạ
+      - cho e hoie là
+      - em muốn hỏi là
+      - ad cho e hỏi với ạ ,
+      - cho em hỏi với ạ !
+      - dạ cho e hỏi với ạ
+      - ad cho em hỏi với ạ
+      - add ơi cho e hỏi với ạ
+      - a chị cho e hỏi với ạ
+      - [trường]{"entity":"organization"} ơi cho e hỏi với ạ
+      - ad ơi cho e hỏi 1 việc với ạ
+      - ad cho e hỏi ngoài lề tí với
+      - ad ơi cho em hỏi với ạ
+      - [nhà trường]{"entity":"organization"} cho e hỏi thêm với ạ
+      - ad cho e hỏi ạ !!
+      - dạ ad ơi cho em hỏi
+      - ad cho em hỏi ,
+      - ad cho e hỏi ạ 
+      - ad cho em hỏi này
+      - ad cho em hỏi ạ
+      - ad ơi cho em hỏi tí ạ
+      - ad cho em hỏi tí ạ
+      - ad ơi cho em hỏi tý được không ạ
+      - ad cho xem hỏi
+      - ad cho hỏi
+      - e chào thầy cô ạh
+      - em chào anh chị ạ
+      - chào thầy ạ
+      - em thưa thầy cô
+      - e chào thầy cô ạ
+      - em chào thầy cô ạ!
+      - e chào cô ạ
+      - em chào thầy , cô ạ
+      - xin chào ạ
+      - em chào [nhà trường]{"entity":"organization"} ạ
+      - em xin chào [nhà trường]{"entity":"organization"} ạ
+      - xin chào [trường]{"entity":"organization"} ạ
+      - e chào [nhà trường]{"entity":"organization"} ạ
+      - xin chào nhé
+      - em chào [nhà trường]{"entity":"organization"} ạ !
+      - dạ em chào [nhà trường]{"entity":"organization"} ạ
+      - em chào thầy cô!
+      - dạ e chào thầy cô ạ
+      - em chào thầy cô
+      - e chào các thầy cô ạ
+      - chào thầy / cô ad
+      - dạ ,e chào thầy cô ạ
+      - em chào thầy ạ !
+      - em chài thầy cô ạ
+      - e chào thầy cô ạ
+      - dạ em chào thầy / cô ạ
+      - dạ em chào admin
+      - chào admin của [trường]{"entity":"organization"} skh
+      - chào chị
+      - dạ em chào ad ạ
+      - e chào [trường]{"entity":"organization"} ạ
+      - em chào ạ
+      - xin chào ad
+      - chào ad !
+      - em chào [trường]{"entity":"organization"} ạ
+      - e chào ad
+      - chào add
+      - chào [trường]{"entity":"organization"} ạ 
+      - em chào page ạ
+      - e chào ad ạ 
+      - chào ad 
+      - dạ chào ad ạ!
+      - dạ e chào a cị
+      - em chào ad ạ !
+      - alo ạ
+      - alo ad ơi!!

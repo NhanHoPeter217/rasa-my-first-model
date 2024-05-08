@@ -11,3 +11,12 @@ version: "3.1"
 #  steps:
 #  - intent: bot_challenge
 #  - action: utter_iamabot
+- rule: Chào
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Cảm ơn người dùng
+  steps:
+  - intent: thanks
+  - action: utter_thanks
