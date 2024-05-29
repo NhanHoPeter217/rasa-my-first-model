@@ -3,17 +3,17 @@ version: "3.1"
 nlu:
   - intent: ask_working_time
     examples: |
-      - Khi nào thì trường [mở cửa](working_time)?
-      - [Giờ làm việc](working_time) của trường là khi nào?
-      - [Thời gian làm việc](working_time) của trường là bao lâu?
-      - [Lịch làm việc](working_time) của trường là gì?
-      - [Mở cửa](working_time) vào lúc mấy giờ?
+      - Khi nào thì trường mở cửa?
+      - Giờ làm việc của trường là khi nào?
+      - Thời gian làm việc của trường là bao lâu?
+      - Lịch làm việc của trường là gì?
+      - Mở cửa vào lúc mấy giờ?
 
   - intent: ask_contact
     examples: |
-      - [Liên hệ](contact) với trường như thế nào?
-      - [Thông tin liên hệ](contact) của trường là gì?
-      - [Địa chỉ liên hệ](contact) của trường là gì?
+      - Liên hệ với trường như thế nào?
+      - Thông tin liên hệ của trường là gì?
+      - Địa chỉ liên hệ của trường là gì?
 
   - intent: ask_exam_time
     examples: |
@@ -36,35 +36,35 @@ nlu:
 
   - intent: ask_fee_inquiry
     examples: |
-      - [lệ phí thi](competition_fee)
-      - [lệ phí thi](competition_fee) là bao nhiêu?
-      - [giá thi](competition_fee) là bao nhiêu vậy?
+      - lệ phí thi
+      - lệ phí thi là bao nhiêu?
+      - giá thi là bao nhiêu vậy?
       - phải trả bao nhiêu tiền để thi?
-      - [lệ phí thi](competition_fee) là gì?
-      - [lệ phí thi](competition_fee) của [trường](organization) là bao nhiêu?
-      - [phí thi](competition_fee) bao nhiêu ạ?
-      - bao nhiêu tiền là [lệ phí thi](competition_fee)?
+      - lệ phí thi là gì?
+      - lệ phí thi của trường là bao nhiêu?
+      - phí thi bao nhiêu ạ?
+      - bao nhiêu tiền là lệ phí thi?
       - thi cần bao nhiêu tiền?
-      - [lệ phí thi](competition_fee) là mấy ạ?
-      - [giá thi](competition_fee) của [trường](organization) là bao nhiêu?
-      - [lệ phí thi](competition_fee) [trường](organization) tổ chức là bao nhiêu?
+      - lệ phí thi là mấy ạ?
+      - giá thi của trường là bao nhiêu?
+      - lệ phí thi trường tổ chức là bao nhiêu?
 
   - intent: ask_student_discount
     examples: |
-      - là sinh viên của [trường](organization) có được giảm tiền không? 
-      - là học viên cao học của [trường](organization) có được giảm tiền không?
-      - học viên cao học của [trường](organization) được giảm tiền không?
-      - có giảm giá cho sinh viên của [trường](organization) không?
+      - là sinh viên của trường có được giảm tiền không? 
+      - là học viên cao học của trường có được giảm tiền không?
+      - học viên cao học của trường được giảm tiền không?
+      - có giảm giá cho sinh viên của trường không?
       - có ưu đãi cho học viên cao học không?
-      - sinh viên của [trường](organization) có được giảm lệ phí không?
-      - cao học viên của [trường](organization) có giảm tiền không?
+      - sinh viên của trường có được giảm lệ phí không?
+      - cao học viên của trường có giảm tiền không?
       - sinh viên có ưu đãi giảm giá không?
       - học viên cao học được giảm giá không?
 
   - intent: ask_late_graduate_discount
     examples: |
-      - sinh viên tốt nghiệp trễ có thể được giảm [lệ phí thi](competition_fee) không?
-      - sinh viên tốt nghiệp trễ có giảm [lệ phí thi](competition_fee) không?
+      - sinh viên tốt nghiệp trễ có thể được giảm lệ phí thi không?
+      - sinh viên tốt nghiệp trễ có giảm lệ phí thi không?
       - sinh viên năm thứ năm có được giảm tiền không?
       - học viên tốt nghiệp muộn được giảm giá không?
       - giảm giá cho sinh viên tốt nghiệp trễ có không?
@@ -92,8 +92,8 @@ nlu:
 
   - intent: ask_student_id_notarization
     examples: |
-      - [Thẻ sinh viên](student_id) có cần công chứng không?
-      - [thẻ sv](student_id) công chứng không ạ?
+      - Thẻ sinh viên có cần công chứng không?
+      - thẻ sv công chứng không ạ?
 
   - intent: ask_competition_registration_process
     examples: |
@@ -113,33 +113,33 @@ nlu:
 
   - intent: ask_practice_papers
     examples: |
-      - Bên mình có [tài liệu ôn thi]{"entity":"practice"} không ạ?
-      - Cho hỏi có [tài liệu ôn thi]{"entity":"practice"} không ạ?
-      - Có nhận [ôn luyện]{"entity":"practice"} không ạ?
+      - Bên mình có tài liệu ôn thi không ạ?
+      - Cho hỏi có tài liệu ôn thi không ạ?
+      - Có nhận ôn luyện không ạ?
 
   - intent: ask_certification_retrieval_place
     examples: |
-      - Nhận [chứng chỉ]{"entity": "certification"} ở đâu vậy ạ?
-      - Tôi có thể nhận [chứng chỉ]{"entity": "certification"} ở đâu?
-      - Địa điểm nhận [chứng chỉ]{"entity": "certification"} là ở đâu?
-      - Nơi nào tôi có thể nhận [chứng chỉ]{"entity": "certification"}?
-      - Có thể nhận [chứng chỉ]{"entity": "certification"} ở đâu?
+      - Nhận chứng chỉ ở đâu vậy ạ?
+      - Tôi có thể nhận chứng chỉ ở đâu?
+      - Địa điểm nhận chứng chỉ là ở đâu?
+      - Nơi nào tôi có thể nhận chứng chỉ?
+      - Có thể nhận chứng chỉ ở đâu?
 
   - intent: ask_certification_retrieval_requirement
     examples: |
-      - Cách để nhận [chứng chỉ]{"entity": "certification"}?
-      - Cách lấy [chứng chỉ]{"entity": "certification"}?
-      - Nhận [chứng chỉ]{"entity": "certification"} thì cầm theo gì?
-      - Nhận [chứng chỉ]{"entity": "certification"} cầm gì?
-      - Lấy [chứng chỉ]{"entity": "certification"} cần cầm gì?
-      - Lấy [chứng chỉ]{"entity": "certification"} thì cầm theo gì?
-      - [chứng chỉ]{"entity": "certification"} yêu cầu những tài liệu gì?
-      - Mang gì khi đi nhận [chứng chỉ]{"entity": "certification"}?
-      - Lấy [chứng chỉ]{"entity": "certification"} cần phải cung cấp giấy tờ gì?
+      - Cách để nhận chứng chỉ?
+      - Cách lấy chứng chỉ?
+      - Nhận chứng chỉ thì cầm theo gì?
+      - Nhận chứng chỉ cầm gì?
+      - Lấy chứng chỉ cần cầm gì?
+      - Lấy chứng chỉ thì cầm theo gì?
+      - chứng chỉ yêu cầu những tài liệu gì?
+      - Mang gì khi đi nhận chứng chỉ?
+      - Lấy chứng chỉ cần phải cung cấp giấy tờ gì?
 
   - intent: intercede_certification_retrieval
     examples: |
-      - Có thể nhận [chứng chỉ]{"entity": "certification"} giùm được không?
+      - Có thể nhận chứng chỉ giùm được không?
       - Muốn nhờ người nhận giùm thì cần giấy tờ gì?
 
   - intent: ask_competition_result_date
@@ -150,77 +150,98 @@ nlu:
 
   - intent: ask_competition_certification_date
     examples: |
-      - Bao giờ có [chứng chỉ]{"entity": "certification"}?
-      - Thi xong có [chứng chỉ]{"entity": "certification"} ngay không?
+      - Bao giờ có chứng chỉ?
+      - Thi xong có chứng chỉ ngay không?
 
   - intent: ask_competition_information
     examples: |
-      - Em xem [sbd](competion_id) ở đâu ạ
-      - Làm sao để biết [số báo danh]{"entity" : "competition_information", "role": "competition_id"}?
-      - Làm sao để biết [phòng thi]{"entity": "competition_information", "role": "competition_room"}?
-      - Làm sao để biết [số báo danh]{"entity" : "competition_information", "role": "competition_id"}, [phòng thi]{"entity": "competition_information", "role": "competition_room"}?
+      - Em xem sbd ở đâu ạ
+      - Làm sao để biết số báo danh?
+      - Làm sao để biết phòng thi?
+      - Làm sao để biết số báo danh, phòng thi?
 
-  - intent: ask_competition_result_processs
+  - intent: ask_competition_result_process
     examples: |
-      - Làm sao để biết [điểm thi]{"entity": "competition_result"}?
-      - Tôi muốn hỏi [điểm thi]{"entity": "competition_result"}
-      - Cho mình hỏi [điểm thi]{"entity": "competition_result"} với ạ
-      - Em muốn biết [điểm thi]{"entity": "competition_result"} ạ
+      - Làm sao để biết điểm thi?
+      - Tôi muốn hỏi điểm thi
+      - Cho mình hỏi điểm thi với ạ
+      - Em muốn biết điểm thi ạ
 
   - intent: ask_certification_retrieval_immediately
     examples: |
-      - Có thể muốn nhận [chứng chỉ]{"entity": "certification"} ngay được không?
-      - Muốn nhận [chứng chỉ]{"entity": "certification"} ngay thì làm thế nào?
-      - Mình muốn nhận [chứng chỉ]{"entity": "certification"} gấp thì làm sao ạ?
+      - Có thể muốn nhận chứng chỉ ngay được không?
+      - Muốn nhận chứng chỉ ngay thì làm thế nào?
+      - Mình muốn nhận chứng chỉ gấp thì làm sao ạ?
       - Có cấp giấy xác nhận điểm tạm thời không?
 
   - intent: ask_result_paper
     examples: |
-      - Em muốn lấy [giấy xác nhận điểm]{"entity": "result_paper"} thì làm sao ạ
-      - Cách nhận [giấy xác nhận điểm]{"entity": "result_paper"}
-      - [giấy xác nhận điểm]{"entity": "result_paper"} lấy như thế nào?
-      - [giấy xác nhận điểm]{"entity": "result_paper"} lấy ở đâu?
+      - Em muốn lấy giấy xác nhận điểm thì làm sao ạ
+      - Cách nhận giấy xác nhận điểm
+      - giấy xác nhận điểm lấy như thế nào?
+      - giấy xác nhận điểm lấy ở đâu?
 
   - intent: ask_a2_requirement
     examples: |
-      - Đăng ký thi [A2]{"entity":"competition_level"} như thế nào?
-      - Đăng ký thi [B1]{"entity":"competition_level"} như thế nào?
-      - Đăng ký thi [B2]{"entity":"competition_level"} như thế nào?
-      - Đăng ký thi [C1]{"entity":"competition_level"} như thế nào?
-      - Đăng ký thi [C2]{"entity":"competition_level"} như thế nào?
-      - Thời gian tổ chức thi [A2]{"entity": "competition_level"}?
-      - Thời gian tổ chức thi [B1]{"entity": "competition_level"}?
-      - Thời gian tổ chức thi [B2]{"entity": "competition_level"}?
-      - Thời gian tổ chức thi [C1]{"entity": "competition_level"}?
-      - Thời gian tổ chức thi [C2]{"entity": "competition_level"}?
+      - Đăng ký thi [A2](certificate_level) như thế nào?
+      - Đăng ký thi [B1](certificate_level) như thế nào?
+      - Đăng ký thi [B2](certificate_level) như thế nào?
+      - Đăng ký thi [C1](certificate_level) như thế nào?
+      - Đăng ký thi [C2](certificate_level) như thế nào?
+      - Thời gian tổ chức thi [A2](certificate_level)?
+      - Thời gian tổ chức thi [B1](certificate_level)?
+      - Thời gian tổ chức thi [B2](certificate_level)?
+      - Thời gian tổ chức thi [C1](certificate_level)?
+      - Thời gian tổ chức thi [C2](certificate_level)?
 
   - intent: ask_retest_fee
     examples: |
-      - Thi lại có được giảm giá [tiền thi]{"entity": "competition_fee"} không?
-      - Thi lại [phí]{"entity": "competition_fee"} như thế nào?
-      - Thi lại [phí]{"entity": "competition_fee"} ra sao?
-      - Thi lại [phí]{"entity": "competition_fee"} có giảm giá không?
-      - [trường](organization) hợp em thi lại thì sao?
+      - Thi lại có được giảm giá tiền thi không?
+      - Thi lại phí như thế nào?
+      - Thi lại phí ra sao?
+      - Thi lại phí có giảm giá không?
+      - trường hợp em thi lại thì sao?
       - Em thi lại có được giảm giá không?
 
   - intent: ask_delay
     examples: |
-      - Có thể [dời]{"entity": "delay"} ngày thi được không?
-      - Em muốn [dời]{"entity": "delay"} ngày thi được không ạ?
-      - Mình muốn [dời]{"entity": "delay"} ngày thi thì sao ạ?
+      - Có thể dời ngày thi được không?
+      - Em muốn dời ngày thi được không ạ?
+      - Mình muốn dời ngày thi thì sao ạ?
 
   - intent: ask_cancel+ask_refund
     examples: |
-      - [Không muốn thi](cancel) nữa thì có được [hoàn](refund) lệ phí thi không?
-      - Mình [hủy thi](cancel) thì có được [hoàn tiền](refund) không
+      - Không muốn thi nữa thì có được hoàn lệ phí thi không?
+      - Mình hủy thi thì có được hoàn tiền không
 
   - intent: ask_refund
     examples: |
-      - Mình muốn [hoàn phí](refund) thi
-      - Tới ngày thi không thi được thì [trường](organization) có [trả lại tiền](refund) không ạ?
+      - Mình muốn hoàn phí thi
+      - Tới ngày thi không thi được thì trường có trả lại tiền không ạ?
 
   - intent: ask_cancel
     examples: |
-      - Mình muốn [hủy thi](cancel) ạ
-      - Đăng ký rồi có [hủy thi](cancel) được không?
-      - Cho hỏi đăng ký rồi có [hủy thi](cancel) được không?
+      - Mình muốn hủy thi ạ
+      - Đăng ký rồi có hủy thi được không?
+      - Cho hỏi đăng ký rồi có hủy thi được không?
+
+  - intent: ask_exam_room
+    examples: |
+      - Phòng thi ở đâu?
+      - Phòng thi là ở đâu?
+      - Phòng thi ở đâu vậy?
+      - Phòng thi là ở đâu vậy?
+      - Em muốn hỏi về thông tin phòng thi
+      - Em muốn hỏi về phòng thi
+      - Làm sao để biết em thi ở phòng nào?
+      - Làm sao để biết phòng thi của mình?
+      - Hỏi về phòng thi
+      - Hỏi thông tin phòng thi
+
+  - intent: provide_CCCD_number
+    examples: |
+      - CCCD của em là [123456789123](CCCD_number)
+      - Số CMND là [123456789](CCCD_number)
+      - CCCD [123456789123](CCCD_number)
+      - CMND [123456789](CCCD_number)
+      - Căn cước công dân của em là [123456789123](CCCD_number)

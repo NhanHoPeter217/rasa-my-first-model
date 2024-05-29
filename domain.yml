@@ -6,17 +6,16 @@ session_config:
 
 intents:
 - greet
-- working_time
-- contact
-- exam_time
-- exam_venue
-- select_exam_date
-- fee_inquiry
-- student_discount
-- late_graduate_discount
-- exam_registration_docs
-- certification_requirement
-- thanks
+- ask_working_time
+- ask_contact
+- ask_exam_time
+- ask_exam_venue
+- ask_select_exam_date
+- ask_fee_inquiry
+- ask_student_discount
+- ask_late_graduate_discount
+- ask_exam_registration_docs
+- ask_certification_requirement
 - ask_student_id_notarization
 - ask_competition_registration_process
 - competition_registration_process_far
@@ -36,19 +35,26 @@ intents:
 - ask_cancel
 - ask_refund
 - ask_cancel+ask_refund
+- ask_exam_room
+- provide_CCCD_number
+- thanks
 
 entities:
-  - organization
-  - practice
-  - certification
-  - competition_information
-  - competition_result
-  - result_paper
-  - competition_level
-  - competition_fee
-  - delay
-  - refund
-  - cancel
+#  - working_time
+#  - contact
+#  - organization
+#  - practice
+#  - certification
+#  - competition_information
+#  - competition_result
+#  - result_paper
+#  - competition_level
+#  - competition_fee
+#  - delay
+#  - refund
+#  - cancel
+  - certificate_level
+  - CCCD_number
 
 responses:
   utter_greet:
@@ -151,5 +157,12 @@ Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăn
   utter_refund:
   - text: "Nếu bạn muốn huỷ thi, thì trong thời gian còn hạn đăng ký, hãy cầm biên lai thu tiền đến phòng Ghi danh để được hỗ trợ"
 
-  utter_iamanassistant:
-  - text: "Tôi là trợ lý ảo giúp bạn hiểu rõ hơn thông tin về VSTEP. Rất vui khi được giải đáp các thắc mắc của bạn."
+  utter_exam_room:
+  - text: "Bạn hãy cung cấp số CCCD/CMND để tôi có thể cung cấp thông tin phòng thi của bạn."
+
+# use later
+#  utter_iamanassistant:
+#  - text: "Tôi là trợ lý ảo giúp bạn hiểu rõ hơn thông tin về VSTEP. Rất vui khi được giải đáp các thắc mắc của bạn."
+
+actions:
+  - action_show_exam_room

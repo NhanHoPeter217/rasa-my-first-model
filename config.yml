@@ -14,6 +14,14 @@ pipeline:
   # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
   # If you'd like to customize it, uncomment and adjust the pipeline.
   # See https://rasa.com/docs/rasa/tuning-your-model for more information.
+  - name: SpacyNLP
+    model: "vi_core_news_lg"
+    case_sensitive: False
+#  - name: SpacyTokenizer
+#  - name: SpacyFeaturizer
+#  - name: SpacyEntityExtractor
+#    dimensions: [ "working_time", "contact", "organization", "practice", "certification", "competition_information", "competition_result", "result_paper", "competition_level", "competition_fee", "delay", "refund", "cancel" ]
+#    dimensions: [ "time", "date", "money", "percent", "language", "person", "location", "organization", "event", "product", "work_of_art", "law", "quantity", "ordinal", "cardinal" ]
   - name: pipelines.ToneNormalization.ToneNormalization
   #   - name: WhitespaceTokenizer
   #     intent_tokenization_flag: True
@@ -30,9 +38,11 @@ pipeline:
     epochs: 100
     constrain_similarities: true
   - name: EntitySynonymMapper
-  - name: ResponseSelector
-    epochs: 100
-    constrain_similarities: true
+#  - name: RegexEntityExtractor
+#    use_lookup_tables: true
+#  - name: ResponseSelector # just use for retrieval-based models
+#    epochs: 100
+#    constrain_similarities: true
   - name: FallbackClassifier
     threshold: 0.3
     ambiguity_threshold: 0.1

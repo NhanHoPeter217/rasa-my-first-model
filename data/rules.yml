@@ -1,6 +1,10 @@
 version: "3.1"
 
 rules:
+  - rule: Cung cấp thông tin phòng thi
+    steps:
+      - intent: provide_CCCD_number
+      - action: action_show_exam_room
   #
   #- rule: Say goodbye anytime the user says goodbye
   #  steps:
