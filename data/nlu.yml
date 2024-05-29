@@ -1,48 +1,40 @@
 version: "3.1"
 
 nlu:
-  - intent: working_time
+  - intent: ask_working_time
     examples: |
-      - thời gian làm việc
-      - thời gian hoạt động
-      - giờ làm việc
-      - khi nào mở cửa
-      - lịch làm việc
-      - giờ mở cửa
-      - giờ đóng cửa
-      - thời gian hoạt động là gì
+      - Khi nào thì trường mở cửa?
+      - Giờ làm việc của trường là khi nào?
+      - Thời gian làm việc của trường là bao lâu?
+      - Lịch làm việc của trường là gì?
+      - Mở cửa vào lúc mấy giờ?
 
-  - intent: contact
+  - intent: ask_contact
     examples: |
-      - liên hệ
-      - thông tin liên hệ
-      - địa chỉ
-      - email
-      - số điện thoại
-      - thông tin liên lạc
-      - trung tâm khảo thí là ở đâu
-      - địa chỉ liên hệ
+      - Liên hệ với trường như thế nào?
+      - Thông tin liên hệ của trường là gì?
+      - Địa chỉ liên hệ của trường là gì?
 
-  - intent: exam_time
+  - intent: ask_exam_time
     examples: |
       - thời gian tổ chức thi
       - khi nào tổ chức thi
       - thời gian thi là gì
       - lịch thi
 
-  - intent: exam_venue
+  - intent: ask_exam_venue
     examples: |
       - địa điểm tổ chức thi
       - nơi tổ chức thi
       - địa điểm thi là ở đâu
 
-  - intent: select_exam_date
+  - intent: ask_select_exam_date
     examples: |
       - có được chọn ngày thi không?
       - lựa chọn ngày thi
       - Thông báo để 2 ngày thi, có thể lựa ngày thi không?
 
-  - intent: fee_inquiry
+  - intent: ask_fee_inquiry
     examples: |
       - lệ phí thi
       - lệ phí thi là bao nhiêu?
@@ -57,7 +49,7 @@ nlu:
       - giá thi của trường là bao nhiêu?
       - lệ phí thi trường tổ chức là bao nhiêu?
 
-  - intent: student_discount
+  - intent: ask_student_discount
     examples: |
       - là sinh viên của trường có được giảm tiền không? 
       - là học viên cao học của trường có được giảm tiền không?
@@ -69,7 +61,7 @@ nlu:
       - sinh viên có ưu đãi giảm giá không?
       - học viên cao học được giảm giá không?
 
-  - intent: late_graduate_discount
+  - intent: ask_late_graduate_discount
     examples: |
       - sinh viên tốt nghiệp trễ có thể được giảm lệ phí thi không?
       - sinh viên tốt nghiệp trễ có giảm lệ phí thi không?
@@ -80,7 +72,7 @@ nlu:
       - sinh viên trễ tốt nghiệp được giảm lệ phí không?
       - tốt nghiệp muộn được giảm tiền không?
 
-  - intent: exam_registration_docs
+  - intent: ask_exam_registration_docs
     examples: |
       - hồ sơ đăng ký thi bao gồm gì?
       - cần những giấy tờ nào để đăng ký thi?
@@ -89,7 +81,7 @@ nlu:
       - hồ sơ thi bao gồm những gì?
       - cần những giấy tờ nào để thi?
 
-  - intent: certification_requirement
+  - intent: ask_certification_requirement
     examples: |
       - cccd/cmnd/hộ chiếu có cần công chứng không?
       - cccd/cmnd/hộ chiếu cần công chứng không?
@@ -98,198 +90,10 @@ nlu:
       - hộ chiếu cần phải công chứng không?
       - cần công chứng cho giấy tờ không?
 
-  - intent: thanks
-    examples: |
-      - em cám ơn ad nhiều ạ
-      - yêu add quá đii
-      - vâng e cám ơn nhé
-      - dạ em cám ơn ạ 
-      - vâng em cám ơn ạ
-      - dạ vầng e biết r  e cảm ơn chị an
-      - vầng ạ e cảm ơn ạ
-      - vầng ạ em cảm ơn ạ
-      - vầng ad 
-      - dạ vầng ạ
-      - thông tin tuyệt vời ạ
-      - à oke bạn
-      - dạ vâng ạ em cảm ơn ah
-      - da e biết ạ
-      - da vâng em cảm ơn ạ 
-      - da vâng ạ
-      - da cô
-      - dạ tl e vs ạ
-      - à , vâng ạ
-      - à vâng
-      - vâng ạ!
-      - vâng đúng r ạ
-      - ạ vâng
-      - vâng ạ 
-      - dạ vâng ạ
-      - dạ vâng ad
-      - dạ r ạ
-      - dạ dạ !
-      - dạ đc ạ
-      - à dạ
-      - dạ vâng ạ!
-      - dạ vâng
-      - dạ vâng ạ 
-      - dạ vâng
-      - dạ vâng ạ
-      - dạ vâng e nhận đc r ạ
-      - ok chị
-      - ok ad
-      - ok ad , ad ơi
-      - ok anh chị
-      - dạ ok em cảm ơn ad
-      - ok em cam ơn nha )))
-      - ok vâng ạ
-      - ok ạ vậy đắng kí lại từ đầu ạ
-      - xong nộp học bạ là ok à a
-      - ok ngon ngay
-      - ok cô
-      - dạ ok ad
-      - vang c , e cảm on
-      - vang em cam on a
-      - vang a
-      - vang ạ
-      - vang a còn bọn em ạ
-      - chị ơi
-      - ad ơi cho em
-      - dạ ad ơi 3
-      - ad ơi?
-      - ad ơi e hỏi
-      - ad ơi em hỏi
-      - vg ah
-      - vg 
-      - vg e cảm ơn ạ
-      - vg em cảm ơn
-      - vg ạ
-      - vg e cảm ad nhiều ạ
-      - vg ạ tks ad
-      - vâg ạ
-      - vâg em cảm ơn ạ
-      - dạ vâg
-      - vâg e cảm ơn ạ
-      - vâg ạk
-      - dạ vâg ạ
-      - à vâg em cảm ơn
-      - vâg em cảm ơn ạ
-      - vâgem cám ơn anh nhiều ạ
-      - dạ vâng e cám ơn ạ
-      - e cám ơn thầy
-      - dạ e cám ơn
-      - dạ e cám ơn ad nhiều nhé ^^
-      - dạ vâng e cảm ơn thầy cô ạ
-      - vâng ạ cảm ơn admin
-      - vâng em cảm các thầy cô ạ
-      - dạ vâng ạ , e cảm ơn thầy cô!
-      - vângem cảm ơn thầy cô ạ
-      - dạ vâng e cảm ơn thầy cô ạ!
-      - dạ em cảm ơn thầy cô ạ!
-      - dạ em cảm ơn ạ
-      - vâng em cảm ơn ad
-      - vâng ạ! em cảm ơn!
-      - vâng ạ em cảm ơn
-      - vâng ạ , em cảm ơn ad
-      - vâng em cảm ơn ad ạ
-      - vâng ,em cảm ơn ạ
-      - à vâng em cảm ơn ạ
-      - vâng em cảm ơn ạ !
-      - vâng ạ em cảm ơn thầy ạ
-      - vâng em cảm on
-      - em cảm ơn bạn tư vấn nhiều nhé 
-      - cảm ơn ad đã tư vấn nhiệt tình ạ
-      - cảm ơn ad đã tư vấn cho e ạ
-      - thank ad
-      - e cam ơn ad
-      - c ơn ad ạ
-      - oke ạthank ad rất nhiều
-      - vâng e c ơn ad ạ
-      - dạ e cảm ơn
-      - dạ e cảm ơn ạh
-      - chúc ad một buổi chiều đầy sức khoẻ 3
-      - dạ e cảm ơn cô
-      - dạ cảm ơn ad ạ
-      - dạ thôie hiểu rồi ạe cảm ơn
-      - dạem cảm ơn ạ!
-      - dạ , em cảm ơn ạ
-      - dạ cho e cảm ơn
-      - dạ em cảm ơn ad ạ
-      - dạ em cảm ơn cô
-      - dạ e c ơn
-      - dạ em hiểu rồi , em cảm ơn ạ!
-      - dạ em cảm ơn ạ
-      - dạ , em cảm ơn ạ!
-      - vânge cảm ơn ạ
-      - vâng e cảm ơn ạ
-      - vâng ạ e cảm ơn ạ
-      - vâng d cảm ơn
-      - vânge cảm ơn ạk
-      - vâng e cảm ơn ad nhiều ak
-      - vâng e cảm ơn e trượt
-      - vâng ạ , e cảm ơn ạ
-      - vâng cảm ơn ad
-      - vângxin cảm ơn
-      - vânge cảm ơn ad ạ
-      - vâng , e cảm ơn ạ
-      - vâng vậy e cảm ơn ad a
-      - vâng ạ e cảm ơn nhé hi
-      - vâng ạ e cảm ơn ạ
-      - vâng e cảm ơn ạ 
-      - vâng ạ cảm ơn pge
-      - vâng cảm ơn chị
-      - vâng m cảm ơn
-      - dạ vâng hihi e cảm ơn ạ
-      - dạ vâng ạ em cảm ơn
-      - dạ vâng ạ e cảm ơn
-      - dạ vâng ạ em cảm ơn ạ
-      - dạ vâng e cảm ơn ạ
-      - dạ vâng em cảm ơn ạ
-      - dạ vâng em cảm ơn ad
-      - dạ vâng ạ e hiểu rùi ạ em cảm on
-      - dạ vâng em cảm ơn ad ạ
-      - dạ vâng em cảm ơn ad!
-      - dạ vâng ạ , e cảm ơn ad nhé
-      - dạ vângem cảm ơn ạ 
-      - dạ vâng ạem cảm ơn ad
-      - dạ vâng cảm ơn [trường]{"entity":"organization"} ạ
-      - dạ vâng ạ em cảm ơn [nhà trường]{"entity":"organization"} ạ
-      - dạ vâng e cảm ơn ad
-      - dạ vâng ạ , em cảm ơn ad nhé
-      - dạ vâng , em cảm ơn ạ
-      - dạ vâng e cảm ơn nhiều ạ
-      - dạ vâng em cảm ơn ad ạ ,em sẽ suy nghĩ thêm ạ
-      - dạ vâng em cảm ơn ad nha
-      - dạ vâng e cảm ơn ạ 
-      - dạ vâng ạem cảm ơn ạ 
-      - dạ vâng cảm ơn ạ
-      - dạ vângem cảm ơn ạ!
-      - dạ vâng , e cảm ơn [nhà trường]{"entity":"organization"}
-      - em cảm ơn khi nào có thắc mắc em liên hệ lại
-      - em c ơn ạ
-      - em xin cảm ơn ạ!
-      - em chân thành cảm ơn 
-      - e cảm ơn nhaa
-      - e cảm ơn add ạ
-      - em cảm ơn ad nhiều !
-      - vậng e cảm ơn ạ
-      - vânh e cảm ơn ạ
-      - cảm ơn cháu nhiều
-      - cảm ơn bạn nhé
-      - ok cảm e cảm ơn ah
-      - à ra vậy em cảm ơn ạ
-      - em cảm ơn ad nhiều ạ
-      - e xin cảm ơn
-      - em hiểu rồi ạ , em cảm ơn
-      - mh cảm ơn
-      - e xin cảm ơn!
-      - em cảm ơn thày cô ạ
-      - à em biết rồi em cảm ơn ạ
-      - em xin cảm ơn!
-
   - intent: ask_student_id_notarization
     examples: |
-      - Thẻ sinh viên/học viên cao học có cần công chứng không?
+      - Thẻ sinh viên có cần công chứng không?
+      - thẻ sv công chứng không ạ?
 
   - intent: ask_competition_registration_process
     examples: |
@@ -309,99 +113,135 @@ nlu:
 
   - intent: ask_practice_papers
     examples: |
-      - Bên mình có [tài liệu ôn thi]{"entity":"practice"} không ạ?
-      - Cho hỏi có [tài liệu ôn thi]{"entity":"practice"} không ạ?
-      - Có nhận [ôn luyện]{"entity":"practice"} không ạ?
+      - Bên mình có tài liệu ôn thi không ạ?
+      - Cho hỏi có tài liệu ôn thi không ạ?
+      - Có nhận ôn luyện không ạ?
 
   - intent: ask_certification_retrieval_place
     examples: |
-      - Nhận [chứng chỉ]{"entity": "certification"} ở đâu vậy ạ?
-      - Tôi có thể nhận [chứng chỉ]{"entity": "certification"} ở đâu?
-      - Địa điểm nhận [chứng chỉ]{"entity": "certification"} là ở đâu?
-      - Nơi nào tôi có thể nhận [chứng chỉ]{"entity": "certification"}?
-      - Có thể nhận [chứng chỉ]{"entity": "certification"} ở đâu?
+      - Nhận chứng chỉ ở đâu vậy ạ?
+      - Tôi có thể nhận chứng chỉ ở đâu?
+      - Địa điểm nhận chứng chỉ là ở đâu?
+      - Nơi nào tôi có thể nhận chứng chỉ?
+      - Có thể nhận chứng chỉ ở đâu?
 
   - intent: ask_certification_retrieval_requirement
     examples: |
-      - Cách để nhận [chứng chỉ]{"entity": "certification"}?
-      - Cách lấy [chứng chỉ]{"entity": "certification"}?
-      - Nhận [chứng chỉ]{"entity": "certification"} thì cầm theo gì?
-      - Nhận [chứng chỉ]{"entity": "certification"} cầm gì?
-      - Lấy [chứng chỉ]{"entity": "certification"} cần cầm gì?
-      - Lấy [chứng chỉ]{"entity": "certification"} thì cầm theo gì?
-      - [chứng chỉ]{"entity": "certification"} yêu cầu những tài liệu gì?
-      - Mang gì khi đi nhận [chứng chỉ]{"entity": "certification"}?
-      - Lấy [chứng chỉ]{"entity": "certification"} cần phải cung cấp giấy tờ gì?
+      - Cách để nhận chứng chỉ?
+      - Cách lấy chứng chỉ?
+      - Nhận chứng chỉ thì cầm theo gì?
+      - Nhận chứng chỉ cầm gì?
+      - Lấy chứng chỉ cần cầm gì?
+      - Lấy chứng chỉ thì cầm theo gì?
+      - chứng chỉ yêu cầu những tài liệu gì?
+      - Mang gì khi đi nhận chứng chỉ?
+      - Lấy chứng chỉ cần phải cung cấp giấy tờ gì?
 
   - intent: intercede_certification_retrieval
     examples: |
-      - Có thể nhận [chứng chỉ]{"entity": "certification"} giùm được không?
+      - Có thể nhận chứng chỉ giùm được không?
       - Muốn nhờ người nhận giùm thì cần giấy tờ gì?
 
   - intent: ask_competition_result_date
     examples: |
       - Bao giờ có kết quả thi?
+      - Có kết quả thi chưa ạ?
+      - Trường có kết quả thi chưa ạ?
 
   - intent: ask_competition_certification_date
-  - examples: |
-      - Bao giờ có [chứng chỉ]{"entity": "certification"}?
-      - Thi xong có [chứng chỉ]{"entity": "certification"} ngay không?
+    examples: |
+      - Bao giờ có chứng chỉ?
+      - Thi xong có chứng chỉ ngay không?
 
   - intent: ask_competition_information
-  - examples: |
-      - Làm sao để biết [số báo danh]{"entity" : "competition_information", "role": "competition_id"}?
-      - Làm sao để biết [phòng thi]{"entity": "competition_information", "role": "competition_room"}?
-      - Làm sao để biết [số báo danh]{"entity" : "competition_information", "role": "competition_id"}, [phòng thi]{"entity": "competition_information", "role": "competition_room"}?
+    examples: |
+      - Em xem sbd ở đâu ạ
+      - Làm sao để biết số báo danh?
+      - Làm sao để biết phòng thi?
+      - Làm sao để biết số báo danh, phòng thi?
 
   - intent: ask_competition_result_process
-  - examples: |
-      - Làm sao để biết [điểm thi]{"entity": "competition_result"}?
-      - Tôi muốn hỏi [điểm thi]{"entity": "competition_result"}
-      - Cho mình hỏi [điểm thi]{"entity": "competition_result"} với ạ
-      - Em muốn biết [điểm thi]{"entity": "competition_result"} ạ
+    examples: |
+      - Làm sao để biết điểm thi?
+      - Tôi muốn hỏi điểm thi
+      - Cho mình hỏi điểm thi với ạ
+      - Em muốn biết điểm thi ạ
 
   - intent: ask_certification_retrieval_immediately
-  - examples: |
-      - Có thể muốn nhận [chứng chỉ]{"entity": "certification"} ngay được không?
-      - Muốn nhận [chứng chỉ]{"entity": "certification"} ngay thì làm thế nào?
-      - Mình muốn nhận [chứng chỉ]{"entity": "certification"} gấp thì làm sao ạ?
+    examples: |
+      - Có thể muốn nhận chứng chỉ ngay được không?
+      - Muốn nhận chứng chỉ ngay thì làm thế nào?
+      - Mình muốn nhận chứng chỉ gấp thì làm sao ạ?
       - Có cấp giấy xác nhận điểm tạm thời không?
 
   - intent: ask_result_paper
-  - examples: |
-      - Em muốn lấy [giấy xác nhận điểm]{"entity": "result_paper"} thì làm sao ạ
-      - Cách nhận [giấy xác nhận điểm]{"entity": "result_paper"}
-      - [giấy xác nhận điểm]{"entity": "result_paper"} lấy như thế nào?
-      - [giấy xác nhận điểm]{"entity": "result_paper"} lấy ở đâu?
+    examples: |
+      - Em muốn lấy giấy xác nhận điểm thì làm sao ạ
+      - Cách nhận giấy xác nhận điểm
+      - giấy xác nhận điểm lấy như thế nào?
+      - giấy xác nhận điểm lấy ở đâu?
 
   - intent: ask_a2_requirement
-  - examples: |
-      - Đăng ký thi [A2]{"entity":"competition_level"} như thế nào?
-      - Đăng ký thi [B1]{"entity":"competition_level"} như thế nào?
-      - Đăng ký thi [B2]{"entity":"competition_level"} như thế nào?
-      - Đăng ký thi [C1]{"entity":"competition_level"} như thế nào?
-      - Đăng ký thi [C2]{"entity":"competition_level"} như thế nào?
-      - Thời gian tổ chức thi [A2]{"entity": "competition_level"}?
-      - Thời gian tổ chức thi [B1]{"entity": "competition_level"}?
-      - Thời gian tổ chức thi [B2]{"entity": "competition_level"}?
-      - Thời gian tổ chức thi [C1]{"entity": "competition_level"}?
-      - Thời gian tổ chức thi [C2]{"entity": "competition_level"}?
+    examples: |
+      - Đăng ký thi [A2](certificate_level) như thế nào?
+      - Đăng ký thi [B1](certificate_level) như thế nào?
+      - Đăng ký thi [B2](certificate_level) như thế nào?
+      - Đăng ký thi [C1](certificate_level) như thế nào?
+      - Đăng ký thi [C2](certificate_level) như thế nào?
+      - Thời gian tổ chức thi [A2](certificate_level)?
+      - Thời gian tổ chức thi [B1](certificate_level)?
+      - Thời gian tổ chức thi [B2](certificate_level)?
+      - Thời gian tổ chức thi [C1](certificate_level)?
+      - Thời gian tổ chức thi [C2](certificate_level)?
 
   - intent: ask_retest_fee
-  - examples: |
-      - Thi lại có được giảm giá [tiền thi]{"entity": "competition_fee"} không?
-      - Thi lại [phí]{"entity": "competition_fee"} như thế nào?
-      - Thi lại [phí]{"entity": "competition_fee"} ra sao?
-      - Thi lại [phí]{"entity": "competition_fee"} có giảm giá không?
-      - Trường hợp em thi lại thì sao?
+    examples: |
+      - Thi lại có được giảm giá tiền thi không?
+      - Thi lại phí như thế nào?
+      - Thi lại phí ra sao?
+      - Thi lại phí có giảm giá không?
+      - trường hợp em thi lại thì sao?
       - Em thi lại có được giảm giá không?
 
   - intent: ask_delay
-  - examples: |
-      - Có thể [dời]{"entity": "delay"} ngày thi được không?
-      - Em muốn [dời]{"entity": "delay"} ngày thi được không ạ?
-      - Mình muốn [dời]{"entity": "delay"} ngày thi thì sao ạ?
+    examples: |
+      - Có thể dời ngày thi được không?
+      - Em muốn dời ngày thi được không ạ?
+      - Mình muốn dời ngày thi thì sao ạ?
 
   - intent: ask_cancel+ask_refund
-  - examples: |
-      - [Không muốn thi]{"entity":"cancel"} nữa thì có được [hoàn] lệ phí thi không?
+    examples: |
+      - Không muốn thi nữa thì có được hoàn lệ phí thi không?
+      - Mình hủy thi thì có được hoàn tiền không
+
+  - intent: ask_refund
+    examples: |
+      - Mình muốn hoàn phí thi
+      - Tới ngày thi không thi được thì trường có trả lại tiền không ạ?
+
+  - intent: ask_cancel
+    examples: |
+      - Mình muốn hủy thi ạ
+      - Đăng ký rồi có hủy thi được không?
+      - Cho hỏi đăng ký rồi có hủy thi được không?
+
+  - intent: ask_exam_room
+    examples: |
+      - Phòng thi ở đâu?
+      - Phòng thi là ở đâu?
+      - Phòng thi ở đâu vậy?
+      - Phòng thi là ở đâu vậy?
+      - Em muốn hỏi về thông tin phòng thi
+      - Em muốn hỏi về phòng thi
+      - Làm sao để biết em thi ở phòng nào?
+      - Làm sao để biết phòng thi của mình?
+      - Hỏi về phòng thi
+      - Hỏi thông tin phòng thi
+
+  - intent: provide_CCCD_number
+    examples: |
+      - CCCD của em là [123456789123](CCCD_number)
+      - Số CMND là [123456789](CCCD_number)
+      - CCCD [123456789123](CCCD_number)
+      - CMND [123456789](CCCD_number)
+      - Căn cước công dân của em là [123456789123](CCCD_number)

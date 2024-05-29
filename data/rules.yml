@@ -1,0 +1,26 @@
+version: "3.1"
+
+rules:
+  - rule: Cung cấp thông tin phòng thi
+    steps:
+      - intent: provide_CCCD_number
+      - action: action_show_exam_room
+  #
+  #- rule: Say goodbye anytime the user says goodbye
+  #  steps:
+  #  - intent: goodbye
+  #  - action: utter_goodbye
+  #
+  #- rule: Say 'I am a bot' anytime the user challenges
+  #  steps:
+  #  - intent: bot_challenge
+  #  - action: utter_iamabot
+  - rule: Chào
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Cảm ơn người dùng
+    steps:
+      - intent: thanks
+      - action: utter_thanks

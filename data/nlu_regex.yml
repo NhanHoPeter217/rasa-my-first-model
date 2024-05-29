@@ -1,0 +1,7 @@
+version: "3.1"
+
+nlu:
+- regex: CCCD_number
+  examples: |
+    - \b\d{9}\b
+    - \b\d{12}\b

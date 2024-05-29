@@ -1,16 +1,50 @@
 version: "3.1"
 
 nlu:
+  ###################
+  ##    Contact    ##
+  ###################
+  - synonym: working_time
+    examples: |
+      - làm việc
+      - giờ làm việc
+      - thời gian làm việc
+      - lịch làm việc
+      - mở cửa
+      - giờ mở cửa
+      - thời gian mở cửa
+      - lịch mở cửa
+      - hoạt động
+      - giờ hoạt động
+      - thời gian hoạt động
+      - lịch hoạt động
+
+  - synonym: contact
+    examples: |
+      - liên hệ
+      - liên lạc
+      - thông tin
+      - thông tin liên hệ
+      - thông tin liên lạc
+      - địa chỉ
+      - địa chỉ liên hệ
+      - địa chỉ liên lạc
+      - email
+      - email liên hệ
+      - email liên lạc
+      - số điện thoại
+      - số điện thoại liên hệ
+      - số điện thoại liên lạc
+      - hotline
+      - hotline liên hệ
+      - hotline liên lạc
+      - số hotline
+      - số hotline liên hệ
+      - số hotline liên lạc
+
   ##############################
   ##    Competition Result    ##
   ##############################
-  - synonym: competition_result
-    examples: |
-      - điểm thi
-      - kết quả thi
-      - điểm
-      - kết quả
-
   - synonym: certificate
     examples: |
       - chứng nhận
@@ -42,6 +76,17 @@ nlu:
   ####################################
   ##    Competition Registration    ##
   ####################################
+  - synonym: SGU
+    examples: |
+      - trường đại học sài gòn
+      - trường
+      - đại học sài gòn
+      - sgu
+      - đại học sg
+      - ĐHSG
+      - SG university
+      - ad
+
   - synonym: competition_room
     examples: |
       - phòng thi
@@ -53,6 +98,18 @@ nlu:
       - mã báo danh
       - sbd
       - số bd
+
+  - synonym: student_id
+    examples: |
+      - mssv
+      - msch
+      - thẻ mssv
+      - thẻ sv
+      - thẻ cao học
+      - thẻ sinh viên
+      - thẻ học viên cao học
+      - mã số sinh viên
+      - mã số học viên cao học
 
   - synonym: delay
     examples: |
@@ -82,8 +139,20 @@ nlu:
   - synonym: refund
     examples: |
       - hoàn
+      - hoàn tiền
+      - hoàn phí
       - hoàn trả
-      - trả lại
+      - hoàn lại tiền
+      - trả lại tiền
+
+  - synonym: level_1
+    examples: |
+      - bậc 1
+      - A1
+      - level 1
+      - level A1
+      - mức 1
+      - mức A1
 
   - synonym: level_2
     examples: |
@@ -91,6 +160,8 @@ nlu:
       - A2
       - level 2
       - level A2
+      - mức 2
+      - mức A2
 
   - synonym: level_3
     examples: |
@@ -98,6 +169,8 @@ nlu:
       - B1
       - level 3
       - level B1
+      - mức 3
+      - mức B1
 
   - synonym: level_4
     examples: |
@@ -105,6 +178,8 @@ nlu:
       - B2
       - level 4
       - level B2
+      - mức 4
+      - mức B2
 
   - synonym: level_5
     examples: |
@@ -112,6 +187,8 @@ nlu:
       - C1
       - level 5
       - level C1
+      - mức 5
+      - mức C1
 
   ######################
   ##    Practicing    ##

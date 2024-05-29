@@ -1,64 +1,56 @@
 version: "3.1"
 
 stories:
-  - story: thanks
+  - story: ask_working_time
     steps:
-      - intent: thanks
-      - action: utter_thanks
-
-  - story: greet
-    steps:
-      - intent: greet
-      - action: utter_greet
-
-  - story: working_time
-    steps:
-      - intent: working_time
+      - intent: ask_working_time
       - action: utter_working_time
 
-  - story: contact
+  - story: ask_contact
     steps:
-      - intent: contact
+      - intent: ask_contact
       - action: utter_contact
 
-  - story: exam_time
+  - story: ask_exam_time
     steps:
-      - intent: exam_time
+      - intent: ask_exam_time
       - action: utter_exam_time
 
-  - story: exam_venue
+  - story: ask_exam_venue
     steps:
-      - intent: exam_venue
+      - intent: ask_exam_venue
       - action: utter_exam_venue
 
-  - story: select_exam_date
+  - story: ask_select_exam_date
     steps:
-      - intent: select_exam_date
+      - intent: ask_select_exam_date
       - action: utter_select_exam_date
 
-  - story: fee_inquiry
+  - story: ask_fee_inquiry
     steps:
-      - intent: fee_inquiry
+      - intent: ask_fee_inquiry
+        entities:
+          - competition_fee: fee
       - action: utter_fee_inquiry
 
-  - story: student_discount
+  - story: ask_student_discount
     steps:
-      - intent: student_discount
+      - intent: ask_student_discount
       - action: utter_student_discount
 
-  - story: late_graduate_discount
+  - story: ask_late_graduate_discount
     steps:
-      - intent: late_graduate_discount
+      - intent: ask_late_graduate_discount
       - action: utter_late_graduate_discount
 
-  - story: exam_registration_docs
+  - story: ask_exam_registration_docs
     steps:
-      - intent: exam_registration_docs
+      - intent: ask_exam_registration_docs
       - action: utter_exam_registration_docs
 
-  - story: certification_requirement
+  - story: ask_certification_requirement
     steps:
-      - intent: certification_requirement
+      - intent: ask_certification_requirement
       - action: utter_certification_requirement
 
   - story: ask_student_id_notarization
@@ -141,12 +133,29 @@ stories:
       - intent: ask_delay
       - action: utter_delay
 
-  - story: ask_cancel
+  - story: Thí sinh hủy thi
     steps:
       - intent: ask_cancel
-      - action: utter_cancel
+        entities:
+          - cancel: competition_cancel
+      - action: utter_refund
 
-  - story: ask_refund
+  - story: Thí sinh hoàn tiền
     steps:
       - intent: ask_refund
+        entities:
+          - refund: refund
       - action: utter_refund
+
+  - story: Thí sinh hủy thi và hoàn tiền
+    steps:
+      - intent: ask_cancel+ask_refund
+        entities:
+          - refund: refund
+          - cancel: competition_cancel
+      - action: utter_refund
+
+  - story: Thí sinh hỏi thông tin phòng thi
+    steps:
+      - intent: ask_exam_room
+      - action: utter_exam_room

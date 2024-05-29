@@ -730,7 +730,7 @@ nlu:
     - ad cho e hỏi bây giờ còn nhận tuyển sinh ngành công nghệ may không ạ
     - thời gian nộp hồ sơ [trường]{"entity":"organization"} mình hết chưa ạ
     - hôm nay em mới gửi học bạ thì có kịp nhập học vào ngày [11 / 9]{"entity":"time"} này không ạ?
-    - vào hôm đăng kí nhập học do vấn đề sức khỏe nên e k đi được vậy bây giờ e có được đăng kí nữa k ạ
+    - vào hôm đăng kí nhập học do vấn đề sức khoẻ nên e k đi được vậy bây giờ e có được đăng kí nữa k ạ
     - e muốn hỏi là h muốn đăng kí vào [trường]{"entity":"organization"} học được k ạ?
     - [trường]{"entity":"organization"} mình h nộp học bạ xin vào [trường]{"entity":"organization"} kịp k ạ
     - hôm nay em lên nhập học luôn đc không ạ
@@ -1249,7 +1249,7 @@ nlu:
   examples: |
     - e ở [miền nam]{"entity":"location"} em muốn hỏi e phải xét ntn?
     - em ở [nước ngoài]{"entity":"location"} thì xét tuyển ra sao ạ
-    - em ở [thanh hóa]{"entity":"location"} thì gửi hồ sơ lâu lắm ạ
+    - em ở [thanh hoá]{"entity":"location"} thì gửi hồ sơ lâu lắm ạ
     - ở tận [miền trung]{"entity":"location"} thì em gửi hồ sơ kiểu gì vậy ạ
     - nếu ở xa thì xét tuyển như thế nào ạ
     - em ở xa thì đăng ký kiểu gì vậy ạ
@@ -1341,7 +1341,7 @@ nlu:
     - bên [trường]{"entity":"organization"} mình đào tạo tất cả bao nhiêu ngành nghề vậy ạ
     - [trường]{"entity":"organization"} mình đào tạo những ngành nghề nào ạ
     - các ngành nghề mà [trường]{"entity":"organization"} đào tạo là gì
-    - e muốn tham khảo chút về khóa học của [trường]{"entity":"organization"} ạk
+    - e muốn tham khảo chút về khoá học của [trường]{"entity":"organization"} ạk
     - [trường]{"entity":"organization"} mình đào tạo bao nhiêu ngành nghề
     - ad cho em hỏi các ngành nghề mà [trường]{"entity":"organization"} đào đạo ạ
     - cho em xin thông tin về các ngành nghề [trường]{"entity":"organization"} đào đạo
@@ -1411,7 +1411,7 @@ nlu:
     - em đăng ký lại có làm sao không ạ
     - có được đăng ký lại tổ hơp xét tuyển không ạ
     - em đăng ký thêm có có được không ad
-    - em được 19 65 điểm thi vừa rồi ,em đăng ký [trường]{"entity":"organization"} mình ở nguyện vọng cuối , bây giờ em muốn học [trường]{"entity":"organization"} mình thì làm thủ tục giấy tờ gì ạ em muốn học nghành tự động hóa ,em ở hải dương ,em ra cơ sở đấy làm thủ tục được kg ạ
+    - em được 19 65 điểm thi vừa rồi ,em đăng ký [trường]{"entity":"organization"} mình ở nguyện vọng cuối , bây giờ em muốn học [trường]{"entity":"organization"} mình thì làm thủ tục giấy tờ gì ạ em muốn học nghành tự động hoá ,em ở hải dương ,em ra cơ sở đấy làm thủ tục được kg ạ
     - chị ơi hôm nay [trường]{"entity":"organization"} mình được thay đổi nguyện vọng ạ em ở hải dương em ra [trường]{"entity":"organization"} thay đổi nguyện vọng được kg ạ 
     - e muốn đổi nguyện vọng thì phải làm như nào ạ
     - e đổi nguyện vọng thì lên cơ sở nào ạ
@@ -1495,8 +1495,8 @@ nlu:
     - cho e hỏi xét học bạ 3 năm hay năm 12 thôi ạ?
     - em muốn đăng kí xét tuyển học bạ ạ
     - h e đăng kí online bằng phương thức xét học bạ thì có cần làm j khác nữa k ạ
-    - không ý em hỏi là trước em đăng kí bằng học học bạ đăng kí ở trên mạng thì [trường]{"entity":"organization"} gửi giấy về cho e rồi bây giờ em muốn hủy đăng kí bằng học bạ em muốn đăng kí bằng số điểm thi toán lý hóa tổng điểm là  5 điểm để em đc vào học lớp tài năng được không ạ trường
-    - bây giờ em muốn đăng kí xét học bạ vào khoa tự đông hóa có được không ạ
+    - không ý em hỏi là trước em đăng kí bằng học học bạ đăng kí ở trên mạng thì [trường]{"entity":"organization"} gửi giấy về cho e rồi bây giờ em muốn huỷ đăng kí bằng học bạ em muốn đăng kí bằng số điểm thi toán lý hoá tổng điểm là  5 điểm để em đc vào học lớp tài năng được không ạ trường
+    - bây giờ em muốn đăng kí xét học bạ vào khoa tự đông hoá có được không ạ
     - cho em hỏi là nay có người ở [trường]{"entity":"organization"} đến gọi bảo em đăng kí học bằng học bạ
     - e muốn xét học bạ thì phải nộp những gì ạ? bg e nộp đc ạ?
     - hiện học bạ bản gốc thì em chưa có , em có bản photto ạ
@@ -1963,7 +1963,7 @@ nlu:
     - e được có 22 ,2 cả điểm vùng ạnhưng e chờ xem điểm của các [trường]{"entity":"organization"} ngoài hà nội có phút hợp với e hay knếu k phù hợp thì e sẽ về [trường]{"entity":"organization"} mình họcvì vậy e muốn hỏi ad nếu e k nhập học bằng học bạ thì sau đó e có thể nhập học vào [trường]{"entity":"organization"} bằng hình thức xét điểm được k ạ
     - em có giấy báo học bạ rồi nhưng muốn đổi cách đăng ký xét tuyển điểm thpt có được không ạ
     - em đổi cách đăng ký xét tuyển điểm thi thpt khi có giấy báo học bạ rồi được không
-    - em mình xét tuyển học bạ thì đỗ rồinếu giờ hủy đi để đợi xét bằng hình thức điểm thi thpt quốc gia thì có làm sao k ạ?
+    - em mình xét tuyển học bạ thì đỗ rồinếu giờ huỷ đi để đợi xét bằng hình thức điểm thi thpt quốc gia thì có làm sao k ạ?
     - e nộp học bạ xét tuyển có giấy báo nhập nhập ngày [11 / 9]{"entity":"time"} nhưng bây giờ em muốn đợi kết quả xét tuyển thpt rồi nhập học vào [trường]{"entity":"organization"} theo điểm thi thpt được không ạ?
     - [trường]{"entity":"organization"} cho em hỏi là em nhỡ đăng kí online của trg và h trg gửi cho em giấy nhập hok ,nhg em muốn xét bằng điểm thi thpt , thì hiện h em o nhập hok đc [11 / 9]{"entity":"time"} mà em đợi đến khi xét đm thpt hoàn thành 27 / 9 , nếu em đỗ thì em có thể nhập hok vào 5 / 10 đc o ạ
 
@@ -2060,9 +2060,9 @@ nlu:
     - em muốn chuyển qua [nghành cntt]{"entity":"majors"} để học [cs3]{"entity":"location"} được kh ạ
     - em muốn chuyển từ [kỹ thuật cơ khí]{"entity":"majors"} sang [kỹ thuật ô tô]{"entity":"majors"} ạ
     - e đăng ký online là [ngành ô tô]{"entity":"majors"} giờ e muốn đăng kí ngành khác được không ạ
-    - thầy cô cho e hỏi e đăng ký rồi nhưng muốn xóa ngành đăng ký đi để chọn vào ngành khác thì phải làm thế nào ạ?
+    - thầy cô cho e hỏi e đăng ký rồi nhưng muốn xoá ngành đăng ký đi để chọn vào ngành khác thì phải làm thế nào ạ?
     - [nhà trường]{"entity":"organization"} cho em hỏi là em dk onl [ngành công nghệ thông tin]{"entity":"majors"} nhưng vẫn chưa có giấy báogiờ em muốn lên [trường]{"entity":"organization"} xin chuyển ngành khác được không ạ
-    - ad ơi em dk [ngành công nghệ thông tin]{"entity":"majors"} ở cs2 nhưng muốn chuyển ngành tự đọng hóa ở [cs1]{"entity":"location"}thì lúc nhập học em đến cơ sở nào để xin chuyển ạ ?
+    - ad ơi em dk [ngành công nghệ thông tin]{"entity":"majors"} ở cs2 nhưng muốn chuyển ngành tự đọng hoá ở [cs1]{"entity":"location"}thì lúc nhập học em đến cơ sở nào để xin chuyển ạ ?
     - em đã có giấy báo nhập học [ngành công nghệ thông tin]{"entity":"majors"} ở [cơ sở 2 ,3]{"entity":"location"} nhưng bây giờ em muốn chuyển sang học ngành tự động hoá chỉ có ở [cơ sở 1]{"entity":"location"} thì phải làm thế nào ạ
     - em đăng kí [ngành công nghệ thông tin]{"entity":"majors"} ở [cơ sở 2 ,3]{"entity":"location"} nhưng bây giờ lại muốn chuyển sang ngành công nghệ kỹ thuật điều khiển và tự động hoá ở [cơ sở 1]{"entity":"location"} thì phải làm thế nào ạ
     - đơnn xin chuyển ngành thì e chỉ có thể xin trong mỗi ngày mai thôi ạ?
@@ -2072,13 +2072,13 @@ nlu:
     - thế thì vàocs 1 em vào chỗ xin chuyển ngành ,rồi tiếp làm thủ tục ạ
     - tại e cần chuyển chuyên ngành mà không biết mẫu đơn ntn
     - bây h em muốn chuyển ngành
-    - tại em dk [ngành công nghệ thông tin]{"entity":"majors"} nhưng muốn chuyển [ngành tự động hóa]{"entity":"majors"} ạ
+    - tại em dk [ngành công nghệ thông tin]{"entity":"majors"} nhưng muốn chuyển [ngành tự động hoá]{"entity":"majors"} ạ
     - bây h em muốn chuyển sang [cơ khí]{"entity":"majors"} ạ
     - em đỗ [kĩ thuật may]{"entity":"majors"} rồi nhưng em muốn chuyển khoa sang [quản trị kinh doanh]{"entity":"majors"} có được không ạ
     - em nhầm < là em đỗ [công nghệ may]{"entity":"majors"} em muốn chuyển khoa sang [quản trị kinh doanh]{"entity":"majors"} được không ạ
     - thầy ơi em muốn chuyển về [trường]{"entity":"organization"} tp được kh
     - lúc vào nhập học có chuyển đc nghành học k ạ
-    - ad em đỗ [nghành kỹ thuật oto]{"entity":"majors"} theo phương thức xét tuyển học bạ giờ muốn chuyển qua [nghành tự động hóa]{"entity":"majors"} phải làm như tn ạ
+    - ad em đỗ [nghành kỹ thuật oto]{"entity":"majors"} theo phương thức xét tuyển học bạ giờ muốn chuyển qua [nghành tự động hoá]{"entity":"majors"} phải làm như tn ạ
     - cái giấy chuyển khẩu thì xin ở đâu ạ
     - ad ơi e có giấy trúng tuyển [ngành quản trị kinh doanh]{"entity":"majors"} giờ e muốn đổi sang [kế toán]{"entity":"majors"} đc ko ạ
     - có cần chuyển cj nx k ạ
@@ -2185,7 +2185,7 @@ nlu:
 
 - intent: refrigeration_targets
   examples: |
-    - [ngành điện lạnh]{"entity":"majors"} và [điều hòa không khí]{"entity":"majors"} còn bao nhiêu chỉ tiêu ạ
+    - [ngành điện lạnh]{"entity":"majors"} và [điều hoà không khí]{"entity":"majors"} còn bao nhiêu chỉ tiêu ạ
     - chỉ tiêu [ngành điện lanh]{"entity":"majors"} là bao nhiêu ạ
     - [ngành điều hoà]{"entity":"majors"} có chỉ tiêu là bao nhiêu ạ
     - [trường]{"entity":"organization"} lấy bao nhiêu chỉ tiêu [ngành điện lanh]{"entity":"majors"} , điều hoà ạ
@@ -2579,11 +2579,11 @@ nlu:
 
 - intent: graphic_design_majors
   examples: |
-    - [thiết kế đồ họa]{"entity":"majors"} ạ
-    - dạ cho e hỏi [thiết kế đồ họa]{"entity":"majors"} thì sau này lm những công vc j ạ
-    - [thiết kế đồ họa đa phương tiênn]{"entity":"majors"} đc học những gì ạ
-    - tôi muốn tìm hiểu về [ngành công nghệ thông tin]{"entity":"majors"} , chuyên [ngành thiết kế đồ họa đa phương tiện]{"entity":"majors"}học chuyên ngành này khả năng việc làm ra sao?
-    - cho em hỏi [trường]{"entity":"organization"} mình có n[gành thiết kế đồ họa]{"entity":"majors"} design kh ạ
+    - [thiết kế đồ hoạ]{"entity":"majors"} ạ
+    - dạ cho e hỏi [thiết kế đồ hoạ]{"entity":"majors"} thì sau này lm những công vc j ạ
+    - [thiết kế đồ hoạ đa phương tiênn]{"entity":"majors"} đc học những gì ạ
+    - tôi muốn tìm hiểu về [ngành công nghệ thông tin]{"entity":"majors"} , chuyên [ngành thiết kế đồ hoạ đa phương tiện]{"entity":"majors"}học chuyên ngành này khả năng việc làm ra sao?
+    - cho em hỏi [trường]{"entity":"organization"} mình có n[gành thiết kế đồ hoạ]{"entity":"majors"} design kh ạ
     - em muốn học [thiết kế đồ hoạ]{"entity":"majors"} ạ
     - [thiết kế đồ hoạ]{"entity":"majors"} là gì ạ
     - [học thiết kế đồ hoạ]{"entity":"majors"} sau này làm gì
@@ -2651,7 +2651,7 @@ nlu:
     - không có chuyên ngành su phạm ạ
     - thầy cô cho em hỏi [trường]{"entity":"organization"} mình hiện có cấp chứng chỉ sư phạm kĩ thuật không ạ
     - e còn 1 thắc mắc nữa đó là sang năm 2 e muốn đăng ký học vào lớp sư phạm thì điều kiện là gì và phải đăng ký ở đâu ạ?
-    - hiện tại có khóa học đào tạo nghiệp vụ sư phạm ở [trường]{"entity":"organization"} chưa ạ
+    - hiện tại có khoá học đào tạo nghiệp vụ sư phạm ở [trường]{"entity":"organization"} chưa ạ
     - [trường]{"entity":"organization"} có đào tạo sư phạm không ạ
     - [trường]{"entity":"organization"} cho em xin thông tin [ngành sư phạm]{"entity":"majors"} với
     - em cần tư vấn [ngành sư phạm]{"entity":"majors"} ạ
@@ -2818,12 +2818,12 @@ nlu:
 - intent: automation_majors
   examples: |
     - em đang đăng ký [ngành điều khiển và tự động hoá]{"entity":"majors"}
-    - cho em hỏi [ngành tự động hóa]{"entity":"majors"} thì học mấy năm ra trường
-    - em học [nghành tự động hóa]{"entity":"majors"} ở [cơ sở 1]{"entity":"location"} chị ạ 
-    - em muốn đăng ký [tự động hóa]{"entity":"majors"} thì cần môn nào ạ
-    - [trường]{"entity":"organization"} mình có [ngành tự động hóa]{"entity":"majors"} và công nghệ chế tạo k ạ
-    - [ngành cơ khí]{"entity":"majors"} [tự động hóa]{"entity":"majors"} ở [khoái châu]{"entity":"location"} có ko ạ
-    - có thể cho em xin tên và mã ngành [tự động hóa]{"entity":"majors"} đc k ạ
+    - cho em hỏi [ngành tự động hoá]{"entity":"majors"} thì học mấy năm ra trường
+    - em học [nghành tự động hoá]{"entity":"majors"} ở [cơ sở 1]{"entity":"location"} chị ạ 
+    - em muốn đăng ký [tự động hoá]{"entity":"majors"} thì cần môn nào ạ
+    - [trường]{"entity":"organization"} mình có [ngành tự động hoá]{"entity":"majors"} và công nghệ chế tạo k ạ
+    - [ngành cơ khí]{"entity":"majors"} [tự động hoá]{"entity":"majors"} ở [khoái châu]{"entity":"location"} có ko ạ
+    - có thể cho em xin tên và mã ngành [tự động hoá]{"entity":"majors"} đc k ạ
     - ad cho e hoi trg mk năm nay có xét tuyển [ngành điện tự động hoá]{"entity":"majors"} k vậy?
     - ở [trường]{"entity":"organization"} có [ngành tự động hoá]{"entity":"majors"} k ạ
     - [nghành tự động hoá]{"entity":"majors"} lấy bao nhiêu chỉ tiêu ạ
@@ -2836,12 +2836,12 @@ nlu:
     - bây giờ nộp hồ sơ vào [tự động hoá công nghiệp]{"entity":"majors"} có được k ạ
     - e học [ngành điện tự động hoá]{"entity":"majors"} ah
     - em hiện tại đang học [ngành điều khiển tự động hoá]{"entity":"majors"}
-    - em định thi [tự động hóa]{"entity":"majors"} ạ
+    - em định thi [tự động hoá]{"entity":"majors"} ạ
     - e học [ngành công nghệ kĩ thuật điều khiển và tự động hoá]{"entity":"majors"} thì học ở đâu ạ
     - ad cho e hỏi với e mới đăng kí xét tuyển online [ngành công nghệ kỹ thuật điều khiển và tự động hoá]{"entity":"majors"} mới có năm nay của trường 
     - [điều khiển và tự động hoá]{"entity":"majors"} đào tạo tại đâu
     - [điều khiển và tự động hoá]{"entity":"majors"} dạy ở cơ sở nào
-    - [cn kĩ thuật cơ khí]{"entity":"majors"} vs [cn kt tự động hóa]{"entity":"majors"}
+    - [cn kĩ thuật cơ khí]{"entity":"majors"} vs [cn kt tự động hoá]{"entity":"majors"}
 
 - intent: mechatronics_majors
   examples: |
@@ -4278,7 +4278,7 @@ nlu:
 
 - intent: ask_school_training_weld
   examples: |
-    - cho e hoi bên m có khóa đào tạo về ngành hàn xì k ạ
+    - cho e hoi bên m có khoá đào tạo về ngành hàn xì k ạ
     - hàn xì ạ
     - cho em hỏi [trường]{"entity":"organization"} có đào tạo hàn xì khỗng
     - [trường]{"entity":"organization"} mình có đào tạo hàn xì không ạ
