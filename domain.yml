@@ -61,6 +61,9 @@ responses:
   - text: Chào bạn, trường đại học Sài Gòn có thể giúp gì cho bạn?
   - text: Chào em, em cần gì?
 
+  utter_rephrase:
+  - text: Xin lỗi, hiện tại mình chưa hiểu ý bạn. Bạn có thể nói lại được không?
+
   utter_working_time:
   - text: "Thời gian làm việc của Trường ạ:
 Từ Thứ 2 đến Thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 17h) ; thứ 7 (sáng từ 8h00 - 11h30)"
