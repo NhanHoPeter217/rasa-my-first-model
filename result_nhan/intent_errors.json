@@ -1,0 +1,90 @@
+[
+  {
+    "text": "thẻ sv công chứng không ạ?",
+    "intent": "ask_student_id_notarization",
+    "intent_prediction": {
+      "name": "ask_certification_requirement",
+      "confidence": 0.5889642238616943
+    }
+  },
+  {
+    "text": "Muốn nhờ người nhận giùm thì cần giấy tờ gì?",
+    "intent": "intercede_certification_retrieval",
+    "intent_prediction": {
+      "name": "ask_certification_retrieval_requirement",
+      "confidence": 0.30206072330474854
+    }
+  },
+  {
+    "text": "Bao giờ có chứng chỉ?",
+    "intent": "ask_competition_certification_date",
+    "intent_prediction": {
+      "name": "ask_certification_retrieval_requirement",
+      "confidence": 0.500632107257843
+    }
+  },
+  {
+    "text": "Mình muốn hoàn phí thi",
+    "intent": "ask_refund",
+    "intent_prediction": {
+      "name": "ask_cancel+ask_refund",
+      "confidence": 0.6357710957527161
+    }
+  },
+  {
+    "text": "Liên hệ với trường như thế nào?",
+    "intent": "ask_contact",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Mình muốn hủy thi ạ",
+    "intent": "ask_cancel",
+    "intent_prediction": {
+      "name": "ask_competition_result_process",
+      "confidence": 0.368348628282547
+    }
+  },
+  {
+    "text": "Làm sao để biết điểm thi?",
+    "intent": "ask_competition_result_process",
+    "intent_prediction": {
+      "name": "ask_competition_information",
+      "confidence": 0.688277006149292
+    }
+  },
+  {
+    "text": "Có cấp giấy xác nhận điểm tạm thời không?",
+    "intent": "ask_certification_retrieval_immediately",
+    "intent_prediction": {
+      "name": "ask_certification_requirement",
+      "confidence": 0.3127835988998413
+    }
+  },
+  {
+    "text": "sinh viên năm thứ năm có được giảm tiền không?",
+    "intent": "ask_late_graduate_discount",
+    "intent_prediction": {
+      "name": "ask_student_discount",
+      "confidence": 0.8950800895690918
+    }
+  },
+  {
+    "text": "em thắc mắc chỗ 1 đăng kí xét tuyển ạ",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_competition_registration_process",
+      "confidence": 0.3570157587528229
+    }
+  },
+  {
+    "text": "trường ới",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "ask_student_discount",
+      "confidence": 0.28654906153678894
+    }
+  }
+]

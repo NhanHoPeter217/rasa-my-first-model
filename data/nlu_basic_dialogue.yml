@@ -192,7 +192,7 @@ nlu:
 
   - intent: greet
     examples: |
-      - em xin chào [trường đại học sài gòn]{"entity":"organization"} ạ
+      - em xin chào trường đại học sài gòn ạ
       - hello ad
       - hi ad
       - hí
@@ -207,27 +207,27 @@ nlu:
       - dạ cho em hỏi ạ
       - cô ơi
       - admin ơi
-      - em muốn đc [nhà trường]{"entity":"organization"} tư vấn thêm
+      - em muốn đc nhà trường tư vấn thêm
       - em muốn được tư vấn ạ
       - tư vấn cho e đc k ạ
-      - e muốn [trường]{"entity":"organization"} tư vấn cho e 1 vài vấn đề được không ạ
+      - e muốn trường tư vấn cho e 1 vài vấn đề được không ạ
       - admin tư vấn giúp em với
       - e cần tư vấn tuyển sinh a
       - em muốn nhờ ad tư vấn ạ
       - mong thầy cô tư vấn cho e ạ e cảm ơn
-      - [trường]{"entity":"organization"} có tiện tư vấn cho em không ạ
+      - trường có tiện tư vấn cho em không ạ
       - e cần tư vấn ạ
       - dạ ac có thể tư vấn cho e với ạ
       - add có thể tư vấn cho e được ko ạ
       - ad có thể tư vấn giúp mình không ạ
-      - [trường]{"entity":"organization"} có thể tư vấn giúp e về tuyển sinh được k ạ
+      - trường có thể tư vấn giúp e về tuyển sinh được k ạ
       - chào ad ad có thể tư vấn cho e 1 chút được không ạ?
       - bạn tư vấn hệ đó giúp mình với ạ
       - ac có thể tư vấn cho e chút dk a
-      - [trường]{"entity":"organization"} tư vấn thêm cho em về tuyển sinh với ạ
-      - [nhà trường]{"entity":"organization"} có thể tư vấn giúp em
+      - trường tư vấn thêm cho em về tuyển sinh với ạ
+      - nhà trường có thể tư vấn giúp em
       - em muốn đc tư vấn ạ
-      - e muốn nhờ [trường]{"entity":"organization"} tư vấn được k ạ
+      - e muốn nhờ trường tư vấn được k ạ
       - e chào thầy / cô e cần được tư vấn ạ
       - e muốn đc tư vấn về trường
       - chào ạ em muốn tư vấn tuyển sinh ạ
@@ -235,18 +235,18 @@ nlu:
       - thầy cô ơi
       - anh ơi
       - mà anh ơi
-      - [trường]{"entity":"organization"} ơi
-      - [trường]{"entity":"organization"} ới
+      - trường ơi
+      - trường ới
       - e là học sinh lớp 12 và e có 1 số thắc mắc về trườngad có thể giải đáp e k ạ?
       - mong thầy cô tu vấn cho em sớm ạ
       - mong thầy cô giải đáp giúp em ạ
-      - [nhà trường]{"entity":"organization"} cho hỏi
-      - [nhà trường]{"entity":"organization"} cho em hỏi
-      - [nhà trường]{"entity":"organization"} ơi
-      - [nhà trường]{"entity":"organization"} cho e hỏi tí ạ
-      - [nhà trường]{"entity":"organization"} cho em hỏi ạ
+      - nhà trường cho hỏi
+      - nhà trường cho em hỏi
+      - nhà trường ơi
+      - nhà trường cho e hỏi tí ạ
+      - nhà trường cho em hỏi ạ
       - cho e hỏi mấy vấn đề với ad ơi?
-      - [trường]{"entity":"organization"} cho e hỏi ạ
+      - trường cho e hỏi ạ
       - anh chị có thể bớt chút thời gian giúp em đc k ạ
       - cho em hỏi ạ!!!
       - cho e hỏi ạ 
@@ -256,28 +256,28 @@ nlu:
       - xin giải đáp ạ
       - mong ad giúp đỡ mk ak!
       - mong ad có thể bớt chút thời gian giải thắc mắc này giúp emem cảm ơn ad ạ
-      - mong [trường]{"entity":"organization"} giải đáp
+      - mong trường giải đáp
       - mong ad giúp em với
       - dạ cho em hỏi luôn
       - dạ cho e hỏi
       - ad ơi cho em thắc mắc thêm 1 chuyện nữa là
       - em có chuyện thắc mắc
-      - [trường]{"entity":"organization"} ơi , cho em hỏi ạ
+      - trường ơi , cho em hỏi ạ
       - cho em hỏi nốt ạ
       - cho e hỏi là
-      - ad giải thích giúp e 1 số thắc mắc về [trường]{"entity":"organization"} đc không ạ
+      - ad giải thích giúp e 1 số thắc mắc về trường đc không ạ
       - dạ vâng , e nhiều thắc mắc lên hỏi ạ
       - thầy trả lời cho e đúng k ạ em thắc mắc
       - em hơi thắc mắc
       - nhà trương em có thắc mắc muốn hỏi a
       - e có chút thắc mắc ạ
       - em có chút thắc mắc muốn tư vấn ạ!
-      - [nhà trường]{"entity":"organization"} ơi e có thắc mắc muốn hỏi
+      - nhà trường ơi e có thắc mắc muốn hỏi
       - em có 1 số thắc mắc về tuyển sinh ạ
       - e đang thắc mắc đc ad giải thích e cảm ơn ad nhìu ạ
       - em thắc mắc chỗ 1 đăng kí xét tuyển ạ
       - cho em hỏi vấn đề này với ạ
-      - dạ [trường]{"entity":"organization"} ơi cho e hỏi ạ
+      - dạ trường ơi cho e hỏi ạ
       - cho mình hỏi nữa là
       - cô cho em hỏi là
       - nhưng hiện tại em có vấn đề như này ạ
@@ -285,24 +285,24 @@ nlu:
       - ơ cho e hỏi
       - thế cho e hỏi
       - cho e hỏi lại
-      - [trường]{"entity":"organization"} ơi cho em hỏi
-      - dạ [trường]{"entity":"organization"} mình cho em hỏi ạ
+      - trường ơi cho em hỏi
+      - dạ trường mình cho em hỏi ạ
       - e muốn hỏi
       - e muốn hỏi cho bạn
       - em muốn hỏi
       - cho em hỏi chút ạ
       - dạ cho em hỏi là: em năm
-      - [trường]{"entity":"organization"} cho e hỏi là
+      - trường cho e hỏi là
       - thầy ơi cho em hỏi ạ
       - vậy cho em hỏi
       - tôi có câu hỏibạn có thể trợ giúp không? ad ơi
       - cho e hỏi chút đc không ạ
       - ad ơi cho em hỏi chút ạ
       - cho em hỏi chút với ạ?
-      - [nhà trường]{"entity":"organization"} cho mình hỏi chút ạ
+      - nhà trường cho mình hỏi chút ạ
       - ad ơi cho mình hỏi chút với
       - mình muốn hỏi chút
-      - [nhà trường]{"entity":"organization"} cho e hỏi 1 chút
+      - nhà trường cho e hỏi 1 chút
       - dạ cho e hỏi chút được không ạ
       - add cho e hỏi chút
       - cho e hỏi chút ạ
@@ -315,7 +315,7 @@ nlu:
       - dạ cho em hỏi chút được không ạ?
       - các thầy cô cho e hỏi một chút được không ạ
       - ad ơi cho em hỏi một chút ạ
-      - [nhà trường]{"entity":"organization"} cho e hỏi chút ạk
+      - nhà trường cho e hỏi chút ạk
       - dạ cho mình hỏi chút ạ
       - em muốn hỏi một chút ạ
       - ad ơi cho e hỏi chút đc không ạ
@@ -344,7 +344,7 @@ nlu:
       - dạ mong ad trả lời giúp em ơi ạ
       - e muon hỏi
       - cho e hỏi ít đc k ạ
-      - [trường]{"entity":"organization"} cho em hỏi 1 số vấn đề ạ
+      - trường cho em hỏi 1 số vấn đề ạ
       - mong ad trả lời giúp em với ạ
       - xin chào em muốn hỏi 1 số câu hỏi ạ
       - page ơiem có một số câu hỏi page trả lời giúp em với ạ
@@ -367,13 +367,13 @@ nlu:
       - cho e hỏi vs ạ
       - ad cho em hỏi vs ạ
       - cho e hỏi vs ad
-      - [nhà trường]{"entity":"organization"} cho em hỏi vs ạ?
+      - nhà trường cho em hỏi vs ạ?
       - dạ em có nguyện vọng học ở trường
-      - dạ [trường]{"entity":"organization"} mình cho em hỏi với ạ
+      - dạ trường mình cho em hỏi với ạ
       - ad cho e hỏi mục 7 với ạ
       - ad chỉ mình với
       - add ơi add cho em hỏi với ạ
-      - [nhà trường]{"entity":"organization"} cho em hỏi với ạ
+      - nhà trường cho em hỏi với ạ
       - rep em với ạ
       - page ơi em hỏi với đc ko ạ
       - dạ cho e hỏi với
@@ -386,11 +386,11 @@ nlu:
       - ad cho em hỏi với ạ
       - add ơi cho e hỏi với ạ
       - a chị cho e hỏi với ạ
-      - [trường]{"entity":"organization"} ơi cho e hỏi với ạ
+      - trường ơi cho e hỏi với ạ
       - ad ơi cho e hỏi 1 việc với ạ
       - ad cho e hỏi ngoài lề tí với
       - ad ơi cho em hỏi với ạ
-      - [nhà trường]{"entity":"organization"} cho e hỏi thêm với ạ
+      - nhà trường cho e hỏi thêm với ạ
       - ad cho e hỏi ạ !!
       - dạ ad ơi cho em hỏi
       - ad cho em hỏi ,
@@ -411,13 +411,13 @@ nlu:
       - e chào cô ạ
       - em chào thầy , cô ạ
       - xin chào ạ
-      - em chào [nhà trường]{"entity":"organization"} ạ
-      - em xin chào [nhà trường]{"entity":"organization"} ạ
-      - xin chào [trường]{"entity":"organization"} ạ
-      - e chào [nhà trường]{"entity":"organization"} ạ
+      - em chào nhà trường ạ
+      - em xin chào nhà trường ạ
+      - xin chào trường ạ
+      - e chào nhà trường ạ
       - xin chào nhé
-      - em chào [nhà trường]{"entity":"organization"} ạ !
-      - dạ em chào [nhà trường]{"entity":"organization"} ạ
+      - em chào nhà trường ạ !
+      - dạ em chào nhà trường ạ
       - em chào thầy cô!
       - dạ e chào thầy cô ạ
       - em chào thầy cô
@@ -429,17 +429,17 @@ nlu:
       - e chào thầy cô ạ
       - dạ em chào thầy / cô ạ
       - dạ em chào admin
-      - chào admin của [trường]{"entity":"organization"} skh
+      - chào admin của trường skh
       - chào chị
       - dạ em chào ad ạ
-      - e chào [trường]{"entity":"organization"} ạ
+      - e chào trường ạ
       - em chào ạ
       - xin chào ad
       - chào ad !
-      - em chào [trường]{"entity":"organization"} ạ
+      - em chào trường ạ
       - e chào ad
       - chào add
-      - chào [trường]{"entity":"organization"} ạ 
+      - chào trường ạ 
       - em chào page ạ
       - e chào ad ạ 
       - chào ad 

@@ -27,7 +27,7 @@ pipeline:
     model_name: bert
     model_weights: rasa/LaBSE
     cache_dir: null # change in the future to a path in server-side
-#  - name: CRFEntityExtractor
+  #  - name: CRFEntityExtractor
   - name: DIETClassifier
     epochs: 400
     constrain_similarities: true
