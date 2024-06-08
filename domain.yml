@@ -61,6 +61,9 @@ responses:
   - text: Chào bạn, trường đại học Sài Gòn có thể giúp gì cho bạn?
   - text: Chào em, em cần gì?
 
+  utter_rephrase:
+  - text: Xin lỗi, hiện tại mình chưa hiểu ý bạn. Bạn có thể nói lại được không?
+
   utter_working_time:
   - text: "Thời gian làm việc của Trường ạ:
 Từ Thứ 2 đến Thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 17h) ; thứ 7 (sáng từ 8h00 - 11h30)"
@@ -88,9 +91,9 @@ Từ Thứ 2 đến Thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 
 
   utter_exam_registration_docs:
   - text: "1. Phiếu đăng ký thi (tải ở thông báo ghi danh) hoặc lấy trực tiếp ở Phòng ghi danh\n
-           2. 2 ảnh 2x6\n
-           3. Photo CCCD/CMND/Hộ chiếu\n
-           4. Photo thẻ viên chức hoặc thẻ sinh viên, học viên còn hạn/ Giấy xác nhận sinh viên, học viên (đối với viên chức, học viên, sinh viên, học sinh Trường Đại học Sài Gòn, Trường Trung học Thực hành Sài Gòn, Trường Tiểu học Thực hành Đại học Sài Gòn)"
+          2. 2 ảnh 2x6\n
+          3. Photo CCCD/CMND/Hộ chiếu\n
+          4. Photo thẻ viên chức hoặc thẻ sinh viên, học viên còn hạn/ Giấy xác nhận sinh viên, học viên (đối với viên chức, học viên, sinh viên, học sinh Trường Đại học Sài Gòn, Trường Trung học Thực hành Sài Gòn, Trường Tiểu học Thực hành Đại học Sài Gòn)"
 
   utter_certification_requirement:
   - text: "Hiện tại chưa bắt buộc phải công chứng"
