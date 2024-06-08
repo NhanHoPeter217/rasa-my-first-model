@@ -6,11 +6,17 @@ from rasa.engine.storage.resource import Resource
 from rasa.engine.storage.storage import ModelStorage
 from rasa.shared.nlu.training_data.message import Message
 
+# Path to the stopword file
+stopword_file = "pipelines/vietnamese-stopwords.txt"
+
+# List of symbols to remove
+symbols = "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~"
+
 @DefaultV1Recipe.register(
     [DefaultV1Recipe.ComponentType.INTENT_CLASSIFIER], is_trainable=False
 )
 
-class ToneNormalization(GraphComponent):
+class Preprocesser(GraphComponent):
     @classmethod
     def create(
         cls,
@@ -20,19 +26,46 @@ class ToneNormalization(GraphComponent):
         execution_context: ExecutionContext
     ) -> GraphComponent:
         
-        print('initialised Tone Normalization')
-        
+        print('initialising Preprocesser')
+
+        print('initialising Stop Words Removal')
+        with open(stopword_file, "r") as f:
+            cls.stopwords = set(word.strip() for word in f)
+
         return super().create(config, model_storage, resource, execution_context)
 
+  
     def process(self, messages: List[Message]) -> List[Message]:
-        print('processing Tone Normalizing...')
-        # Normalize user input
+
+        # Preprocess user input
         for message in messages:
-            message.set("text", message.get("text"))
-        
+            text_preprocess(message)
+
         return messages
 
-def replace_all(text: str) -> str:
+def text_preprocess(message: Message) -> None:
+    sentence : str = message.get("text")
+    
+    # Remove symbols
+    for i in symbols:
+        sentence = sentence.replace(i, "")
+
+    # Remove stop words
+    sentence = replace_stop_word(sentence)
+    
+    # Tone Normalize
+    sentence = replace_tone(sentence)
+
+    message.set("text", sentence)
+    return
+    
+def replace_stop_word(text: str) -> str:
+    for i in Preprocesser.stopwords:
+        text.replace(i,"")
+    return text
+
+
+def replace_tone(text: str) -> str:
     dict_map = {
         "òa": "oà",
         "Òa": "Oà",
