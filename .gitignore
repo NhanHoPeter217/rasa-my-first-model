@@ -3,9 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
 # Distribution / packaging
 .Python
 build/
@@ -170,5 +167,5 @@ pipelines/VnCoreNLP/VnCoreNLP-1.2.jar
 
 
 train_test_split/
-results/
-results*
+results**/
+data_preprocessed/
