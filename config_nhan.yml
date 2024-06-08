@@ -15,7 +15,11 @@ pipeline:
   # If you'd like to customize it, uncomment and adjust the pipeline.
   # See https://rasa.com/docs/rasa/tuning-your-model for more information.
   - name: pipelines.ToneNormalization.ToneNormalization
-  - name: WhitespaceTokenizer
+#  - name: WhitespaceTokenizer
+#  - name: pipelines.WhitespaceTokenizer._WhitespaceTokenizer
+  - name: SpacyNLP
+    model: "vi_core_news_lg"
+    case_sensitive: False
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
@@ -29,7 +33,7 @@ pipeline:
     cache_dir: null # change in the future to a path in server-side
   #  - name: CRFEntityExtractor
   - name: DIETClassifier
-    epochs: 400
+    epochs: 100
     constrain_similarities: true
   - name: EntitySynonymMapper
   - name: FallbackClassifier
