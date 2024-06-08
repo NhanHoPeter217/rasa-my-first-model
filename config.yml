@@ -14,38 +14,30 @@ pipeline:
   # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
   # If you'd like to customize it, uncomment and adjust the pipeline.
   # See https://rasa.com/docs/rasa/tuning-your-model for more information.
-  - name: SpacyNLP
-    model: "vi_core_news_lg"
-    case_sensitive: False
-#  - name: SpacyTokenizer
-#  - name: SpacyFeaturizer
-#  - name: SpacyEntityExtractor
-#    dimensions: [ "working_time", "contact", "organization", "practice", "certification", "competition_information", "competition_result", "result_paper", "competition_level", "competition_fee", "delay", "refund", "cancel" ]
-#    dimensions: [ "time", "date", "money", "percent", "language", "person", "location", "organization", "event", "product", "work_of_art", "law", "quantity", "ordinal", "cardinal" ]
   - name: pipelines.ToneNormalization.ToneNormalization
-  #   - name: WhitespaceTokenizer
-  #     intent_tokenization_flag: True
-  #     intent_split_symbol: "+"
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
-    analyzer: char_wb
+    analyzer: word
     min_ngram: 1
     max_ngram: 4
+  - name: LanguageModelFeaturizer # output: dense_feature
+    model_name: bert
+    model_weights: rasa/LaBSE
+    cache_dir: null # change in the future to a path in server-side
+#  - name: CRFEntityExtractor
   - name: DIETClassifier
-    epochs: 100
+    epochs: 400
     constrain_similarities: true
   - name: EntitySynonymMapper
-#  - name: RegexEntityExtractor
-#    use_lookup_tables: true
-#  - name: ResponseSelector # just use for retrieval-based models
-#    epochs: 100
-#    constrain_similarities: true
   - name: FallbackClassifier
     threshold: 0.3
     ambiguity_threshold: 0.1
+  - name: ResponseSelector
+    epochs: 100
+    constrain_similarities: true
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

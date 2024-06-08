@@ -3,6 +3,7 @@ version: "3.1"
 nlu:
   - intent: ask_working_time
     examples: |
+      - thời gian làm việc
       - Khi nào thì trường mở cửa?
       - Giờ làm việc của trường là khi nào?
       - Thời gian làm việc của trường là bao lâu?
@@ -11,6 +12,9 @@ nlu:
 
   - intent: ask_contact
     examples: |
+      - liên hệ
+      - liên lạc
+      - địa chỉ liên lạc
       - Liên hệ với trường như thế nào?
       - Thông tin liên hệ của trường là gì?
       - Địa chỉ liên hệ của trường là gì?
@@ -31,8 +35,8 @@ nlu:
   - intent: ask_select_exam_date
     examples: |
       - có được chọn ngày thi không?
-      - lựa chọn ngày thi
-      - Thông báo để 2 ngày thi, có thể lựa ngày thi không?
+      - lựa chọn ngày thiT
+      - thông báo để 2 ngày thi, có thể lựa ngày thi không?
 
   - intent: ask_fee_inquiry
     examples: |
@@ -60,6 +64,10 @@ nlu:
       - cao học viên của trường có giảm tiền không?
       - sinh viên có ưu đãi giảm giá không?
       - học viên cao học được giảm giá không?
+      - Em hiện đang là sinh viên của trường, vậy em có được giảm lệ phí thi không ạ?
+      - Em đang học tại trường, có giảm giá cho sinh viên không?
+      - Là học viên của trường, em có nhận được ưu đãi gì không?
+      - Em là sinh viên của trường, có giảm phí không?
 
   - intent: ask_late_graduate_discount
     examples: |
@@ -71,9 +79,11 @@ nlu:
       - tốt nghiệp trễ có giảm giá không?
       - sinh viên trễ tốt nghiệp được giảm lệ phí không?
       - tốt nghiệp muộn được giảm tiền không?
+      - sinh viên tốt nghiệp không đúng thời hạn có giảm lệ phí thi không?
 
   - intent: ask_exam_registration_docs
     examples: |
+      - hồ sơ đăng ký thi
       - hồ sơ đăng ký thi bao gồm gì?
       - cần những giấy tờ nào để đăng ký thi?
       - để đăng ký thi cần những hồ sơ gì?
@@ -92,6 +102,8 @@ nlu:
 
   - intent: ask_student_id_notarization
     examples: |
+      - thẻ sinh viên không công chức được thì thế nào
+      - thẻ học viên cao học không công chứng được thì thế nào
       - Thẻ sinh viên có cần công chứng không?
       - thẻ sv công chứng không ạ?
 
@@ -101,7 +113,7 @@ nlu:
       - Mình cần làm gì để đăng ký thi?
       - Các bước đăng ký thi bao gồm những gì?
       - Thủ tục đăng ký thi là gì?
-      - Đăng ký thi như thế nào?
+      - đăng ký thi như thế nào?
 
   - intent: competition_registration_process_far
     examples: |
@@ -109,16 +121,19 @@ nlu:
       - Có cách nào để đăng ký thi từ xa không?
       - Tôi ở xa, có thể đăng ký thi trực tuyến được không?
       - Cần làm gì để hoàn tất thủ tục đăng ký thi từ xa?
-      - Ở xa thì đăng ký như thế nào?
+      - ở xa thì đăng ký thi như thế nào?
 
   - intent: ask_practice_papers
     examples: |
+      - Học ôn luện
+      - Tài liệu ôn thi
       - Bên mình có tài liệu ôn thi không ạ?
       - Cho hỏi có tài liệu ôn thi không ạ?
       - Có nhận ôn luyện không ạ?
 
   - intent: ask_certification_retrieval_place
     examples: |
+      - nhận chứng chỉ ở đâu
       - Nhận chứng chỉ ở đâu vậy ạ?
       - Tôi có thể nhận chứng chỉ ở đâu?
       - Địa điểm nhận chứng chỉ là ở đâu?
@@ -129,7 +144,7 @@ nlu:
     examples: |
       - Cách để nhận chứng chỉ?
       - Cách lấy chứng chỉ?
-      - Nhận chứng chỉ thì cầm theo gì?
+      - Nhận chứng chỉ thì cần cầm theo gì?
       - Nhận chứng chỉ cầm gì?
       - Lấy chứng chỉ cần cầm gì?
       - Lấy chứng chỉ thì cầm theo gì?
