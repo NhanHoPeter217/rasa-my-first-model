@@ -9,6 +9,16 @@ nlu:
       - Thời gian làm việc của trường là bao lâu?
       - Lịch làm việc của trường là gì?
       - Mở cửa vào lúc mấy giờ?
+      - Trường bắt đầu làm việc lúc nào?
+      - Trường đóng cửa lúc mấy giờ?
+      - Giờ mở cửa và đóng cửa của trường là gì?
+      - Thời gian hoạt động hàng ngày của trường là khi nào?
+      - Trường làm việc từ mấy giờ đến mấy giờ?
+      - Trường có làm việc vào cuối tuần không?
+      - Thời gian làm việc của trường trong tuần như thế nào?
+      - Trường có mở cửa vào ngày lễ không?
+      - Khi nào thì trường nghỉ trưa?
+      - Giờ hành chính của trường là khi nào?
 
   - intent: ask_contact
     examples: |
@@ -18,6 +28,15 @@ nlu:
       - Liên hệ với trường như thế nào?
       - Thông tin liên hệ của trường là gì?
       - Địa chỉ liên hệ của trường là gì?
+      - Làm thế nào để liên lạc với trường?
+      - Cách liên hệ với trường như thế nào?
+      - Thông tin liên lạc cụ thể của trường là gì?
+      - Làm thế nào để tìm địa chỉ của trường?
+      - Có phương tiện nào để liên lạc với trường không?
+      - Trường có cung cấp thông tin liên lạc trên trang web không?
+      - Làm thế nào để biết địa chỉ của trường?
+      - Thông tin liên hệ cụ thể như số điện thoại và email của trường là gì?
+      - Có cách nào khác để liên hệ với trường ngoài việc gọi điện không?
 
   - intent: ask_exam_time
     examples: |
@@ -25,18 +44,51 @@ nlu:
       - khi nào tổ chức thi
       - thời gian thi là gì
       - lịch thi
+      - Khi nào là kỳ thi tiếp theo?
+      - Lịch thi của trường đã được công bố chưa?
+      - Thời gian tổ chức kỳ thi sắp tới là khi nào?
+      - Lịch thi năm nay đã được thông báo chưa?
+      - Có thông tin về thời gian và địa điểm thi không?
+      - Lịch thi của học kỳ này sẽ được công bố vào lúc nào?
+      - Khi nào thì học sinh có thể biết được lịch thi của mình?
+      - Có cách nào để kiểm tra lịch thi trên trang web của trường không?
+      - Thời gian và địa điểm thi có thể tìm ở đâu?
+      - Làm sao để biết thời gian thi nếu không có thông tin chính thức?
 
   - intent: ask_exam_venue
     examples: |
       - địa điểm tổ chức thi
       - nơi tổ chức thi
       - địa điểm thi là ở đâu
+      - Trường tổ chức thi ở đâu?
+      - Nơi tổ chức kỳ thi là ở đâu?
+      - Địa điểm thi của trường nằm ở đâu?
+      - Khi thi sắp tới sẽ tổ chức ở đâu?
+      - Trường đã xác định địa điểm thi chưa?
+      - Có thông tin về địa điểm thi không?
+      - Làm sao để biết địa điểm thi của mình?
+      - Nơi thi được thông báo ở đâu?
+      - Thông tin về địa điểm thi có ở trên trang web không?
+      - Lịch thi cũng bao gồm thông tin về địa điểm không?
+      - Làm thế nào để xác định địa điểm thi nếu không có thông tin chính thức?
 
   - intent: ask_select_exam_date
     examples: |
       - có được chọn ngày thi không?
-      - lựa chọn ngày thiT
+      - lựa chọn ngày thi
       - thông báo để 2 ngày thi, có thể lựa ngày thi không?
+      - Học sinh có thể chọn ngày thi không?
+      - Có sự linh hoạt trong việc chọn ngày thi không?
+      - Người thi có thể tự chọn ngày thi của mình không?
+      - Có phương án nào để thay đổi ngày thi không?
+      - Trường có cho phép học sinh chọn ngày thi theo mong muốn không?
+      - Làm thế nào để yêu cầu thay đổi ngày thi?
+      - Ngày thi có thể điều chỉnh được không?
+      - Có cơ hội lựa chọn ngày thi trong một phạm vi nào đó không?
+      - Học sinh có thể yêu cầu thay đổi ngày thi không?
+      - Có phương thức nào để đề xuất ngày thi thay đổi không?
+      - Làm sao để biết liệu có thể chọn ngày thi hay không?
+      - Trường có cung cấp tùy chọn lựa chọn ngày thi không?
 
   - intent: ask_fee_inquiry
     examples: |
@@ -52,10 +104,19 @@ nlu:
       - lệ phí thi là mấy ạ?
       - giá thi của trường là bao nhiêu?
       - lệ phí thi trường tổ chức là bao nhiêu?
+      - Làm sao để biết chi phí thi là bao nhiêu?
+      - Cần phải trả bao nhiêu để đăng ký thi?
+      - Lệ phí thi có thể thay đổi không?
+      - Lệ phí thi có bao gồm các chi phí khác không?
+      - Trường có cung cấp thông tin về lệ phí thi không?
+      - Có phương thức nào để thanh toán lệ phí thi không?
+      - Lệ phí thi có được thông báo trước không?
+      - Làm thế nào để biết giá thi cụ thể?
+      - Lệ phí thi có khác nhau cho từng kỳ thi không?
 
   - intent: ask_student_discount
     examples: |
-      - là sinh viên của trường có được giảm tiền không? 
+      - là sinh viên của trường có được giảm tiền không?
       - là học viên cao học của trường có được giảm tiền không?
       - học viên cao học của trường được giảm tiền không?
       - có giảm giá cho sinh viên của trường không?
@@ -68,6 +129,13 @@ nlu:
       - Em đang học tại trường, có giảm giá cho sinh viên không?
       - Là học viên của trường, em có nhận được ưu đãi gì không?
       - Em là sinh viên của trường, có giảm phí không?
+      - Sinh viên có được hưởng chính sách giảm giá không?
+      - Trường có chính sách giảm giá đối với sinh viên không?
+      - Có chương trình ưu đãi đặc biệt dành cho sinh viên không?
+      - Học viên cao học có được miễn giảm tiền không?
+      - Có chương trình khuyến mãi nào dành cho sinh viên không?
+      - Có giảm giá đặc biệt cho sinh viên mới không?
+      - Là sinh viên, có được hưởng mức giảm giá như thế nào?
 
   - intent: ask_late_graduate_discount
     examples: |
@@ -80,6 +148,13 @@ nlu:
       - sinh viên trễ tốt nghiệp được giảm lệ phí không?
       - tốt nghiệp muộn được giảm tiền không?
       - sinh viên tốt nghiệp không đúng thời hạn có giảm lệ phí thi không?
+      - Sinh viên tốt nghiệp sau thời hạn có được ưu đãi gì không?
+      - Có chính sách giảm giá nào dành cho sinh viên tốt nghiệp trễ không?
+      - Học viên tốt nghiệp muộn có được hưởng lợi ích gì không?
+      - Tốt nghiệp trễ có chương trình giảm giá riêng không?
+      - Có giảm giá đặc biệt cho sinh viên tốt nghiệp muộn không?
+      - Sinh viên tốt nghiệp năm thứ năm có được hưởng ưu đãi không?
+      - Trường có chính sách giảm giá cho sinh viên tốt nghiệp trễ không?
 
   - intent: ask_exam_registration_docs
     examples: |
@@ -90,6 +165,15 @@ nlu:
       - đăng ký thi cần những giấy tờ gì?
       - hồ sơ thi bao gồm những gì?
       - cần những giấy tờ nào để thi?
+      - Để tham gia kỳ thi, cần chuẩn bị những tài liệu gì?
+      - Hồ sơ đăng ký thi cần những thông tin gì?
+      - Các giấy tờ cần thiết để đăng ký thi là gì?
+      - Trong quá trình đăng ký thi, cần chuẩn bị những hồ sơ gì?
+      - Để hoàn tất việc đăng ký thi, cần có những tài liệu gì?
+      - Có cần mang theo giấy tờ gì khi đến đăng ký thi không?
+      - Hồ sơ đăng ký thi cần được chuẩn bị trước bao nhiêu ngày?
+      - Những giấy tờ cần thiết khi đăng ký thi có thể được tìm thấy ở đâu?
+      - Làm thế nào để biết được hồ sơ đăng ký thi chi tiết?
 
   - intent: ask_certification_requirement
     examples: |
@@ -99,13 +183,33 @@ nlu:
       - cần công chứng cho cccd/cmnd/hộ chiếu không?
       - hộ chiếu cần phải công chứng không?
       - cần công chứng cho giấy tờ không?
+      - Khi nộp giấy tờ như cccd, cmnd, hộ chiếu, có cần công chứng không?
+      - Công chứng là bước cần thiết khi chuẩn bị giấy tờ như cccd, cmnd, hộ chiếu không?
+      - Cần phải đi công chứng cho các giấy tờ như cccd, cmnd, hộ chiếu không?
+      - Hướng dẫn về việc công chứng giấy tờ như cccd, cmnd, hộ chiếu là gì?
+      - Có cần thiết phải có giấy tờ đã được công chứng không?
+      - Quy định về việc công chứng giấy tờ như cccd, cmnd, hộ chiếu như thế nào?
+      - Có yêu cầu công chứng cho các loại giấy tờ khi nộp đăng ký không?
+      - Hướng dẫn về việc công chứng giấy tờ khi nộp hồ sơ là gì?
+      - Có cần công chứng cho giấy tờ cá nhân khi đăng ký không?
 
   - intent: ask_student_id_notarization
     examples: |
-      - thẻ sinh viên không công chức được thì thế nào
+      - thẻ sinh viên không công chứng được thì thế nào
       - thẻ học viên cao học không công chứng được thì thế nào
       - Thẻ sinh viên có cần công chứng không?
       - thẻ sv công chứng không ạ?
+      - Có cần công chứng cho thẻ sinh viên không?
+      - Thẻ sinh viên cần phải được công chứng không?
+      - Hướng dẫn về việc công chứng thẻ sinh viên là gì?
+      - Có quy định gì về việc công chứng thẻ sinh viên không?
+      - Thẻ sinh viên cần phải có chứng thực không?
+      - Khi sử dụng thẻ sinh viên, có cần công chứng không?
+      - Học viên cao học có cần công chứng thẻ không?
+      - Thẻ sinh viên cần phải được chứng thực bởi cơ quan nào?
+      - Có cần phải công chứng thẻ sinh viên để sử dụng không?
+      - Thẻ sinh viên cần phải có dấu công chứng không?
+      - Quy định về việc sử dụng thẻ sinh viên có yêu cầu công chứng không?
 
   - intent: ask_competition_registration_process
     examples: |
@@ -114,6 +218,16 @@ nlu:
       - Các bước đăng ký thi bao gồm những gì?
       - Thủ tục đăng ký thi là gì?
       - đăng ký thi như thế nào?
+      - Cần phải thực hiện những gì để đăng ký tham gia cuộc thi?
+      - Hướng dẫn về quy trình đăng ký thi là gì?
+      - Làm sao để bắt đầu quá trình đăng ký thi?
+      - Cách đăng ký thi được thực hiện như thế nào?
+      - Điều gì cần thiết khi bắt đầu quá trình đăng ký thi?
+      - Quá trình đăng ký thi bao gồm những bước nào?
+      - Cần tuân thủ những hướng dẫn nào khi đăng ký thi?
+      - Làm thế nào để biết cách đăng ký thi đúng cách?
+      - Có cần phải chuẩn bị những giấy tờ gì khi đăng ký thi?
+      - Cần phải làm gì trước khi bắt đầu quá trình đăng ký thi?
 
   - intent: competition_registration_process_far
     examples: |
@@ -122,14 +236,32 @@ nlu:
       - Tôi ở xa, có thể đăng ký thi trực tuyến được không?
       - Cần làm gì để hoàn tất thủ tục đăng ký thi từ xa?
       - ở xa thì đăng ký thi như thế nào?
+      - Có phương pháp nào cho phép thí sinh ở xa tham gia đăng ký thi không?
+      - Đăng ký thi từ xa có thể được thực hiện qua internet không?
+      - Thí sinh ở xa có thể làm thủ tục đăng ký thi bằng cách nào?
+      - Đăng ký thi từ xa có yêu cầu gì đặc biệt không?
+      - Có hướng dẫn nào cho thí sinh ở xa về cách đăng ký thi không?
+      - Quá trình đăng ký thi từ xa bao gồm những bước nào?
+      - Có cách nào tiện lợi cho thí sinh ở xa khi đăng ký thi không?
+      - Làm thế nào để thí sinh ở xa có thể tham gia đăng ký thi một cách thuận tiện?
 
   - intent: ask_practice_papers
     examples: |
-      - Học ôn luện
+      - Học ôn luận
       - Tài liệu ôn thi
       - Bên mình có tài liệu ôn thi không ạ?
       - Cho hỏi có tài liệu ôn thi không ạ?
       - Có nhận ôn luyện không ạ?
+      - Mình cần tài liệu ôn thi, có thể cung cấp không?
+      - Tài liệu ôn luyện có sẵn không?
+      - Có tài liệu ôn thi mẫu không?
+      - Mình muốn hỏi về tài liệu ôn thi, bạn có thể giúp được không?
+      - Có sách tham khảo hay tài liệu ôn thi gì không?
+      - Tài liệu ôn thi có thể tìm ở đâu?
+      - Có sách hướng dẫn ôn thi không?
+      - Bên bạn có cung cấp dịch vụ ôn thi không?
+      - Có tài liệu ôn thi chất lượng không?
+      - Tài liệu ôn luyện của bạn có đa dạng không?
 
   - intent: ask_certification_retrieval_place
     examples: |
@@ -139,6 +271,15 @@ nlu:
       - Địa điểm nhận chứng chỉ là ở đâu?
       - Nơi nào tôi có thể nhận chứng chỉ?
       - Có thể nhận chứng chỉ ở đâu?
+      - Sau khi hoàn thành, tôi có thể đến đâu để nhận chứng chỉ?
+      - Trường cung cấp dịch vụ nhận chứng chỉ tại đâu?
+      - Khi cần, tôi nên đến đâu để lấy chứng chỉ?
+      - Làm thế nào để biết địa điểm nhận chứng chỉ?
+      - Có thông tin về địa điểm nhận chứng chỉ không?
+      - Tôi cần phải đến đâu để nhận chứng chỉ sau khi hoàn thành?
+      - Trong trường hợp cần thiết, tôi có thể nhận chứng chỉ ở đâu?
+      - Làm thế nào để biết được địa chỉ nhận chứng chỉ?
+      - Nếu cần, tôi nên đến đâu để nhận chứng chỉ?
 
   - intent: ask_certification_retrieval_requirement
     examples: |
@@ -151,22 +292,62 @@ nlu:
       - chứng chỉ yêu cầu những tài liệu gì?
       - Mang gì khi đi nhận chứng chỉ?
       - Lấy chứng chỉ cần phải cung cấp giấy tờ gì?
+      - Đi nhận chứng chỉ cần mang theo những giấy tờ gì?
+      - Khi nhận chứng chỉ, cần mang theo những giấy tờ gì?
+      - Đi nhận chứng chỉ thì cần chuẩn bị những gì?
+      - Quy trình nhận chứng chỉ đòi hỏi những tài liệu gì?
+      - Lấy chứng chỉ cần có những giấy tờ chứng minh gì?
+      - Khi nhận chứng chỉ, cần có những tài liệu gì?
+      - Những giấy tờ cần thiết khi nhận chứng chỉ là gì?
+      - Quy định về việc cung cấp tài liệu khi nhận chứng chỉ là gì?
+      - Đi nhận chứng chỉ thì cần mang theo những giấy tờ chứng thực gì?
 
   - intent: intercede_certification_retrieval
     examples: |
       - Có thể nhận chứng chỉ giùm được không?
       - Muốn nhờ người nhận giùm thì cần giấy tờ gì?
+      - Có thể đại diện để nhận chứng chỉ được không?
+      - Ai đó có thể nhận chứng chỉ giùm tôi không?
+      - Tôi muốn nhờ người khác nhận chứng chỉ giùm, làm thế nào?
+      - Nếu không thể đến nhận chứng chỉ, có cách nào để người khác nhận giùm không?
+      - Có thể uỷ quyền cho ai đó nhận chứng chỉ thay mình không?
+      - Cần phải làm thủ tục gì để người khác nhận chứng chỉ thay mình?
+      - Tôi muốn nhờ người thân nhận chứng chỉ giùm, có được không?
+      - Nếu tôi không thể đến nhận chứng chỉ, có cách nào để người khác nhận thay không?
+      - Ai đó có thể nhận chứng chỉ thay tôi không?
+      - Tôi không thể đến nhận chứng chỉ, làm thế nào để người khác nhận giùm?
+      - Tôi không thể đến nhận chứng chỉ, liệu có thể ủy quyền cho người khác không?
 
   - intent: ask_competition_result_date
     examples: |
       - Bao giờ có kết quả thi?
       - Có kết quả thi chưa ạ?
       - Trường có kết quả thi chưa ạ?
+      - Làm sao để biết ngày công bố kết quả thi?
+      - Khi nào chúng ta sẽ biết được kết quả của cuộc thi?
+      - Khi nào chúng ta sẽ có thông tin về kết quả thi?
+      - Muốn biết ngày công bố kết quả thi, tôi cần làm gì?
+      - Kết quả thi sẽ được thông báo vào thời gian nào?
+      - Làm thế nào để biết được kết quả của cuộc thi?
+      - Có lịch trình cụ thể về việc công bố kết quả không?
+      - Khi nào thì kết quả thi sẽ được công bố?
+      - Có cách nào để tôi biết được ngày công bố kết quả thi không?
+      - Có thông tin nào về ngày công bố kết quả cuộc thi không?
 
   - intent: ask_competition_certification_date
     examples: |
       - Bao giờ có chứng chỉ?
       - Thi xong có chứng chỉ ngay không?
+      - Khi nào sẽ được nhận chứng chỉ sau khi thi?
+      - Ngày nào chứng chỉ sẽ được phát?
+      - Muốn biết ngày nhận chứng chỉ, tôi phải làm thế nào?
+      - Sau khi hoàn thành thi, cần bao lâu để nhận được chứng chỉ?
+      - Làm sao để biết khi nào có thể nhận được chứng chỉ sau khi thi?
+      - Khi nào chúng ta có thể nhận chứng chỉ của cuộc thi?
+      - Có lịch trình cụ thể về việc nhận chứng chỉ không?
+      - Sau khi kết thúc cuộc thi, bao lâu sau mới nhận được chứng chỉ?
+      - Có thông tin nào về ngày phát chứng chỉ sau khi thi không?
+      - Khi nào thì chứng chỉ của cuộc thi sẽ được cấp?
 
   - intent: ask_competition_information
     examples: |
@@ -174,6 +355,16 @@ nlu:
       - Làm sao để biết số báo danh?
       - Làm sao để biết phòng thi?
       - Làm sao để biết số báo danh, phòng thi?
+      - Khi nào chúng ta có thể biết được số báo danh?
+      - Cách nào để tôi biết phòng thi của mình?
+      - Khi nào chúng ta sẽ có thông tin về số báo danh?
+      - Có cách nào khác để xem số báo danh không?
+      - Làm thế nào để tìm hiểu về phòng thi của mình?
+      - Cần phải làm gì để biết thông tin về số báo danh?
+      - Có ai có thể giúp tôi biết số báo danh không?
+      - Làm sao để biết thông tin về số báo danh trước ngày thi?
+      - Có cách nào để biết số báo danh sớm hơn không?
+      - Làm thế nào để tìm hiểu thông tin về phòng thi của mình trước ngày thi?
 
   - intent: ask_competition_result_process
     examples: |
@@ -181,6 +372,16 @@ nlu:
       - Tôi muốn hỏi điểm thi
       - Cho mình hỏi điểm thi với ạ
       - Em muốn biết điểm thi ạ
+      - Làm thế nào để tra cứu điểm thi của mình?
+      - Cách nào để kiểm tra kết quả thi của tôi?
+      - Khi nào chúng ta có thể biết điểm thi của mình?
+      - Có phương pháp nào để xem điểm thi trực tuyến không?
+      - Làm sao để nhận thông tin về điểm thi của mình?
+      - Có cách nào để tôi biết được điểm thi nhanh chóng không?
+      - Khi nào chúng ta sẽ có kết quả về điểm thi?
+      - Làm thế nào để tra cứu kết quả thi của mình?
+      - Có cách nào để tôi biết kết quả của mình một cách dễ dàng không?
+      - Làm thế nào để biết điểm thi mà không cần đến trường?
 
   - intent: ask_certification_retrieval_immediately
     examples: |
@@ -188,13 +389,30 @@ nlu:
       - Muốn nhận chứng chỉ ngay thì làm thế nào?
       - Mình muốn nhận chứng chỉ gấp thì làm sao ạ?
       - Có cấp giấy xác nhận điểm tạm thời không?
+      - Làm thế nào để nhận chứng chỉ một cách nhanh chóng?
+      - Có phương pháp nào để nhận chứng chỉ ngay lập tức không?
+      - Nếu muốn nhận chứng chỉ ngay, tôi cần phải thực hiện những bước nào?
+      - Có cách nào để tôi có thể nhận chứng chỉ ngay sau khi hoàn thành không?
+      - Nếu cần gấp, có thể làm thủ tục để nhận chứng chỉ nhanh chóng không?
+      - Muốn có chứng chỉ ngay lập tức, tôi phải làm gì?
+      - Có thể yêu cầu cấp giấy xác nhận điểm tạm thời không?
 
   - intent: ask_result_paper
     examples: |
       - Em muốn lấy giấy xác nhận điểm thì làm sao ạ
       - Cách nhận giấy xác nhận điểm
-      - giấy xác nhận điểm lấy như thế nào?
-      - giấy xác nhận điểm lấy ở đâu?
+      - Giấy xác nhận điểm lấy như thế nào?
+      - Giấy xác nhận điểm lấy ở đâu?
+      - Làm thế nào để nhận được giấy xác nhận điểm?
+      - Có cách nào để lấy giấy xác nhận điểm một cách nhanh chóng không?
+      - Khi nào thì có thể nhận được giấy xác nhận điểm?
+      - Làm sao để biết cách lấy giấy xác nhận điểm?
+      - Có ai có thể hướng dẫn tôi về việc lấy giấy xác nhận điểm không?
+      - Tôi muốn biết thêm về quy trình lấy giấy xác nhận điểm, bạn có thể giúp tôi không?
+      - Có thông tin nào về cách lấy giấy xác nhận điểm không?
+      - Khi nào thì tôi có thể đến nhận giấy xác nhận điểm?
+      - Có cách nào để lấy giấy xác nhận điểm dễ dàng hơn không?
+      - Làm thế nào để biết nơi lấy giấy xác nhận điểm?
 
   - intent: ask_a2_requirement
     examples: |
@@ -208,6 +426,11 @@ nlu:
       - Thời gian tổ chức thi [B2](certificate_level)?
       - Thời gian tổ chức thi [C1](certificate_level)?
       - Thời gian tổ chức thi [C2](certificate_level)?
+      - Muốn thi A2, thủ tục là gì?
+      - Làm sao để đăng ký thi B1?
+      - Đăng ký thi B2 cần những gì?
+      - Làm thế nào để đăng ký thi C1?
+      - Đăng ký thi C2 yêu cầu những giấy tờ gì?
 
   - intent: ask_retest_fee
     examples: |
@@ -215,30 +438,73 @@ nlu:
       - Thi lại phí như thế nào?
       - Thi lại phí ra sao?
       - Thi lại phí có giảm giá không?
-      - trường hợp em thi lại thì sao?
+      - Trường hợp em thi lại thì sao?
       - Em thi lại có được giảm giá không?
+      - Khi phải thi lại, cần phải trả phí bao nhiêu?
+      - Phải đóng bao nhiêu tiền khi muốn thi lại?
+      - Thi lại có ảnh hưởng đến việc đóng phí không?
+      - Có chính sách giảm giá cho việc thi lại không?
+      - Em cần phải trả bao nhiêu tiền khi muốn thi lại?
+      - Có quy định cụ thể về việc đóng phí khi thi lại không?
+      - Phải làm gì để biết về chi phí thi lại?
+      - Em cần biết thông tin về việc đóng phí khi muốn thi lại.
 
   - intent: ask_delay
     examples: |
       - Có thể dời ngày thi được không?
       - Em muốn dời ngày thi được không ạ?
       - Mình muốn dời ngày thi thì sao ạ?
+      - Làm thế nào để yêu cầu dời ngày thi?
+      - Khi muốn thay đổi ngày thi, tôi cần phải làm gì?
+      - Có thủ tục nào để dời ngày thi không?
+      - Khi nào thì có thể yêu cầu dời ngày thi?
+      - Có cách nào để thay đổi ngày thi một cách dễ dàng không?
+      - Nếu muốn dời ngày thi, tôi cần phải liên hệ với ai?
+      - Có ai có thể giúp tôi về việc dời ngày thi không?
+      - Làm thế nào để thay đổi ngày thi một cách nhanh chóng?
+      - Khi nào thì tôi có thể yêu cầu dời ngày thi một cách hợp lý?
 
   - intent: ask_cancel+ask_refund
     examples: |
       - Không muốn thi nữa thì có được hoàn lệ phí thi không?
-      - Mình hủy thi thì có được hoàn tiền không
+      - Mình hủy thi thì có được hoàn tiền không?
+      - Nếu tôi muốn hủy thi, liệu tôi có được hoàn trả phí không?
+      - Điều kiện để được hoàn tiền nếu hủy thi là gì?
+      - Có chính sách hoàn trả phí nếu tôi quyết định không thi?
+      - Làm thế nào để được hoàn lại phí nếu tôi muốn hủy thi?
+      - Nếu tôi quyết định không thi nữa, liệu tôi có được hoàn lại tiền không?
+      - Có phải trả phí khi hủy thi không? Nếu có, liệu có được hoàn lại không?
+      - Muốn hủy thi và muốn biết về chính sách hoàn tiền, tôi phải làm thế nào?
+      - Khi tôi muốn hủy thi, liệu tôi có thể nhận lại phần nào của tiền đã đóng không?
+      - Nếu tôi muốn huỷ bỏ kỳ thi, liệu tôi có thể nhận lại tiền đã thanh toán không?
 
   - intent: ask_refund
     examples: |
       - Mình muốn hoàn phí thi
       - Tới ngày thi không thi được thì trường có trả lại tiền không ạ?
+      - Nếu tôi không tham gia kỳ thi, liệu tôi có được hoàn lại tiền không?
+      - Có chính sách nào về việc hoàn lại tiền thi không tham dự được không?
+      - Nếu tôi bị trở ngại và không thể tham dự kỳ thi, liệu tôi có thể được hoàn lại tiền không?
+      - Làm thế nào để yêu cầu hoàn lại tiền nếu tôi không thể tham gia kỳ thi?
+      - Có quy định gì về việc hoàn tiền cho những trường hợp không tham dự được kỳ thi không?
+      - Nếu tôi không thể tham dự kỳ thi vì lí do nào đó, liệu tôi có thể nhận lại tiền không?
+      - Khi tôi không thể tham dự kỳ thi, liệu tôi có thể được hoàn trả tiền đã đóng không?
 
   - intent: ask_cancel
     examples: |
       - Mình muốn hủy thi ạ
       - Đăng ký rồi có hủy thi được không?
       - Cho hỏi đăng ký rồi có hủy thi được không?
+      - Em muốn hủy thi, liệu có thể thực hiện thủ tục như thế nào?
+      - Nếu đã đăng ký thi nhưng muốn hủy, có cách nào để làm điều đó không?
+      - Tôi đã đăng ký thi nhưng có một sự cố ngoại lệ, liệu có thể hủy thi được không?
+      - Nếu đã đăng ký thi nhưng muốn hủy, liệu có mất phí không?
+      - Có chính sách nào về việc hủy thi sau khi đã đăng ký không?
+      - Nếu tôi đã đăng ký thi nhưng sau đó muốn hủy, liệu có được hoàn lại tiền không?
+      - Muốn hủy thi, liệu cần phải thông báo trước một khoảng thời gian nhất định không?
+      - Làm thế nào để hủy thi sau khi đã đăng ký mà không phải chịu chi phí phạt?
+      - Có cần phải cung cấp lý do khi muốn hủy thi sau khi đã đăng ký không?
+      - Đã đăng ký thi nhưng có một lý do khẩn cấp, liệu có thể hủy thi được không?
 
   - intent: ask_exam_room
     examples: |
