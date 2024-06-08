@@ -167,3 +167,8 @@ models
 
 # Rasa Pipeline Models
 pipelines/VnCoreNLP/VnCoreNLP-1.2.jar
+
+
+train_test_split/
+results/
+results*
