@@ -15,30 +15,26 @@ pipeline:
   # If you'd like to customize it, uncomment and adjust the pipeline.
   # See https://rasa.com/docs/rasa/tuning-your-model for more information.
   - name: pipelines.Preprocesser.Preprocesser
+  - name: LanguageModelFeaturizer # output: dense_feature
+    model_name: bert
+    cache_dir: null # change in the future to a path in server-side
   - name: WhitespaceTokenizer
-  - name: pipelines.PrettyPrint.PrettyPrint
   - name: RegexFeaturizer
-  - name: LexicalSyntacticFeaturizer
+  - name: CRFEntityExtractor
+  - name: EntitySynonymMapper
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
     analyzer: word
     min_ngram: 1
     max_ngram: 4
-  - name: LanguageModelFeaturizer # output: dense_feature
-    model_name: bert
-    model_weights: rasa/LaBSE
-    cache_dir: null # change in the future to a path in server-side
-  #  - name: CRFEntityExtractor
   - name: DIETClassifier
     epochs: 100
-    constrain_similarities: true
   - name: EntitySynonymMapper
-  - name: FallbackClassifier
-    threshold: 0.3
-    ambiguity_threshold: 0.1
   - name: ResponseSelector
     epochs: 100
-    constrain_similarities: true
+  - name: FallbackClassifier
+    threshold: 0.65
+    ambiguity_threshold: 0.1
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
