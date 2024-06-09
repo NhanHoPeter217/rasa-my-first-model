@@ -8,11 +8,11 @@ from rasa.shared.nlu.training_data.message import Message
 from rasa.shared.nlu.training_data.training_data import TrainingData
 
 import sys
-sys.path.append('/home/nam/codeproj/rasa-my-first-model/pipelines')
-import VietnameseTextNormalizer
+sys.path.append("D://IT//PyCharm//rasa-my-first-model//pipelines")
+# import VietnameseTextNormalizer
 
 # Path to the stopword file
-stopword_file = "pipelines/vietnamese-stopwords.txt"
+stopword_file = "D:/IT/PyCharm/rasa-my-first-model/pipelines/vietnamese-stopwords.txt"
 
 # List of symbols to remove
 symbols = "!$%&'*+;<=>?@^`~"
@@ -32,8 +32,8 @@ class Preprocesser(GraphComponent):
     ) -> GraphComponent:
         
         print('initialising Preprocesser')
-        with open(stopword_file, "r") as f:
-            cls.stopwords = set(word.strip() for word in f)
+        # with open(stopword_file, "r") as f:
+        #     cls.stopwords = set(word.strip() for word in f)
 
         return super().create(config, model_storage, resource, execution_context)
     
@@ -46,8 +46,8 @@ class Preprocesser(GraphComponent):
     def process(self, messages: List[Message]) -> List[Message]:
 
         # Preprocess user input
-        for message in messages:
-            text_preprocess(message)
+        # for message in messages:
+        #     text_preprocess(message)
 
         return messages
 

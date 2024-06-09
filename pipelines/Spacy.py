@@ -8,8 +8,6 @@ from rasa.engine.storage.storage import ModelStorage
 from rasa.shared.nlu.training_data.message import Message
 import spacy
 
-
-
 @DefaultV1Recipe.register(
     [DefaultV1Recipe.ComponentType.MESSAGE_TOKENIZER], is_trainable=False
 )

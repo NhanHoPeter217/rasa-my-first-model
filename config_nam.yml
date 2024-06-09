@@ -17,8 +17,11 @@ pipeline:
   - name: pipelines.Preprocesser.Preprocesser
   # - name: pipelines.VnCoreNLP.VnCoreNLPTokenizer
   - name: pipelines.Spacy.SpacyTokenizer
+    intent_tokenization_flag: True
+    intent_split_symbol: "+"
   - name: pipelines.PrettyPrint.PrettyPrint
   - name: RegexFeaturizer
+  - name: LexicalSyntacticFeaturizer
   - name: CRFEntityExtractor
   - name: EntitySynonymMapper
   - name: CountVectorsFeaturizer
@@ -26,15 +29,20 @@ pipeline:
     analyzer: word
     min_ngram: 1
     max_ngram: 4
+  - name: LanguageModelFeaturizer # output: dense_feature
+    model_name: bert
+    model_weights: rasa/LaBSE
+    cache_dir: null # change in the future to a path in server-side
   - name: DIETClassifier
-    # epochs: 100
-    # constrain_similarities: true
-  - name: EntitySynonymMapper
-  - name: ResponseSelector
     epochs: 100
+    constrain_similarities: true
+  - name: EntitySynonymMapper
   - name: FallbackClassifier
     threshold: 0.65
     ambiguity_threshold: 0.1
+  - name: ResponseSelector
+    epochs: 100
+    constrain_similarities: true
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

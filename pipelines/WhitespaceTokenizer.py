@@ -14,7 +14,6 @@ from rasa.nlu.tokenizers.tokenizer import Token, Tokenizer
 from rasa.shared.constants import DOCS_URL_COMPONENTS
 from rasa.shared.nlu.training_data.message import Message
 
-
 @DefaultV1Recipe.register(
     DefaultV1Recipe.ComponentType.MESSAGE_TOKENIZER, is_trainable=False
 )
@@ -67,7 +66,6 @@ class WhitespaceTokenizer(Tokenizer):
     def remove_emoji(self, text: Text) -> Text:
         """Remove emoji if the full text, aka token, matches the emoji regex."""
         match = self.emoji_pattern.fullmatch(text)
-
         if match is not None:
             return ""
 
@@ -75,8 +73,6 @@ class WhitespaceTokenizer(Tokenizer):
 
     def tokenize(self, message: Message, attribute: Text) -> List[Token]:
         text = message.get(attribute)
-        words = [w.replace("_", " ") for w in words]
-
         # we need to use regex instead of re, because of
         # https://stackoverflow.com/questions/12746458/python-unicode-regular-expression-matching-failing-with-some-unicode-characters
 
@@ -94,7 +90,6 @@ class WhitespaceTokenizer(Tokenizer):
             " ",
             text,
         ).split()
-
         words = [self.remove_emoji(w) for w in words]
         words = [w for w in words if w]
 
@@ -103,5 +98,6 @@ class WhitespaceTokenizer(Tokenizer):
             words = [text]
 
         tokens = self._convert_words_to_tokens(words, text)
+        print(tokens)
 
         return self._apply_token_pattern(tokens)

@@ -231,19 +231,19 @@ nlu:
 
   - intent: competition_registration_process_far
     examples: |
-      - Làm thế nào để thí sinh ở xa có thể đăng ký thi?
-      - Có cách nào để đăng ký thi từ xa không?
-      - Tôi ở xa, có thể đăng ký thi trực tuyến được không?
-      - Cần làm gì để hoàn tất thủ tục đăng ký thi từ xa?
-      - ở xa thì đăng ký thi như thế nào?
-      - Có phương pháp nào cho phép thí sinh ở xa tham gia đăng ký thi không?
-      - Đăng ký thi từ xa có thể được thực hiện qua internet không?
-      - Thí sinh ở xa có thể làm thủ tục đăng ký thi bằng cách nào?
-      - Đăng ký thi từ xa có yêu cầu gì đặc biệt không?
-      - Có hướng dẫn nào cho thí sinh ở xa về cách đăng ký thi không?
-      - Quá trình đăng ký thi từ xa bao gồm những bước nào?
-      - Có cách nào tiện lợi cho thí sinh ở xa khi đăng ký thi không?
-      - Làm thế nào để thí sinh ở xa có thể tham gia đăng ký thi một cách thuận tiện?
+      - Làm thế nào để thí sinh [ở xa](distance) có thể đăng ký thi?
+      - Có cách nào để đăng ký thi [từ xa](distance) không?
+      - Tôi [ở xa](distance), có thể đăng ký thi trực tuyến được không?
+      - Cần làm gì để hoàn tất thủ tục đăng ký thi [từ xa](distance)?
+      - [ở xa](distance) thì đăng ký thi như thế nào?
+      - Có phương pháp nào cho phép thí sinh [ở xa](distance) tham gia đăng ký thi không?
+      - Đăng ký thi [từ xa](distance) có thể được thực hiện qua internet không?
+      - Thí sinh [ở xa](distance) có thể làm thủ tục đăng ký thi bằng cách nào?
+      - Đăng ký thi [từ xa](distance) có yêu cầu gì đặc biệt không?
+      - Có hướng dẫn nào cho thí sinh [ở xa](distance) về cách đăng ký thi không?
+      - Quá trình đăng ký thi [từ xa](distance) bao gồm những bước nào?
+      - Có cách nào tiện lợi cho thí sinh [ở xa](distance) khi đăng ký thi không?
+      - Làm thế nào để thí sinh [ở xa](distance) có thể tham gia đăng ký thi một cách thuận tiện?
 
   - intent: ask_practice_papers
     examples: |
@@ -354,13 +354,10 @@ nlu:
     examples: |
       - Em xem sbd ở đâu ạ
       - Làm sao để biết số báo danh?
-      - Làm sao để biết phòng thi?
-      - Làm sao để biết số báo danh, phòng thi?
+      - Làm sao để biết số báo danh?
       - Khi nào chúng ta có thể biết được số báo danh?
-      - Cách nào để tôi biết phòng thi của mình?
       - Khi nào chúng ta sẽ có thông tin về số báo danh?
       - Có cách nào khác để xem số báo danh không?
-      - Làm thế nào để tìm hiểu về phòng thi của mình?
       - Cần phải làm gì để biết thông tin về số báo danh?
       - Có ai có thể giúp tôi biết số báo danh không?
       - Làm sao để biết thông tin về số báo danh trước ngày thi?
@@ -375,11 +372,9 @@ nlu:
       - Em muốn biết điểm thi ạ
       - Làm thế nào để tra cứu điểm thi của mình?
       - Cách nào để kiểm tra kết quả thi của tôi?
-      - Khi nào chúng ta có thể biết điểm thi của mình?
       - Có phương pháp nào để xem điểm thi trực tuyến không?
       - Làm sao để nhận thông tin về điểm thi của mình?
       - Có cách nào để tôi biết được điểm thi nhanh chóng không?
-      - Khi nào chúng ta sẽ có kết quả về điểm thi?
       - Làm thế nào để tra cứu kết quả thi của mình?
       - Có cách nào để tôi biết kết quả của mình một cách dễ dàng không?
       - Làm thế nào để biết điểm thi mà không cần đến trường?
@@ -483,15 +478,22 @@ nlu:
 
   - intent: ask_refund
     examples: |
-      - Mình muốn hoàn phí thi
-      - Tới ngày thi không thi được thì trường có trả lại tiền không ạ?
-      - Nếu tôi không tham gia kỳ thi, liệu tôi có được hoàn lại tiền không?
-      - Có chính sách nào về việc hoàn lại tiền thi không tham dự được không?
-      - Nếu tôi bị trở ngại và không thể tham dự kỳ thi, liệu tôi có thể được hoàn lại tiền không?
-      - Làm thế nào để yêu cầu hoàn lại tiền nếu tôi không thể tham gia kỳ thi?
-      - Có quy định gì về việc hoàn tiền cho những trường hợp không tham dự được kỳ thi không?
-      - Nếu tôi không thể tham dự kỳ thi vì lí do nào đó, liệu tôi có thể nhận lại tiền không?
-      - Khi tôi không thể tham dự kỳ thi, liệu tôi có thể được hoàn trả tiền đã đóng không?
+      - [hoàn](refund)
+      - [hoàn phí thi](refund)
+      - [trả lại tiền](refund)
+      - Mình muốn [hoàn phí thi](refund)
+      - Điều kiện [hoàn phí thi](refund) là như thế nào?
+      - Cho em hỏi về điều kiện [hoàn phí thi](refund)
+      - em muốn hỏi về vấn đề [hoàn phí thi](refund)
+      - Không muốn thi nữa thì có được [hoàn lệ phí thi](refund) không?
+      - Tới ngày thi không thi được thì trường có [trả lại tiền](refund) không ạ?
+      - Nếu tôi không tham gia kỳ thi, liệu tôi có được [hoàn lại tiền](refund) không?
+      - Có chính sách nào về việc [hoàn lại tiền](refund) thi không tham dự được không?
+      - Nếu tôi bị trở ngại và không thể tham dự kỳ thi, liệu tôi có thể được [trả lại tiền](refund) không?
+      - Làm thế nào để yêu cầu [hoàn lại tiền](refund) nếu tôi không thể tham gia kỳ thi?
+      - Có quy định gì về việc [hoàn tiền](refund) cho những trường hợp không tham dự được kỳ thi không?
+      - Nếu tôi không thể tham dự kỳ thi vì lí do nào đó, liệu tôi có thể [nhận lại tiền](refund) không?
+      - Khi tôi không thể tham dự kỳ thi, liệu tôi có thể được [hoàn trả tiền](refund) đã đóng không?
 
   - intent: ask_cancel
     examples: |
@@ -524,6 +526,10 @@ nlu:
       - Làm sao để biết phòng thi của mình?
       - Hỏi số phòng thi
       - Hỏi thông tin phòng thi
+      - Cách nào để tôi biết phòng thi của mình?
+      - Làm thế nào để tìm hiểu về phòng thi của mình?
+      - Làm thế nào để tìm hiểu về phòng thi của mình?
+      - Làm sao để biết phòng thi?
 
   - intent: provide_CCCD_number
     examples: |
