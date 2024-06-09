@@ -29,7 +29,7 @@ class Preprocesser(GraphComponent):
         print('initialising Preprocesser')
 
         print('initialising Stop Words Removal')
-        with open(stopword_file, "r") as f:
+        with open(stopword_file, "r", encoding="utf-8") as f:
             cls.stopwords = set(word.strip() for word in f)
 
         return super().create(config, model_storage, resource, execution_context)
@@ -38,8 +38,8 @@ class Preprocesser(GraphComponent):
     def process(self, messages: List[Message]) -> List[Message]:
 
         # Preprocess user input
-        for message in messages:
-            text_preprocess(message)
+        # for message in messages:
+        #     text_preprocess(message)
 
         return messages
 
