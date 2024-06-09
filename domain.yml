@@ -41,6 +41,7 @@ intents:
 
 entities:
 #  - working_time
+#  - working_time
 #  - contact
 #  - organization
 #  - practice
@@ -51,8 +52,9 @@ entities:
 #  - competition_level
 #  - competition_fee
 #  - delay
-#  - refund
+  - refund
 #  - cancel
+  - distance
   - certificate_level
   - CCCD_number
 

@@ -14,8 +14,17 @@ pipeline:
   # No configuration for the NLU pipeline was provided. The following default pipeline was used to train your model.
   # If you'd like to customize it, uncomment and adjust the pipeline.
   # See https://rasa.com/docs/rasa/tuning-your-model for more information.
-  - name: pipelines.ToneNormalization.ToneNormalization
-  - name: WhitespaceTokenizer
+#  - name: pipelines.Preprocesser.Preprocesser
+#  - name:   - name: WhitespaceTokenizerpipelines.WhitespaceTokenizer._WhitespaceTokenizer
+  - name: SpacyNLP
+    model: "vi_core_news_lg"
+    case_sensitive: False
+#  - name: pipelines.PrettyPrint.PrettyPrint
+#  - name: pipelines.WhitespaceTokenizer.WhitespaceTokenizer
+  - name: pipelines.WhitespaceTokenizer.WhitespaceTokenizer
+  - name: pipelines.PrettyPrint.PrettyPrint
+#  - name: pipelines.RemoveDashes.RemoveDashes
+#  - name: pipelines.PrettyPrint.PrettyPrint
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
@@ -29,7 +38,7 @@ pipeline:
     cache_dir: null # change in the future to a path in server-side
   #  - name: CRFEntityExtractor
   - name: DIETClassifier
-    epochs: 400
+    epochs: 100
     constrain_similarities: true
   - name: EntitySynonymMapper
   - name: FallbackClassifier

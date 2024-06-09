@@ -5,7 +5,7 @@ import os
 stopwords = []
 symbols = "!$%&'*+;<=>?@^`~"
 
-BASE_PATH = '/home/nam/codeproj/rasa-my-first-model'
+BASE_PATH = "D://IT//PyCharm//rasa-my-first-model"
 INPUT_PATH = os.path.join(BASE_PATH, 'data')
 OUTPUT_PATH = os.path.join(BASE_PATH, 'data_preprocessed')
 
