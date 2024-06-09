@@ -280,6 +280,7 @@ nlu:
       - Trong trường hợp cần thiết, tôi có thể nhận chứng chỉ ở đâu?
       - Làm thế nào để biết được địa chỉ nhận chứng chỉ?
       - Nếu cần, tôi nên đến đâu để nhận chứng chỉ?
+      - chứng chỉ lấy ở đâu vậy ạ
 
   - intent: ask_certification_retrieval_requirement
     examples: |
@@ -310,7 +311,7 @@ nlu:
       - Ai đó có thể nhận chứng chỉ giùm tôi không?
       - Tôi muốn nhờ người khác nhận chứng chỉ giùm, làm thế nào?
       - Nếu không thể đến nhận chứng chỉ, có cách nào để người khác nhận giùm không?
-      - Có thể uỷ quyền cho ai đó nhận chứng chỉ thay mình không?
+      - Có thể ủy quyền cho ai đó nhận chứng chỉ thay mình không?
       - Cần phải làm thủ tục gì để người khác nhận chứng chỉ thay mình?
       - Tôi muốn nhờ người thân nhận chứng chỉ giùm, có được không?
       - Nếu tôi không thể đến nhận chứng chỉ, có cách nào để người khác nhận thay không?
@@ -467,6 +468,8 @@ nlu:
   - intent: ask_cancel+ask_refund
     examples: |
       - Không muốn thi nữa thì có được hoàn lệ phí thi không?
+      - Không muốn thi nữa thì có được hoàn tiền không?
+      - Không muốn thi nữa thì có được refund không?
       - Mình hủy thi thì có được hoàn tiền không?
       - Nếu tôi muốn hủy thi, liệu tôi có được hoàn trả phí không?
       - Điều kiện để được hoàn tiền nếu hủy thi là gì?
@@ -476,7 +479,7 @@ nlu:
       - Có phải trả phí khi hủy thi không? Nếu có, liệu có được hoàn lại không?
       - Muốn hủy thi và muốn biết về chính sách hoàn tiền, tôi phải làm thế nào?
       - Khi tôi muốn hủy thi, liệu tôi có thể nhận lại phần nào của tiền đã đóng không?
-      - Nếu tôi muốn huỷ bỏ kỳ thi, liệu tôi có thể nhận lại tiền đã thanh toán không?
+      - Nếu tôi muốn hủy bỏ kỳ thi, liệu tôi có thể nhận lại tiền đã thanh toán không?
 
   - intent: ask_refund
     examples: |
@@ -499,24 +502,27 @@ nlu:
       - Nếu đã đăng ký thi nhưng muốn hủy, có cách nào để làm điều đó không?
       - Tôi đã đăng ký thi nhưng có một sự cố ngoại lệ, liệu có thể hủy thi được không?
       - Nếu đã đăng ký thi nhưng muốn hủy, liệu có mất phí không?
-      - Có chính sách nào về việc hủy thi sau khi đã đăng ký không?
+      - Trường có cho hủy thi sau khi đã đăng ký không?
       - Nếu tôi đã đăng ký thi nhưng sau đó muốn hủy, liệu có được hoàn lại tiền không?
       - Muốn hủy thi, liệu cần phải thông báo trước một khoảng thời gian nhất định không?
       - Làm thế nào để hủy thi sau khi đã đăng ký mà không phải chịu chi phí phạt?
       - Có cần phải cung cấp lý do khi muốn hủy thi sau khi đã đăng ký không?
-      - Đã đăng ký thi nhưng có một lý do khẩn cấp, liệu có thể hủy thi được không?
+      - Em đã đăng ký thi nhưng giờ nhà em có chuyện khẩn cấp, vậy em hủy thi được không ạ?
+      - Em đã đăng ký thi nhưng giờ nhà em có chuyện gấp, vậy em hủy thi được không ạ?
 
   - intent: ask_exam_room
     examples: |
-      - Phòng thi ở đâu?
+      - Check phòng thi ở đâu?
       - Phòng thi là ở đâu?
       - Phòng thi ở đâu vậy?
       - Phòng thi là ở đâu vậy?
       - Em muốn hỏi về thông tin phòng thi
       - Em muốn hỏi về phòng thi
+      - Em thi phòng nào thì coi ở đâu ạ
+      - Em thi phòng nào thì xem ở đâu ạ
       - Làm sao để biết em thi ở phòng nào?
       - Làm sao để biết phòng thi của mình?
-      - Hỏi về phòng thi
+      - Hỏi số phòng thi
       - Hỏi thông tin phòng thi
 
   - intent: provide_CCCD_number

@@ -125,7 +125,7 @@ Từ Thứ 2 đến Thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 
   - text: "Khi đi nhận chứng chỉ cầm theo CCCD/CMND/ hộ chiếu để xác minh chính chủ nhận"
 
   utter_intercede_certification_retrieval:
-  - text: "Trong trường hợp nhận giùm chứng chỉ, người nhận giùm cần cầm theo Giấy uỷ quyền có xác nhận của cơ quan chức năng kèm sao y công chứng giấy tờ tuỳ thân của người đi thi và người nhận giùm"
+  - text: "Trong trường hợp nhận giùm chứng chỉ, người nhận giùm cần cầm theo Giấy ủy quyền có xác nhận của cơ quan chức năng kèm sao y công chứng giấy tờ tùy thân của người đi thi và người nhận giùm"
 
   utter_competition_result_date:
   - text: "Kết quả thi sẽ có sau trung bình 3 ngày làm việc kể từ ngày thi"
@@ -158,7 +158,7 @@ Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăn
   - text: "Nếu bạn muốn dời thi, thì trong thời gian còn hạn đăng ký, Trung tâm vẫn hỗ trợ dời hồ sơ và lệ phí đã nộp qua kỳ tiếp theo"
 
   utter_refund:
-  - text: "Nếu bạn muốn huỷ thi, thì trong thời gian còn hạn đăng ký, hãy cầm biên lai thu tiền đến phòng Ghi danh để được hỗ trợ"
+  - text: "Nếu bạn muốn hủy thi, thì trong thời gian còn hạn đăng ký, hãy cầm biên lai thu tiền đến phòng Ghi danh để được hỗ trợ"
 
   utter_exam_room:
   - text: "Bạn hãy cung cấp số CCCD/CMND để tôi có thể cung cấp thông tin phòng thi của bạn."

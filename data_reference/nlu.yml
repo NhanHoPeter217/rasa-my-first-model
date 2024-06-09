@@ -15,12 +15,12 @@ nlu:
     - dạ vầng ạ
     - thông tin tuyệt vời ạ
     - à oke bạn
-    - dạ vâng ạ em cảm ơn ah
-    - da e biết ạ
+    - dạ vâng ạ em cảm ơn ah
+    - da e biết ạ
     - da vâng em cảm ơn ạ 
     - da vâng ạ
     - da cô
-    - dạ tl e vs ạ
+    - dạ tl e vs ạ
     - à , vâng ạ
     - à vâng
     - vâng ạ!
@@ -110,7 +110,7 @@ nlu:
     - vâng e c ơn ad ạ
     - dạ e cảm ơn
     - dạ e cảm ơn ạh
-    - chúc ad một buổi chiều đầy sức khoẻ 3
+    - chúc ad một buổi chiều đầy sức khỏe 3
     - dạ e cảm ơn cô
     - dạ cảm ơn ad ạ
     - dạ thôie hiểu rồi ạe cảm ơn
@@ -218,7 +218,7 @@ nlu:
     - [trường]{"entity":"organization"} có tiện tư vấn cho em không ạ
     - e cần tư vấn ạ
     - dạ ac có thể tư vấn cho e với ạ
-    - add có thể tư vấn cho e được ko ạ
+    - add có thể tư vấn cho e được không ạ
     - ad có thể tư vấn giúp mình không ạ
     - [trường]{"entity":"organization"} có thể tư vấn giúp e về tuyển sinh được k ạ
     - chào ad ad có thể tư vấn cho e 1 chút được không ạ?
@@ -295,7 +295,7 @@ nlu:
     - [trường]{"entity":"organization"} cho e hỏi là
     - thầy ơi cho em hỏi ạ
     - vậy cho em hỏi
-    - tôi có câu hỏibạn có thể trợ giúp không? ad ơi
+    - tôi có câu hỏi bạn có thể trợ giúp không? ad ơi
     - cho e hỏi chút đc không ạ
     - ad ơi cho em hỏi chút ạ
     - cho em hỏi chút với ạ?
@@ -375,7 +375,7 @@ nlu:
     - add ơi add cho em hỏi với ạ
     - [nhà trường]{"entity":"organization"} cho em hỏi với ạ
     - rep em với ạ
-    - page ơi em hỏi với đc ko ạ
+    - page ơi em hỏi với đc không ạ
     - dạ cho e hỏi với
     - ad ơi ,cho em hỏi với ạ
     - cho e hoie là
@@ -463,9 +463,9 @@ nlu:
 
 - intent: ask_registration_online
   examples: |
-    - có thể gửi cho e đg link để e đăng kí online đc ko ạ
+    - có thể gửi cho e đg link để e đăng kí online đc không ạ
     - vângg ad cho e xin link đăng ký online với ạ
-    - sao e vào link đăng ký online ko có gì nhỉ
+    - sao e vào link đăng ký online không có gì nhỉ
     - em đăng ký theo link này nhé
     - link online e vẫn vào được ạ
     - e đk link bên trên r ạ
@@ -484,21 +484,21 @@ nlu:
     - bây giờ là hết thời gian đăng kí xét tuyển online rồi ạ
     - hình thức xét tuyển online này bao giờ kết thúc ạ
     - vậy chỉ cần xét qua hình thức onl này thôi ạ
-    - cho em hỏi dự thi theo hình thức xét tuyển học bạ thì chỉ cần đăng kí xét tuyển online là được đúng ko ạ
+    - cho em hỏi dự thi theo hình thức xét tuyển học bạ thì chỉ cần đăng kí xét tuyển online là được đúng không ạ
     - e muốn nôp ho sơ online
     - cho em hỏi là xét tuyển bằng kết quả thi tốt nghiệp thpt bằng cách 1 xong có phải làm gì nữa không ạ
     - dạ ad cho em hỏi là khi mình xét như này thì xét online hay là làm như nào ạ? ad có thể giúp đỡ em được không?
     - e muốn đăng kí ol thì phải làm như nào ạ
-    - [trường]{"entity":"organization"} mình có tuyển sinh onl ko ạ
+    - [trường]{"entity":"organization"} mình có tuyển sinh onl không ạ
     - ad ơi cho em hỏi giờ mình đăng ký xét tuyển học bạn onl còn được không ạ
     - mình lên nộp hay đki onl ạ
-    - em đăng kí onl rồi thì có phải nộp học bạ nữa ko ạ
+    - em đăng kí onl rồi thì có phải nộp học bạ nữa không ạ
     - e vào link kia nó toàn trắng như này ạ
     - chỉ cần điền vào link kia là được ạ
     - e vào link đó không được ạ
     - trg gửi cho e xin link phiếu đc k ạ
     - e đăng ký theo link kia xong oy thì tek nào nữa ạk
-    - em chỉ cần đăng ký vào link xét tuyển này là dc nhécác giấy tờ khác em nộp sau 30 / 6 khi có kết quả
+    - em chỉ cần đăng ký vào link xét tuyển này là dc nhé các giấy tờ khác em nộp sau 30 / 6 khi có kết quả
     - cho em xin lại cái link đăng kí vs ạ
     - cho e xin link đăng kí online vs
     - [trường]{"entity":"organization"} cho em xin link xét tuyển của [trường]{"entity":"organization"} vs ạ
@@ -512,7 +512,7 @@ nlu:
     - đăng ký online nhưng học tại [trường]{"entity":"organization"} ạ
     - em muốn đăng ký online
     - tôi đăng ký online tại đâu?
-    - tôi muốn đăng ký xét tuyển online vào trườngtôi đăng ký tại đâu?
+    - tôi muốn đăng ký xét tuyển online vào trường tôi đăng ký tại đâu?
     - có thể đăng ký online ko chị?
     - cho em hỏi là đăng kí xét tuyển online ở chỗ nào ạ
     - em có thể đăng kí online dc không ạ?
@@ -523,9 +523,9 @@ nlu:
     - giờ trg vẫn nhận nộp online đúng không ạ
     - đăng kí trực tuyến ạ
     - xét tuyển học bạ trực tuyến thì cần những gì ạ
-    - bây giờ e đăng ký trực tuyến là có cần lấy hồ sơ tại [trường]{"entity":"organization"} để làm lại ko ạ
-    - bh đăng ký trực tuyến còn kịp đợt 1 ko ạ
-    - dạvậy mình có thể đăng kí trực tuyến đúng k ạđăng kí trực tuyến có cần làm hồ sơ nữa k ạ
+    - bây giờ e đăng ký trực tuyến là có cần lấy hồ sơ tại [trường]{"entity":"organization"} để làm lại không ạ
+    - bh đăng ký trực tuyến còn kịp đợt 1 không ạ
+    - dạ vậy mình có thể đăng kí trực tuyến đúng k ạ đăng kí trực tuyến có cần làm hồ sơ nữa k ạ
     - đăng kí trực tuyến thì vào đâu để đăng kí ạ
     - bây giờ e đăng ký trực tuyến là có cần lấy hồ sơ tại [trường]{"entity":"organization"} để làm lại không ạ
     - em vừa thấy có bài đăng xét tuyển trực tuyến thì e có phải gửi gì qua bưu điện k ạ
@@ -545,10 +545,10 @@ nlu:
     - em có cần phải làm hồ sơ xét tuyển khi đăng ký online rồi không
     - em đăng kí online r có cần phải viết hồ sơ nữa k ạ
     - ad cho e hỏi là đăng kí xét tuyển online r thì có cần nộp hồ sơ xét tuyển về [trường]{"entity":"organization"} nữa k ạ
-    - có cần nộp hồ sơ hay học bạ về [trường]{"entity":"organization"} ko ạ
+    - có cần nộp hồ sơ hay học bạ về [trường]{"entity":"organization"} không ạ
     - em đăng kí xong rồi thì có cần phải làm thêm hồ sơ hay giấy tờ nữa không ạ 
     - e đăng kí online r có cần phải lên [trường]{"entity":"organization"} nộp hồ sơ nữa k ạ
-    - đăng kí online xong rồi ,vậy e có cần gửi hồ sơ về [trường]{"entity":"organization"} không ạ
+    - đăng kí online xong rồi , vậy e có cần gửi hồ sơ về [trường]{"entity":"organization"} không ạ
     - cho em hỏi e đăng ký xét tuyển học bạ online và được thông báo đã đủ điều kiện sơ tuyển rồi có phải làm hồ sơ gửi về [trường]{"entity":"organization"} nữa không ạ?
     - em đăng ký xét học bạ online và đã đủ điều kiện sơ tuyển thì cần phải làm hồ sơ gửi về [trường]{"entity":"organization"} không
     - trúng tuyển online rồi thì cần làm hồ sơ gửi về [trường]{"entity":"organization"} không
@@ -567,7 +567,7 @@ nlu:
     - dạ vâng ạ , e đk ký bây giờ thì bao giờ có kết quả ạ?
     - bao h thì có kết quả ạ
     - tầm bao giờ thì em có thư ạ
-    - ad có kiểm tra được là em có trong danh sách ko ạ
+    - ad có kiểm tra được là em có trong danh sách không ạ
     - ad có thể kiểm tra thông tin của bạn hà thị hồng hảo mới đăng ký vào [trường]{"entity":"organization"} có được không ạ?
     - ad tra xem em có trúng tuyển không với
     - kiểm tra danh sách trúng tuyển giúp em với ạ
@@ -595,14 +595,14 @@ nlu:
     - bao giờ thì có kế hoạch tuyển sinh ạ?
     - em vừa đăng kí on thì mất bn lâu là nhận đc thông bao lại ạ
     - trước em có nộp học bạ vào công nghệ tt và có giấy báo đỗ guier về nma vừa rồi e có nộp lại học bạ sang chế tạo máy nhưng chưa có thấy gửi báo đỗ gì cả
-    - cho e hỏi em có đăng ký học tại [trường]{"entity":"organization"} qua hình thức online sao ko thấy giấy báo j ạ
+    - cho e hỏi em có đăng ký học tại [trường]{"entity":"organization"} qua hình thức online sao không thấy giấy báo j ạ
     - ad cho em hỏi chưa có thông tin gì về thí sinh trúng tuyển đợt 1 ạ
     - hôm nay [trường]{"entity":"organization"} bắt đầu gửi giấy báo đúng k ạ
     - e vừa đăng ký qua trực tuyến k biết lúc nào thì có kết quả ad nhỉ?
     - cho em hỏi [trường]{"entity":"organization"} sắp có kết quả tuyển sinh trực tuyến đợt 2 chưa ạ
     - lm thế nào để biết dc là mình đỗ hay trượt ạ
     - có chắc chắn [trường]{"entity":"organization"} sẽ gửi kết quả xét học bạ trực tuyến về không ạ
-    - bao giờ có giấy báo nhập học ạ
+    - bao giờ có giấy báo nhập học ạ
     - e xét học bạ trực tuyến rồi mà chưa thấy thông báo gì về ạ
     - à cho e hỏi là e mới đăng kí trực tuyến ngày hôm kia thì bh ms có thông báo ạ
     - em đk từ [4 hôm trc]{"entity":"time"} rồi thì bh có giấy ạ
@@ -610,7 +610,7 @@ nlu:
     - e đki online thì mấy hôm e được nhận thông báo ạ
     - cho em hỏi đợt này cháu có được gọi không ạ
     - thế xét học bạ này thì bao giờ có kết quả ạ
-    - thế xét học bạ thì bao giờ có kết quả đỗ hay ko ạ
+    - thế xét học bạ thì bao giờ có kết quả đỗ hay không ạ
     - vậy con nhà em có được gọi đợt này không ạ
     - thầy cô cho e hỏi e đăng kí xét online đợt 1 [22 / 6]{"entity":"time"} thì bao giờ thì có dang sách trúng tuyển ạ
     - bên [trường]{"entity":"organization"} mình có danh sách trúng tuyển dựa trên kết quả thi tốt nghiệp thpt chưa ạ
@@ -624,31 +624,31 @@ nlu:
     - có một vài bạn cũng đăng ký onl giống em và đã có giấy báo về gia đình
     - e đăng kí onl rồi ạ mà chưa thấy kq nên e chuyển qua trực tiếp
     - e ms đăng kí onl hôm kia thì chắc chưa có kqua đâu cj nhỉ??
-    - e đăng kí xét học bạ onl tuần trước rồinay [nhà trường]{"entity":"organization"} đã xét chưa ạvà khi nào có thôg báo ạ
+    - e đăng kí xét học bạ onl tuần trước rồinay [nhà trường]{"entity":"organization"} đã xét chưa ạ và khi nào có thôg báo ạ
     - dạ cho em hỏi là thi xong mới có kêtd quả hay như nào ạ
     - bạn em nhận đc thông báo đỗ rồi mà bạn đk sau e 1 ngày
     - mấy bạn em có hết rồi mà em chưa có ạ
     - sao em cả bạn em đăng kí online cùng nhau mà bạn em có thông báo rồi mà em thì chưa ạ
     - cho em hỏi là bạn em với em cùng xét học bạ mà sao bạn em có giấy về rồi mà em chưa có ạ ! hay là của em gửi sau ạ !
     - alo cho em hỏi là em vừa đăng kí xong thì bh em biết em đủ tiêu chuẩn vào [trường]{"entity":"organization"} ạ
-    - thầy cô ơi e đăng kí online thì bh có giấy trúng tuyển nhập học ạ
+    - thầy cô ơi e đăng kí online thì bh có giấy trúng tuyển nhập học ạ
     - vs lại kb khi mà k đủ tiru chuẩn thì nhà trg có thông báo cho biết là k dc học k ạmong ad duyệt r tl e vs ạ
     - vậy sau khi nộp xong làm sao để em biết là đã đỗ để nhập học ạ
     - em muốn hỏi là khi nào có ạem đang rất lo lắng
     - em đăng ký lại rồi thì bao giờ có kết quả ạ
     - em đăng ký tuyển sinh online hôm nay thì bao lâu thì có kết quả
     - xét bằng kết quả thi thpt thì đến bao giờ mới có kết quả báo trúng tuyển ạ
-    - ad cho em hỏi là bạn em vừa đăng kí on hôm thứ 6 thì bh có kết quả đỗ hay ko đỗ ạ
+    - ad cho em hỏi là bạn em vừa đăng kí on hôm thứ 6 thì bh có kết quả đỗ hay không đỗ ạ
     - em xin hỏi [nhà trường]{"entity":"organization"} là em vừa đăng kí online rồi thì bao giờ mới có kết quả của [nhà trường]{"entity":"organization"} ạ
     - mình muốn hỏi là mình nộp hồ sơ từ thứ 2 nhưng vẫn chưa thấy phản hồi gì bên trường
     - hiện tại e đã đăng kí trực tuyến rồi mà chưa thấy phản hồi ạ
     - tại sao em không nhận được phản hồi ạ? các bạn em đều nhận được sau có 2 ngày
     - ủa thằng bạn em có email phản hồi nhưng sao em lại chưa có ạ
-    - em mong quý thầy ,cô phản hồi cho em sớm nhất có thể ạ!
+    - em mong quý thầy , cô phản hồi cho em sớm nhất có thể ạ!
     - mà e đăng kí xét tuyến online mà chưa thấy thông báo , vì e thấy các bạn đều cbi đi hk hết lượt
     - tại e thấy các bạn e gửi qua gmail r mà e chưa có nên e hơi lo
     - e đăng kí online thì bh có giấy nhập học ạ
-    - em đã đăng kí online rồi thì khi nào có kết quả ,và em có phải nộp học bạ ko ạ
+    - em đã đăng kí online rồi thì khi nào có kết quả , và em có phải nộp học bạ không ạ
     - em đăng kí xét học bà trực tuyến thì bao giờ có kết quả vậy
     - cho e hỏi bao giờ thì có kết quả báo trúng tuyển vậy ạ
     - và vừa rồi em chưa hiểu rõ nên đã đăng ký xét tuyển bằng kết quả thpt online thì có sao không ạ?
@@ -671,7 +671,7 @@ nlu:
     - và cho e hỏi thêm là hôm nay e mới đăng ký thì tầm bao lâu mới có kết quả trúng tuyển
     - thầy cô ơi e đăng kí online thì bh có giấy trúng tuyển nhập học ạ
     - e đăng kí online thì bg ms đc nhận thông báo trúng hay không ạ
-    - em mới đăng kí xét tuyển hôm qua thì bao giờ biết trúng hay ko ạ
+    - em mới đăng kí xét tuyển hôm qua thì bao giờ biết trúng hay không ạ
     - ô cho e hỏi là e có đăng kí xét tuyển học bạ online cách đây tầm 1 tháng trước thì cô cho r hỏi bao giờ có giấy báo thì [trường]{"entity":"organization"} sẽ gửi về bưu điện đúng k ạ hay là e k đủ điều kiện ạ hay là [nhà trường]{"entity":"organization"} chưa có kết quả và chưa đến thời gian công bố ạ
     - em đki online rồi mà sao chưa nhận được tb ạ?
     - hôm nay e đk online rồi đấy ạ ko biết là đã đc chưa ạ
@@ -683,7 +683,7 @@ nlu:
   examples: |
     - [nhà trường]{"entity":"organization"} ơi cho em hỏi là bao giờ có giấy nhập học ạ nếu có thì gửi về nhà hay về đâu ạ
     - dạ , thế này thì giờ mk chỉ chờ giấy báo nhập học gửi về nhà thui ạh cô
-    - và có gửi giấy nhập học k
+    - và có gửi giấy nhập học k
     - có đc gửi giấy về nhà không ạ
     - gửi giấy về nhà ạ
     - nếu đỗ thì trưởng gửi giấy về phải k ạ
@@ -703,7 +703,7 @@ nlu:
     - kết quả sẽ gửi về đâu ạ
     - nếu trúng tuyển thì [nhà trường]{"entity":"organization"} sẽ báo luôn đúng k ạ
     - nếu e đăng kí ol thì khi trúng tuyển sẽ thông báo qua đâu ạ
-    - em chào thầy cô ạ , cho em hỏinếu không trúng tuyển thì [nhà trường]{"entity":"organization"} có báo lại không ạ
+    - em chào thầy cô ạ , cho em hỏi nếu không trúng tuyển thì [nhà trường]{"entity":"organization"} có báo lại không ạ
     - vậy nếu trúng tuyển [nhà trường]{"entity":"organization"} có gọi điện về báo gia đình k ạ
     - như vậy là sơ tuyển thành công và đợi xác nhận trúng tuyển đúng không
     - nếu em trúng tuyển thì nhận thông báo ở đâu ạ
@@ -726,20 +726,20 @@ nlu:
     - bây giờ [trường]{"entity":"organization"} mình nhập học ạ
     - không biết là [trường]{"entity":"organization"} còn nhận hồ sơ sét tuyển không ạ
     - ad ơi , giờ [trường]{"entity":"organization"} còn nhận hồ sơ nữa không ạ
-    - dạ cho e hỏi bh đăng kí hok đc ko ạ?
+    - dạ cho e hỏi bh đăng kí hok đc không ạ?
     - ad cho e hỏi bây giờ còn nhận tuyển sinh ngành công nghệ may không ạ
     - thời gian nộp hồ sơ [trường]{"entity":"organization"} mình hết chưa ạ
     - hôm nay em mới gửi học bạ thì có kịp nhập học vào ngày [11 / 9]{"entity":"time"} này không ạ?
-    - vào hôm đăng kí nhập học do vấn đề sức khoẻ nên e k đi được vậy bây giờ e có được đăng kí nữa k ạ
+    - vào hôm đăng kí nhập học do vấn đề sức khỏe nên e k đi được vậy bây giờ e có được đăng kí nữa k ạ
     - e muốn hỏi là h muốn đăng kí vào [trường]{"entity":"organization"} học được k ạ?
     - [trường]{"entity":"organization"} mình h nộp học bạ xin vào [trường]{"entity":"organization"} kịp k ạ
     - hôm nay em lên nhập học luôn đc không ạ
     - e rất muốn dô [trường]{"entity":"organization"} này
-    - add cho e hỏi h mình muốn đăng kí vào [trường]{"entity":"organization"} có được ko vậy
+    - add cho e hỏi h mình muốn đăng kí vào [trường]{"entity":"organization"} có được không vậy
     - mà lên [trường]{"entity":"organization"} mình đăng kí có đc không ạ
     - [trường]{"entity":"organization"} cho mình hỏi chút là mình thi đh đc điểm khối a1 là ,55 thì mình muốn xét vô [trường]{"entity":"organization"} thì cần nộp hồ sơ gì không ạ
     - bạn có nhận học viên mới không?
-    - chị cho e hỏi bh đăng ký thủ tục nhập học được ko ạ
+    - chị cho e hỏi bh đăng ký thủ tục nhập học được không ạ
     - vậy thì thi thpt qg xong vẫn nhận ạ
     - thế khi thi xong thpt quốc gia em nộp hồ sơ có đc k ạ
     - trg nhận hồ sơ xt chưa ạk
@@ -747,7 +747,7 @@ nlu:
     - add ơi cho em hỏi là [trường]{"entity":"organization"} mình đã nhận hồ sơ tuyển sinh chưa ạ
     - cho em hỏi [nhà trường]{"entity":"organization"} còn nhận hồ sơ không ạ
     - [trường]{"entity":"organization"} mình giờ còn nhận hồ sơ k ạ
-    - cho em hỏi [trường]{"entity":"organization"} có còn nhận hồ sơ ko ạ
+    - cho em hỏi [trường]{"entity":"organization"} có còn nhận hồ sơ không ạ
     - giờ con tôi muốn đăng ký vào học [trường]{"entity":"organization"} mình
     - e xác định học trong [trường]{"entity":"organization"} mình rồi
     - thầy cô cho e hỏi [trường]{"entity":"organization"} mình đã thu hs chưa ạ
@@ -758,7 +758,7 @@ nlu:
     - điểm thi trung học phổ thông thì đến bao giờ bắt đầu nhận hồ sơ ạ
     - [trường]{"entity":"organization"} mình bắt đầu từ bao giờ nhận hồ sơ ạ?
     - trg bắt đầu lộp hồ sơ chưa ạ
-    - [trường]{"entity":"organization"} mình có tuyển sinh onlie ko ạ
+    - [trường]{"entity":"organization"} mình có tuyển sinh onlie không ạ
     - còn tuyển sinh online kh ạ
     - cho e hỏi là [trường]{"entity":"organization"} mình còn xét tuyển sinh viên k ạ
     - thời gian nhận hồ sơ [trường]{"entity":"organization"} mình là bao giờ ạ
@@ -775,7 +775,7 @@ nlu:
 
 - intent: requirements_registration_docs
   examples: |
-    - hồ sơ đăng kí vào trường cần những cái gì ạ
+    - hồ sơ đăng kí vào trường cần những cái gì ạ
     - bây giờ em muốn nộp hồ sơ xét học bạ vào [trường]{"entity":"organization"} thì cần phải làm những gì ạ ??
     - em muốn nộp hồ sơ xét tuyển học ban thì cần những giấy tờ gì ạ
     - em muốn đăng kí học thì cần những j ak
@@ -814,7 +814,7 @@ nlu:
     - [trường]{"entity":"organization"} ơi cho e hỏi bh bắt đầu tgian đi học thế ạ
     - [trường]{"entity":"organization"} mình bao giờ bắt đầu học chính thức ạ?
     - thầy / cô ơi cho em hỏi mai em nộp hồ sờ thì lịch học bắt đầu lúc nào ạ
-    - trường cho e hỏi làm [11 / 9]{"entity":"time"} này lên trường có học luôn ko ạ
+    - trường cho e hỏi làm [11 / 9]{"entity":"time"} này lên trường có học luôn không ạ
     - thời gian bắt đầu học là bao giờ ạ
     - ngày bao nhiêu là bắt đầu học ạ
     - bắt đầu học bao giờ
@@ -824,7 +824,7 @@ nlu:
     - [11]{"entity":"time"} nhập học thì bao giờ học ạ
     - cho em hỏi là nhập học xong là học luôn ạ
     - cho e hỏi là [11 / 9]{"entity":"time"} này lên [trường]{"entity":"organization"} là học luôn hay chỉ làm thủ tục thôi ạ
-    - bác có thể giải thích cho cháu mục 8 hướng dẫn thủ tục nhập học ko ạ
+    - bác có thể giải thích cho cháu mục 8 hướng dẫn thủ tục nhập học không ạ
     - [thứ 6]{"entity":"time"} lên [trường]{"entity":"organization"} nhập học xong là học luôn ạ
     - ad cho em hỏi là mai nhập học thì hôm sau học luôn hay sang tuần mới học ạ
     - cho em hỏi nhập học là có học luôn k ạ
@@ -833,14 +833,14 @@ nlu:
     - thì bao giờ nhập học ạ
     - [11 / 9]{"entity":"time"} đi nhập học thì bao h đi học ạ
     - hôm sau đi hk luôn
-    - cho em hỏi lên [trường]{"entity":"organization"} nhập học thì chỉ đóng các khoản tiền và các loại giấy tờ chứ chưa học ngay phải ko ạ
+    - cho em hỏi lên [trường]{"entity":"organization"} nhập học thì chỉ đóng các khoản tiền và các loại giấy tờ chứ chưa học ngay phải không ạ
     - lên [trường]{"entity":"organization"} có phải học luôn không ạ
     - hôm nhập học là lên học luôn hay sao ạ
     - bao giờ thì học chính thức ạ
     - hôm nhập học là học gì vậy ạ
     - ngày nhập học có phải mang sách vở gì không ạ
     - dạ vâng vậy [trường]{"entity":"organization"} mình khi nào đi học ạ
-    - cho em hỏi là [thứ 6]{"entity":"time"} lên nhập học xong có học luôn ko ạ hay [thứ 2 tuần sau]{"entity":"time"} mới học ạ
+    - cho em hỏi là [thứ́ 6]{"entity":"time"} lên nhập học xong có học luôn không ạ hay [thứ́ 2 tuần sau]{"entity":"time"} mới học ạ
     - thì [thứ 7]{"entity":"time"} có học luôn không ạ
     - có lịch hay đi học luôn ạ
     - hay chờ nhập học hết mới đi học à
@@ -879,7 +879,7 @@ nlu:
     - tháng mấy [trường]{"entity":"organization"} mình học ạ
     - tháng mấy nhập học đấy ạ
     - sau ngày [15]{"entity":"time"} là k dc nữa ạ
-    - nhưng trong giấy báo là sau 15 ngày mới ko được nhập học nữa
+    - nhưng trong giấy báo là sau 15 ngày mới không được nhập học nữa
     - em thấy giấy nhập hok gửi cho em ghi là quá thời gian nhập hok 15 ngày là nhà trg o nhận
     - e thấy ghi quá thời hạn nhập học 15 ngày kh tiếp nhận
     - nếu qua ngày 14 mà chưa nhập học thì baoh đc học ạ
@@ -891,8 +891,8 @@ nlu:
     - em nhập học muộn có được không ạ
     - em có việc bận , lên nộp hồ sơ sau có sao không ạ
     - ad ơi em nhập học sớm có được không ạ
-    - e có giấy báo nhập học e vẫn lên đky nhưng xin học sau đợt 2 có được ko ạ
-    - thế e ko nhập học đợt 1 thì nhập học đợt 2 có được ko ạ
+    - e có giấy báo nhập học e vẫn lên đky nhưng xin học sau đợt 2 có được không ạ
+    - thế e ko nhập học đợt 1 thì nhập học đợt 2 có được không ạ
     - nếu đỗ thì trong khoảng thời gian nào sẽ nhập học ạ
     - ad ơi! đối với các học sinh nộp hồ sơ xét tuyển vào [trường]{"entity":"organization"} mình năm nay với tình hình dịch này thì thời gian nhập học như nào ạ?
     - e vẫn chưa được thông báo về thời gian nhập học ạ
@@ -944,23 +944,23 @@ nlu:
     - ad ơi em nhập học sau ngày [11 / 9]{"entity":"time"} muộn vài ngày có sao không ạ
     - cho em hỏi [11 / 9]{"entity":"time"} em bận thì sau [11 / 9]{"entity":"time"} em có thể nhập học đc k ạ
     - [11 / 9]{"entity":"time"} nhập học em nhập muộn 1 hôm đc k ạ
-    - cho e hỏi là ngày [11 9]{"entity":"time"} là ngày đi nhập học nhưng e thấy trong tờ giấy báo nhập học có ghi hạn 15 ngàyhôm [11 9]{"entity":"time"} e ko đi được thì hôm [15 9]{"entity":"time"} e đi nhập học liệu có sao không ạ?
+    - cho e hỏi là ngày [11 9]{"entity":"time"} là ngày đi nhập học nhưng e thấy trong tờ giấy báo nhập học có ghi hạn 15 ngày hôm [11 9]{"entity":"time"} e ko đi được thì hôm [15 9]{"entity":"time"} e đi nhập học liệu có sao không ạ?
     - thế nhập học sau thì học sau à add
     - chỉ ngày [11 / 9]{"entity":"time"} nhập học hay là hạn 15 ngày từ ngày [11]{"entity":"time"} vậy ạ
     - [nhà trường]{"entity":"organization"} cho em hỏi em nhập học ngày [12]{"entity":"time"} , và còn [ngày 13-14-15]{"entity":"time"} những ngày đó có lịch gì nữa k ạ
     - bắt buộc nhập học ngày [11]{"entity":"time"}
-    - thế tầm ngày 9 hay ngày 10 em lên nộp được ko ạ
+    - thế tầm ngày 9 hay ngày 10 em lên nộp được không ạ
     - ngày nhập học mang đến hay là phải mang ngay ạ
     - em phải mang đúng ngày ghi trên giấy hay ngày nào cũng dc ạ
     - e nhận đk giấy báo nhập học rồi và mai la [11 / 9]{"entity":"time"} theo như trong giấy ghi phải đi nhập học , do nha e có công việc bận không đi được vậy e đẩy lùi lịch snag thứ 2 tuân sau tức là 14 / 9 e đến [trường]{"entity":"organization"} nhập học có được không ạ
-    - nhưng ngày mai e bận , thì thứ 7 12 / 9 e đi nhập học đc ko ạ
+    - nhưng ngày mai e bận , thì thứ 7 12 / 9 e đi nhập học đc không ạ
     - nhập học sau [11 / 9]{"entity":"time"} thì đc k ạ
     - ad ơi cho em hỏi mai không đi nhập học được sang tuần đi nộp học có được không ạ
     - sau ngày [11 / 9]{"entity":"time"} còn nhập học đc k ạ
     - ngày [11-9]{"entity":"time"} mà bận k đến nhập học được thì để hôm sau đc k ạ
     - cho e hỏi trong giấy báo nhập học có ghi là ngày [11 / 9]{"entity":"time"} là ngày nhập học , nhưng phía dưới có ghi là quá thời hạn nhập học 15 ngày sẽ k tiếp nhận học sinh nữa ạ e muốn hỏi là bắt đầu từ ngày [11 / 9]{"entity":"time"} đến 26 / 9 , trong khoảng thời gian đó em nhập học hôm nào cũng được ạ , hay là phải nhập học đúng vào ngày 11 / 9 ạ ???
     - nhưng ad ơi , em nộp hồ sơ , đóng tiền học kì 1 xong rồi khoảng 1 tuần sau em mới nhập học được không ạ
-    - cho e hỏi là do em có chút viêc đột xuất lên không thể đi nộp hồ sơ đúng hạn đượchôm trước em xuống [trường]{"entity":"organization"} nhưng chỉ nộp được học phí mà chưa nộp được giấy tờ nào  vậy e phải làm như nào ạ
+    - cho e hỏi là do em có chút viêc đột xuất lên không thể đi nộp hồ sơ đúng hạn được hôm trước em xuống [trường]{"entity":"organization"} nhưng chỉ nộp được học phí mà chưa nộp được giấy tờ nào  vậy e phải làm như nào ạ
     - thầy cô cho e hỏi là giờ e đăng kí tuyển sinh ở [trường]{"entity":"organization"} mà mai e không lên được thì e nhập học sau được không ạ
     - ko nhập hk muộn đc ạ
     - nhập học sau ngày [11 / 9]{"entity":"time"} thì sao ạ
@@ -1018,7 +1018,7 @@ nlu:
     - mục 7 k có có được k ạ
     - mục 6 ,7 là như thế nào ạ
     - mục 8 là giấy j vậy ạ
-    - mục 7 là photo hộ khẩu đúng ko ăn
+    - mục 7 là photo hộ khẩu đúng không ăn
     - em vẫn chưa rõ mục 7
     - trước mắt chỉ cần nộp phiếu vs học bạ photo thôi đúng không ạ
     - chỉ cần nộp mỗi học bạ thôi hay cần thêm gì nữa ạ
@@ -1036,9 +1036,9 @@ nlu:
     - [trường]{"entity":"organization"} cho em hỏi giấy chứng nhận điểm thi thpt nộp vào thời gian nào ạ
     - em chuẩn bị cả học bạ phto công chứng r ạ 
     - đki hồ sơ xét tuyển cần chuẩn bị những gì ạ e đọc trên web mà không hiểu rõ lắm
-    - và chuẩn bị những gì ạvà chuẩn bị những gì ạ
+    - và chuẩn bị những gì ạ và chuẩn bị những gì ạ
     - dạ cho em hỏi là cần chuẩn bị những giấy tờ gì để làm hồ sơ ạ!
-    - em vừa nhận dc giấy báo nhập học ,bây giờ em cần chuẩn bị những gì để có thể nhập học tại [trường]{"entity":"organization"} ạ 
+    - em vừa nhận dc giấy báo nhập học , bây giờ em cần chuẩn bị những gì để có thể nhập học tại [trường]{"entity":"organization"} ạ 
     - đến [trường]{"entity":"organization"} nộp thì e cần chuẩn bị những giấy tờ gì ạ
     - là mình chuẩn bị những gì thế ạ
     - e tra được trên website của [trường]{"entity":"organization"} như vậy thì sau đó e cần làm thủ tục gì vậy ?
@@ -1069,7 +1069,7 @@ nlu:
     - hồ sơ nhập học bao gồm những gì vậy ạ ?
     - vậy trong tập hồ sơ gồm những gì ạ
     - dạ hồ sơ làm thủ tục nhập học gồm gì ạ
-    - dạvâng ạe chờ đc ạhồ sơ đăng ký gồm những gì thầy ạ?
+    - dạ vâng ạe chờ đc ạ hồ sơ đăng ký gồm những gì thầy ạ?
     - hồ sơ nhập học gồm nhưng gì ạ?
     - xin cho biết thủ tục đăng kí gồm những gì?
     - bây giờ em phải nộp những j ạ
@@ -1079,11 +1079,11 @@ nlu:
     - vậy thì cần mang những giấy tờ gì ạ
     - cho e hỏi là khi đăng kí xét tuyển xong thì cần những giấy tờ gì để nhập học ạ
     - đi nhập học thì cần mang những giấy tờ gì ạ
-    - nhưng mà xin tờ đấy có cần tờ giấy báo nhập học ko ạ
+    - nhưng mà xin tờ đấy có cần tờ giấy báo nhập học không ạ
     - khi đi mang theo giấy tờ gì ạ 
     - thế hôm này đi nhập học cần đem theo những gì ạ
     - bây giờ muốn đăng kí công nghệ may [trường]{"entity":"organization"} mình thì nộp hồ sơ như thế nào ạ
-    - khi đến [trường]{"entity":"organization"} em có phải mang giấy tờ gì đến ko ạ
+    - khi đến [trường]{"entity":"organization"} em có phải mang giấy tờ gì đến không ạ
     - cho em hỏi [7 / 9]{"entity":"time"} nhập học cần những giáy tờ gì ạ
     - muốn đăng kí vào [trường]{"entity":"organization"} đhspkthy thì em phải cần những giấy tờ gì ạ
     - nhà trg cho e xin những j cần mang khi nhập học ạ
@@ -1113,7 +1113,7 @@ nlu:
     - ad ơi e đăng kí oline xog r , những giấy tờ còn lại e mang nộp trực tiếp vào cơ sở e muốn học đc không ạ
     - dạ tại em đang học lớp 12 [trường]{"entity":"organization"} thpt mỹ hào ạ , em muốn đăng kí vào [trường]{"entity":"organization"} mình để học ạ
     - mai em mang lên luôn để chỉnh sửa được không ạ
-    - ad cho e hỏihôm nay mang hồ sơ lên nộp được chưa ạ
+    - ad cho e hỏi hôm nay mang hồ sơ lên nộp được chưa ạ
     - có cần em lên tận [trường]{"entity":"organization"} nộp cho dễ k ạ
     - cho e hỏi khi lên [trường]{"entity":"organization"} đăng ký thì càn mang những gì ạ
     - em mang học bạ lên trường
@@ -1136,8 +1136,8 @@ nlu:
     - có phải mang sổ hộ khẩu đi không ạ?
     - ad chỉ e ở mục nào đc không ạ
     - hồ sơ trúng tuyển ở mục 6 dán ảnh là sao ạ
-    - add tư vấn cho e mục 2 , 3 ,7 ,8mình học nghành cơ điện tửcho mình hỏi bao giờ có đợt thi tuyển và hồ sơ như thế nàothanks bạn
-    - add có thể gửi cho e bản mẫu được ko ạ
+    - add tư vấn cho e mục 2 , 3 ,7 ,8mình học ngành cơ điện tửcho mình hỏi bao giờ có đợt thi tuyển và hồ sơ như thế nàothanks bạn
+    - add có thể gửi cho e bản mẫu được không ạ
     - em làm hồ sơ nhưng ko biết viết mấy chỗ
     - hồ sơ nhập học [trường]{"entity":"organization"} đại học kỹ thuật hưng yên gồm những gì
     - giấy tờ cần mang theo có gồm bằng tốt nghiệp thpt k ạ
@@ -1163,7 +1163,7 @@ nlu:
     - học bạ photo có cần công chứng k ạ
     - thế không cần học bạ photo công chứng ạ
     - học bạ cx phải photo công chứng nộp cho [nhà trường]{"entity":"organization"} ạ
-    - ad cho em hỏi học bạ cần nộp bản photo có cần công chứng ko ạ 
+    - ad cho em hỏi học bạ cần nộp bản photo có cần công chứng không ạ 
     - lúc nhập học e nộp bản photo bằng thpt và học bạ phô tô công chứng được k a
     - học bạ có phải photo k ạ
     - [trường]{"entity":"organization"} cho e hỏi bản học bạ photo có cần công chứng không ạ
@@ -1180,18 +1180,18 @@ nlu:
     - mấy bản photo có phải công chứng k ạ
     - công chứng ở xã à ad
     - có công chứng k
-    - các bản photo của mục 7 có cần công chứng ko ạ
-    - với lại 4 bản photocopy có phải đi xin dấu công chứng của xã ko ạ
-    - chắc giấy khai sinh là bản sao công chứng đúng ko ạ
+    - các bản photo của mục 7 có cần công chứng không ạ
+    - với lại 4 bản photocopy có phải đi xin dấu công chứng của xã không ạ
+    - chắc giấy khai sinh là bản sao công chứng đúng không ạ
     - mấy bản sao kia có cần phải công chứng k ạ
     - cho e hỏi công chứng ở xã chỉ cần công chứng nguyên hồ sơ học sinh sinh viên thôi phải k ạ
-    - các cái mục 1-2-3-4-5 kia có phải xin công chứng với dấu ko ạ
+    - các cái mục 1-2-3-4-5 kia có phải xin công chứng với dấu không ạ
     - học bạ cần công chứng không ad
     - ad cho e hỏi giấy báo nhập học photo 4 bản có cần công chứng không ạ và nếu công chứng thì phải công chứng cả 4 bản ạ
     - các bản photo có cần công chứng k ạ
-    - các giấy tờ có giấy tờ nào cần phải công chứng ko ạ
-    - tất cả các bản photo copy cần công chứng hết đúng ko ạ
-    - giấy nhập học bản photocopy phải công chứng ko ạ
+    - các giấy tờ có giấy tờ nào cần phải công chứng không ạ
+    - tất cả các bản photo copy cần công chứng hết đúng không ạ
+    - giấy nhập học bản photocopy phải công chứng không ạ
     - dạ cần phải công chứng học bạ cả cái j nữa ạ
     - mới cả có cần hộ khẩu photto công chứng k ạ
     - em đang xin học bạ đi photto công chứng
@@ -1205,18 +1205,18 @@ nlu:
 - intent: docs_photocopy
   examples: |
     - ad cho e hỏi nhữg thứ nào cần photo ạ
-    - photo học bạ còn cần photo j nữa ko ạ
+    - photo học bạ còn cần photo j nữa không ạ
     - các giấy tờ như cccd photo học bạ photo giấy khai sinh có cần công chứng của xã k ạ
     - cho em hỏi tất cả các loại giấy tờ ghi trong giấy báo nhập học photo xong có cần công chứng không ạ
     - e bị mất giấy khai sinh gốc nhưng còn giấy khai sinh photo đã công chứng được thì có được k ạ
     - cho e hỏi là cần mỗi học bạ photo rồi công chứng thôi ạ
     - [nhà trường]{"entity":"organization"} cho em hỏi giấy báo nhập học photo có cần công chứng không ạ
-    - bác cho cháu hỏi cái bản photo giấy báo nhập học có cần công chứng hay ko ạ
+    - bác cho cháu hỏi cái bản photo giấy báo nhập học có cần công chứng hay không ạ
     - a cái giấy báo photo có cần công chứng không v
     - những giấy tờ nào cần photo ạ
-    - 4 bản photo giấy báo nhập học có cần công chứng ko ạ
+    - 4 bản photo giấy báo nhập học có cần công chứng không ạ
     - nếu mà mình photo giấy báo nhập học ra nhưng e lại công chứng nữa thì có sao không ạ
-    - cho e hỏi là nhập học các giấy tờ như cccd và giấy khai sinh photto có cần công chứng ko ạ
+    - cho e hỏi là nhập học các giấy tờ như cccd và giấy khai sinh photto có cần công chứng không ạ
     - ad ơi cho e hỏi trong hồ sơ gửi về [trường]{"entity":"organization"} có học bạ photo công chứng có thể thay bằng bản sao kết quả học tập [trường]{"entity":"organization"} thpt từ 2017-2020 có dấu của [nhà trường]{"entity":"organization"} đc không ạ
 
 - intent: area_field_in_registration_docs
@@ -1249,7 +1249,7 @@ nlu:
   examples: |
     - e ở [miền nam]{"entity":"location"} em muốn hỏi e phải xét ntn?
     - em ở [nước ngoài]{"entity":"location"} thì xét tuyển ra sao ạ
-    - em ở [thanh hoá]{"entity":"location"} thì gửi hồ sơ lâu lắm ạ
+    - em ở [thanh hóa]{"entity":"location"} thì gửi hồ sơ lâu lắm ạ
     - ở tận [miền trung]{"entity":"location"} thì em gửi hồ sơ kiểu gì vậy ạ
     - nếu ở xa thì xét tuyển như thế nào ạ
     - em ở xa thì đăng ký kiểu gì vậy ạ
@@ -1268,7 +1268,7 @@ nlu:
     - lệ phí xét tuyển ra áo ạ
     - phí nguyện vọng thì bao nhiêu tiền vậy ạ
     - bao nhiêu tiền một nguyện vọng vậy ạ
-    - cho e hỏi có cần lệ phí xét tuyển không ạ
+    - cho e hỏi có cần lệ phí xét tuyển không ạ
     - em gửi hồ sơ len có cần gửi cả lệ phí xét tuyển nữa k ạ
     - lệ phí xét tuyển là như nào ạ
     - cho em xin thông tin về lệ phí xét tuyển ạ
@@ -1341,7 +1341,7 @@ nlu:
     - bên [trường]{"entity":"organization"} mình đào tạo tất cả bao nhiêu ngành nghề vậy ạ
     - [trường]{"entity":"organization"} mình đào tạo những ngành nghề nào ạ
     - các ngành nghề mà [trường]{"entity":"organization"} đào tạo là gì
-    - e muốn tham khảo chút về khoá học của [trường]{"entity":"organization"} ạk
+    - e muốn tham khảo chút về khóa học của [trường]{"entity":"organization"} ạk
     - [trường]{"entity":"organization"} mình đào tạo bao nhiêu ngành nghề
     - ad cho em hỏi các ngành nghề mà [trường]{"entity":"organization"} đào đạo ạ
     - cho em xin thông tin về các ngành nghề [trường]{"entity":"organization"} đào đạo
@@ -1354,7 +1354,7 @@ nlu:
     - các ngành đào tạo mỗi cs
     - các cơ sở đào tạo những ngành gì ạ
     - các ngành mà mỗi cơ sở đào tạo ạ
-    - [trường]{"entity":"organization"} có những khoá học gì ạ
+    - [trường]{"entity":"organization"} có những khóa học gì ạ
     - cho em xin thông tin các ngành mà mỗi cơ sở đào tạo
     - 3 cơ sở đào tạo những ngành gì ạ
     - ad cho em hỏi về các ngành đào tạo tại các cơ sở
@@ -1363,7 +1363,7 @@ nlu:
 
 - intent: ask_can_choose_training_facility
   examples: |
-    - vâng , có đc tự chọn cơ sở để học ko ạ
+    - vâng , có đc tự chọn cơ sở để học không ạ
     - được chọn cơ sở học không ạ?
     - em được chọn học tại 1 trong 3 cơ sở của trường
     - và có thể chọn cơ sở để nhập học với lí do gần nhà được không ạ
@@ -1386,17 +1386,17 @@ nlu:
     - k đổi nguyện vọng đăng kí học với [trường]{"entity":"organization"} luôn có được k ạ có ảnh hưởng gì k ạ
     - ý e là đợt đk thêm nguyện vọng này em sửa nguyện vọng từ [trường]{"entity":"organization"} khác sang [trường]{"entity":"organization"} mình thì có đk k ạ
     - ad cho e hỏi nếu đỗ r có đuổi nguyện vọng được không ạ !
-    - cho e hỏi là e có đk nhầm nguyện vọng mà nhà trg gửi giấy báo nhập học về rồi liệu còn đc đang ký lại nguyện vọng đc ko ạ
+    - cho e hỏi là e có đk nhầm nguyện vọng mà nhà trg gửi giấy báo nhập học về rồi liệu còn đc đang ký lại nguyện vọng đc không ạ
     - mà e đk online vậy rồi ạ e có sửa đc nguyện vọng k ạ e muốn đk lại nguyện vọng khác đc k ạ
     - có đổi được nguyện vọng mình chọn lúc xét học bạ online không ạ
     - e đóng tiền học rồi không biết e có thể đổi nguyện vọng đc k ạ
-    - nếu em xét học ba trên mạng rồi thì em có cần đổi nguyện vọng nữa ko ạ
+    - nếu em xét học ba trên mạng rồi thì em có cần đổi nguyện vọng nữa không ạ
     - em được đổi nguyện vọng không
     - em đăng ký rồi nhưng muốn đổi nguyện vọng có được không ạ
     - em đăng kí xét tuyển onl rồi nhưng thấy tổ hợp d01 của em điểm hơi thấp em muốn đăng kí lại tổ hợp khác đc không ạ
     - em muốn đăng ký lại tổ hợp có được không ạ
     - em sẽ đăng ký lại ad nhé
-    - bây h đăng kí trưc tuyên nv1 như nào ạ ,nha truơng chỉ giúp em vơi ạ
+    - bây h đăng kí trưc tuyên nv1 như nào ạ ,nha trương chỉ giúp em vơi ạ
     - đăng ký trực tuyến nv1 như nào ạ
     - [trường]{"entity":"organization"} hướng dẫn em đăng ký trực tuyến nv1 được không ạ
     - [trường]{"entity":"organization"} cho em hỏi đăng ký trực tuyến nv1 như nào ạ
@@ -1411,7 +1411,7 @@ nlu:
     - em đăng ký lại có làm sao không ạ
     - có được đăng ký lại tổ hơp xét tuyển không ạ
     - em đăng ký thêm có có được không ad
-    - em được 19 65 điểm thi vừa rồi ,em đăng ký [trường]{"entity":"organization"} mình ở nguyện vọng cuối , bây giờ em muốn học [trường]{"entity":"organization"} mình thì làm thủ tục giấy tờ gì ạ em muốn học nghành tự động hoá ,em ở hải dương ,em ra cơ sở đấy làm thủ tục được kg ạ
+    - em được 19 65 điểm thi vừa rồi ,em đăng ký [trường]{"entity":"organization"} mình ở nguyện vọng cuối , bây giờ em muốn học [trường]{"entity":"organization"} mình thì làm thủ tục giấy tờ gì ạ em muốn học ngành tự động hóa ,em ở hải dương ,em ra cơ sở đấy làm thủ tục được kg ạ
     - chị ơi hôm nay [trường]{"entity":"organization"} mình được thay đổi nguyện vọng ạ em ở hải dương em ra [trường]{"entity":"organization"} thay đổi nguyện vọng được kg ạ 
     - e muốn đổi nguyện vọng thì phải làm như nào ạ
     - e đổi nguyện vọng thì lên cơ sở nào ạ
@@ -1431,10 +1431,10 @@ nlu:
     - có được đăng kí 2 3 nguyện vọng k ạ
     - em đăng ký nhiều nguyện vọng được không ad
     - em muốn đăng ký nhiều nguyện vọng ạ
-    - 2 nguyện vọng đăng kí 2 nghành ạ hay ntn ạ
+    - 2 nguyện vọng đăng kí 2 ngành ạ hay ntn ạ
     - e muốn 1nv là cn thông tin 1 là cn kĩ thuật ô tô đc k ạ
     - em đăng kí 2 nguyện vọng cùng là vào [trường]{"entity":"organization"} nhưng khác ngành , bây giờ em không muốn học ngành ở nguyện vong 1 mà muốn học ngành ở nguyện vọng 2 có được không ạ ?
-    - về cái nguyện vọng thì e chọn 1 cái thôi được ko ạ
+    - về cái nguyện vọng thì e chọn 1 cái thôi được không ạ
     - em đăng ký thêm nguyện vọng thì có được không ạ
     - nếu như em đỗ nguyện vọng thì không cần xét học bạ nữa phải k ạ
     - e dc 16 có nguyện vọng
@@ -1453,7 +1453,7 @@ nlu:
     - e muốn xét tuyển theo hình thức xét học bạ thì điểm của e phải ntn ms đủ điều kiện ạ
     - admin cho em hỏi bây giờ em muốn nộp hồ sơ theo hình thức xét tuyển học bạ thì thủ tục như thế nào ạ
     - hình thức xét hk bạ ntn ạ
-    - ad có thể tư vấn giúp e thêm đc k ,e muốn nộp học bạ
+    - ad có thể tư vấn giúp e thêm đc k ,e muốn nộp học bạ
     - ad tư vấn cho e xét học bạ như thế nào ạ ?
     - e nghe nói là xét học bạ cũng đc phải không ạh???
     - xét học bạ cần phải có những cái j ạ
@@ -1462,7 +1462,7 @@ nlu:
     - em muốn xét tuyển học bạ thì làm thế nào ạ
     - còn xét học bạ cần tiêu chí gì ạ
     - e bây h muốn nộp hồ sơ để xét học bạ
-    - ad cho e hỏi e 24 tuổi ,có bằng thpt giờ muốn học [quản trị kinh doanh]{"entity":"majors"} trường có chương trình gì đào tạo k ạ thời gian học bao lâu ạ
+    - ad cho e hỏi e 24 tuổi , có bằng thpt giờ muốn học [quản trị kinh doanh]{"entity":"majors"} trường có chương trình gì đào tạo k ạ thời gian học bao lâu ạ
     - em muốn đăng kí xét học bạ 12 nữa ạ
     - bây giờ e muốn đăng kí xét tuyển học bạ thì phải lm những bước nào vậy ạk
     - cho e hỏi bây giờ xét học bạ phải làm những thủ tục gì ạ?
@@ -1480,7 +1480,7 @@ nlu:
     - em muốn xét học bạ vào [trường]{"entity":"organization"} phải làm sao
     - vag , chưa có điểm chuẩn thì e xét bằng học bạ ạh
     - em muốn xét học bạ ạ
-    - cho em hỏi làem chưa thi tốt nghiệp ý ạ nên chưa có kết quảnhưng em muốn đăng kí xét học bạ lớp 12 trước thì có được k ạ và đăng kí như nào à 
+    - cho em hỏi làem chưa thi tốt nghiệp ý ạ nên chưa có kết quảnhưng em muốn đăng kí xét học bạ lớp 12 trước thì có được k ạ và đăng kí như nào à 
     - ad ơi cho em hỏi là muốn đăng kí xét học bạ online thì làm như nào ạ?
     - với lại bên [nhà trường]{"entity":"organization"} xét học bạ như nào ạ???
     - bây giờ em muốn xét học bạ vào [trường]{"entity":"organization"} thì làm như thế nào ạ
@@ -1495,14 +1495,14 @@ nlu:
     - cho e hỏi xét học bạ 3 năm hay năm 12 thôi ạ?
     - em muốn đăng kí xét tuyển học bạ ạ
     - h e đăng kí online bằng phương thức xét học bạ thì có cần làm j khác nữa k ạ
-    - không ý em hỏi là trước em đăng kí bằng học học bạ đăng kí ở trên mạng thì [trường]{"entity":"organization"} gửi giấy về cho e rồi bây giờ em muốn huỷ đăng kí bằng học bạ em muốn đăng kí bằng số điểm thi toán lý hoá tổng điểm là  5 điểm để em đc vào học lớp tài năng được không ạ trường
-    - bây giờ em muốn đăng kí xét học bạ vào khoa tự đông hoá có được không ạ
+    - không ý em hỏi là trước em đăng kí bằng học học bạ đăng kí ở trên mạng thì [trường]{"entity":"organization"} gửi giấy về cho e rồi bây giờ em muốn hủy đăng kí bằng học bạ em muốn đăng kí bằng số điểm thi toán lý hóa tổng điểm là  5 điểm để em đc vào học lớp tài năng được không ạ trường
+    - bây giờ em muốn đăng kí xét học bạ vào khoa tự đông hóa có được không ạ
     - cho em hỏi là nay có người ở [trường]{"entity":"organization"} đến gọi bảo em đăng kí học bằng học bạ
     - e muốn xét học bạ thì phải nộp những gì ạ? bg e nộp đc ạ?
     - hiện học bạ bản gốc thì em chưa có , em có bản photto ạ
     - em nộp học bạ photo rồi vậy khi nhập học em phải nộp bản chính hay bản sao
     - [trường]{"entity":"organization"} mình xét tuyển học bạ ntn ạ
-    - thì bây h e xét học bạ có dk ko ạ
+    - thì bây h e xét học bạ có dk không ạ
     - cho e hỏi h e làm hồ sơ bằng học bạ thì cần chuẩn bị những j vậy ad
     - ad cho em hỏitrg mình năn nay xét học bạ ạ? vậy chỉ cần nộp học ba về [trường]{"entity":"organization"} đúng k ạ! có cần thêm gì nữa k ạ?
     - xét hk bạ thì xét những môn nào ạ
@@ -1573,11 +1573,11 @@ nlu:
     - bh gửi hồ sơ về trg liệu có kịp k nhỉ
     - cho e hỏi bây h nộp hồ sơ có đc không ạ
     - cho e hỏi t gian xét học bạ đến ngày nào là kết thúc
-    - xét học bạ đến hết ngày mai đúng ko ạ
+    - xét học bạ đến hết ngày mai đúng không ạ
     - và bao giờ hết hạn thời gian xét học bạ vậy ạk?
     - cho em hỏi [trường]{"entity":"organization"} năm nay xét học bạ k ạ
     - cho hỏi [trường]{"entity":"organization"} mình còn tuyển học sinh qua hình thức xét học bạ nữa k vậy
-    - cho em hỏi [trường]{"entity":"organization"} còn tuyển sinh theo hình thức học bạ nữa ko ạ
+    - cho em hỏi [trường]{"entity":"organization"} còn tuyển sinh theo hình thức học bạ nữa không ạ
     - e sử dụng điểm học bạ để vào [trường]{"entity":"organization"} được không ạ?
     - cho mình hỏi mình nhập nguyện vọng vào hồ sơ thi khối aoo nếu [trường]{"entity":"organization"} xét học bạ thì vẫn có thể nộp học bạ đúng không
     - cho em hỏi em muốn dăng ký vào [trường]{"entity":"organization"} mình băng cách tinh diểm thi thpt vậy nếu k may em k dủ diểm thì có dc xét hoc bạ năm lop 11-12 không ạ
@@ -1588,10 +1588,10 @@ nlu:
     - dạ cho em hỏi là bây giờ [trường]{"entity":"organization"} còn xét học bạ k ạ
     - e chào ad ad cho e hỏi [trường]{"entity":"organization"} mk còn xét học bạ k ạ
     - [trường]{"entity":"organization"} mình còn đợt xét tuyển học bạ nào không ạ
-    - ad có thể nói rõ hơn được không ạem chưa hiểu lắmphầm xét điểm học bạ ấy ạ
+    - ad có thể nói rõ hơn được không ạem chưa hiểu lắm phầm xét điểm học bạ ấy ạ
     - giờ e xét tuyển học bạ còn được k ạ
     - giờ e xét tuyển học bạ còn được k ạ thầy cô
-    - vâg ạ , bh [trường]{"entity":"organization"} còn xét tuyển học bạ ko ạ
+    - vâg ạ , bh [trường]{"entity":"organization"} còn xét tuyển học bạ không ạ
     - [trường]{"entity":"organization"} có xét học bạ không ạ
     - h [trường]{"entity":"organization"} mình vẫn xét học bạ ạ
     - cho em hỏi [trường]{"entity":"organization"} hiện tại còn xét học bạ k an
@@ -1605,12 +1605,12 @@ nlu:
     - nhà trg h còn nhận học k v
     - [trường]{"entity":"organization"} mình giờ còn nhận học sinh nữa k ạ
     - [trường]{"entity":"organization"} bh còn xét học bạ k ạ
-    - cho e hỏi [trường]{"entity":"organization"} còn xét ko ạ
+    - cho e hỏi [trường]{"entity":"organization"} còn xét không ạ
     - bên mình còn nhận nộp học bạ không ạ
     - chào adad cho e hỏi [trường]{"entity":"organization"} còn xét học bạ kh ạ?
     - ad cho e hỏi h e muốn nộp hk bạ vô [trường]{"entity":"organization"} mình thì còn nhận k nhỉ
     - [trường]{"entity":"organization"} còn xét học bạ hay xét điển thpt không ạ
-    - cho em hỏi là [trường]{"entity":"organization"} đã xét học bạ lớp 12 chưa ạ
+    - cho em hỏi là [trường]{"entity":"organization"} đã xét học bạ lớp 12 chưa ạ
     - h đăng ký học bạ thì có nhận k ạ
     - hcòn nhận đăng ký học bạ không ạ
     - thế [trường]{"entity":"organization"} ta giờ có xét học bạ nữa k nhỉ
@@ -1655,7 +1655,7 @@ nlu:
     - em muốn làm hồ sơ xét tuyển bằng điểm thi thpt nhưng k tìm thấy mẫu phiếu đăng kí xét tuyển thì phải làm sao ạ
     - ad ơi e ko tìm thấy link mẫu phiếu đăng ký hồ sơ ạ ad có thể gửi cho e được không ạ?
     - phiếu đăng kí phải tới [trường]{"entity":"organization"} lấy đúng kh ạ
-    - tìm ở link đó ko thấy tên mặc dù gởi giấy về r ạ
+    - tìm ở link đó không thấy tên mặc dù gởi giấy về r ạ
     - mình có phải mua phiếu xét tuyển không ạ
     - cho em xin mẫu đăng ký xét tuyển được không ạ
     - mẫu đăng ký xét tuyển gồm những gì ạ
@@ -1677,11 +1677,11 @@ nlu:
     - lấy phiếu đăng kí xét tuyển ở đâu a
     - e có tìm mẫu phiếu đăng kí xét tuyển [đại học spkt hưng yên]{"entity":"organization"} mình mà link không cho phép quyền truy cập để tải về thì h phải làm sao ạ
     - link tải phiếu xét tuyển ở đâu vậy ạ?
-    - e thấy trên trang web nó ghi là “phiếu 1-2” mà e lỡ xoá đi rồi
+    - e thấy trên trang web nó ghi là “phiếu 1-2” mà e lỡ xóa đi rồi
     - phiếu đăng kí xét tuyển e phải mua o đâu ạ
     - em tìm không thấy phiếu xét tuyển ạ
-    - ở đâu ạthông báo đó xem em tìm không thấy ạ
-    - e vào link ad gửimà kh lần thấy link tờ phiếu để đăng ký xét học bạ ạ
+    - ở đâu ạt hông báo đó xem em tìm không thấy ạ
+    - e vào link ad gửi mà kh lần thấy link tờ phiếu để đăng ký xét học bạ ạ
 
 - intent: apply_shool_profile_with_graduation_exam_score
   examples: |
@@ -1721,13 +1721,13 @@ nlu:
     - em xét cả học bạ cả điểm thi thpt thì có được k ạ
     - em xét học bạ lẫn điểm thi được không
     - em muốn hỏi là nếu có nguyện vọng học tại đhspkthy theo hình thức xét tuyển học bạ 12 thì khi thi thpt cần phải đăng kí thi đh này nữa không ạ?
-    - em vừa đăng kí xét tuyển học bạ vừa muốn xét điểm được ko
+    - em vừa đăng kí xét tuyển học bạ vừa muốn xét điểm được không
     - em vừa xét học bạ vừa dùng điểm thi thpt
     - em xét cả học bạ và điểm thi được không ad
     - [trường]{"entity":"organization"} cho em hỏi em đã xét bằng học bạ , giờ em xét điểm thi được không
     - em muốn xét cả học bạ và điểm thi được không
     - e muốn đăng kí cả 2 hình thức xét tuyển hình thức 1 là xét học bạ , hình thức 2 là lấy điểm thi thpt quốc gia có đc ko ạk?
-    - ví dụ như là e lấy điểm học bạ rồinhưng e ko đỗ thì e có được thay đổi hình thức xét điểm học bạ thành xét điểm thi thpt quốc gia không ạk?
+    - ví dụ như là e lấy điểm học bạ rồi nhưng e không đỗ thì e có được thay đổi hình thức xét điểm học bạ thành xét điểm thi thpt quốc gia không ạk?
     - nếu như em k đỗ ở hình thức xét học bạ thì em có thể xét tiếp bằng hình thức thi k ạ
     - em muốn đăng kí cả 2 hình thức xét học bạ và xét điểm thi thpt vào [trường]{"entity":"organization"} mình
 
@@ -1786,7 +1786,7 @@ nlu:
 
 - intent: scholarship
   examples: |
-    - các lớp thường có nhận được học bổng ko ạ
+    - các lớp thường có nhận được học bổng không ạ
     - dạ nói rõ hơn về học bổng được không ạ
     - học bổng [trường]{"entity":"organization"} mình tính thế nào ạ
     - học bổng khi học thì sao ạ
@@ -1802,7 +1802,7 @@ nlu:
 
 - intent: ask_bridging_learning
   examples: |
-    - [công nghệ di động]{"entity":"majors"} là j ạ
+    - [công nghệ di động]{"entity":"majors"} là j ạ
     - [công nghệ di động]{"entity":"majors"} là gì ạ
     - cho em xin thêm thông tin về ngành [công nghệ di động]{"entity":"majors"} của [trường]{"entity":"organization"} ạ
     - [trường]{"entity":"organization"} đào tạo [công nghệ di động]{"entity":"majors"} là gì ạ
@@ -1820,7 +1820,7 @@ nlu:
   examples: |
     - bao h thì có giấy báo nhập học gửi về ạ
     - em bị mất giấy nhập học có cấp lại được không ạ
-    - nếu em không nhận được giấy thì có phải đi ko ạ
+    - nếu em không nhận được giấy thì có phải đi không ạ
     - e đăng kí online rồi thì bao lâu gửi giấy về ạ
     - ad ơi tình hình là em vẫn chưa thấy thư gửi về h em lên [trường]{"entity":"organization"} có lấy lại đi k ạ
     - chưa thấy gửi giấy ạ
@@ -1833,10 +1833,10 @@ nlu:
     - giấy báo qua email này là như thế nào đấy ạ
     - giấy báo có được gửi về nhà không mà lại gửi qua email vậy ạ
     - có điểm thi là giấy gửi về phải k ạ
-    - vâng ạ nếu [trường]{"entity":"organization"} hợp em ko nhận được giấy báo thì em phải làm sao ạ
+    - vâng ạ nếu [trường]{"entity":"organization"} hợp em không nhận được giấy báo thì em phải làm sao ạ
     - dạ nếu không có giấy báo nhập học thì làm sao ạ ?
     - bây giờ có giấy gửi về
-    - vậy em có cần lên [trường]{"entity":"organization"} làm thủ tục j ko ạ hay đợi [trường]{"entity":"organization"} gửi giấy về a
+    - vậy em có cần lên [trường]{"entity":"organization"} làm thủ tục j không ạ hay đợi [trường]{"entity":"organization"} gửi giấy về a
     - mà e đăng ký online bao h họ gửi giấy về
     - hôm nọ e có đổi nv 1 sang nv2 thì bao h ms có giấy báo về ạ
     - cho em hỏi giấy báo đỗ gửi qua tn hay đâu
@@ -1848,7 +1848,7 @@ nlu:
     - e nhận đc trên gmail 1 tuần r mà chưa thấy gửi về nhà ạ
     - hôm nọ e có đổi nv1 sang nv2 thì đã gửi giấy về chưa ạ ?
     - cho em hỏi là bao giờ thì có giấy báo nhập học gửi về nhà ạ
-    - cho e hỏi mìh đăng kí học thì trường có gửi giấy nhập học về k ạ
+    - cho e hỏi mìh đăng kí học thì trường có gửi giấy nhập học về k ạ
     - e kb là [trường]{"entity":"organization"} sẽ chủ động gọi báo hay gửi giấy về tận nhà để báo tin ạ 
     - thầy cô cho e hỏi e trúng sơ tuyển đợt 1 thì bao giờ có giấy báo gửi về [trường]{"entity":"organization"} ạ
     - cho e hỏi là trúng tuyển rồi thì tầm bh [trường]{"entity":"organization"} gửi giấy báo nhập học ạ
@@ -1869,7 +1869,7 @@ nlu:
     - e đky xét học bạ sao vẫn chưa có giấy ạ
     - e vẫn chưa đc nhận giấy báo ạ
     - cho em hỏi hôm nay là [28]{"entity":"time"} r sao em vẫn chưa nhận đc giấy báo nhập học ạ
-    - dạ cho em hỏiem có đăng kí trực tuyến và đã đc đỗ vào trườngnhưng vẫn chưa có giấy báo nhập học ạ
+    - dạ cho em hỏiem có đăng kí trực tuyến và đã đc đỗ vào trường nhưng vẫn chưa có giấy báo nhập học ạ
     - cho em hỏi tại sao bây h em vẫn chưa nhận đc giấy nhập học ạ
     - thưa [trường]{"entity":"organization"} e đợi mấy hôm nay vẫn chưa có giấy trúng tuyển ak bao lâu mới có ak
     - s em vẫn chưa nhận được giấy nhập học vậy ạ ,em trúng tuyển đợt 1
@@ -1882,11 +1882,11 @@ nlu:
     - e vẫn chưa nhận dk ad ạ
     - sao bọn bạn e có giấy hết r mà e mãi vẫn chưa có nhỉ
     - mai nhập học rồi mà e vẫn chưa có giấy thì sao ạ
-    - nhà truờng bao h vó giấy báo nhâp học v ạ ,e thấy bạn e có rôi mà e vẫn chưa nhận đc
+    - nhà trường bao h vó giấy báo nhâp học v ạ ,e thấy bạn e có rồi mà e vẫn chưa nhận đc
     - ad cho em hỏi em đăng kí online từ [ngày 27]{"entity":"time"} đến giờ vẫn chưa có thông báo xác nhận trúng tuyển ạ
-    - ad ơihôm nay [mùng 5]{"entity":"time"} rồi nhưng em vẫn chưa có giấy báo nhập học ạ !
+    - ad ơi hôm nay [mùng 5]{"entity":"time"} rồi nhưng em vẫn chưa có giấy báo nhập học ạ !
     - em đăng ký [hôm 31]{"entity":"time"} rồi mà h vẫn chưa có giấy ạ
-    - thưa thầy [25 / 8]{"entity":"time"} rồi em vẫn chưa nhận được giấy , vậy có cách nào để em bt mình đc nhập học ko ạ
+    - thưa thầy [25 / 8]{"entity":"time"} rồi em vẫn chưa nhận được giấy , vậy có cách nào để em bt mình đc nhập học không ạ
     - em đki từ hôm [26 / 8]{"entity":"time"} mà giờ vẫn chưa có giấy nhập học ạ
     - vậy mà em và bạn e đk ngày [31 8]{"entity":"time"} vẫn chưa nhận được giấy nhập học ạ
     - [nhà trường]{"entity":"organization"} cho em hỏi em đki online rồi mà sao tới giờ vẫn chưa có giấy gửi về ạ
@@ -1957,24 +1957,24 @@ nlu:
 
 - intent: change_registry_options
   examples: |
-    - e có giấy báo nhập học của học bạ nhưng e ko học theo hình thức ý a ạ lên e muốn xét tuyển theo điểm thì họ có gửi lần nữa ko ạ
-    - cho e hỏi sau khi biết điểm thi của mình rồi e đăng kí [trường]{"entity":"organization"} mình là nguyện vọng 2 mà trước kia e đã đăng kí cả 2 hình thức xét tuyển là lấy điểm thi thpt quốc gia và học bạ   e đã đỗ với hình thức học bạ rồi thì sau này e có được lấy điểm thi thpt quốc gia để vào [trường]{"entity":"organization"} mình ko ạ?
+    - e có giấy báo nhập học của học bạ nhưng e không học theo hình thức ý a ạ lên e muốn xét tuyển theo điểm thì họ có gửi lần nữa không ạ
+    - cho e hỏi sau khi biết điểm thi của mình rồi e đăng kí [trường]{"entity":"organization"} mình là nguyện vọng 2 mà trước kia e đã đăng kí cả 2 hình thức xét tuyển là lấy điểm thi thpt quốc gia và học bạ   e đã đỗ với hình thức học bạ rồi thì sau này e có được lấy điểm thi thpt quốc gia để vào [trường]{"entity":"organization"} mình không ạ?
     - nếu đủ điểm e muốn dùng điểm thi để đk vào trgtrc e đỗ xét tuyển bằng học bạ r ạ , bg e k dùng học bạ nữa nên đầu tháng 9 k lên nộp hồ sơ và thủ tục nhập học nữa có ảnh hưởng gì k ạ
-    - e được có 22 ,2 cả điểm vùng ạnhưng e chờ xem điểm của các [trường]{"entity":"organization"} ngoài hà nội có phút hợp với e hay knếu k phù hợp thì e sẽ về [trường]{"entity":"organization"} mình họcvì vậy e muốn hỏi ad nếu e k nhập học bằng học bạ thì sau đó e có thể nhập học vào [trường]{"entity":"organization"} bằng hình thức xét điểm được k ạ
+    - e được có 22 ,2 cả điểm vùng ạnhưng e chờ xem điểm của các [trường]{"entity":"organization"} ngoài hà nội có phút hợp với e hay knếu k phù hợp thì e sẽ về [trường]{"entity":"organization"} mình học vì vậy e muốn hỏi ad nếu e k nhập học bằng học bạ thì sau đó e có thể nhập học vào [trường]{"entity":"organization"} bằng hình thức xét điểm được k ạ
     - em có giấy báo học bạ rồi nhưng muốn đổi cách đăng ký xét tuyển điểm thpt có được không ạ
     - em đổi cách đăng ký xét tuyển điểm thi thpt khi có giấy báo học bạ rồi được không
-    - em mình xét tuyển học bạ thì đỗ rồinếu giờ huỷ đi để đợi xét bằng hình thức điểm thi thpt quốc gia thì có làm sao k ạ?
+    - em mình xét tuyển học bạ thì đỗ rồi nếu giờ hủy đi để đợi xét bằng hình thức điểm thi thpt quốc gia thì có làm sao k ạ?
     - e nộp học bạ xét tuyển có giấy báo nhập nhập ngày [11 / 9]{"entity":"time"} nhưng bây giờ em muốn đợi kết quả xét tuyển thpt rồi nhập học vào [trường]{"entity":"organization"} theo điểm thi thpt được không ạ?
     - [trường]{"entity":"organization"} cho em hỏi là em nhỡ đăng kí online của trg và h trg gửi cho em giấy nhập hok ,nhg em muốn xét bằng điểm thi thpt , thì hiện h em o nhập hok đc [11 / 9]{"entity":"time"} mà em đợi đến khi xét đm thpt hoàn thành 27 / 9 , nếu em đỗ thì em có thể nhập hok vào 5 / 10 đc o ạ
 
 - intent: ask_study_saturday_and_sunday
   examples: |
-    - [trường]{"entity":"organization"} có học ca tối ko ạ
+    - [trường]{"entity":"organization"} có học ca tối không ạ
     - [trường]{"entity":"organization"} có học ca tối không ạ
     - có học t7 cn không
     - [trường]{"entity":"organization"} có lớp học buổi tối hoặc cuối tuần cho nguòi đi làm không
     - [trường]{"entity":"organization"} có lớp học buổi tối hoặc cuối tuần cho nguòi đi làm không ạ
-    - cho m hỏi lịch học là vào cuối tuần hay học tối ạhọc bao nhiêu buổi / tuâng với ạ
+    - cho m hỏi lịch học là vào cuối tuần hay học tối ạ học bao nhiêu buổi / tuâng với ạ
     - nên chỉ học vào buổi tối hoặc [chủ nhật]{"entity":"time"} đc thôi ạ
     - lịch học có đẩy hết lên buổi tối được k ạ
     - thời gian biểu học của [trường]{"entity":"organization"} như thế nào ạ
@@ -2007,34 +2007,34 @@ nlu:
     - nhưng sau khi kì thi thpt quốc gia kết thúc thì [trường]{"entity":"organization"} vẫn tuyển sinh theo phương thức lấy điểm thi thpt quốc gia để xét đúng không ạk?
     - e xem điểm thi thpt quốc gia e đc trên 18đ coa đủ điểm thi vào trg k ạ
     - nếu e đỗ [ngàh cn oto]{"entity":"majors"} bằng điểm thi thpt quốc gia thì có đc nhập học nữa k ạ
-    - điểm thi thpt quốc gia cộng cả điểm vùng đc 19đ thì liệu có trúng tuyển k ạđể em xem xét những [trường]{"entity":"organization"} khác nữa ạ
+    - điểm thi thpt quốc gia cộng cả điểm vùng đc 19đ thì liệu có trúng tuyển k ạ để em xem xét những [trường]{"entity":"organization"} khác nữa ạ
     - cho em hỏi nếu em thi thpt quốc gia xong muốn xét hồ sơ vào [trường]{"entity":"organization"} có được nữa k ạ
     - em đăng kí onl thành công mà giờ em đổi nguyện vọng bằng điểm thi thpt quốc gia được không ạ
     - cho em hỏi là nếu xét bằng điểm thi thì ngày bnh thì nhập học ạ
     - em xet diem thi a
-    - còn e muốn xét điểm thì như thế nào ạ ,
+    - còn e muốn xét điểm thì như thế nào ạ ,
 
 - intent: change_majors
   examples: |
-    - e muốn đổi nghành học được ko ạ
-    - h em muốn đổi ngành đc ko ạ
+    - e muốn đổi ngành học được không ạ
+    - h em muốn đổi ngành đc không ạ
     - ad ơi cho em hỏi! [11 / 9]{"entity":"time"} em nhập học thì có chuyển ngành được không ad
-    - bây h em ko muốn học ngành như đã đăng kí mà em muốn đổi sang ngành khác có được không ạ
-    - e muốn đổi sang nghành khác thì như nào ạ
-    - a ơi có giấy báo chúng tuyển rồi mà muốn thay đổi ngành học có đc ko ạ
+    - bây h em không muốn học ngành như đã đăng kí mà em muốn đổi sang ngành khác có được không ạ
+    - e muốn đổi sang ngành khác thì như nào ạ
+    - a ơi có giấy báo chúng tuyển rồi mà muốn thay đổi ngành học có đc không ạ
     - ad cho em hỏi là em muốn đổi sang ngành khác thì bao giờ đc đổi ạ
     - em đăng kí ngành rồi bây giờ e muốn đăng kí ngành khác thì có đổi được không cô
-    - thưa thầy , hiện tại em đăng ký và đc giấy báo nhập học nhưng muốn đổi sang học khoa khác có được ko ạ?
+    - thưa thầy , hiện tại em đăng ký và đc giấy báo nhập học nhưng muốn đổi sang học khoa khác có được không ạ?
     - bâyh e muốn đổi ngành đc kh ạ
-    - em muốn đổi ngành dc ko ạ
-    - thế muốn đổi nghành thì làm sao ạ
+    - em muốn đổi ngành dc không ạ
+    - thế muốn đổi ngành thì làm sao ạ
     - ad ơi cho e hỏi bây giờ còn đổi được ngành không ạ
-    - ad cho e hỏi bây giờ e đỗ vào [trường]{"entity":"organization"} rồi có đổi được nghành học k vậy
+    - ad cho e hỏi bây giờ e đỗ vào [trường]{"entity":"organization"} rồi có đổi được ngành học k vậy
     - luac e đi nhập học mà e muốn thay đổi ngành thì có được k ạ
     - em đã đăng ký xét tuyển học bạ online , vậy em có được đổi ngành khác không?
-    - dạ e có tắc mắc là e nộp hồ sơ xét tuyển online rồimà bây giờ muốn thay đổi nghành học thì có thể thay đổi được không ạ
+    - dạ e có tắc mắc là e nộp hồ sơ xét tuyển online rồi mà bây giờ muốn thay đổi ngành học thì có thể thay đổi được không ạ
     - ad cho em hỏi là lúc xét học bạ online em có chọn ngành cntt giờ em muốn đổi qua ngành khác thì có được không ạ
-    - mà nếu em muốn đổi ngành thì em có đổi được không ạhọc lại từ đầu cũng được ạ
+    - mà nếu em muốn đổi ngành thì em có đổi được không ạ học lại từ đầu cũng được ạ
     - cho em hỏi là em muốn đổi ngành học thì trong hồ sơ em để trống ạ
     - giờ em muốn đổi ngành thì sao hả anh
     - làm sao để chuyển ngành được ạ
@@ -2047,40 +2047,40 @@ nlu:
     - vâng , em muốn đổi nv 1 là [công nghệ thông tin]{"entity":"majors"} thành [cơ điện tử]{"entity":"majors"} ạ
     - dạ em trúng tuyển [ngành công nghệ thông tin]{"entity":"majors"} rồi nhưng em muốn đổi ngành khác thì phải đăng kí lại ạ
     - em nghĩ chuyển từ công nfhệ thông tin cs2 sang công nghệ kĩ t điện [cs1]{"entity":"location"}
-    - [nhà trường]{"entity":"organization"} cho em hỏi là em đăng ký online [ngành công nghệ thông tin]{"entity":"majors"} nhưng vẫn chưa có giấy báogiờ em muốn lên [trường]{"entity":"organization"} xin chuyển ngành khác được không ạ
+    - [nhà trường]{"entity":"organization"} cho em hỏi là em đăng ký online [ngành công nghệ thông tin]{"entity":"majors"} nhưng vẫn chưa có giấy báo giờ em muốn lên [trường]{"entity":"organization"} xin chuyển ngành khác được không ạ
     - ad ơi , hôm trước em đăng kí online nguyện vọng 1 là [công nghệ thông tin]{"entity":"majors"} , giờ có sử được không ạ ?
     - và h e muốn đổi sang [khoa công nghệ oto]{"entity":"majors"} có đc k ạ
-    - [nghành cơ điện tử]{"entity":"majors"} ạ , em muốn chuyển qua [nghành cntt]{"entity":"majors"}
-    - nhà truơng cho e hỏi ,e đg học năm nhất [khoa điện]{"entity":"majors"} ,e bây h muốn chuyển sang [ngành cntt]{"entity":"majors"} có đc k a [đại học sư phạm kỹ thuật hưng yên]{"entity":"organization"}
+    - [ngành cơ điện tử]{"entity":"majors"} ạ , em muốn chuyển qua [ngành cntt]{"entity":"majors"}
+    - nhà trương cho e hỏi ,e đg học năm nhất [khoa điện]{"entity":"majors"} ,e bây h muốn chuyển sang [ngành cntt]{"entity":"majors"} có đc k a [đại học sư phạm kỹ thuật hưng yên]{"entity":"organization"}
     - giấy nhập học của em là [khoa cntt]{"entity":"majors"} giờ e muốn chuyển ngành thì phải làm j ạ
     - với lại e trúng sơ tuyển [ngành cntt]{"entity":"majors"} r nhưg e muốn đổi sag [cn oto]{"entity":"majors"} đc k ạ
     - ad ơi cho em hỏi là đợt trước em có xét tuyển học bạ [ngành cntt]{"entity":"majors"} và đã chúng tuyển giờ em muốn chuyển sang ngành khác có cần xét tuyển lại không hay như thế nào ạ ???
     - e chuyển ngàh từ [cntt]{"entity":"majors"} sang [cnoto]{"entity":"majors"}
     - em xét online đỗ [điên điện tử]{"entity":"majors"} nhưng em muốn đổi sang [cntt]{"entity":"majors"} có được k ạ
-    - em muốn chuyển qua [nghành cntt]{"entity":"majors"} để học [cs3]{"entity":"location"} được kh ạ
+    - em muốn chuyển qua [ngành cntt]{"entity":"majors"} để học [cs3]{"entity":"location"} được kh ạ
     - em muốn chuyển từ [kỹ thuật cơ khí]{"entity":"majors"} sang [kỹ thuật ô tô]{"entity":"majors"} ạ
     - e đăng ký online là [ngành ô tô]{"entity":"majors"} giờ e muốn đăng kí ngành khác được không ạ
-    - thầy cô cho e hỏi e đăng ký rồi nhưng muốn xoá ngành đăng ký đi để chọn vào ngành khác thì phải làm thế nào ạ?
-    - [nhà trường]{"entity":"organization"} cho em hỏi là em dk onl [ngành công nghệ thông tin]{"entity":"majors"} nhưng vẫn chưa có giấy báogiờ em muốn lên [trường]{"entity":"organization"} xin chuyển ngành khác được không ạ
-    - ad ơi em dk [ngành công nghệ thông tin]{"entity":"majors"} ở cs2 nhưng muốn chuyển ngành tự đọng hoá ở [cs1]{"entity":"location"}thì lúc nhập học em đến cơ sở nào để xin chuyển ạ ?
-    - em đã có giấy báo nhập học [ngành công nghệ thông tin]{"entity":"majors"} ở [cơ sở 2 ,3]{"entity":"location"} nhưng bây giờ em muốn chuyển sang học ngành tự động hoá chỉ có ở [cơ sở 1]{"entity":"location"} thì phải làm thế nào ạ
-    - em đăng kí [ngành công nghệ thông tin]{"entity":"majors"} ở [cơ sở 2 ,3]{"entity":"location"} nhưng bây giờ lại muốn chuyển sang ngành công nghệ kỹ thuật điều khiển và tự động hoá ở [cơ sở 1]{"entity":"location"} thì phải làm thế nào ạ
+    - thầy cô cho e hỏi e đăng ký rồi nhưng muốn xóa ngành đăng ký đi để chọn vào ngành khác thì phải làm thế nào ạ?
+    - [nhà trường]{"entity":"organization"} cho em hỏi là em dk onl [ngành công nghệ thông tin]{"entity":"majors"} nhưng vẫn chưa có giấy báo giờ em muốn lên [trường]{"entity":"organization"} xin chuyển ngành khác được không ạ
+    - ad ơi em dk [ngành công nghệ thông tin]{"entity":"majors"} ở cs2 nhưng muốn chuyển ngành tự đọng hóa ở [cs1]{"entity":"location"}thì lúc nhập học em đến cơ sở nào để xin chuyển ạ ?
+    - em đã có giấy báo nhập học [ngành công nghệ thông tin]{"entity":"majors"} ở [cơ sở 2 ,3]{"entity":"location"} nhưng bây giờ em muốn chuyển sang học ngành tự động hóa chỉ có ở [cơ sở 1]{"entity":"location"} thì phải làm thế nào ạ
+    - em đăng kí [ngành công nghệ thông tin]{"entity":"majors"} ở [cơ sở 2 ,3]{"entity":"location"} nhưng bây giờ lại muốn chuyển sang ngành công nghệ kỹ thuật điều khiển và tự động hóa ở [cơ sở 1]{"entity":"location"} thì phải làm thế nào ạ
     - đơnn xin chuyển ngành thì e chỉ có thể xin trong mỗi ngày mai thôi ạ?
     - hôm trc e có nhận được giấy báo trúng tuyển đợt 1 [ngành cntt]{"entity":"majors"} ý ạ , e muốn học [ngành cn oto]{"entity":"majors"}
-    - bn e nó muốn chuyển từ [điện tử]{"entity":"majors"} qua [cntt]{"entity":"majors"} được ko ạ
+    - bn e nó muốn chuyển từ [điện tử]{"entity":"majors"} qua [cntt]{"entity":"majors"} được không ạ
     - giờ muốn chuyển ngành thì như nào ạ
-    - thế thì vàocs 1 em vào chỗ xin chuyển ngành ,rồi tiếp làm thủ tục ạ
+    - thế thì vàocs 1 em vào chỗ xin chuyển ngành , rồi tiếp làm thủ tục ạ
     - tại e cần chuyển chuyên ngành mà không biết mẫu đơn ntn
     - bây h em muốn chuyển ngành
-    - tại em dk [ngành công nghệ thông tin]{"entity":"majors"} nhưng muốn chuyển [ngành tự động hoá]{"entity":"majors"} ạ
+    - tại em dk [ngành công nghệ thông tin]{"entity":"majors"} nhưng muốn chuyển [ngành tự động hóa]{"entity":"majors"} ạ
     - bây h em muốn chuyển sang [cơ khí]{"entity":"majors"} ạ
     - em đỗ [kĩ thuật may]{"entity":"majors"} rồi nhưng em muốn chuyển khoa sang [quản trị kinh doanh]{"entity":"majors"} có được không ạ
     - em nhầm < là em đỗ [công nghệ may]{"entity":"majors"} em muốn chuyển khoa sang [quản trị kinh doanh]{"entity":"majors"} được không ạ
     - thầy ơi em muốn chuyển về [trường]{"entity":"organization"} tp được kh
-    - lúc vào nhập học có chuyển đc nghành học k ạ
-    - ad em đỗ [nghành kỹ thuật oto]{"entity":"majors"} theo phương thức xét tuyển học bạ giờ muốn chuyển qua [nghành tự động hoá]{"entity":"majors"} phải làm như tn ạ
+    - lúc vào nhập học có chuyển đc ngành học k ạ
+    - ad em đỗ [ngành kỹ thuật oto]{"entity":"majors"} theo phương thức xét tuyển học bạ giờ muốn chuyển qua [ngành tự động hóa]{"entity":"majors"} phải làm như tn ạ
     - cái giấy chuyển khẩu thì xin ở đâu ạ
-    - ad ơi e có giấy trúng tuyển [ngành quản trị kinh doanh]{"entity":"majors"} giờ e muốn đổi sang [kế toán]{"entity":"majors"} đc ko ạ
+    - ad ơi e có giấy trúng tuyển [ngành quản trị kinh doanh]{"entity":"majors"} giờ e muốn đổi sang [kế toán]{"entity":"majors"} đc không ạ
     - có cần chuyển cj nx k ạ
     - k cần giấy chuyển j nx chứ ạ
     - cho em hỏi là muốn chuyển ngành thì cần làm những gì ạ
@@ -2089,22 +2089,22 @@ nlu:
     - e muốn sang [ngàh cn oto]{"entity":"majors"} thì lên đâu chuyển ạ
     - e muốn chuyển sang [cn oto]{"entity":"majors"}
     - nếu như em muốn chuyển ngành thì có mất phí k ạ
-    - ad ơi cho e hỏi là e muốn chuyển ngày từ [kĩ thuật ô tô]{"entity":"majors"} sang điện [tự động hoá]{"entity":"majors"} thì bao giờ mới chuyển được ạ
+    - ad ơi cho e hỏi là e muốn chuyển ngày từ [kĩ thuật ô tô]{"entity":"majors"} sang điện [tự động hóa]{"entity":"majors"} thì bao giờ mới chuyển được ạ
     - cô ơi ghi ngành học giống trong giấy người ta chuyển về hả cô
-    - ghi xong lên đó mới chuyển nghành ạ
+    - ghi xong lên đó mới chuyển ngành ạ
     - dạ cho e hỏi bh em muốn chuyển ngành học xang ngành khác đến [hôm 11]{"entity":"time"} này lên trg e chuyển đc k ạ
     - ghi ngành e định chuyển sang ạ
     - mai lên nhập học như bình thường mình muốn chuyển ngành thì mình bảo [trường]{"entity":"organization"} sẽ có người hỗ trợ ạ
     - hay là chuyển lại lần nữa đc k ạ
     - h chuyển lại đc k ạ
-    - bây giờ em muốn chuyển ngành có chuyển được ko ạ
-    - mà ad ơi bây h nhập hok em có thể chuyển nghành o ạ
+    - bây giờ em muốn chuyển ngành có chuyển được không ạ
+    - mà ad ơi bây h nhập hok em có thể chuyển ngành o ạ
     - ad ơi mai em lên nhập hok thì đi vào bộ phận chuyển ngành luôn để chuyển từ ngành cs 2 sang ngành [cơ sở 1]{"entity":"location"} thì em lại sang [cs1]{"entity":"location"} nộp tiền và nộp hồ sơ ,hay vẫn nộp trực tiếp ở [cs1]{"entity":"location"} ạ
     - ad cho em hỏi là chuyển nv thì nên đấy chuyển như thế nào ạ
     - bạn e muốn chuyển từ cơ đieen ở [cs1]{"entity":"location"} sang [cntt]{"entity":"majors"} [cs2]{"entity":"location"} thì làm nào ạ
     - cụ thể là chuyển từ nv1 sang nv2 ạ hay có thể chuyển sang ngành khác được luôn ạ ?
     - [nhà trường]{"entity":"organization"} cho e hỏi e muốn chuyển ngành thì ntn ạ??
-    - h chuyển nghành ở đâu ạ
+    - h chuyển ngành ở đâu ạ
     - mà muốn chuyển lại ngành đã chọn
     - thế là vẫn có thể chuyển sang được ạ?
     - ad có biết mẫu đơn xin chuyển chuyển ngành không ạ , cho e xin với ạ
@@ -2143,7 +2143,7 @@ nlu:
     - ad cho em hỏi là nộp trực tiếp ở [trường]{"entity":"organization"} hay nộp onile ạ
     - em đến [trường]{"entity":"organization"} nộp trực tiếp ạ
     - em muốn nộp trực tiếp cho [trường]{"entity":"organization"} mình thì có được không ạ
-    - e đăng kí trực tiếp cho thầy cô lúc nhập học đc ko ạ
+    - e đăng kí trực tiếp cho thầy cô lúc nhập học đc không ạ
     - em nên mang học bạ photo đến [trường]{"entity":"organization"} nộp trực tiếp
     - add cho em biết e có câbf phải nộp hồ sơ trực tiếp tại [trường]{"entity":"organization"} k ạ
     - em đăng kí trực tiếp
@@ -2185,19 +2185,19 @@ nlu:
 
 - intent: refrigeration_targets
   examples: |
-    - [ngành điện lạnh]{"entity":"majors"} và [điều hoà không khí]{"entity":"majors"} còn bao nhiêu chỉ tiêu ạ
+    - [ngành điện lạnh]{"entity":"majors"} và [điều hòa không khí]{"entity":"majors"} còn bao nhiêu chỉ tiêu ạ
     - chỉ tiêu [ngành điện lanh]{"entity":"majors"} là bao nhiêu ạ
-    - [ngành điều hoà]{"entity":"majors"} có chỉ tiêu là bao nhiêu ạ
-    - [trường]{"entity":"organization"} lấy bao nhiêu chỉ tiêu [ngành điện lanh]{"entity":"majors"} , điều hoà ạ
+    - [ngành điều hòa]{"entity":"majors"} có chỉ tiêu là bao nhiêu ạ
+    - [trường]{"entity":"organization"} lấy bao nhiêu chỉ tiêu [ngành điện lanh]{"entity":"majors"} , điều hòa ạ
     - [nhà trường]{"entity":"organization"} định lấy bao nhiêu chỉ tiêu [ngành điện lanh]{"entity":"majors"} ạ
     - cho em hỏi về chỉ tiêu [ngành điện lanh]{"entity":"majors"}
     - [ngành điện lanh]{"entity":"majors"} lấy bao nhiêu chỉ tiêu ạ
     - ad cho em hỏi , [ngành điện lanh]{"entity":"majors"} lấy bao nhiêu người ạ
     - số chỉ tiêu mà [ngành điện lanh]{"entity":"majors"} lấy là bao nhiêu ạ
-    - [điều hoà]{"entity":"majors"} năm nay lấy bao nhiêu người ạ
+    - [điều hòa]{"entity":"majors"} năm nay lấy bao nhiêu người ạ
     - chỉ tiêu [ngành điện lanh]{"entity":"majors"} là bao nhiêu người ạ
-    - chỉ tiêu [ngành điều hoà]{"entity":"majors"}
-    - chỉ tiêu [điện lạnh , điều hoà]{"entity":"majors"}
+    - chỉ tiêu [ngành điều hòa]{"entity":"majors"}
+    - chỉ tiêu [điện lạnh , điều hòa]{"entity":"majors"}
 
 - intent: english_language_majors
   examples: |
@@ -2218,7 +2218,7 @@ nlu:
 
 - intent: english_language_majors_job
   examples: |
-    - em được biết chuyên [ngành ngôn ngữ anh]{"entity":"majors"} có cơ hội việc làm rất phong phú và lý tưởngthầy cô cho em hỏi cơ hội việc làm của ngành ra sao , sinh viên của khoa chủ yếu làm bên bộ phận nào sau khi ra [trường]{"entity":"organization"} ạ? em cảm ơn rất nhiều ạ! ❤
+    - em được biết chuyên [ngành ngôn ngữ anh]{"entity":"majors"} có cơ hội việc làm rất phong phú và lý tưởng thầy cô cho em hỏi cơ hội việc làm của ngành ra sao , sinh viên của khoa chủ yếu làm bên bộ phận nào sau khi ra [trường]{"entity":"organization"} ạ? em cảm ơn rất nhiều ạ! ❤
     - ad ơi , cho e hỏi [ngành ngôn ngữ anh]{"entity":"majors"} của [trường]{"entity":"organization"} khi ra thường thì việc làm là gì ạ?
     - cho em hỏi về việc làm của [ngành ngôn ngữ anh]{"entity":"majors"} của [trường]{"entity":"organization"} ạ
     - em học [ngành ngôn ngữ anh]{"entity":"majors"} thì ra [trường]{"entity":"organization"} sẽ làm gì ạ
@@ -2244,7 +2244,7 @@ nlu:
     - [ngôn ngữ anh]{"entity":"majors"} học ở đâu
     - học [ngôn ngữ anh]{"entity":"majors"} ở cơ sở nào
     - học [ngôn ngữ anh]{"entity":"majors"} ở đâu
-    - em muốn được tư vấn về nghành [ngôn ngữ anh]{"entity":"majors"} ở [cơ sở 3]{"entity":"location"}
+    - em muốn được tư vấn về ngành [ngôn ngữ anh]{"entity":"majors"} ở [cơ sở 3]{"entity":"location"}
     - [ngành ngôn ngữ anh]{"entity":"majors"} ở [cs3]{"entity":"location"} như nào ạ
     - [ngành ngôn ngữ anh]{"entity":"majors"} ở cơ sở nào ạ
     - ad cho em xin thêm thông tin [ngành ngôn ngữ anh]{"entity":"majors"} ở [cơ sở 3]{"entity":"location"} ạ
@@ -2280,7 +2280,7 @@ nlu:
 
 - intent: ask_school_offer_english_training
   examples: |
-    - vào [trường]{"entity":"organization"} có đào tạo lái tiếng anh ko ạ
+    - vào [trường]{"entity":"organization"} có đào tạo lái tiếng anh không ạ
     - là [nhà trường]{"entity":"organization"} có đào tạo cả về tiếng anh không ạ
     - [trường]{"entity":"organization"} cho e hỏi là ngành thiết kết có đào tạo tiếng anh k ạ
     - vào [trường]{"entity":"organization"} có được học tiếng anh không ạ
@@ -2310,7 +2310,7 @@ nlu:
     - em muốn học văn bằng 2 tiếng anh của [trường]{"entity":"organization"} ạ
     - giờ em muốn học văn bằng 2 tiếng anh của [trường]{"entity":"organization"} được không ạ
     - văn bằng 2 tiếng anh của [trường]{"entity":"organization"} như nào ạ
-    - khoá đào tạo văn bằng 2 tiếng anh của [trường]{"entity":"organization"} gồm những gì ạ
+    - khóa đào tạo văn bằng 2 tiếng anh của [trường]{"entity":"organization"} gồm những gì ạ
     - học văn bằng 2 tiếng anh được dạy gì ạ
     - thầy cô cho e hỏi : văn bằng 2 tiếng anh của [trường]{"entity":"organization"} mình học trong bao lâu , thời gian học là tập trung các ngày trong tuần hay được học vào thứ bảy , chủ nhật ạem cảm ơn ạ
     - cho em hỏi văn bằng 2 tiếng anh
@@ -2355,7 +2355,7 @@ nlu:
     - add ơi cho em hỏi [trường]{"entity":"organization"} mình có [khoa kĩ thuật may]{"entity":"majors"} k ạ?
     - vậy em nhập học [công nghệ may]{"entity":"majors"} có được không ạ
     - và nếu e chọn ngành [công nghệ may]{"entity":"majors"} thì học cả 3 chuyên ngành hay chỉ được học 1 chuyên ngành?
-    - em muốn đăng kí dự thi vào [trường]{"entity":"organization"} mình trong kì thi sắp tới với ngành [công nghệ may]{"entity":"majors"} chuyên ngành [công nghệ may]{"entity":"majors"} thì trong phiếu đăng kí dự kì thi tốt ngiệp thpt và xét tuyển vào đại hoc cao đẳng thì trong cột tên ngành / nhóm ngành en nên ghi như thế nào?
+    - em muốn đăng kí dự thi vào [trường]{"entity":"organization"} mình trong kì thi sắp tới với ngành [công nghệ may]{"entity":"majors"} chuyên ngành [công nghệ may]{"entity":"majors"} thì trong phiếu đăng kí dự kì thi tốt nghiệp thpt và xét tuyển vào đại hoc cao đẳng thì trong cột tên ngành / nhóm ngành en nên ghi như thế nào?
     - [công nghệ may]{"entity":"majors"} thì học cơ sở nào ạ
     - tư vấn cho e [ngành công nghệ may]{"entity":"majors"} với ạ
     - [ngành công nghệ may]{"entity":"majors"} mình học ở cs2 hay được chọn cơ sở học ạ
@@ -2364,9 +2364,9 @@ nlu:
     - e học [công nghệ may]{"entity":"majors"} có cả ở 2 cơ sở ạ
     - em học [công nghệ may]{"entity":"majors"} ạ
     - mà học may thì mình cần trang bị những gì ạ
-    - cho e hỏi [nghành công nghệ may]{"entity":"majors"} chương trình đào tạo là bao nhiêu năm vậy ạ
-    - e muốn [nghành công nghệ may]{"entity":"majors"}
-    - [trường]{"entity":"organization"} cho e hỏi lẫ nghành chính xác của [công nghệ may]{"entity":"majors"} là gì ạ
+    - cho e hỏi [ngành công nghệ may]{"entity":"majors"} chương trình đào tạo là bao nhiêu năm vậy ạ
+    - e muốn [ngành công nghệ may]{"entity":"majors"}
+    - [trường]{"entity":"organization"} cho e hỏi lẫ ngành chính xác của [công nghệ may]{"entity":"majors"} là gì ạ
     - cho em hỏi [ngành công nghệ may]{"entity":"majors"} là xét điểm lớp mấy ạ?
     - dạ em học [công nghệ may]{"entity":"majors"} ạ em xét cả hai
     - sao [ngành công nghệ may]{"entity":"majors"} của [trường]{"entity":"organization"} lại có 2 mã ngành vậy ạ
@@ -2474,12 +2474,12 @@ nlu:
     - [ngành công nghệ thông tin]{"entity":"majors"} của [trường]{"entity":"organization"} lấy bao nhiêu chỉ tiêu năm nay ạ
     - em muốn biết về chỉ tiêu [ngành công nghệ thông tin]{"entity":"majors"} của [trường]{"entity":"organization"} ạ
     - em đang muốn học [công nghệ thông tin]{"entity":"majors"}
-    - em chào thầy / cô cho e hỏi sơ qua về [nghành công nghệ thông tin]{"entity":"majors"} bên [trường]{"entity":"organization"} mình một chút đc k ạ
+    - em chào thầy / cô cho e hỏi sơ qua về [ngành công nghệ thông tin]{"entity":"majors"} bên [trường]{"entity":"organization"} mình một chút đc k ạ
     - e đăng kí [khoa công nghệ thông tin]{"entity":"majors"} thì năm nhất e phải học những môn đại cương nào ạ ?
-    - [trường]{"entity":"organization"} sư phạm kĩ thuật hưng yên 1 ko có [công nghệ thông tin]{"entity":"majors"} ạ
+    - [trường]{"entity":"organization"} sư phạm kĩ thuật hưng yên 1 không có [công nghệ thông tin]{"entity":"majors"} ạ
     - ad có thể tư vấn thêm cho e về [ngành công nghệ thông tin]{"entity":"majors"} đc k ạ
     - xin chào! tớ đang muốn cho con học [trường]{"entity":"organization"} spkthymuốn theo học [khoa cntt]{"entity":"majors"} bạn có thể tư vấn cho tớ k?
-    - ngành [công nghệ thông tin]{"entity":"majors"} học những gì ạ
+    - ngành [công nghệ thông tin]{"entity":"majors"} học những gì ạ
     - cho e hỏi bình thường học [cntt]{"entity":"majors"} thì hết mấy năm ạ
     - ad cho em hỏi [ngành công nghệ thông tin]{"entity":"majors"} gồm những chuyên ngành nào ạ
     - ad cho e hỏi [cntt]{"entity":"majors"} của [trường]{"entity":"organization"} gồm những chuyên ngành nào ạ
@@ -2490,11 +2490,11 @@ nlu:
     - sau khi mình học [khoa cntt]{"entity":"majors"} xog ra [trường]{"entity":"organization"} đi làm thì làm về nhữg vde gì ntn ạ
     - bạn có thể cho mình biết các chuyên ngành của khoa công nghệ thông tinvào sau khi học xong sẽ hoàn thành lắm bắt được các kỹ năng gì của từng chuyên ngành
     - học [ngành cntt]{"entity":"majors"} liệu đào tao có tốt như ngành kỹ thuật điện không ạ
-    - mà trong [ngành cntt]{"entity":"majors"} có những khoa j ạ
+    - mà trong [ngành cntt]{"entity":"majors"} có những khoa j ạ
     - em học [ngành cntt]{"entity":"majors"} ạ
     - [ngành công nghệ thông tin]{"entity":"majors"} đào tạo những gì vậy ạ\
     - e muốn vào học [trường]{"entity":"organization"} với khoa cntt ạ
-    - e cx định hok [ngành cntt]{"entity":"majors"} ạ
+    - e cx định hok [ngành cntt]{"entity":"majors"} ạ
     - ad oi cho em hỏi , em muốn học [nganh cntt]{"entity":"majors"} của trg vậy cơ hội viêc làm có cao không ạ?
     - e định đăng kí [ngành cntt]{"entity":"majors"} của [trường]{"entity":"organization"} mình
 
@@ -2505,7 +2505,7 @@ nlu:
     - cho e hỏi học [công nghệ thông tin]{"entity":"majors"} thì cơ sở nào ạ
     - ở giấy này đề [ngành công nghệ thông tin]{"entity":"majors"} có đào tạo ở [cs 1-2]{"entity":"location"} mà sao trên web lại ghi ở [cs2-3]{"entity":"location"} vậy cái này đúng ạ
     - e có nguyện vọng đăng kí [khoa cntt]{"entity":"majors"} thì sẽ học ở cơ sở nào của [trường]{"entity":"organization"} ạ
-    - tiện thể cho e hỏi [khoa cntt]{"entity":"majors"} thì học ở cơ sở nào ạ
+    - tiện thể cho e hỏi [khoa cntt]{"entity":"majors"} thì học ở cơ sở nào ạ
     - [ngành cntt]{"entity":"majors"} ở [cơ sở 1{"entity":"location"}] có không ạ
     - [công nghệ thông tin]{"entity":"majors"} được đào tạo ở đâu
     - [khoa cntt]{"entity":"majors"} [trường]{"entity":"organization"} mình học ở cơ sở nào đấy ạ
@@ -2535,7 +2535,7 @@ nlu:
 
 - intent: software_testing_majors
   examples: |
-    - [công nghệ web]{"entity":"majors"} là j ạ
+    - [công nghệ web]{"entity":"majors"} là j ạ
     - [công nghệ web]{"entity":"majors"} là gì ạ
     - cho em xin thêm thông tin về [ngành công nghệ web]{"entity":"majors"} của [trường]{"entity":"organization"} ạ
     - [trường]{"entity":"organization"} đào tạo [công nghệ web]{"entity":"majors"} là gì ạ
@@ -2551,7 +2551,7 @@ nlu:
 
 - intent: web_technology_majors
   examples: |
-    - [kiểm thử phần mềm]{"entity":"majors"} là j ạ
+    - [kiểm thử phần mềm]{"entity":"majors"} là j ạ
     - [kiểm thử]{"entity":"majors"} là gì ạ
     - cho em xin thêm thông tin về [ngành kiểm thử]{"entity":"majors"} của [trường]{"entity":"organization"} ạ
     - [trường]{"entity":"organization"} đào tạo [kiểm thử phần mềm]{"entity":"majors"} là gì ạ
@@ -2579,20 +2579,20 @@ nlu:
 
 - intent: graphic_design_majors
   examples: |
-    - [thiết kế đồ hoạ]{"entity":"majors"} ạ
-    - dạ cho e hỏi [thiết kế đồ hoạ]{"entity":"majors"} thì sau này lm những công vc j ạ
-    - [thiết kế đồ hoạ đa phương tiênn]{"entity":"majors"} đc học những gì ạ
-    - tôi muốn tìm hiểu về [ngành công nghệ thông tin]{"entity":"majors"} , chuyên [ngành thiết kế đồ hoạ đa phương tiện]{"entity":"majors"}học chuyên ngành này khả năng việc làm ra sao?
-    - cho em hỏi [trường]{"entity":"organization"} mình có n[gành thiết kế đồ hoạ]{"entity":"majors"} design kh ạ
-    - em muốn học [thiết kế đồ hoạ]{"entity":"majors"} ạ
-    - [thiết kế đồ hoạ]{"entity":"majors"} là gì ạ
-    - [học thiết kế đồ hoạ]{"entity":"majors"} sau này làm gì
-    - [ngành thiết kế đồ hoạ]{"entity":"majors"} của [trường]{"entity":"organization"} đào tạo những gì ạ
-    - cho em hỏi [trường]{"entity":"organization"} có [ngành thiết kế đồ hoạ]{"entity":"majors"} là dạy những gì
-    - em học [thiết kế đồ hoạ]{"entity":"majors"} thì được dạy những gì ạ
-    - [trường]{"entity":"organization"} cho em xin thông tin về [ngành thiết kế đồ hoạ]{"entity":"majors"} với ạ
-    - em muốn tìm hiểu về [thiết kế đồ hoạ]{"entity":"majors"} của [trường]{"entity":"organization"} ạ
-    - ad tư vấn cho em về [ngành thiết kế đồ hoạ]{"entity":"majors"} được không ạ
+    - [thiết kế đồ họa]{"entity":"majors"} ạ
+    - dạ cho e hỏi [thiết kế đồ họa]{"entity":"majors"} thì sau này lm những công vc j ạ
+    - [thiết kế đồ họa đa phương tiênn]{"entity":"majors"} đc học những gì ạ
+    - tôi muốn tìm hiểu về [ngành công nghệ thông tin]{"entity":"majors"} , chuyên [ngành thiết kế đồ họa đa phương tiện]{"entity":"majors"}học chuyên ngành này khả năng việc làm ra sao?
+    - cho em hỏi [trường]{"entity":"organization"} mình có n[gành thiết kế đồ họa]{"entity":"majors"} design kh ạ
+    - em muốn học [thiết kế đồ họa]{"entity":"majors"} ạ
+    - [thiết kế đồ họa]{"entity":"majors"} là gì ạ
+    - [học thiết kế đồ họa]{"entity":"majors"} sau này làm gì
+    - [ngành thiết kế đồ họa]{"entity":"majors"} của [trường]{"entity":"organization"} đào tạo những gì ạ
+    - cho em hỏi [trường]{"entity":"organization"} có [ngành thiết kế đồ họa]{"entity":"majors"} là dạy những gì
+    - em học [thiết kế đồ họa]{"entity":"majors"} thì được dạy những gì ạ
+    - [trường]{"entity":"organization"} cho em xin thông tin về [ngành thiết kế đồ họa]{"entity":"majors"} với ạ
+    - em muốn tìm hiểu về [thiết kế đồ họa]{"entity":"majors"} của [trường]{"entity":"organization"} ạ
+    - ad tư vấn cho em về [ngành thiết kế đồ họa]{"entity":"majors"} được không ạ
 
 - intent: technology_software_majors
   examples: |
@@ -2635,7 +2635,7 @@ nlu:
     - cho e hỏi [trường]{"entity":"organization"} mình có lớp học hàn cơ khí nào k ạ
     - [ngành kỹ thuật cơ khí]{"entity":"majors"} của [trường]{"entity":"organization"} đc đào tại cơ sở nào của [trường]{"entity":"organization"} vs phương thức đào tạo ạ
     - bây giờ mà em muốn đổi qua học chế tạo máy có được không ạ
-    - em tính học [nghành công nghệ kỹ thuật cơ khí]{"entity":"majors"} thì có thể giải thích cho em hiểu rõ về nghành đc k ạ
+    - em tính học [ngành công nghệ kỹ thuật cơ khí]{"entity":"majors"} thì có thể giải thích cho em hiểu rõ về ngành đc k ạ
     - [ngành công nghệ kỹ thuật cơ khí]{"entity":"majors"} ạ
     - em cần thêm thông tin về [ngành cơ khí]{"entity":"majors"} của [trường]{"entity":"organization"} ạ
     - em cần tư vấn thêm về [ngành cơ khí]{"entity":"majors"} của trường
@@ -2651,7 +2651,7 @@ nlu:
     - không có chuyên ngành su phạm ạ
     - thầy cô cho em hỏi [trường]{"entity":"organization"} mình hiện có cấp chứng chỉ sư phạm kĩ thuật không ạ
     - e còn 1 thắc mắc nữa đó là sang năm 2 e muốn đăng ký học vào lớp sư phạm thì điều kiện là gì và phải đăng ký ở đâu ạ?
-    - hiện tại có khoá học đào tạo nghiệp vụ sư phạm ở [trường]{"entity":"organization"} chưa ạ
+    - hiện tại có khóa học đào tạo nghiệp vụ sư phạm ở [trường]{"entity":"organization"} chưa ạ
     - [trường]{"entity":"organization"} có đào tạo sư phạm không ạ
     - [trường]{"entity":"organization"} cho em xin thông tin [ngành sư phạm]{"entity":"majors"} với
     - em cần tư vấn [ngành sư phạm]{"entity":"majors"} ạ
@@ -2706,7 +2706,7 @@ nlu:
     - con trai mình muốn đăng ký vào [trường]{"entity":"organization"} [khoa công nghệ ô tô]{"entity":"majors"}
     - e đang kí [công nghệ kĩ thuật ô tô]{"entity":"majors"}
     - ad cho em hỏi là học [ngành công nghệ ô tô]{"entity":"majors"} thì mấy năm ạ ???
-    - e hỏi chút kĩ thuật láp ráp ô tô là ở chuyên nghành nào vậy ạ
+    - e hỏi chút kĩ thuật láp ráp ô tô là ở chuyên ngành nào vậy ạ
     - ad em hỏi với ạ [ngành công nghệ kỹ thuật ô tô]{"entity":"majors"} có 2 chuyên ngành vậy chuyên [ngành công nghệ kỹ thuật ô tô]{"entity":"majors"} là học gì ạ
     - học phí [ngành công nghệ kĩ thuật ô tô]{"entity":"majors"} là bao nhiêu 1 năm ạ cho em biết thêm về [ngành công nghệ kĩ thuật ô tô]{"entity":"majors"} đc k ạ
     - em thích [ngành ô tô]{"entity":"majors"}
@@ -2714,7 +2714,7 @@ nlu:
     - dạ em có đang phân vân giữa 2 ngành là [kỹ thuật ô tô]{"entity":"majors"} và [kỹ thuật cơ điện tử]{"entity":"majors"} ,2 ngành này có đang hot với xu thế hiện tại không ạ?
     - học [ngành công nghệ kỹ thuật ôtô]{"entity":"majors"} thì đc đào tạo ở cơ sở mấy ạ
     - thầy ơi giờ em muốn theo [ngành kỹ thuật công nghệ ô tô]{"entity":"majors"} thì có sang nước ngoài làm việc được không thầy?
-    - [khoa cn ô tô]{"entity":"majors"} học những môn chuyên nghành nào ạ
+    - [khoa cn ô tô]{"entity":"majors"} học những môn chuyên ngành nào ạ
     - [ngành oto]{"entity":"majors"} í ạ
     - [ngành ô tô đào]{"entity":"majors"} tạo ở đâu
     - [ngành công nghệ kĩ thuật oto]{"entity":"majors"} còn chỉ tiêu k ạ
@@ -2782,7 +2782,7 @@ nlu:
     - e hỏi [ngành điện công nghiệp]{"entity":"majors"}
     - mình học [điện công nghiệp]{"entity":"majors"}
     - học [điện tử công nghiệp]{"entity":"majors"} thì học ở cơ sở nào ạ
-    - chuyên [nghành điện công nghiệp]{"entity":"majors"} ạ 
+    - chuyên [ngành điện công nghiệp]{"entity":"majors"} ạ 
     - em muốn học [điện công nghiệp]{"entity":"majors"} ạ
     - em muốn biết thêm thông tin về [ngành điện công nghiệp]{"entity":"majors"} của trường
     - học [điện công nghiệp]{"entity":"majors"} ở [trường]{"entity":"organization"} sẽ được dạy những gì ạ
@@ -2795,9 +2795,9 @@ nlu:
   examples: |
     - dạ [công nghệ kĩ thuật điện , điện tử]{"entity":"majors"} ạ
     - trong [khoa điện điện tử]{"entity":"majors"} có những ngành gì ạ
-    - vâng tại vì e thấy các [trường]{"entity":"organization"} khác [điện điện tử]{"entity":"majors"} và [tự động hoá]{"entity":"majors"} nó tách rồi
-    - mình học [nghành điện tử]{"entity":"majors"}
-    - em học [nghành điện tử]{"entity":"majors"}
+    - vâng tại vì e thấy các [trường]{"entity":"organization"} khác [điện điện tử]{"entity":"majors"} và [tự động hóa]{"entity":"majors"} nó tách rồi
+    - mình học [ngành điện tử]{"entity":"majors"}
+    - em học [ngành điện tử]{"entity":"majors"}
     - e định học [công nghệ kỹ thuật điện điện tử]{"entity":"majors"}
     - nv2 ạ [ngành công nghện điện điện tử]{"entity":"majors"}
     - thế cho em hỏi ngành [cn kt điện -điện tử]{"entity":"majors"} thì xét như thế nào ạ
@@ -2817,31 +2817,31 @@ nlu:
 
 - intent: automation_majors
   examples: |
-    - em đang đăng ký [ngành điều khiển và tự động hoá]{"entity":"majors"}
-    - cho em hỏi [ngành tự động hoá]{"entity":"majors"} thì học mấy năm ra trường
-    - em học [nghành tự động hoá]{"entity":"majors"} ở [cơ sở 1]{"entity":"location"} chị ạ 
-    - em muốn đăng ký [tự động hoá]{"entity":"majors"} thì cần môn nào ạ
-    - [trường]{"entity":"organization"} mình có [ngành tự động hoá]{"entity":"majors"} và công nghệ chế tạo k ạ
-    - [ngành cơ khí]{"entity":"majors"} [tự động hoá]{"entity":"majors"} ở [khoái châu]{"entity":"location"} có ko ạ
-    - có thể cho em xin tên và mã ngành [tự động hoá]{"entity":"majors"} đc k ạ
-    - ad cho e hoi trg mk năm nay có xét tuyển [ngành điện tự động hoá]{"entity":"majors"} k vậy?
-    - ở [trường]{"entity":"organization"} có [ngành tự động hoá]{"entity":"majors"} k ạ
-    - [nghành tự động hoá]{"entity":"majors"} lấy bao nhiêu chỉ tiêu ạ
-    - [điện tự động hoá]{"entity":"majors"} sẽ bao gồm nhiều cái hơn đúng k ah
-    - [tự động hoá]{"entity":"majors"} sẽ cần những mộn ạ
-    - [ngành tự động hoá]{"entity":"majors"} sẽ chuyên nhưbgx môn học naod
-    - thế khi vào học rồi [nganh tự động hoá]{"entity":"majors"} này có riêng ra k ạ
-    - [ngành điều khiển]{"entity":"majors"} và [tự động hoá]{"entity":"majors"} mã như nào ạ
-    - [ngành điện tự động hoá]{"entity":"majors"} ạ
-    - bây giờ nộp hồ sơ vào [tự động hoá công nghiệp]{"entity":"majors"} có được k ạ
-    - e học [ngành điện tự động hoá]{"entity":"majors"} ah
-    - em hiện tại đang học [ngành điều khiển tự động hoá]{"entity":"majors"}
-    - em định thi [tự động hoá]{"entity":"majors"} ạ
-    - e học [ngành công nghệ kĩ thuật điều khiển và tự động hoá]{"entity":"majors"} thì học ở đâu ạ
-    - ad cho e hỏi với e mới đăng kí xét tuyển online [ngành công nghệ kỹ thuật điều khiển và tự động hoá]{"entity":"majors"} mới có năm nay của trường 
-    - [điều khiển và tự động hoá]{"entity":"majors"} đào tạo tại đâu
-    - [điều khiển và tự động hoá]{"entity":"majors"} dạy ở cơ sở nào
-    - [cn kĩ thuật cơ khí]{"entity":"majors"} vs [cn kt tự động hoá]{"entity":"majors"}
+    - em đang đăng ký [ngành điều khiển và tự động hóa]{"entity":"majors"}
+    - cho em hỏi [ngành tự động hóa]{"entity":"majors"} thì học mấy năm ra trường
+    - em học [ngành tự động hóa]{"entity":"majors"} ở [cơ sở 1]{"entity":"location"} chị ạ 
+    - em muốn đăng ký [tự động hóa]{"entity":"majors"} thì cần môn nào ạ
+    - [trường]{"entity":"organization"} mình có [ngành tự động hóa]{"entity":"majors"} và công nghệ chế tạo k ạ
+    - [ngành cơ khí]{"entity":"majors"} [tự động hóa]{"entity":"majors"} ở [khoái châu]{"entity":"location"} có không ạ
+    - có thể cho em xin tên và mã ngành [tự động hóa]{"entity":"majors"} đc k ạ
+    - ad cho e hoi trg mk năm nay có xét tuyển [ngành điện tự động hóa]{"entity":"majors"} k vậy?
+    - ở [trường]{"entity":"organization"} có [ngành tự động hóa]{"entity":"majors"} k ạ
+    - [ngành tự động hóa]{"entity":"majors"} lấy bao nhiêu chỉ tiêu ạ
+    - [điện tự động hóa]{"entity":"majors"} sẽ bao gồm nhiều cái hơn đúng k ah
+    - [tự động hóa]{"entity":"majors"} sẽ cần những mộn ạ
+    - [ngành tự động hóa]{"entity":"majors"} sẽ chuyên nhưbgx môn học naod
+    - thế khi vào học rồi [nganh tự động hóa]{"entity":"majors"} này có riêng ra k ạ
+    - [ngành điều khiển]{"entity":"majors"} và [tự động hóa]{"entity":"majors"} mã như nào ạ
+    - [ngành điện tự động hóa]{"entity":"majors"} ạ
+    - bây giờ nộp hồ sơ vào [tự động hóa công nghiệp]{"entity":"majors"} có được k ạ
+    - e học [ngành điện tự động hóa]{"entity":"majors"} ah
+    - em hiện tại đang học [ngành điều khiển tự động hóa]{"entity":"majors"}
+    - em định thi [tự động hóa]{"entity":"majors"} ạ
+    - e học [ngành công nghệ kĩ thuật điều khiển và tự động hóa]{"entity":"majors"} thì học ở đâu ạ
+    - ad cho e hỏi với e mới đăng kí xét tuyển online [ngành công nghệ kỹ thuật điều khiển và tự động hóa]{"entity":"majors"} mới có năm nay của trường 
+    - [điều khiển và tự động hóa]{"entity":"majors"} đào tạo tại đâu
+    - [điều khiển và tự động hóa]{"entity":"majors"} dạy ở cơ sở nào
+    - [cn kĩ thuật cơ khí]{"entity":"majors"} vs [cn kt tự động hóa]{"entity":"majors"}
 
 - intent: mechatronics_majors
   examples: |
@@ -2849,12 +2849,12 @@ nlu:
     - [ngành cơ điện tử]{"entity":"majors"} em k thấy ghi thì nó gồm những gì ạ
     - e muốn đăng kí sang [công nghệ kĩ thuật cơ điện tử]{"entity":"majors"} đc k ạ
     - em đang học [cơ điện tử]{"entity":"majors"} ạ
-    - vậy có [ngành cơ đt]{"entity":"majors"} ko ạ sao e ko thấy
+    - vậy có [ngành cơ đt]{"entity":"majors"} không ạ sao e không thấy
     - cho em hỏi [trường]{"entity":"organization"} mình chỉ tiêu [ngành cơ điện tử]{"entity":"majors"} còn nhiều k ạ 
-    - cho tôi hỏi năm nay [trường]{"entity":"organization"} có đào tạo liên thông [ngành cơ điện tử]{"entity":"majors"} khôngvà bao giờ xét tuyển
+    - cho tôi hỏi năm nay [trường]{"entity":"organization"} có đào tạo liên thông [ngành cơ điện tử]{"entity":"majors"} không và bao giờ xét tuyển
     - e muốn học [ngành cơ điện tử]{"entity":"majors"} thì cở sở của [trường]{"entity":"organization"} tại [hải dương]{"entity":"location"} có ngành này k ạ
     - [ngành cơ điện tử]{"entity":"majors"} học mấy năm vậy ạ
-    - [nghành cơ điện tử]{"entity":"majors"} đủ chỉ tiêu chưa ạ
+    - [ngành cơ điện tử]{"entity":"majors"} đủ chỉ tiêu chưa ạ
     - em quan tâm [ngành cơ khí]{"entity":"majors"} và điện tử ạ
     - còn [cơ điện tử]{"entity":"majors"} [ôtô]{"entity":"majors"} sau ra làm gì ạ
     - [trường]{"entity":"organization"} có nghề cơ điện không ạk
@@ -2871,7 +2871,7 @@ nlu:
     - à k có [ngành kế toán]{"entity":"majors"} ạ
     - có mở lớp kết toán tại chức k ạ
     - [kê toán]{"entity":"majors"} ạ
-    - vầngnăm nay [kế toán]{"entity":"majors"} học ở cs nào vậy ad?
+    - vầng năm nay [kế toán]{"entity":"majors"} học ở cs nào vậy ad?
     - bây giờ cả 2 cơ sở đều có [ngành kế toán]{"entity":"majors"} bây giờ e muốn chuyển từ điện sang [kế toán]{"entity":"majors"} thì được học ở [cơ sở 2]{"entity":"location"} hay [cs1]{"entity":"location"} ạ
     - e muốn học [ngành kế toán]{"entity":"majors"}]{"entity":"majors"} ở cơ sở 1 thì phải làm như nào ạ
     - ad ơi cho e hỏi [cs1]{"entity":"location"} có đào tạo khoa kinh tế kh ạ? hay cs2 mới đào tạo ạ
@@ -2915,7 +2915,7 @@ nlu:
     - mà em hỏi là [ngành quản trị kinh doanh]{"entity":"majors"} có nặng tiêmgs anh k ạ
     - e muốn hỏi [ngành quản trị kinh doanh]{"entity":"majors"} của [trường]{"entity":"organization"} ạ
     - [quản trị kinh doanh]{"entity":"majors"} khoa quản lí mkt ạ
-    - cho e hỏi [nghành quản trị kinh doanh]{"entity":"majors"} , quản trị nhân lực chương trình đào tạo là bao nhiêu năm ạ
+    - cho e hỏi [ngành quản trị kinh doanh]{"entity":"majors"} , quản trị nhân lực chương trình đào tạo là bao nhiêu năm ạ
     - [quản trị kinh doanh]{"entity":"majors"} ạ
     - cho em hỏi về vấn đề học văn bằng 2 [quản trị kinh doanh]{"entity":"majors"} của [trường]{"entity":"organization"} ạ
     - em xin thông tin về [ngành quản trị kinh doanh]{"entity":"majors"}]{"entity":"majors"} ạ
@@ -2950,7 +2950,7 @@ nlu:
   examples: |
     - cho e hỏi [trường]{"entity":"organization"} có đào tạo hệ cao đẳng kh ạ
     - [trường]{"entity":"organization"} mình có đào tạo cao đẳng , trung cấp không ạ
-    - [trường]{"entity":"organization"} mình còn đào tạo hệ cao đẳng chính quy chuyên ngành kỹ thuật may ko ạ
+    - [trường]{"entity":"organization"} mình còn đào tạo hệ cao đẳng chính quy chuyên ngành kỹ thuật may không ạ
     - [trường]{"entity":"organization"} mình còn đào tạo liên thoòng từ cao đẳng nghề lên đại học không ạ
     - cho em hỏi là [trường]{"entity":"organization"} mình có đào tạo hệ cao đẳng k ạ
     - ad cho e hỏi năm nay [trường]{"entity":"organization"} mình có đào tạo cao đẳng k ạ
@@ -2967,13 +2967,13 @@ nlu:
     - [kế toán]{"entity":"majors"} ở [trường]{"entity":"organization"} có đào tạo hệ cao đẳng
     - ad cho em hỏi [trường]{"entity":"organization"} mình có đào tạo cao đẳng [kế toán]{"entity":"majors"} không ạ
     - [trường]{"entity":"organization"} có dạy cao đẳng [kế toán]{"entity":"majors"} không ạ
-    - bên [trường]{"entity":"organization"} cũng tuyển cao đẳng đúng ko ạ!?
+    - bên [trường]{"entity":"organization"} cũng tuyển cao đẳng đúng không ạ!?
     - năm nay [trường]{"entity":"organization"} có xét tuyển cao đẳng không ạ
     - xét tuyển cao đẳng của [trường]{"entity":"organization"} như thế nào ạ
-    - e muốn tìm hiểu ngành học quản trị kinh doanh hệ cao đẳng
+    - e muốn tìm hiểu ngành học quản trị kinh doanh hệ cao đẳng
     - muốn học cao đẳng tại [trường]{"entity":"organization"} thì làm thế nào ạ
     - e 2001 muốn học hệ cao đẳng ngành công nghệ may của trườnge muốn hỏi ngành này của [trường]{"entity":"organization"} học và chuyên sâu về cái gì ạ
-    - e muốn học tại chức hệ cao đẳng có đc ko ạ
+    - e muốn học tại chức hệ cao đẳng có đc không ạ
     - [trường]{"entity":"organization"} mình còn nhận học theo hệ cao đẳng không ạ
     - [trường]{"entity":"organization"} co hệ cao đẳng không ạ
     - e dự định học hệ cao đẳng kĩ thuật ô tô thì e cần có nhưng gì nộp lên [trường]{"entity":"organization"} mình ạ
@@ -3032,14 +3032,14 @@ nlu:
     - em có thể đăng ký hình thức xét tuyển nào của [trường]{"entity":"organization"} ạ
     - phương thức xét tuyển của [trường]{"entity":"organization"} ạ
     - thì năm nay hình thức xét tuyển và bây giờ thì nộp hồ sơ ạ
-    - khi nào thì [trường]{"entity":"organization"} chính thức nhận hồ sơ tuyển sinh đại học , cao đẳngvà hình thức tuyển sinh như thế nào ạ?
+    - khi nào thì [trường]{"entity":"organization"} chính thức nhận hồ sơ tuyển sinh đại học , cao đẳng và hình thức tuyển sinh như thế nào ạ?
     - hình thức là xét tuyển học bạ phải không ạ
     - vâng em cảm ơn ạ cho em hỏi [trường]{"entity":"organization"} tuyển sinh theo phương thức nào ạ
     - cho e hỏi hình thức tuyển sinh năm nay ạ và hồ sơ thi tuyển gồm những j ạ
     - nhưng hình thức xét tuyển như nào ạ , ở đó nó k ghi a
     - dạ cho em hỏi em đki xét tuyển theo hình thức điểm thi thpt đó ạ
     - e muốn hỏi là e đăng kí vào [trường]{"entity":"organization"} mìh học ,trườg mìh có y cầu hồ sơ hay gì k???
-    - trường tuyển sinh dựa vào những yếu tố nào
+    - trường tuyển sinh dựa vào những yếu tố nào
     - ad tư vấn giúp em xem h em muốn đăng kí nhập học cần những gì ạ
     - em đang muốn được tư vấn về cách nộp hồ sơ ạ
     - em là học sinh vừa mới thi tốt nghiệp trung học phổ thông quốc gia hiện em muốn xin học tại [trường]{"entity":"organization"} mình
@@ -3077,7 +3077,7 @@ nlu:
     - e mới biết điểm thi thpt bây giờ muốn đăng ký học làm thế nào ạ
     - và làm hồ sơ như nào ak
     - ad cho e hỏi về cách xét tuyển của [trường]{"entity":"organization"} và hồ sơ phải như thế nào vậy?
-    - ad ơi cho em hỏibây giờ em muốn xét tuyển học bạ vào [trường]{"entity":"organization"} thì phải làm như thế nào ạem cảm ơn
+    - ad ơi cho em hỏi bây giờ em muốn xét tuyển học bạ vào [trường]{"entity":"organization"} thì phải làm như thế nào ạem cảm ơn
     - mình muốn xét điểm vào [trường]{"entity":"organization"} thì giờ làm thế nào ạ
     - em muốn đăng kí dự tuyển vào [trường]{"entity":"organization"} mình thì phải làm thế nào ạ
     - còn xét điểm tốt nghiệp thì làm như thế nào ạ
@@ -3185,7 +3185,7 @@ nlu:
     - có tên em chuẩn luôn ạ
     - em thấy trên mạng có tên mình rồi
     - em thấy tên em rồi hâhha
-    - em đăng kí online lại ngành học và nhận được giấy trúng tuyển qua email r ạ vậy em có nhận được giấy nhập học ngành đó lại ko ạ
+    - em đăng kí online lại ngành học và nhận được giấy trúng tuyển qua email r ạ vậy em có nhận được giấy nhập học ngành đó lại không ạ
 
 - intent: pass_admission_but_not_receive_notice
   examples: |
@@ -3218,9 +3218,9 @@ nlu:
     - cho em hỏi là đến lúc mình nhận được giấy báo rồi thì lên [trường]{"entity":"organization"} nhập học cần làm những gì ạ
     - em dc báo r ạ
     - ui thế em trúng tuyển rồi a ạ
-    - e chọn 1 trong 3 cơ sở để làm thủ tục nhập học dc ko ạ? hay phải đến cơ sở chính nào ạ?
+    - e chọn 1 trong 3 cơ sở để làm thủ tục nhập học dc không ạ? hay phải đến cơ sở chính nào ạ?
     - em đang thắc mắc một số vấn đề về thủ tục nhập học
-    - cho e hỏi , em thấy thủ tục nhập học của [trường]{"entity":"organization"} mình cần giấy khai sinh bản gốc ,nhưng em nộp bản photo có công chứng được không ạ
+    - cho e hỏi , em thấy thủ tục nhập học của [trường]{"entity":"organization"} mình cần giấy khai sinh bản gốc , nhưng em nộp bản photo có công chứng được không ạ
     - e cũng xin cấp lại r ạ nhưng mà đến hôm lên nộp hồ sơ mà e vẫn chưa có thì e đem sổ hộ khẩu vs bản sao đã chứng thực với bản gốc đc k ạ
     - em hỏi nốt là cái bản chính bằng tốt nghiệp và học bạ chỉ để đối chiếu và thu bản sao công chứng phải k ạ?
     - e đc cấp lại giấy báo trúng tuyển r ạ
@@ -3257,9 +3257,9 @@ nlu:
     - em xét bằng học bạ lớp 12 thì điền điểm trung bình của từng môn cả năm phải không ạ?\
     - em điền với đơn đăng kí online điểm phẩy của một năm hay một kì ạ?
     - cái học kì 2 của 12 là bảng điểm có đc k ạ
-    - thế em đăng kí lại kết quả cả năm 12 có đc ko ạ
-    - e ko muốn lấy điểm học bạ năm lớp 11mà e lấy học bạ của học kì 1 năm lớp 12 để xin ứng tuyển vào [trường]{"entity":"organization"} mình thì có được ko ạk?
-    - dạ [trường]{"entity":"organization"} mình có nhận xét hồ sơ học bạ lớp 12 ko ạ
+    - thế em đăng kí lại kết quả cả năm 12 có đc không ạ
+    - e không muốn lấy điểm học bạ năm lớp 11mà e lấy học bạ của học kì 1 năm lớp 12 để xin ứng tuyển vào [trường]{"entity":"organization"} mình thì có được không ạk?
+    - dạ [trường]{"entity":"organization"} mình có nhận xét hồ sơ học bạ lớp 12 không ạ
     - dạ em muốn hỏi là có đợt xét học bạ lớp 12 k ạ
     - lớp 12 hay gì ạ
     - nếu em xé điểm lớp 11 thì tính điểm trung bình cả năm à thầy
@@ -3283,7 +3283,7 @@ nlu:
     - em xét học bạ thì lấy điểm tb cả năm lớp 12 hoặc lớp 11 ạ
     - hôm trước em đăng kí xét tuyển online bằng điểm học kì 1 lớp 12 , bây giờ mới có điểm cả năm lớp 12 thì em đăng kí lại được không ạ
     - xét tuyển qua kết quả học tập lớp 11 và 12
-    - ad cho em hỏi ạxét tuyển theo kết quả năm lớp 12 thì thi xong học kì 2 là em có thể nộp hồ sơ xét tuyển phải không ạ 
+    - ad cho em hỏi ạ xét tuyển theo kết quả năm lớp 12 thì thi xong học kì 2 là em có thể nộp hồ sơ xét tuyển phải không ạ 
     - tra cứu em thấy điểm lớp 11 được 25 5 lớp 12 được 26 7ạ
     - em xin hỏi là có thể lấy kết quả thi của học kì 1 lớp 12 để xét tuyển không ???
     - xét điểm với xét kqht lớp 12
@@ -3297,7 +3297,7 @@ nlu:
     - cho e hỏi [trường]{"entity":"organization"} xét học bạ của cả năm lớp 12 hay học kì 1 lớp 12 thôi ạ
     - phần đăng ký online cho e hỏi xét học bạ học kì 1 hay học kì 2 lớp 12 ạ
     - chọn xét học bạ lớp 11 or 12 đúng k ạ?
-    - cô oi e muôn điền điẻm lớp 12 đuọc k ạ
+    - cô oi e muôn điền đi ẻm lớp 12 đu ọc k ạ
     - k có lớp 12 ạ ?
     - nhà trg cho em hỏi đăng ký băng kq lớp 12 theo cái này đc không
     - thầy ơi em nhập học em muốn học vs bạn em nhưng nếu bị sắp khác lớp có được xin đổi lớp k thầy
@@ -3308,11 +3308,11 @@ nlu:
     - xét học bạ lớp 12 ý ạ
     - còn xét lớp 12 thì bao giờ ạ
     - bây giờ mình đợi đến khi có kết quả tốt nghiệp lớp 12 mới đăng kí xét tuyển thì có sao không ạ
-    - điểm tổng kết trong học bạtính mỗi lớp 12 thôi hay cả 3 năm ạbởi vì có chữ tổngem hơi hoang mang
+    - điểm tổng kết trong học bạtính mỗi lớp 12 thôi hay cả 3 năm ạ bởi vì có chữ tổngem hơi hoang mang
 
 - intent: apply_score_grade_11
   examples: |
-    - [kĩ thuật máy tính]{"entity":"majors"} là j ạ
+    - [kĩ thuật máy tính]{"entity":"majors"} là j ạ
     - [kĩ thuật máy tính]{"entity":"majors"} là gì ạ
     - cho em xin thêm thông tin về [ngành kĩ thuật máy tính]{"entity":"majors"}]{"entity":"majors"} của [trường]{"entity":"organization"} ạ
     - [trường]{"entity":"organization"} đào tạo [kĩ thuật máy tính]{"entity":"majors"} là gì ạ
@@ -3416,7 +3416,7 @@ nlu:
     - mai hạn cuối à a
     - hết ngày mai là hết đợt 1 ạ
     - em cứ nghĩ là [31 / 8]{"entity":"time"} là hết hạn nên chưa đki hicc
-    - vẫn còn hạn nộp đúng ko ạ
+    - vẫn còn hạn nộp đúng không ạ
     - hạn chót là bây giờ ạ
     - từ [2 / 5]{"entity":"time"} đến hạn là bây giờ hả trường
     - thời hạn nộp hồ sơ có giới hạn ngày nào không ạ ?
@@ -3432,13 +3432,13 @@ nlu:
     - em đăng kí cả 2 đợt ạ
     - thế e tuyển đợt 2 vậy
     - dạ vâng ạ e cũng đang định nộp ở đợt 2 ạ
-    - có xét đợt 2 ko ạ
+    - có xét đợt 2 không ạ
     - em đăng ký đợt 2
     - có xét đợt 2 k ạ
     - đợt 2 liệu cao hơn k ạ
     - cho e hỏi [nhà trường]{"entity":"organization"} có nhập học đợt 2 ,3 k ạ
     - bao h thì nhập học đợt 2 hả trường
-    - cho e hỏi nếu giờ đăng ký vẫn đc đúng không ạvà bao giờ thì hết đăng ký đợt 2 ạ??
+    - cho e hỏi nếu giờ đăng ký vẫn đc đúng không ạ và bao giờ thì hết đăng ký đợt 2 ạ??
     - mà cho em hỏi có 2 đợt xét học bạ đúng không ạ
     - [trường]{"entity":"organization"} mình bao giờ xét học bạ đợt 2 ạ
     - đợt tiếp theo của xét tuyển học bạ là khi nào ạ
@@ -3466,9 +3466,9 @@ nlu:
     - có đợt 3 k
     - có đợt ba không
     - có xét tuyển đợt ba không ạ
-    - em nộp học bạ đợt ba mới lên [trường]{"entity":"organization"} được ko ạ
-    - em nộp học bạ đợt 3 mới lên [trường]{"entity":"organization"} được ko ạ
-    - nhưng có tuyển thêm đợt 3 j ko ạ
+    - em nộp học bạ đợt ba mới lên [trường]{"entity":"organization"} được không ạ
+    - em nộp học bạ đợt 3 mới lên [trường]{"entity":"organization"} được không ạ
+    - nhưng có tuyển thêm đợt 3 j không ạ
     - đợt 3 của [trường]{"entity":"organization"} như nào ạ
     - [trường]{"entity":"organization"} có tuyển sinh đợt 3 không ạ
     - [trường]{"entity":"organization"} có tuyển sinh đợt ba không ạ
@@ -3484,16 +3484,16 @@ nlu:
   examples: |
     - mai em muốn thăm qua ktx 1 lần đc k ạ
     - em muốn xin ít thông tin về ktx của [trường]{"entity":"organization"} ạ
-    - bọn em có 1 nhóm từ đây lên đấy học nếu mà thuê kí túc ở đấy thì có đc ở chung ko ạ
+    - bọn em có 1 nhóm từ đây lên đấy học nếu mà thuê kí túc ở đấy thì có đc ở chung không ạ
     - cho e hỏi là ai quản lí ktx vs đăng kí vs ai ạ
     - ktx [cơ sở 2]{"entity":"location"} bao nhiêu 1 tháng ạ
     - nghe nói có phụ huynh mới thuê được phải k ạ
     - vâng ạ , e muốn thuê ktx thì mai e đi xem đc k ạ
-    - ở cơ sở 3 hải dương có kiến túc xá ko ạ
+    - ở cơ sở 3 hải dương có kiến túc xá không ạ
     - em muốn đăng kí ký túc xá [trường]{"entity":"organization"} thì làm sao
     - kí túc xá bắt buộc mấy người trở nên ở cùng 1 phòng ạ
     - giờ đóng mở cửa của kí túc xá trg mình như nào vậy ad
-    - đăng kí ký túc xá có cần thêm giấy tờ j ko ạ
+    - đăng kí ký túc xá có cần thêm giấy tờ j không ạ
     - dạ thế [trường]{"entity":"organization"} có kí túc xá gần [trường]{"entity":"organization"} không ạ
     - e muốn ở kí túc xá của [trường]{"entity":"organization"} thì phải đăng kí như thế nào ạk?
     - thầy cô cho em hỏi cs2 còn ký túc xá k ạ
@@ -3522,8 +3522,8 @@ nlu:
 
 - intent: ask_supporting_policies
   examples: |
-    - hộ nghèo thuộc diện miễn giảm học phí của [trường]{"entity":"organization"} ko ạ
-    - những đối tượng học sinh thuộc chính sách xã hội [nhà trường]{"entity":"organization"} có miễn giảm học phí ko ạ
+    - hộ nghèo thuộc diện miễn giảm học phí của [trường]{"entity":"organization"} không ạ
+    - những đối tượng học sinh thuộc chính sách xã hội [nhà trường]{"entity":"organization"} có miễn giảm học phí không ạ
     - cho em hỏi là nếu hộ cận nghèo nộp giấy có được miễn giảm học phí không ạ
     - em thuộc hộ nghèo có được giảm học phí không ad
     - hộ nghèo học ở [trường]{"entity":"organization"} có được miễn giảm học phí không ạ
@@ -3549,7 +3549,7 @@ nlu:
 
 - intent: ask_standard_admission_score
   examples: |
-    - điểm chuẩn đại học của trường vào hôm nào vậy ạ ?
+    - điểm chuẩn đại học của trường vào hôm nào vậy ạ ?
     - điểm chuẩn công bố hôm nào vậy ad
     - bao giờ thì có điểm chuẩn vậy ạ
     - thời gian công bố điểm của [trường]{"entity":"organization"} khi nào ạ
@@ -3621,7 +3621,7 @@ nlu:
 
 - intent: with_this_score_should_choose_majors
   examples: |
-    - vâng ạ 3 môn của em xét học bạ trên 20 điểm có đỗ được [điện điện tử]{"entity":"majors"} vs [công nghệ ô tô]{"entity":"majors"} k ạ hay phải tuỳ ạ
+    - vâng ạ 3 môn của em xét học bạ trên 20 điểm có đỗ được [điện điện tử]{"entity":"majors"} vs [công nghệ ô tô]{"entity":"majors"} k ạ hay phải tùy ạ
     - em xét học bạ ba môn trên 20đ có đỗ được [điện điện tử]{"entity":"majors"} không ạ
     - xét học bạ [điện điện tử]{"entity":"majors"} 20đ có cơ hội đỗ không ad
     - 3 môn học bạ của em là 20đ thì đỗ được [điện điện tử]{"entity":"majors"} không ạ
@@ -3643,7 +3643,7 @@ nlu:
     - chỉ là trên 20đ là vào lớp tài năng ạ
     - em muốn hỏi là lớp tài năng thì yêu cầu vào thế nào ạ
     - có đc vào lp tài năng k ạ
-    - và nếu em xét bằng điểm thi thpt thì trên 20 điểm có đc vào lớp tài năng ko ạ
+    - và nếu em xét bằng điểm thi thpt thì trên 20 điểm có đc vào lớp tài năng không ạ
     - hay xét vào lớp tài năng chỉ dành cho các bạn xét học bạ và điểm thi trên 20 điểm ạ
     - em đỗ sơ tuyển r mà muốn dùng điểm thi tốt nghiệp để vào lớp tài năng ấy ạ
     - ad cho em hỏi khoa tài năng năm xét tuyển như nào vậy ạ
@@ -3657,17 +3657,17 @@ nlu:
     - đăng kí vào ngành của lớp tài năng thì đăng kí như nào ạ
     - như cái mẫu này thì đăng kí lớp tài năng như nào ạ
     - nhưg e muốn vào lớp tài năng nên e lại thj và lấy điểm tốt nghiệp thpt đc k ạ?
-    - và em qua sơ tuyển xét học bạ r mà muốn đăng ký vào lớp tài năng thì có đc ko ạ
+    - và em qua sơ tuyển xét học bạ r mà muốn đăng ký vào lớp tài năng thì có đc không ạ
     - dạ e định đăng kí khoa tài năng thì lm thế nào ạ
     - học lớp tài năng cần gì ạ
     - em muốn học ở lớp tài năng của trường
     - tài năng là lớp gì vậy ạe cũng được các bạn bảo e vào lớp này
-    - cho em hỏi là [trường]{"entity":"organization"} có lớp tài năng phải k ạvà lớp tài năng khác gì quá trình đào tạo so với lớp thường
+    - cho em hỏi là [trường]{"entity":"organization"} có lớp tài năng phải k ạ và lớp tài năng khác gì quá trình đào tạo so với lớp thường
     - sao em đọc thấy lớp tài năng là sao ạ
     - thưa admin , em đang tìm hiểu về lớp tài năng và các chương trình liên kết với nước ngoài , ad cho em thông tin được không ạ
     - ad cho e hỏi là lớp tài năng [trường]{"entity":"organization"} mình là học những j đc không ạ
     - anh chị cho e biết thêm thông tin về lớp sinh viên tài năng được k ạ?
-    - em chào admin ạ ,em là học sinh đang học lớp 12 và có nguyện vọng thi vào trường ,vậy ad có thể cho em biết thêm thông tin về những ngành hot hiện tại và về lớp tài năng được không ạ?
+    - em chào admin ạ ,em là học sinh đang học lớp 12 và có nguyện vọng thi vào trường , vậy ad có thể cho em biết thêm thông tin về những ngành hot hiện tại và về lớp tài năng được không ạ?
     - học ở lớp tài năng thì khác gì ở lớp thường ạ
     - lớp học tài năng là sao ạ
 
@@ -3701,7 +3701,7 @@ nlu:
 
 - intent: ask_tuition
   examples: |
-    - và học phí là bao nhiêu ạ
+    - và học phí là bao nhiêu ạ
     - học phí bao nhiêu tiền 1 tháng v ạ??
     - cho e hỏi là học phí học ngành cntt là tầm bao nhiêu ạ
     - học phí [trường]{"entity":"organization"} này là bao nhiêu?
@@ -3718,7 +3718,7 @@ nlu:
     - [trường]{"entity":"organization"} cho em hỏi lệ phí xét tuyển học bạ qua đường bưu điện là bao nhiêu ạ?
     - cho e hỏi ngành kte thì học phí 1 năm trg mình là bao nhiêu ạ
     - học phí khoảng bao bao nhiêu một kỳ ạ?
-    - dạvâng ạà thầy cho e hỏi học phí bao nhiêu tiền 1 tín chỉ ạ?
+    - dạ vâng ạ à thầy cho e hỏi học phí bao nhiêu tiền 1 tín chỉ ạ?
     - học phí một năm hết tầm bao nhiêu ạ
     - học phí ra sao ạ
     - cho e hỏi bây giờ xét học bạ phải làm những thủ tục gì ạ?
@@ -3745,7 +3745,7 @@ nlu:
 - intent: ask_curriculum_vitae
   examples: |
     - cái hồ sơ yếu lí lịch đó 1 bộ 2 bản đấy thôi đúng k ạ
-    - vâng ạhồ sơ lý lịch hssv viên mấy tờ ạ [trường]{"entity":"organization"} ơi
+    - vâng ạ hồ sơ lý lịch hssv viên mấy tờ ạ [trường]{"entity":"organization"} ơi
     - sao trong giấy thông báo lại k ghi mấy bản mà chỉ ghi sơ yếu lý lịch học sinh
     - dạ vâng thế cái sơ yếu lí lịch này cũng phải viết đúng k ạ
     - cho em hỏi là cái lý lịch học sinh thì lấy ở đâu ạ
@@ -3763,9 +3763,9 @@ nlu:
     - hồ sơ lí lịch bên trong có 2 tờ thì viết cả hai hả trường
     - mk lên nộp sơ yếu lí lịch vào thời gian nào ạ
     - có giấy bảo r khi nào lên nộp hồ sơ sơ yếu lí lịch ạ
-    - [trường]{"entity":"organization"} ơi cho e hỏi sơ yếu lí lich nop sau dc ko ạ
+    - [trường]{"entity":"organization"} ơi cho e hỏi sơ yếu lí lich nop sau dc không ạ
     - cho em hỏi lí lịch học sinh cần phải mấy tờ vậy ạ
-    - em thi tốt nghiệp năm [2019]{"entity":"time"} thì sơ yếu lý lịch viết năm [2019]{"entity":"time"} hả trường
+    - em thi tốt nghiệp năm [2019]{"entity":"time"} thì sơ yếu lý lịch viết năm [2019]{"entity":"time"} hả trường
     - sơ yếu lí lịch cần 1 hay 2 tờ ạ
     - trong cái túi hồ sơ học sinh sinh viên thì chỉ cần viết sơ yếu lí lịch thôi phải không ạ
     - cho e hỏi lý lịch học sinh sinh viên phải lm hai bản ạ
@@ -3789,17 +3789,17 @@ nlu:
 - intent: ask_Doan_book
   examples: |
     - còn cái đoàn là sổ đoàn ạ
-    - nếu nộp sổ đoàn có cần công chứng ko ạ
+    - nếu nộp sổ đoàn có cần công chứng không ạ
     - sổ đoàn thì cầm cả sổ đoàn đi ạ
     - thấy mục 8 ad ghi giấy chuyển sinh hoạt đoàn j đấy
     - cho em hỏi trong quyển sổ đoàn viên của em có trang chuyển sinh hoạt đoàn được đóng dấu rồi thì hôm nhập học em nộp sổ đoàn hay như nào ạ
     - cái mục 8 , giấy chuyển sh đoàn là như thế nào ạ
-    - mang cả sổ đoàn này đi ạ có cần photto ko ạ
+    - mang cả sổ đoàn này đi ạ có cần photto không ạ
     - số 8 em chỉ có sổ đoàn thôi ạ
     - ngày mai nhập học thì có cần phải mang sổ đoàn đi không ạ để em bt còn đi xin dấu
     - chiều nay e nộp hồ sơ nhập học thì có thể nộp sổ đoàn sau không ạ
     - vâng ạ còn giấy chuyển sinh hoạt đoàn là gì thế ạ
-    - trường em muốn hỏi là nếu nhập học có cần sổ đoàn k ạ
+    - trường em muốn hỏi là nếu nhập học có cần sổ đoàn k ạ
     - h cái sổ đoàn e mất thì ls ạ
     - em mất sổ đoàn có sao không ạ
     - em bị mất số đoàn ạ
@@ -3886,7 +3886,7 @@ nlu:
 
 - intent: ask_affiliate_program
   examples: |
-    - cho em hỏi tẹo [khoa cntt]{"entity":"majors"} trường mình có liên kết học chuyển tiếp 2 năm đh nhật không ạ
+    - cho em hỏi tẹo [khoa cntt]{"entity":"majors"} trường mình có liên kết học chuyển tiếp 2 năm đh nhật không ạ
     - tại [trường]{"entity":"organization"} mình là học 4 năm xong có cơ hội sang hàn làm không ạ
     - [trường]{"entity":"organization"} có liên kết với đại học ở nước ngoài không ạ
     - học [trường]{"entity":"organization"} mình xong có du học được không ạ
@@ -3931,7 +3931,7 @@ nlu:
     - nếu e bị mất thẻ bảo hiểm y tế thì k nộp có đc k ạ
     - với e bị mất thẻ bảo hiểm ạ
     - ad ơi! trong giấy báo nhập học yêu cầu bản sao bảo hiểm y tế mà em làm mất bảo hiểm y tế rồi thì sao ạ!
-    - [trường]{"entity":"organization"} ơi khong có bảo hiểm y tế có sao ko ạ
+    - [trường]{"entity":"organization"} ơi khong có bảo hiểm y tế có sao không ạ
     - e làm mất thẻ bảo hiểm y tế rồi không cần cái đó có đc không ạ ?
     - cho em hỏi bây giờ em mất bảo hiểm rồi không nộp có được không
     - em bị mất bảo hiểm y tế thì có sao không ạ
@@ -3957,8 +3957,8 @@ nlu:
 - intent: ask_demographic_docs
   examples: |
     - cho em hỏi trong giấy nhập học có ghi bản khai khác với giấy thay đổi nhân khẩu nơi thường trú 2 cái này cần làm ntn và cbi ntn ạ
-    - cái giấy khai nhân khẩu nó có quan trọng ko ạ
-    - tờ khai cả tờ chuyển nhân khẩu có quan trọng lắm ko ạ
+    - cái giấy khai nhân khẩu nó có quan trọng không ạ
+    - tờ khai cả tờ chuyển nhân khẩu có quan trọng lắm không ạ
     - tục nhập học thì bản khai báo nhân khẩu và bản khai báo thay đổi nhân khẩu có cần công chứng của xã k ạ
     - khong ý em là cái giấy khai nhân khẩu cả giấy báo thay đổi nhân khẩu ấy ạ
     - bản khai nhân khẩu
@@ -3968,9 +3968,9 @@ nlu:
     - thì em có cần phải làm bản khai nhân khẩu không ạ
     - [trường]{"entity":"organization"} cho em hỏi bản khai nhân khẩu là gì ạ
     - thế còn bản khai nhân khẩu thì làm thế nào ạ
-    - cho em hỏi nhà em gần [trường]{"entity":"organization"} thì có cần giấy báo thay đổi nhân khẩu ở mục 7 ko ạ
-    - không biết thủ tục nhập học có cần giấy thay đổi nhân khẩu ko ạ
-    - có cần bản khai nhân khẩu ko ạ
+    - cho em hỏi nhà em gần [trường]{"entity":"organization"} thì có cần giấy báo thay đổi nhân khẩu ở mục 7 không ạ
+    - không biết thủ tục nhập học có cần giấy thay đổi nhân khẩu không ạ
+    - có cần bản khai nhân khẩu không ạ
     - cái tờ đăng ký thay đổi nhân khẩu thì lạ tạm trú hay thường trú ạ
     - cả phiếu thay đổi hộ khẩu nhân khẩu thì mang cả 2 bản hay chỉ mang 1 bản chính thôi ạ
     - +số 7 bản khai nhân khẩu hk01 và giấy báo thay đổi nơi thg chú hk02 là j
@@ -3979,7 +3979,7 @@ nlu:
     - thì em có phải thay đổi hộ khẩu nhân khẩu không ạ
     - cho em hỏi với ạ cái phiếu thay đổi hộ khẩu nhân khẩu k có chữ kí và xác nhận của công an xã đc k ạ
     - vậy còn giấy báo thay đổi nhân khẩu thường trú thì khi nhập học nộp luôn ạ
-    - giấy mục 7 bản khai nhân khẩu và thay đổi nhân khẩu thì em đi hok nhưng vẫn về nhà không thay đổi thì phải nộp không
+    - giấy mục 7 bản khai nhân khẩu và thay đổi nhân khẩu thì em đi hok nhưng vẫn về nhà không thay đổi thì phải nộp không
     - cái giấy khai nhân khẩu nó có quan trọng không ạ
     - tờ khai cả tờ chuyển nhân khẩu có quan trọng lắm không ạ
     - e xin mẫu bản khai nhân khẩu được không ạ
@@ -4023,7 +4023,7 @@ nlu:
 - intent: ask_haiduong_facility
   examples: |
     - các ngành đều học ở [hải dương]{"entity":"location"} ạ ???
-    - em nộp [cơ sở hải dương]{"entity":"location"}]{"entity":"location"} được ko an
+    - em nộp [cơ sở hải dương]{"entity":"location"}]{"entity":"location"} được không an
     - các bạn em ở [hải dương]{"entity":"location"} cũng có rồi
     - ở [hải dương]{"entity":"location"} có k ạ
     - [trường]{"entity":"organization"} của mình [cơ sở 3]{"entity":"location"} cx ở trong thành phố [hải dương]{"entity":"location"}
@@ -4069,15 +4069,15 @@ nlu:
 - intent: wrong_registration_information
   examples: |
     - dạem trai em lỡ đăng kí nhầm ngành muốn học mà ấn gửi đi rồi thì giờ muốn sửa lại bán đăng kí như nào ạ
-    - em đăng kí sai bây giờ em đăng kí lại cái khác đc ko ạ
+    - em đăng kí sai bây giờ em đăng kí lại cái khác đc không ạ
     - e hnay ms đăng kí , ở phiếu đăng kí đấy ạ , thế em đăng kí lại được không
     - ad nhỡ ghi sai thì có được đăng kí lại không ạ
     - đăng kí lại được không ạ!?
     - nhưng em lỡ đăng kí cntt online r và giờ còn hạn đăng kí online đợt 2 k cô
-    - alo e đăng nhầm điểm nhưng vẫn đủ điểm về sau đc sửa ko ạ
-    - nay em xem lại điểm tổng 3 học bạ 3 môn xét tuyển: có môn hoá trong học bạ em 7 ,9 nhưng em điền nhầm vào phiếu là 7 ,8 thì có bị ảnh hưởng gì đến giấy tờ , hồ sơ không ạ?
+    - alo e đăng nhầm điểm nhưng vẫn đủ điểm về sau đc sửa không ạ
+    - nay em xem lại điểm tổng 3 học bạ 3 môn xét tuyển: có môn hóa trong học bạ em 7 ,9 nhưng em điền nhầm vào phiếu là 7 ,8 thì có bị ảnh hưởng gì đến giấy tờ , hồ sơ không ạ?
     - sửa có khó không ạ
-    - em có đăng ký xét tuyển lại lần 2 rồi mà sao thông tin vẫn ko đúng ạ
+    - em có đăng ký xét tuyển lại lần 2 rồi mà sao thông tin vẫn không đúng ạ
     - sao vẫn bị lỗi ạ
     - em không đăng ký được ạ
     - cho e hỏi là thông tin trên kia của em bị sai thì sửa ra sao ạ
@@ -4092,7 +4092,7 @@ nlu:
     - dạ em đã tra cứu và nó có hiện ra thông tin của em rồi ạ nhưng vấn đề của em là em bị sai thông tin về mục khu vực nên em muốn sửa ạ
     - phần đối tượng e quên k điền có sao k ad ?
     - em không điền phần đối tượng thì có sao không ạ
-    - em quên điền phần đối tượng thì làm sao ko
+    - em quên điền phần đối tượng thì làm sao không
     - ad cho em hỏi em không điền phần đối tượng thì có ảnh hưởng gì không
     - em quên điền phần đối tượng ạ
     - em điền thiếu phần đối tượng
@@ -4141,7 +4141,7 @@ nlu:
 - intent: unknown_intent
   examples: |
     - e đk 2 chị gạch cái trên đi đc
-    - k ạlần ntn
+    - k ạ lần ntn
     - ádsad áda sd s
     - eshdtjfjfyk
     - asdfgasdas sadasd
@@ -4213,7 +4213,7 @@ nlu:
     - em muốn nhập học ở cơ sở khác giấy báo được không ạ
     - thì đến hôm nộp hồ sơ thì e phải đến [trường]{"entity":"organization"} ở [khoái châu]{"entity":"location"} hay mỹ hào ạ ?
     - nộp hồ sơ ở mỹ hào thì vẫn học ở trong [khoái châu]{"entity":"location"} ạ
-    - ad cho em hỏi là em nộp hồ sơ vào [cơ sở khoái châu]{"entity":"location"} nhưng nhà em gần cơ sở nhân hoà hơn thì [trường]{"entity":"organization"} có nộp giúp k ạ
+    - ad cho em hỏi là em nộp hồ sơ vào [cơ sở khoái châu]{"entity":"location"} nhưng nhà em gần cơ sở nhân hòa hơn thì [trường]{"entity":"organization"} có nộp giúp k ạ
     - em muốn học ở [khoái châu]{"entity":"location"} thì nộp hồ sơ ở [khoái châu]{"entity":"location"} ạ
     - em phải nộp hồ sơ ở đâu ạ
     - học ở [khoái châu]{"entity":"location"} thì nộp hồ sơ ở đâu ạ
@@ -4233,7 +4233,7 @@ nlu:
     - gửi dữ liệu thành công là đăng kí được rồi đúng không ạ?
     - e đăng kí xong nó ghi bạn đã nhập dữ liệu thành công
     - e vừa gửi biểu mẫu đăng kí online rồi ạe có cần làm gì nữa k a
-    - em đã đăng ký online thành công rồihiện tại thời gian nhập học khoảng ngày nào ạ
+    - em đã đăng ký online thành công rồi hiện tại thời gian nhập học khoảng ngày nào ạ
     - em gửi rồi đấy ạ , bên anh chị nhận được chưa ạ
     - ad ơi e đăng ký xong rồi thì làm j nữa k ạ
     - em nhận được cái kia rồi xong như nào nữa ạ
@@ -4252,7 +4252,7 @@ nlu:
 
 - intent: want_to_enter_talent_class_after_1_year_of_study
   examples: |
-    - em hiện tại chuẩn bị bước vào năm 2 [ngành cơ điện tử]{"entity":"majors"} ,thì năm 2 muốn được học ở lớp tài năng thì cần những điều kiện gì ạ ?
+    - em hiện tại chuẩn bị bước vào năm 2 [ngành cơ điện tử]{"entity":"majors"} , thì năm 2 muốn được học ở lớp tài năng thì cần những điều kiện gì ạ ?
     - em học năm 2 , em muốn học lớp tài năng thì cần gì ạ
     - em học hết năm 1 , làm gì để được học lớp tài năng ạ
     - học hết năm 1 , muốn học lớp tài năng thì cần gì ạ
@@ -4278,16 +4278,16 @@ nlu:
 
 - intent: ask_school_training_weld
   examples: |
-    - cho e hoi bên m có khoá đào tạo về ngành hàn xì k ạ
+    - cho e hoi bên m có khóa đào tạo về ngành hàn xì k ạ
     - hàn xì ạ
     - cho em hỏi [trường]{"entity":"organization"} có đào tạo hàn xì khỗng
     - [trường]{"entity":"organization"} mình có đào tạo hàn xì không ạ
     - [trường]{"entity":"organization"} cho em hỏi bên mình có đào tạo hàn xì không
-    - ad cho em hỏi là [trường]{"entity":"organization"} có khoá đào tạo về hàn xì không
-    - [trường]{"entity":"organization"} có khoá học đào tạo về hàn xì không ạ
+    - ad cho em hỏi là [trường]{"entity":"organization"} có khóa đào tạo về hàn xì không
+    - [trường]{"entity":"organization"} có khóa học đào tạo về hàn xì không ạ
     - [trường]{"entity":"organization"} có dạy hàn xì không ạ
     - em muốn học hàn xì có được không ạ
-    - [trường]{"entity":"organization"} dạy khoá nào về hàn xì không ạ
+    - [trường]{"entity":"organization"} dạy khóa nào về hàn xì không ạ
 
 - intent: ask_4x6_photo_mandatory
   examples: |
@@ -4321,7 +4321,7 @@ nlu:
 - intent: lost_military_service_document
   examples: |
     - cho em hỏi là em bị mất giấy báo đăng kí nghĩa vụ quân sự rồi có ảnh hưởng gì tới thủ tục nhập học không ạ
-    - cho em hỏi là nếu giấy chuyển nghĩa vụ quân sự của e bị mất thì có làm sao ko ạ
+    - cho em hỏi là nếu giấy chuyển nghĩa vụ quân sự của e bị mất thì có làm sao không ạ
     - [nhà trường]{"entity":"organization"} cho em hỏi chút là bây h em k có giấy chuyển nghĩa vụ quân sự thì mai em vẫn lên [trường]{"entity":"organization"} nhập học rồi bổ sung sau có đc k ạ
     - cảm ơn ad ạ mà cho e hỏi nộp thiếu giấy chuyển nghĩa vụ quân sự có sao không ạ
     - cho e hỏi giấy nghĩa vụ quân sự e chưa có , có cần nộp không ạ
@@ -4335,14 +4335,14 @@ nlu:
 
 - intent: where_submit_documents
   examples: |
-    - nộp giấy chuyển ngĩa vụ quân sự ở phòng nào ạ
+    - nộp giấy chuyển nghĩa vụ quân sự ở phòng nào ạ
     - nộp ở phòng nào ạ
     - e đăng kí ở phòng nào ạ
     - đến nộp ở phòng nào thế ạ
     - cho e hỏi muốn nộp học bạ xét tuyển thì nộp ở đâu ạ ?
     - vậy vào [trường]{"entity":"organization"} nộp hồ sơ vào phòng nào à
     - mai e xuống hưng yên để nộp hồ sơ xin xét tuyển vào [trường]{"entity":"organization"} ạ
-    - vậy nếu hôm nhập học ở trường thì nộp hồ sơ nhập học nộp ở đâu vậy ạ
+    - vậy nếu hôm nhập học ở trường thì nộp hồ sơ nhập học nộp ở đâu vậy ạ
     - cho e hỏi là mình nộp hồ sơ thì nộp vào [cơ sở 1]{"entity":"location"} hay 2 hay 3 ạ
     - em muốn làm hồ sơ thì nộp cho ai ạ ?
     - nộp giấy tờ ở phòng nào ạ
@@ -4360,15 +4360,15 @@ nlu:
     - [chủ nhậ]{"entity":"time"}]{"entity":"time"} e lên [trường]{"entity":"organization"} đổi đc không ạ
     - [chủ nhật]{"entity":"time"} [trường]{"entity":"organization"} mk ko xét ạ
     - [chủ nhật]{"entity":"time"} tuần này các thầy cô bên khoa điện có làm việc ko ak?
-    - mai [chủ nhật]{"entity":"time"} ko chuyển ạ
-    - [chủ nhật]{"entity":"time"} e lên [trường]{"entity":"organization"} đổi đc ko ạ
+    - mai [chủ nhật]{"entity":"time"} không chuyển ạ
+    - [chủ nhật]{"entity":"time"} e lên [trường]{"entity":"organization"} đổi đc không ạ
     - [chủ nhật]{"entity":"time"} tuần này e lên xin chuyển ngàh trg mình có lm vc k ạ
     - cho em hỏi [trường]{"entity":"organization"} mk [chủ nhật]{"entity":"time"} có làm thủ tục nhập học ko ạe cảm on
     - [trường]{"entity":"organization"} có nhận hồ sơ vào [thứ 7 chủ nhật]{"entity":"time"} không ạ
-    - [t7 - cn]{"entity":"time"} [trường]{"entity":"organization"} tiếp học sinh không ạ
+    - [t7 - cn]{"entity":"time"} [trường]{"entity":"organization"} tiếp học sinh không ạ
     - mai [nhà trường]{"entity":"organization"} có làm việc không ạ?
     - bạn làm việc vào những giờ nào?
-    - [thứ 7]{"entity":"time"} [trường]{"entity":"organization"} có làm việc ko ạ
+    - [thứ 7]{"entity":"time"} [trường]{"entity":"organization"} có làm việc không ạ
     - [trường]{"entity":"organization"} có làm việc [thứ 7]{"entity":"time"} không ạ
     - ad cho e hỏi [trường]{"entity":"organization"} có làm việc [t7 cn]{"entity":"time"} k ạ
 
@@ -4406,7 +4406,7 @@ nlu:
     - em đang muốn về nghề co khí của [trường]{"entity":"organization"} và thời thời gian đào tạo bao lâu+ tiền học phí ạ
     - [trường]{"entity":"organization"} mình đào tạo hệ đại học là mấy năm ạ
     - trg đào tạo bao nhiêu năm ạ
-    - thế học đại học là mấy năm ạ
+    - thế học đại học là mấy năm ạ
 
 - intent: ask_college_transfer_study
   examples: |
@@ -4463,13 +4463,13 @@ nlu:
     - [trường]{"entity":"organization"} có liên thông cao đẳng lên đại học khoa cntt hay sư phạm tin không ạ
     - cho em hỏi hình thức tuyển sinh liên thông đại học với ạ
     - vậy liên thông từ trung cấp lên đại học được không ạ ?
-    - em đã tốt nghiệp hệ cao đẳng cơ khí chuyên nghành hàn hiện tại em muốn liên thông lên đại học ở [trường]{"entity":"organization"} vậy có được không ạ 
+    - em đã tốt nghiệp hệ cao đẳng cơ khí chuyên ngành hàn hiện tại em muốn liên thông lên đại học ở [trường]{"entity":"organization"} vậy có được không ạ 
     - [trường]{"entity":"organization"} mình có tổ chức học liên thông từ cao đẳng lên đại học không ạ ?
     - ad ơi cho m hỏi [trường]{"entity":"organization"} khi nào tuyển sinh liên thông cđ lê đại học ạ
     - liên thông lên thì cần hồ sơ j
     - mình học ở [trường]{"entity":"organization"} khác mà muốn liên thông ở [trường]{"entity":"organization"} mình
     - cho mình hỏi trước mình học [trường cao đẳng nghề hải dương]{"entity":"organization"} h mình liên thông lên đại học ơi [trường]{"entity":"organization"} mình có được không ạ
-    - em đang học [cn ô tô]{"entity":"majors"} hệ cao đẳng liên thông dưới [trường]{"entity":"organization"} cao đẳng cơ điện và thuỷ lợi , thì năm sau e muốn liên thông lên [trường]{"entity":"organization"} sư phạm mình không biết có được không ạ
+    - em đang học [cn ô tô]{"entity":"majors"} hệ cao đẳng liên thông dưới [trường]{"entity":"organization"} cao đẳng cơ điện và thủy lợi , thì năm sau e muốn liên thông lên [trường]{"entity":"organization"} sư phạm mình không biết có được không ạ
     - em là [long]{"entity":"person"} hiện tại em đang có ý định nộp hồ sơ liên thông vào cao đẳng điện dân dụng [trường]{"entity":"organization"} mình 
     - liên thông ạ e tốt nghiệp cao đẳng rồi
     - ad cho e 1 chút về vấn đề tuyển sinh đai học liên thông với a
@@ -4488,14 +4488,14 @@ nlu:
     - [nhà trường]{"entity":"organization"} cho em hỏi về liên thông cao đẳng của [trường]{"entity":"organization"} ạ
     - em học liên thông cao đẳng ở [trường]{"entity":"organization"} được không ạ
     - học liên thông cao đẳng mất bao lâu ạ
-    - [nhà trường]{"entity":"organization"} cho e hỏi muốn xét tuyển hệ cao đẳng thì đăng kí nhập học ntn và giờ [nhà trường]{"entity":"organization"} còn nhận hồ sơ ko ạ?
+    - [nhà trường]{"entity":"organization"} cho e hỏi muốn xét tuyển hệ cao đẳng thì đăng kí nhập học ntn và giờ [nhà trường]{"entity":"organization"} còn nhận hồ sơ không ạ?
 
 - intent: ask_diploma_2
   examples: |
     - [trường]{"entity":"organization"} có lớp học văn bằng 2 nào mở trong thời gian tới không ạ?
     - cho e hỏi năm nay [trường]{"entity":"organization"} mình có đào tạo vb2 k ạ
     - học văn bằng 2 thường học vào thời gian nào?
-    - cho em hỏi là bây giờ đăng kí văn bằng 2 vào [trường]{"entity":"organization"} mình ,thì cần có điều kiện và những thủ tục gì ạ
+    - cho em hỏi là bây giờ đăng kí văn bằng 2 vào [trường]{"entity":"organization"} mình , thì cần có điều kiện và những thủ tục gì ạ
     - em muốn hỏi về văn bằng 2
     - cho em hỏi chút về văn bằng 2
     - cho em xin thông tin về văn bằng 2 của [trường]{"entity":"organization"} được không ạ

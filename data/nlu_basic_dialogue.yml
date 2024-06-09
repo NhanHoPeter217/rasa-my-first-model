@@ -15,12 +15,12 @@ nlu:
       - dạ vầng ạ
       - thông tin tuyệt vời ạ
       - à oke bạn
-      - dạ vâng ạ em cảm ơn ah
-      - da e biết ạ
+      - dạ vâng ạ em cảm ơn ah
+      - da e biết ạ
       - da vâng em cảm ơn ạ 
       - da vâng ạ
       - da cô
-      - dạ tl e vs ạ
+      - dạ tl e vs ạ
       - à, vâng ạ
       - à vâng
       - vâng ạ!
@@ -86,7 +86,7 @@ nlu:
       - vâng ạ cảm ơn admin
       - vâng em cảm các thầy cô ạ
       - dạ vâng ạ , e cảm ơn thầy cô!
-      - vângem cảm ơn thầy cô ạ
+      - vâng! em cảm ơn thầy cô ạ
       - dạ vâng e cảm ơn thầy cô ạ!
       - dạ em cảm ơn thầy cô ạ!
       - dạ em cảm ơn ạ
@@ -106,14 +106,14 @@ nlu:
       - thank ad
       - e cam ơn ad
       - c ơn ad ạ
-      - oke ạthank ad rất nhiều
+      - oke ạ. thank ad rất nhiều
       - vâng e c ơn ad ạ
       - dạ e cảm ơn
       - dạ e cảm ơn ạh
-      - chúc ad một buổi chiều đầy sức khoẻ 3
+      - chúc ad một buổi chiều đầy sức khỏe 3
       - dạ e cảm ơn cô
       - dạ cảm ơn ad ạ
-      - dạ thôie hiểu rồi ạe cảm ơn
+      - dạ thôi. e hiểu rồi ạ. e cảm ơn
       - dạem cảm ơn ạ!
       - dạ , em cảm ơn ạ
       - dạ cho e cảm ơn
@@ -123,17 +123,17 @@ nlu:
       - dạ em hiểu rồi , em cảm ơn ạ!
       - dạ em cảm ơn ạ
       - dạ , em cảm ơn ạ!
-      - vânge cảm ơn ạ
+      - vâng! e cảm ơn ạ
       - vâng e cảm ơn ạ
       - vâng ạ e cảm ơn ạ
       - vâng d cảm ơn
-      - vânge cảm ơn ạk
+      - vâng! e cảm ơn ạk
       - vâng e cảm ơn ad nhiều ak
       - vâng e cảm ơn e trượt
-      - vâng ạ , e cảm ơn ạ
+      - vâng ạ, e cảm ơn ạ
       - vâng cảm ơn ad
-      - vângxin cảm ơn
-      - vânge cảm ơn ad ạ
+      - vâng. xin cảm ơn
+      - vâng. e cảm ơn ad ạ
       - vâng , e cảm ơn ạ
       - vâng vậy e cảm ơn ad a
       - vâng ạ e cảm ơn nhé hi
@@ -153,8 +153,8 @@ nlu:
       - dạ vâng em cảm ơn ad ạ
       - dạ vâng em cảm ơn ad!
       - dạ vâng ạ , e cảm ơn ad nhé
-      - dạ vângem cảm ơn ạ 
-      - dạ vâng ạem cảm ơn ad
+      - dạ vâng! em cảm ơn ạ 
+      - dạ vâng ạ. em cảm ơn ad
       - dạ vâng cảm ơn trường ạ
       - dạ vâng ạ em cảm ơn nhà trường ạ
       - dạ vâng e cảm ơn ad
@@ -164,9 +164,9 @@ nlu:
       - dạ vâng em cảm ơn ad ạ ,em sẽ suy nghĩ thêm ạ
       - dạ vâng em cảm ơn ad nha
       - dạ vâng e cảm ơn ạ 
-      - dạ vâng ạem cảm ơn ạ 
+      - dạ vâng ạ. em cảm ơn ạ 
       - dạ vâng cảm ơn ạ
-      - dạ vângem cảm ơn ạ!
+      - dạ vâng. em cảm ơn ạ!
       - dạ vâng , e cảm ơn nhà trường
       - em cảm ơn khi nào có thắc mắc em liên hệ lại
       - em c ơn ạ
@@ -199,7 +199,7 @@ nlu:
       - hú hí
       - halo
       - hola
-      - dacho e hoi it dc k ạ
+      - dạ. cho e hoi it dc k ạ
       - chị ơi cho e hỏi
       - add ơi cho e hỏi ạ
       - add cho e hỏi ạ
@@ -218,7 +218,7 @@ nlu:
       - trường có tiện tư vấn cho em không ạ
       - e cần tư vấn ạ
       - dạ ac có thể tư vấn cho e với ạ
-      - add có thể tư vấn cho e được ko ạ
+      - add có thể tư vấn cho e được không ạ
       - ad có thể tư vấn giúp mình không ạ
       - trường có thể tư vấn giúp e về tuyển sinh được k ạ
       - chào ad ad có thể tư vấn cho e 1 chút được không ạ?
@@ -236,8 +236,6 @@ nlu:
       - anh ơi
       - mà anh ơi
       - trường ơi
-      - trường ới
-      - e là học sinh lớp 12 và e có 1 số thắc mắc về trườngad có thể giải đáp e k ạ?
       - mong thầy cô tu vấn cho em sớm ạ
       - mong thầy cô giải đáp giúp em ạ
       - nhà trường cho hỏi
@@ -255,7 +253,7 @@ nlu:
       - ad giúp em giải đáp thắc mắc với em cảm ơn
       - xin giải đáp ạ
       - mong ad giúp đỡ mk ak!
-      - mong ad có thể bớt chút thời gian giải thắc mắc này giúp emem cảm ơn ad ạ
+      - mong ad có thể bớt chút thời gian giải thắc mắc này giúp cảm ơn ad ạ
       - mong trường giải đáp
       - mong ad giúp em với
       - dạ cho em hỏi luôn
@@ -281,7 +279,7 @@ nlu:
       - cho mình hỏi nữa là
       - cô cho em hỏi là
       - nhưng hiện tại em có vấn đề như này ạ
-      - cho e hỏi a00
+      - cho e hỏi ạ
       - ơ cho e hỏi
       - thế cho e hỏi
       - cho e hỏi lại
@@ -295,7 +293,7 @@ nlu:
       - trường cho e hỏi là
       - thầy ơi cho em hỏi ạ
       - vậy cho em hỏi
-      - tôi có câu hỏibạn có thể trợ giúp không? ad ơi
+      - tôi có câu hỏi. bạn có thể trợ giúp không? ad ơi
       - cho e hỏi chút đc không ạ
       - ad ơi cho em hỏi chút ạ
       - cho em hỏi chút với ạ?
@@ -339,10 +337,7 @@ nlu:
       - admin cho e hỏi ạ
       - admin cho em hỏi
       - ad hướng dẫn e với ạ
-      - ad hướng dẫn e vs ạ
-      - em ko hiểu 1 vài mục của tờ hướng dẫn
       - dạ mong ad trả lời giúp em ơi ạ
-      - e muon hỏi
       - cho e hỏi ít đc k ạ
       - trường cho em hỏi 1 số vấn đề ạ
       - mong ad trả lời giúp em với ạ
@@ -375,10 +370,10 @@ nlu:
       - add ơi add cho em hỏi với ạ
       - nhà trường cho em hỏi với ạ
       - rep em với ạ
-      - page ơi em hỏi với đc ko ạ
+      - page ơi em hỏi với đc không ạ
       - dạ cho e hỏi với
       - ad ơi ,cho em hỏi với ạ
-      - cho e hoie là
+      - cho e hỏi là
       - em muốn hỏi là
       - ad cho e hỏi với ạ ,
       - cho em hỏi với ạ !
@@ -438,7 +433,7 @@ nlu:
       - chào ad !
       - em chào trường ạ
       - e chào ad
-      - chào add
+      - chào ad
       - chào trường ạ 
       - em chào page ạ
       - e chào ad ạ 
