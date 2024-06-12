@@ -213,21 +213,19 @@ nlu:
 
   - intent: ask_competition_registration_process
     examples: |
-      - Làm thế nào để đăng ký thi?
+      - Làm thế nào để đăng ký thi VSTEP?
       - Mình cần làm gì để đăng ký thi?
       - Các bước đăng ký thi bao gồm những gì?
       - Thủ tục đăng ký thi là gì?
-      - đăng ký thi như thế nào?
+      - đăng ký thi VSTEP như thế nào?
       - Cần phải thực hiện những gì để đăng ký tham gia cuộc thi?
       - Hướng dẫn về quy trình đăng ký thi là gì?
       - Làm sao để bắt đầu quá trình đăng ký thi?
-      - Cách đăng ký thi được thực hiện như thế nào?
       - Điều gì cần thiết khi bắt đầu quá trình đăng ký thi?
-      - Quá trình đăng ký thi bao gồm những bước nào?
+      - Quá trình đăng ký thi VSTEP bao gồm những bước nào?
       - Cần tuân thủ những hướng dẫn nào khi đăng ký thi?
       - Làm thế nào để biết cách đăng ký thi đúng cách?
-      - Có cần phải chuẩn bị những giấy tờ gì khi đăng ký thi?
-      - Cần phải làm gì trước khi bắt đầu quá trình đăng ký thi?
+      - Cần phải chuẩn bị những giấy tờ gì khi đăng ký thi VSTEP?
 
   - intent: competition_registration_process_far
     examples: |

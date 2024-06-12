@@ -1,0 +1,23 @@
+- value: cảm ơn
+  shorthands: |
+    c ơn
+    tks
+
+- value: được
+  shorthands: |
+    đc
+    dc
+
+- value: không
+  shorthands: |
+    ko
+    k
+
+- value: với
+  shorthands: |
+    vs
+
+- value: em
+  shorthands: |
+    em
+    e

@@ -20,9 +20,9 @@ class SpacyTokenizer(Tokenizer):
         model_storage: ModelStorage,
         resource: Resource,
         execution_context: ExecutionContext
-    ) -> GraphComponent:
+    ) -> Tokenizer:
         cls.nlp = spacy.load('vi_core_news_lg')
-        return cls(config, model_storage, resource, execution_context)
+        return cls(config)
     
     @staticmethod
     def get_default_config() -> Dict[Text, Any]:
@@ -41,9 +41,6 @@ class SpacyTokenizer(Tokenizer):
     def __init__(
         self,
         config: Dict[Text, Any],
-        model_storage: ModelStorage,
-        resource: Resource,
-        execution_context: ExecutionContext
     ) -> None:
         super().__init__(config)
 
@@ -55,6 +52,6 @@ class SpacyTokenizer(Tokenizer):
         # for token in doc:
         #   print(token.text, token.lemma_, token.pos_, token.tag_, token.dep_,
         #           token.shape_, token.is_alpha, token.is_stop)
-        print([token.text.replace('_',' ') for token in doc])
-        return self._convert_words_to_tokens([token.text.replace('_',' ') for token in doc], text)
-        
+
+        tokens = self._convert_words_to_tokens([token.text.replace('_',' ') for token in doc], text)
+        return self._apply_token_pattern(tokens)        

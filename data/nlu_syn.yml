@@ -2,7 +2,7 @@ version: "3.1"
 
 nlu:
   ###################
-  ##    Contact    ##
+  ##    contact    ##
   ###################
   - synonym: working_time
     examples: |
@@ -43,7 +43,7 @@ nlu:
       - số hotline liên lạc
 
   ##############################
-  ##    Competition Result    ##
+  ##    competition Result    ##
   ##############################
   - synonym: certificate
     examples: |
@@ -74,7 +74,7 @@ nlu:
       - đánh rớt
 
   ####################################
-  ##    Competition Registration    ##
+  ##    competition Registration    ##
   ####################################
   - synonym: SGU
     examples: |
@@ -148,47 +148,47 @@ nlu:
   - synonym: level_1
     examples: |
       - bậc 1
-      - A1
+      - a1
       - level 1
-      - level A1
+      - level a1
       - mức 1
-      - mức A1
+      - mức a1
 
   - synonym: level_2
     examples: |
       - bậc 2
-      - A2
+      - a2
       - level 2
-      - level A2
+      - level a2
       - mức 2
-      - mức A2
+      - mức a2
 
   - synonym: level_3
     examples: |
       - bậc 3
-      - B1
+      - b1
       - level 3
-      - level B1
+      - level b1
       - mức 3
-      - mức B1
+      - mức b1
 
   - synonym: level_4
     examples: |
       - bậc 4
-      - B2
+      - b2
       - level 4
-      - level B2
+      - level b2
       - mức 4
-      - mức B2
+      - mức b2
 
   - synonym: level_5
     examples: |
       - bậc 5
-      - C1
+      - c1
       - level 5
-      - level C1
+      - level c1
       - mức 5
-      - mức C1
+      - mức c1
 
   ######################
   ##    Practicing    ##

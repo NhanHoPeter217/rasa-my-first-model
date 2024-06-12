@@ -169,3 +169,7 @@ pipelines/VnCoreNLP/VnCoreNLP-1.2.jar
 train_test_split/
 results**/
 data_preprocessed/
+
+#  every file start with temp
+temp*
+log*
