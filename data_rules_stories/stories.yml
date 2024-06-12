@@ -66,6 +66,8 @@ stories:
   - story: competition_registration_process_far
     steps:
       - intent: competition_registration_process_far
+        entities:
+          - distance: "ở xa"
       - action: utter_competition_registration_process_far
 
   - story: ask_practice_papers
@@ -154,6 +156,26 @@ stories:
           - refund: refund
           - cancel: competition_cancel
       - action: utter_refund
+
+  - story: Hỏi nhận bằng thấp hơn
+    steps:
+      - intent: ask_receive_lower_certificate
+      - action: utter_receive_lower_certificate
+
+  - story: Hỏi nhận bằng cao hơn
+    steps:
+      - intent: ask_receive_higher_certificate
+      - action: utter_receive_higher_certificate
+
+  - story: Hỏi ca thi
+    steps:
+      - intent: ask_exam_shift_time
+      - action: utter_exam_shift_time
+
+  - story: Hỏi hình thức thi
+    steps:
+      - intent: ask_exam_form
+      - action: utter_exam_form
 
   - story: Thí sinh hỏi thông tin phòng thi
     steps:

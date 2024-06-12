@@ -35,7 +35,16 @@ intents:
 - ask_cancel
 - ask_refund
 - ask_cancel+ask_refund
+- ask_receive_lower_certificate
+- ask_receive_higher_certificate
+#- ask_condition_B1
+#- ask_condition_B2
+#- ask_condition_C1
+#- ask_condition_A2
+- ask_exam_shift_time
+- ask_exam_form
 - ask_exam_room
+- ask
 - provide_CCCD_number
 - thanks
 
@@ -57,6 +66,11 @@ entities:
   - distance
   - certificate_level
   - CCCD_number
+
+slots:
+  certificate_level:
+    type: text
+    influence_conversation: false
 
 responses:
   utter_greet:
@@ -161,6 +175,18 @@ Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăn
 
   utter_refund:
   - text: "Nếu bạn muốn hủy thi, thì trong thời gian còn hạn đăng ký, hãy cầm biên lai thu tiền đến phòng Ghi danh để được hỗ trợ"
+
+  utter_receive_lower_certificate:
+  - text: "Nếu không đủ điểm đạt B1/ bậc 3 thì kết quả sẽ là \"Không xét\", không được hạ xuống chứng chỉ A2"
+
+  utter_receive_higher_certificate:
+  - text: "Việc cấp chứng chỉ phụ thuộc vào kết quả thi thực tế, việc đăng ký bậc thi không ảnh hưởng đến việc cấp chứng chỉ"
+
+  utter_exam_shift_time:
+  - text: "Sáng từ 07g00 đến 11g00, chiều từ 13g00 đến 17g00"
+
+  utter_exam_form:
+  - text: "Thi 4 kỹ năng Nghe, Nói, Đọc, Viết trực tiếp trên máy"
 
   utter_exam_room:
   - text: "Bạn hãy cung cấp số CCCD/CMND để tôi có thể cung cấp thông tin phòng thi của bạn."

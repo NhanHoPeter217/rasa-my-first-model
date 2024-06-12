@@ -510,6 +510,39 @@ nlu:
       - Em đã đăng ký thi nhưng giờ nhà em có chuyện khẩn cấp, vậy em hủy thi được không ạ?
       - Em đã đăng ký thi nhưng giờ nhà em có chuyện gấp, vậy em hủy thi được không ạ?
 
+  - intent: ask_receive_lower_certificate
+    examples: |
+      - nếu không đủ điểm [B1](certificate_level) thì có được nhận bằng [A1](certificate_level), [A2](certificate_level) không?
+      - nếu không đủ điểm [Bậc 5](certificate_level) thì có được nhận bằng [B1](certificate_level) không?
+
+  - intent: ask_receive_higher_certificate
+    examples: |
+      - đăng ký thi bậc [B1](certificate_level) mà điểm cao có được cấp chứng chỉ [B2](certificate_level) không?
+      - đăng ký thi [bậc 1](certificate_level) mà điểm cao có được cấp chứng chỉ [A2](certificate_level) không?
+
+  # May change
+#  - intent: ask_condition_certificate
+#    examples: |
+#      - điều kiện để đạt [B1](certificate_level)
+#      - điều kiện để đạt [bậc 3](certificate_level)
+#      - điều kiện để đạt [B2](certificate_level)
+#      - điều kiện để đạt [bậc 4](certificate_level)
+#      - điều kiện để đạt [C1](certificate_level)
+#      - điều kiện để đạt [bậc 5](certificate_level)
+#      - điều kiện để đạt [A2](certificate_level)
+#      - điều kiện để đạt [bậc 2](certificate_level)
+
+  - intent: ask_exam_shift_time
+    examples: |
+      - thời gian mỗi ca thi
+      - cho em xin thông tin thời gian của các ca thi
+
+  - intent: ask_exam_form
+    examples: |
+      - hình thức thi
+      - hình thức thi của kỳ thi
+      - cho em hỏi về hình thức thi
+
   - intent: ask_exam_room
     examples: |
       - Check phòng thi ở đâu?
