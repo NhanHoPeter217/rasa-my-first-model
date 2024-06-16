@@ -68,9 +68,12 @@ entities:
   - CCCD_number
 
 slots:
-  certificate_level:
-    type: text
-    influence_conversation: false
+   certificate_level:
+      type: text
+      influence_conversation: false
+      mappings:
+      - type: from_entity
+        entity: certificate_level
 
 responses:
   utter_greet:
@@ -197,3 +200,4 @@ Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăn
 
 actions:
   - action_show_exam_room
+  - action_reply_for_receiving_different_certificate

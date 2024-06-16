@@ -521,16 +521,16 @@ nlu:
       - đăng ký thi [bậc 1](certificate_level) mà điểm cao có được cấp chứng chỉ [A2](certificate_level) không?
 
   # May change
-#  - intent: ask_condition_certificate
-#    examples: |
-#      - điều kiện để đạt [B1](certificate_level)
-#      - điều kiện để đạt [bậc 3](certificate_level)
-#      - điều kiện để đạt [B2](certificate_level)
-#      - điều kiện để đạt [bậc 4](certificate_level)
-#      - điều kiện để đạt [C1](certificate_level)
-#      - điều kiện để đạt [bậc 5](certificate_level)
-#      - điều kiện để đạt [A2](certificate_level)
-#      - điều kiện để đạt [bậc 2](certificate_level)
+  #  - intent: ask_condition_certificate
+  #    examples: |
+  #      - điều kiện để đạt [B1](certificate_level)
+  #      - điều kiện để đạt [bậc 3](certificate_level)
+  #      - điều kiện để đạt [B2](certificate_level)
+  #      - điều kiện để đạt [bậc 4](certificate_level)
+  #      - điều kiện để đạt [C1](certificate_level)
+  #      - điều kiện để đạt [bậc 5](certificate_level)
+  #      - điều kiện để đạt [A2](certificate_level)
+  #      - điều kiện để đạt [bậc 2](certificate_level)
 
   - intent: ask_exam_shift_time
     examples: |

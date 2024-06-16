@@ -157,10 +157,10 @@ stories:
           - cancel: competition_cancel
       - action: utter_refund
 
-  - story: Hỏi nhận bằng thấp hơn
-    steps:
-      - intent: ask_receive_lower_certificate
-      - action: utter_receive_lower_certificate
+  # - story: Hỏi nhận bằng thấp hơn
+  #   steps:
+  #     - intent: ask_receive_lower_certificate
+  #     - action: utter_receive_lower_certificate
 
   - story: Hỏi nhận bằng cao hơn
     steps:

@@ -2,6 +2,8 @@
   shorthands: |
     c ơn
     tks
+    thks
+    thanks
 
 - value: được
   shorthands: |
@@ -10,8 +12,10 @@
 
 - value: không
   shorthands: |
+    hông
     ko
     k
+    0
 
 - value: với
   shorthands: |
@@ -19,5 +23,13 @@
 
 - value: em
   shorthands: |
-    em
     e
+
+- value: đăng ký
+  shorthands: |
+    dk
+    đk
+    đki
+    đky
+    ddki
+    ddky

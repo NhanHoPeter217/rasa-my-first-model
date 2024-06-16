@@ -99,8 +99,8 @@ class Preprocesser(GraphComponent):
         print(f"###### Normalize: {sentence}")
 
         # Remove stop words & symbols
-        sentence = cls.remove_words(sentence, cls.stopwords)
-        print(f"###### Remove symbols & Stop words: {sentence}")
+        # sentence = cls.remove_words(sentence, cls.stopwords) #########################
+        # print(f"###### Remove symbols & Stop words: {sentence}")
 
         sentence = sentence.strip()
         
