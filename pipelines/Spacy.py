@@ -12,7 +12,7 @@ import spacy
     [DefaultV1Recipe.ComponentType.MESSAGE_TOKENIZER], is_trainable=False
 )
 
-class SpacyTokenizer(Tokenizer):    
+class SpacyTokenizer(Tokenizer):
     @classmethod
     def create(
         cls,
@@ -52,6 +52,12 @@ class SpacyTokenizer(Tokenizer):
         # for token in doc:
         #   print(token.text, token.lemma_, token.pos_, token.tag_, token.dep_,
         #           token.shape_, token.is_alpha, token.is_stop)
+        
+        # Hiển thị thông tin về token và các token con của chúng
+        for token in doc:
+            print(f"Token: {token.text}, POS: {token.pos_}, Dependency: {token.dep_}")
+            for child in token.children:
+                print(f"  Child Token: {child.text}, Dependency: {child.dep_}")
 
         tokens = self._convert_words_to_tokens([token.text.replace('_',' ') for token in doc], text)
         return self._apply_token_pattern(tokens)        

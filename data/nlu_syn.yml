@@ -148,6 +148,7 @@ nlu:
   - synonym: level_1
     examples: |
       - bậc 1
+      - bậc a1
       - a1
       - level 1
       - level a1
@@ -157,6 +158,7 @@ nlu:
   - synonym: level_2
     examples: |
       - bậc 2
+      - bậc a2
       - a2
       - level 2
       - level a2
@@ -166,6 +168,7 @@ nlu:
   - synonym: level_3
     examples: |
       - bậc 3
+      - bậc b1
       - b1
       - level 3
       - level b1
@@ -175,6 +178,7 @@ nlu:
   - synonym: level_4
     examples: |
       - bậc 4
+      - bậc b2
       - b2
       - level 4
       - level b2
@@ -184,11 +188,22 @@ nlu:
   - synonym: level_5
     examples: |
       - bậc 5
+      - bậc c1
       - c1
       - level 5
       - level c1
       - mức 5
       - mức c1
+
+  - synonym: level_6
+    examples: |
+      - bậc 6
+      - bậc c2
+      - c2
+      - level 6
+      - level c2
+      - mức 6
+      - mức c2
 
   ######################
   ##    Practicing    ##

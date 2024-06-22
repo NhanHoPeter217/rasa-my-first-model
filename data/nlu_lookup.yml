@@ -3,15 +3,45 @@ version: "3.1"
 nlu:
   - lookup: certificate_level
     examples: |
-      - A1
-      - A2
-      - B1
-      - B2
-      - C1
-      - C2
       - bậc 1
+      - bậc a1
+      - a1
+      - level 1
+      - level a1
+      - mức 1
+      - mức a1
       - bậc 2
+      - bậc a2
+      - a2
+      - level 2
+      - level a2
+      - mức 2
+      - mức a2
       - bậc 3
+      - bậc b1
+      - b1
+      - level 3
+      - level b1
+      - mức 3
+      - mức b1
       - bậc 4
+      - bậc b2
+      - b2
+      - level 4
+      - level b2
+      - mức 4
+      - mức b2
       - bậc 5
+      - bậc c1
+      - c1
+      - level 5
+      - level c1
+      - mức 5
+      - mức c1
       - bậc 6
+      - bậc c2
+      - c2
+      - level 6
+      - level c2
+      - mức 6
+      - mức c2

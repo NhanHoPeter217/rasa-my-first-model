@@ -33,13 +33,10 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.events import SlotSet
 from rasa_sdk.executor import CollectingDispatcher
 import logging
-logger = logging.getLogger(__name__)
 
-# This is temporary database for CCCD
-CCCD_db = {
-    '123456789',
-    '123456789123'
-}
+import globals
+
+logger = logging.getLogger(__name__)
 
 class ActionReplyForReceivingDifferentCertificate(Action):
     def name(self) -> Text:
@@ -75,7 +72,7 @@ class ActionShowExamRoom(Action):
             return []
 
         # check the current CCCD in the database
-        if current_CCCD in CCCD_db:
+        if current_CCCD in globals.CCCD_db:
             dispatcher.utter_message(text="Phòng thi của bạn là phòng 101")
         else:
             dispatcher.utter_message(text="Xin lỗi, tôi không tìm thấy thông tin của bạn trong hệ thống. Bạn có thể gửi lại được không?")
@@ -99,7 +96,7 @@ class ActionShowExamScore(Action):
                 return []
 
         # check the current CCCD in the database
-        if current_CCCD in CCCD_db:
+        if current_CCCD in globals.CCCD_db:
             dispatcher.utter_message(text="Điểm thi của bạn là 9.5")
         else:
             dispatcher.utter_message(text="Xin lỗi, tôi không tìm thấy thông tin của bạn trong hệ thống. Bạn có thể gửi lại được không?")
