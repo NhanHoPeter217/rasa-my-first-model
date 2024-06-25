@@ -261,7 +261,7 @@ nlu:
       - Có tài liệu ôn thi chất lượng không?
       - Tài liệu ôn luyện của bạn có đa dạng không?
 
-  - intent: ask_certification_retrieval_place
+  - intent: receive_certification+receive_location
     examples: |
       - nhận chứng chỉ ở đâu
       - Nhận chứng chỉ ở đâu vậy ạ?
@@ -280,7 +280,7 @@ nlu:
       - Nếu cần, tôi nên đến đâu để nhận chứng chỉ?
       - chứng chỉ lấy ở đâu vậy ạ
 
-  - intent: ask_certification_retrieval_requirement
+  - intent: receive_certification
     examples: |
       - Cách để nhận chứng chỉ?
       - Cách lấy chứng chỉ?
@@ -301,7 +301,7 @@ nlu:
       - Quy định về việc cung cấp tài liệu khi nhận chứng chỉ là gì?
       - Đi nhận chứng chỉ thì cần mang theo những giấy tờ chứng thực gì?
 
-  - intent: intercede_certification_retrieval
+  - intent: receive_certification+intercede_retrieval
     examples: |
       - Có thể nhận chứng chỉ giùm được không?
       - Muốn nhờ người nhận giùm thì cần giấy tờ gì?
@@ -377,7 +377,7 @@ nlu:
       - Có cách nào để tôi biết kết quả của mình một cách dễ dàng không?
       - Làm thế nào để biết điểm thi mà không cần đến trường?
 
-  - intent: ask_certification_retrieval_immediately
+  - intent: receive_certification+receive_immediately
     examples: |
       - Có thể muốn nhận chứng chỉ ngay được không?
       - Muốn nhận chứng chỉ ngay thì làm thế nào?
@@ -569,3 +569,112 @@ nlu:
       - CCCD [123456789123](CCCD_number)
       - CMND [123456789](CCCD_number)
       - Căn cước công dân của em là [123456789123](CCCD_number)
+
+  - intent: ask_certificate_copy
+    examples: |
+      - Muốn được cấp Bản sao chứng chỉ thì làm sao?
+      - em muốn xin cấp bản copy chứng chỉ ạ
+      - trường có cấp bản sao chứng chỉ không ạ?
+      - trường có nhận sao y chứng chỉ không ạ?
+      - trường có nhận cấp bản sao chứng chỉ VSTEP không ạ?
+
+  - intent: ask_lost_certificate
+    examples: |
+      - Mất chứng chỉ có được cấp lại không?
+      - em làm mất chứng chỉ VSTEP rồi giờ sao ạ?
+      - chứng chỉ VSTEP mất thì làm sao ạ?
+
+  - intent: receive_certification+wrong_information
+    examples: |
+      - Lúc nhận chứng chỉ mới phát hiện sai thông tin thì làm sao?
+      - Nhận chứng chỉ mà phát hiện sai thông tin thì sao?
+      - Em mới nhận thì thấy chứng chỉ bị sai thông tin ạ, giờ em phải làm sao?
+
+  - intent: ask_contenst_fee_banking
+    examples: |
+      - Có chuyển khoản lệ phí thi được không?
+      - Lệ phí thi có thể chuyển khoản không?
+      - Phí thi chuyển khoản được không?
+      - Lệ phí thi có thể thanh toán online không?
+
+  - intent: ask_export_invoice
+    examples: |
+      - Có xuất hóa đơn không?
+      - Trường có xuất hoá đơn đăng ký VSTEP không ạ?
+      - Có hóa đơn đăng ký thi VSTEP không ạ?
+      - Chuyển tiền lệ phí thi VSTEP rồi có hóa đơn không ạ?
+
+  - intent: ask_VSTEP_hard
+    examples: |
+      - Thi VSTEP có khó không?
+      - VSTEP khó không ạ?
+      - VSTEP dễ không ạ?
+      - Thi VSTEP có dễ không ạ?
+
+  - intent: ask_what_if_not_pass
+    examples: |
+      - Đăng ký thi có rớt không?
+      - Đăng ký thi có trượt không?
+      - Có trường hợp bị thi rớt bao giờ chưa ạ?
+      - Có trường hợp bị thi trượt bao giờ chưa ạ?
+      - Thi VSTEP có bao giờ trượt chưa ạ?
+      - Thi VSTEP có bao giờ rớt chưa ạ?
+      - thi mà không đạt điểm thì sao?
+
+  - intent: ask_card_photo_requirement
+    examples: |
+      - ảnh chụp thẻ nền màu gì?
+      - ảnh thẻ nền trắng hay nền đen?
+      - hình thẻ nền màu gì?
+      - hình thẻ nền trắng hay đen vậy ạ?
+      - có quy định gì về hình thẻ không ạ?
+      - bên mình có quy định hình thẻ không ạ?
+      - mình nộp hình thẻ 4x6 được không ạ?
+      - hình thẻ 4x6 có được không ạ?
+      - mình nộp hình thẻ 3x4 được không ạ?
+      - hình thẻ 2x3 có được không ạ?
+      - hình thẻ 3x4 có được không ạ?
+
+  - intent: ask_certification_due_date
+    examples: |
+      - bao giờ hết hạn chứng chỉ?
+      - chứng chỉ hết hạn vào ngày nào?
+      - chứng chỉ có thời hạn không?
+
+  - intent: ask_recheck_exam_process
+    examples: |
+      - Phúc khảo bài thi như thế nào?
+      - Phúc khảo phải làm như thế nào?
+      - Làm sao để phúc khảo bài thi?
+      - Em muốn phúc khảo thì giờ làm gì ạ?
+      - Mình muốn phúc khảo bài thi
+
+  - intent: ask_recheck_exam_fee
+    examples: |
+      - Phúc khảo bài thi phí như thế nào?
+      - Phúc khảo bài thi phải trả bao nhiêu?
+      - Phúc khảo bài thi có mất phí không?
+      - Phúc khảo bài thi phải đóng bao nhiêu tiền?
+      - Phúc khảo bài thi có phí không?
+      - Lệ phí phúc khảo
+      - Phí phúc khảo bài thi
+  
+  - intent: ask_recheck_exam_result
+    examples: |
+      - Phúc khảo bài thi trong bao lâu?
+      - Phúc khảo bài thi trong thời gian bao lâu?
+      - Phúc khảo bài thi cần bao lâu?
+      - Phúc khảo bài thi mất bao lâu?
+      - Bao giờ có kết quả phúc khảo
+      - Kết quả phúc khảo bao giờ có
+      - Em gửi phúc khảo thì bao giờ có kết quả ạ?
+      - cách tra cứu điểm phúc khảo
+      - có kết quả phúc khảo chưa ạ
+      - mình tra cứu kết quả phúc khảo sao ạ
+  
+  - intent: ask_recheck_lower_point
+    examples: |
+      - Nếu phúc khảo không lên điểm thì có bị hạ điểm không?
+      - Nếu phúc khảo không lên điểm thì có bị giảm điểm không?
+      - Phúc khảo mà không lên điểm thì sao ạ?
+      - Phúc khảo không lên điểm có sao không ạ?

@@ -77,17 +77,17 @@ stories:
 
   - story: ask_certification_retrieval_place
     steps:
-      - intent: ask_certification_retrieval_place
+      - intent: receive_certification+receive_location
       - action: utter_certification_retrieval_place
 
-  - story: ask_certification_retrieval_requirement
+  - story: receive_certification
     steps:
-      - intent: ask_certification_retrieval_requirement
-      - action: utter_certification_retrieval_requirement
+      - intent: receive_certification
+      - action: utter_receive_certification
 
   - story: intercede_certification_retrieval
     steps:
-      - intent: intercede_certification_retrieval
+      - intent: receive_certification+intercede_retrieval
       - action: utter_intercede_certification_retrieval
 
   - story: ask_competition_result_date
@@ -112,7 +112,7 @@ stories:
 
   - story: ask_certification_retrieval_immediately
     steps:
-      - intent: ask_certification_retrieval_immediately
+      - intent: receive_certification+receive_immediately
       - action: utter_certification_retrieval_immediately
 
   - story: ask_result_paper
@@ -181,3 +181,68 @@ stories:
     steps:
       - intent: ask_exam_room
       - action: utter_exam_room
+
+  - story: Cấp bản sao
+    steps:
+      - intent: ask_certificate_copy
+      - action: utter_certificate_copy
+  
+  - story: Mất chứng chỉ
+    steps:
+      - intent: ask_lost_certificate
+      - action: utter_lost_certificate
+  
+  - story: Nhận chứng chỉ mà sai thông tin
+    steps:
+      - intent: receive_certification+wrong_information
+      - action: utter_receive_wrong_information
+
+  - story: Hỏi chuyển khoản phí thi
+    steps:
+      - intent: ask_contenst_fee_banking
+      - action: utter_contenst_fee_banking
+
+  - story: Hỏi xuất hóa đơn
+    steps:
+      - intent: ask_export_invoice
+      - action: utter_export_invoice
+
+  - story: Hỏi về VSTEP khó
+    steps:
+      - intent: ask_VSTEP_hard
+      - action: utter_VSTEP_hard
+  
+  - story: Hỏi nếu không đạt
+    steps:
+      - intent: ask_what_if_not_pass
+      - action: utter_what_if_not_pass
+
+  - story: Hỏi yêu cầu ảnh thẻ
+    steps:
+      - intent: ask_card_photo_requirement
+      - action: utter_ask_card_photo_requirement
+
+  - story: Hỏi thời hạn chứng chỉ
+    steps:
+      - intent: ask_certification_due_date
+      - action: utter_certification_due_date
+  
+  - story: Hỏi lại quy trình phúc khảo
+    steps:
+      - intent: ask_recheck_exam_process
+      - action: utter_recheck_exam_process
+  
+  - story: Hỏi lệ phí phúc khảo
+    steps:
+      - intent: ask_recheck_exam_fee
+      - action: utter_recheck_exam_fee
+  
+  - story: Hỏi kết quả phúc khảo
+    steps:
+      - intent: ask_recheck_exam_result
+      - action: utter_recheck_exam_result
+  
+  - story: Hỏi bị hạ điểm phúc khảo
+    steps:
+      - intent: ask_recheck_lower_point
+      - action: utter_recheck_lower_point

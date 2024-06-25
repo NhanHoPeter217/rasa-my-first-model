@@ -20,9 +20,9 @@ intents:
 - ask_competition_registration_process
 - competition_registration_process_far
 - ask_practice_papers
-- ask_certification_retrieval_place
-- ask_certification_retrieval_requirement
-- intercede_certification_retrieval
+- receive_certification
+- receive_certification+receive_location
+- receive_certification+intercede_retrieval
 - ask_competition_result_date
 - ask_competition_certification_date
 - ask_competition_information
@@ -46,6 +46,19 @@ intents:
 - ask_exam_room
 - ask
 - provide_CCCD_number
+- ask_certificate_copy
+- ask_lost_certificate
+- wrong_information
+- ask_contenst_fee_banking
+- ask_export_invoice
+- ask_VSTEP_hard
+- ask_what_if_not_pass
+- ask_card_photo_requirement
+- ask_certification_due_date
+- ask_recheck_exam_process
+- ask_recheck_exam_fee
+- ask_recheck_exam_result
+- ask_recheck_lower_point
 - thanks
 
 entities:
@@ -78,10 +91,10 @@ slots:
 responses:
   utter_greet:
   - text: Chào bạn, trường đại học Sài Gòn có thể giúp gì cho bạn?
-  - text: Chào em, em cần gì?
+  - text: Chào bạn, bạn cần gì?
 
   utter_rephrase:
-  - text: Xin lỗi, hiện tại mình chưa hiểu ý bạn. Bạn có thể nói lại được không?
+  - text: Xin lỗi, hiện tại mình chưa hiểu ý bạn. Bạn có thể nói lại được không, đừng dùng từ viết tắt bạn nhé!
 
   utter_working_time:
   - text: "Thời gian làm việc của Trường ạ:
@@ -122,7 +135,7 @@ Từ Thứ 2 đến Thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 
   - text: "Rất hân hạnh được hỗ trợ bạn. Bạn còn thắc mắc gì thêm không?"
 
   utter_student_id_notarization:
-  - text: "Thẻ sinh viên / học viên cao học chỉ cần bản photo em nhé"
+  - text: "Thẻ sinh viên / học viên cao học chỉ cần bản photo bạn nhé"
 
   utter_competition_registration_process:
   - text: "1. Đăng ký trực tiếp tại phòng Ghi danh (có thể nhờ người đăng ký hộ)\n
@@ -140,7 +153,7 @@ Từ Thứ 2 đến Thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 
   - text: "Chứng chỉ sẽ nhận trực tiếp tại Trung tâm Ngoại ngữ – Trường Đại học Sài Gòn, số 4 Nguyễn Trãi, phường 3, quận 5, TP HCM,
 Điện thoại: 028.66536787"
 
-  utter_certification_retrieval_requirement:
+  utter_receive_certification:
   - text: "Khi đi nhận chứng chỉ cầm theo CCCD/CMND/ hộ chiếu để xác minh chính chủ nhận"
 
   utter_intercede_certification_retrieval:
@@ -197,6 +210,48 @@ Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăn
 # use later
 #  utter_iamanassistant:
 #  - text: "Tôi là trợ lý ảo giúp bạn hiểu rõ hơn thông tin về VSTEP. Rất vui khi được giải đáp các thắc mắc của bạn."
+  utter_certificate_copy:
+  - text: Để được cấp bản sao, bạn hãy đến làm đơn yêu cầu cấp lại tại nơi đã nhận chứng chỉ nhé
+
+  utter_lost_certificate:
+  - text: Chứng chỉ mất rồi sẽ không được cấp lại. Trung tâm chỉ cấp lại Bản sao từ sổ gốc nhé bạn
+
+  utter_receive_wrong_information:
+  - text: Chưa implement chỗ này!!!!
+
+  utter_contenst_fee_banking:
+  - text: Có thể chuyển khoản phí thi nhé bạn
+
+  utter_export_invoice:
+  - text: Nếu bạn muốn yêu cầu xuất hóa đơn, thì thông báo với người phụ trách đăng ký để được hướng dẫn.
+
+  utter_VSTEP_hard:
+  - text: "VSTEP là một hệ thống kiểm tra trình độ tiếng Anh theo khung tham chiếu chung Châu Âu (CEFR) của Hội đồng Châu Âu. VSTEP được thiết kế để đánh giá trình độ tiếng Anh của người học thông qua 4 kỹ năng Nghe, Nói, Đọc, Viết.
+Khó hay không sẽ phụ thuộc vào trình độ/khả năng tiếng Anh của người dự thi nhé bạn"
+
+  utter_what_if_not_pass:
+  - text: Điểm không đạt đến yêu cầu cấp chứng chỉ thì sẽ không được cấp chứng chỉ ạ
+
+  utter_ask_card_photo_requirement:
+  - text: Đối với hình thẻ, hiện chưa có yêu cầu màu nền, ảnh đảm bảo kích thước 4x6 cm và chụp trong vòng 6 tháng là được ạ
+
+  utter_certification_due_date:
+  - text: Trên chứng chỉ hiện không thể hiện nội dung thời hạn. Nhưng tùy thuộc vào yêu cầu của đơn vị cần chứng chỉ mà người có nhu cầu căn cứ để có kế hoạch dự thi phù hợp
+
+  utter_recheck_exam_process:
+  - text: "Đến đăng ký theo mẫu tại phòng Ghi danh Trung tâm Khảo thí.
+Thời gian phúc khảo sẽ được tổ chức đồng thời với thời gian tổ chức kỳ thi tiếp theo. Trong trường hợp kỳ thi tiếp theo bị dời, thời gian phúc khảo cũng dời theo."
+
+  utter_recheck_exam_fee:
+  - text: Lệ phí phúc khảo hiện là 800.000đ (Tám trăm ngàn đồng) ạ
+
+  utter_recheck_exam_result:
+  - text: "Thời gian phúc khảo sẽ được tổ chức đồng thời với thời gian tổ chức kỳ thi tiếp theo. Trong trường hợp kỳ thi tiếp theo bị dời, thời gian phúc khảo cũng dời theo.
+Sau đó, kết quả phúc khảo có thể được tra cứu tại trang web bằng số CCCD/CMND/hộ chiếu"
+
+  utter_recheck_lower_point:
+  - text: Hiện chưa có trường hợp bị hạ điểm khi đăng ký phúc khảo ạ
+
 
 actions:
   - action_show_exam_room

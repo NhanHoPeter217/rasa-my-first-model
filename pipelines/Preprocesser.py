@@ -14,7 +14,7 @@ from pprint import pprint
 import yaml
 
 
-BASE_PATH = '/home/nam/codeproj/rasa-my-first-model'
+BASE_PATH = os.getcwd()
 
 sys.path.append(os.path.join(BASE_PATH, 'pipelines/'))
 import VietnameseTextNormalizer
