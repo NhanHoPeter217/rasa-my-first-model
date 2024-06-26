@@ -44,7 +44,7 @@ intents:
 - ask_exam_shift_time
 - ask_exam_form
 - ask_exam_room
-- ask
+# - ask
 - provide_CCCD_number
 - ask_certificate_copy
 - ask_lost_certificate
