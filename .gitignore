@@ -165,6 +165,9 @@ models
 # Rasa Pipeline Models
 pipelines/VnCoreNLP/VnCoreNLP-1.2.jar
 
+# Rasa Credentials
+credentials.yml
+
 
 train_test_split/
 results**/

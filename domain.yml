@@ -97,8 +97,9 @@ responses:
   - text: Xin lỗi, hiện tại mình chưa hiểu ý bạn. Bạn có thể nói lại được không, đừng dùng từ viết tắt bạn nhé!
 
   utter_working_time:
-  - text: "Thời gian làm việc của Trường ạ:
-Từ Thứ 2 đến Thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 17h) ; thứ 7 (sáng từ 8h00 - 11h30)"
+  - text: |
+      Thời gian làm việc của Trường ạ:
+      Từ Thứ 2 đến Thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 17h) ; thứ 7 (sáng từ 8h00 - 11h30)
 
   utter_contact:
   - text: "Trung tâm Khảo thí – Trường Đại học Sài Gòn, số 4 Nguyễn Trãi, phường 3, quận 5, TP HCM\nemail: etc@sgu.edu.vn\nđiện thoại: 028.3924.4690."

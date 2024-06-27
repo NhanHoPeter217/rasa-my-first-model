@@ -605,6 +605,7 @@ nlu:
       - Chuyển tiền lệ phí thi VSTEP rồi có hóa đơn không ạ?
 
   - intent: ask_VSTEP_hard
+    #
     examples: |
       - Thi VSTEP có khó không?
       - VSTEP khó không ạ?
@@ -658,7 +659,7 @@ nlu:
       - Phúc khảo bài thi có phí không?
       - Lệ phí phúc khảo
       - Phí phúc khảo bài thi
-  
+
   - intent: ask_recheck_exam_result
     examples: |
       - Phúc khảo bài thi trong bao lâu?
@@ -667,11 +668,12 @@ nlu:
       - Phúc khảo bài thi mất bao lâu?
       - Bao giờ có kết quả phúc khảo
       - Kết quả phúc khảo bao giờ có
+      - Đăng ký phúc khảo thì bao giờ có kết quả ạ?
       - Em gửi phúc khảo thì bao giờ có kết quả ạ?
       - cách tra cứu điểm phúc khảo
       - có kết quả phúc khảo chưa ạ
       - mình tra cứu kết quả phúc khảo sao ạ
-  
+
   - intent: ask_recheck_lower_point
     examples: |
       - Nếu phúc khảo không lên điểm thì có bị hạ điểm không?
