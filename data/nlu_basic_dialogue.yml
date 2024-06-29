@@ -6,18 +6,18 @@ nlu:
       - em cám ơn ad nhiều ạ
       - yêu add quá đii
       - vâng e cám ơn nhé
-      - dạ em cám ơn ạ 
+      - dạ em cám ơn ạ
       - vâng em cám ơn ạ
       - dạ vầng e biết r  e cảm ơn chị an
       - vầng ạ e cảm ơn ạ
       - vầng ạ em cảm ơn ạ
-      - vầng ad 
+      - vầng ad
       - dạ vầng ạ
       - thông tin tuyệt vời ạ
       - à oke bạn
       - dạ vâng ạ em cảm ơn ah
       - da e biết ạ
-      - da vâng em cảm ơn ạ 
+      - da vâng em cảm ơn ạ
       - da vâng ạ
       - da cô
       - dạ tl e vs ạ
@@ -26,7 +26,7 @@ nlu:
       - vâng ạ!
       - vâng đúng r ạ
       - ạ vâng
-      - vâng ạ 
+      - vâng ạ
       - dạ vâng ạ
       - dạ vâng ad
       - dạ r ạ
@@ -35,7 +35,7 @@ nlu:
       - à dạ
       - dạ vâng ạ!
       - dạ vâng
-      - dạ vâng ạ 
+      - dạ vâng ạ
       - dạ vâng
       - dạ vâng ạ
       - dạ vâng e nhận đc r ạ
@@ -63,7 +63,7 @@ nlu:
       - ad ơi e hỏi
       - ad ơi em hỏi
       - vg ah
-      - vg 
+      - vg
       - vg e cảm ơn ạ
       - vg em cảm ơn
       - vg ạ
@@ -100,7 +100,7 @@ nlu:
       - vâng em cảm ơn ạ !
       - vâng ạ em cảm ơn thầy ạ
       - vâng em cảm on
-      - em cảm ơn bạn tư vấn nhiều nhé 
+      - em cảm ơn bạn tư vấn nhiều nhé
       - cảm ơn ad đã tư vấn nhiệt tình ạ
       - cảm ơn ad đã tư vấn cho e ạ
       - thank ad
@@ -138,7 +138,7 @@ nlu:
       - vâng vậy e cảm ơn ad a
       - vâng ạ e cảm ơn nhé hi
       - vâng ạ e cảm ơn ạ
-      - vâng e cảm ơn ạ 
+      - vâng e cảm ơn ạ
       - vâng ạ cảm ơn pge
       - vâng cảm ơn chị
       - vâng m cảm ơn
@@ -153,7 +153,7 @@ nlu:
       - dạ vâng em cảm ơn ad ạ
       - dạ vâng em cảm ơn ad!
       - dạ vâng ạ , e cảm ơn ad nhé
-      - dạ vâng! em cảm ơn ạ 
+      - dạ vâng! em cảm ơn ạ
       - dạ vâng ạ. em cảm ơn ad
       - dạ vâng cảm ơn trường ạ
       - dạ vâng ạ em cảm ơn nhà trường ạ
@@ -163,15 +163,15 @@ nlu:
       - dạ vâng e cảm ơn nhiều ạ
       - dạ vâng em cảm ơn ad ạ ,em sẽ suy nghĩ thêm ạ
       - dạ vâng em cảm ơn ad nha
-      - dạ vâng e cảm ơn ạ 
-      - dạ vâng ạ. em cảm ơn ạ 
+      - dạ vâng e cảm ơn ạ
+      - dạ vâng ạ. em cảm ơn ạ
       - dạ vâng cảm ơn ạ
       - dạ vâng. em cảm ơn ạ!
       - dạ vâng , e cảm ơn nhà trường
       - em cảm ơn khi nào có thắc mắc em liên hệ lại
       - em c ơn ạ
       - em xin cảm ơn ạ!
-      - em chân thành cảm ơn 
+      - em chân thành cảm ơn
       - e cảm ơn nhaa
       - e cảm ơn add ạ
       - em cảm ơn ad nhiều !
@@ -192,8 +192,11 @@ nlu:
 
   - intent: greet
     examples: |
+      - /start
       - em xin chào trường đại học sài gòn ạ
       - hello ad
+      - hi
+      - hello
       - hi ad
       - hí
       - hú hí
@@ -247,7 +250,7 @@ nlu:
       - trường cho e hỏi ạ
       - anh chị có thể bớt chút thời gian giúp em đc k ạ
       - cho em hỏi ạ!!!
-      - cho e hỏi ạ 
+      - cho e hỏi ạ
       - thắc mặc 1 chút về nhập học được không ạ
       - cho em hỏi mới
       - ad giúp em giải đáp thắc mắc với em cảm ơn
@@ -317,7 +320,7 @@ nlu:
       - dạ cho mình hỏi chút ạ
       - em muốn hỏi một chút ạ
       - ad ơi cho e hỏi chút đc không ạ
-      - ad cho e hỏi chút ạ 
+      - ad cho e hỏi chút ạ
       - dạ ad fanpage cho em hỏi chút được không ạ
       - ad cho em hỏi chút
       - có ai chat được bây giờ không?
@@ -332,7 +335,7 @@ nlu:
       - thầy cô cho e hỏi vơi ạ
       - thầy / cô cho em hỏi
       - thầy ơi em muốn hỏi
-      - chào thầy thầy có thể cho em hỏi tý đc k ạ 
+      - chào thầy thầy có thể cho em hỏi tý đc k ạ
       - admin ơi cho em hỏi
       - admin cho e hỏi ạ
       - admin cho em hỏi
@@ -389,7 +392,7 @@ nlu:
       - ad cho e hỏi ạ !!
       - dạ ad ơi cho em hỏi
       - ad cho em hỏi ,
-      - ad cho e hỏi ạ 
+      - ad cho e hỏi ạ
       - ad cho em hỏi này
       - ad cho em hỏi ạ
       - ad ơi cho em hỏi tí ạ
@@ -434,10 +437,10 @@ nlu:
       - em chào trường ạ
       - e chào ad
       - chào ad
-      - chào trường ạ 
+      - chào trường ạ
       - em chào page ạ
-      - e chào ad ạ 
-      - chào ad 
+      - e chào ad ạ
+      - chào ad
       - dạ chào ad ạ!
       - dạ e chào a cị
       - em chào ad ạ !
