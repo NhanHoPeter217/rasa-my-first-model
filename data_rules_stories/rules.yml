@@ -6,10 +6,15 @@ rules:
       - intent: provide_CCCD_number
       - action: action_show_exam_room
 
-  - rule: hỏi nhận bằng khác
+  - rule: Điều kiện đạt bằng
     steps:
-      - intent: ask_receive_lower_certificate
-      - action: action_reply_for_receiving_different_certificate
+      - intent: ask_condition_certificate
+      - action: action_reply_ask_condition_certificate
+
+  # - rule: hỏi nhận bằng khác
+  #   steps:
+  #     - intent: ask_receive_lower_certificate
+  #     - action: action_reply_for_receiving_different_certificate
   #
   #- rule: Say goodbye anytime the user says goodbye
   #  steps:

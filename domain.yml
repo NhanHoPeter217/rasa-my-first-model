@@ -37,12 +37,11 @@ intents:
 - ask_cancel+ask_refund
 - ask_receive_lower_certificate
 - ask_receive_higher_certificate
-#- ask_condition_B1
-#- ask_condition_B2
-#- ask_condition_C1
-#- ask_condition_A2
+- ask_condition_certificate
 - ask_exam_shift_time
 - ask_exam_form
+- ask_tackling_when_wrong_info
+- ask_refund_because_of_subjective_absence
 - ask_exam_room
 - ask
 - provide_CCCD_number
@@ -64,7 +63,6 @@ entities:
   - refund
 #  - cancel
   - distance
-  - certificate_level
   - level_1
   - level_2
   - level_3
@@ -72,14 +70,10 @@ entities:
   - level_5
   - level_6
   - CCCD_number
+  - register
 
-slots:
-   certificate_level:
-      type: text
-      influence_conversation: false
-      mappings:
-      - type: from_entity
-        entity: certificate_level
+groups:
+  - certificate_level
 
 responses:
   utter_greet:
@@ -197,6 +191,14 @@ Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăn
   utter_exam_form:
   - text: "Thi 4 kỹ năng Nghe, Nói, Đọc, Viết trực tiếp trên máy"
 
+  utter_tackling_when_wrong_info:
+  - text: "Nếu thông tin bị sai, các bạn hãy làm như sau:\n
+  1. Liên hệ với phòng Ghi danh, điện thoại 028.3924.4690\n
+  2. Sau khi thi xong, trước khi ra khỏi phòng thi, điều chỉnh lại thông tin tại Giấy xác nhận thông tin"
+
+  utter_refund_because_of_subjective_absence:
+  - text: "Đối với các trường hợp vì lý do chủ quan từ cá nhân, Trung tâm từ chối hỗ trợ."
+
   utter_exam_room:
   - text: "Bạn hãy cung cấp số CCCD/CMND để tôi có thể cung cấp thông tin phòng thi của bạn."
 
@@ -207,3 +209,4 @@ Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăn
 actions:
   - action_show_exam_room
   - action_reply_for_receiving_different_certificate
+  - action_reply_ask_condition_certificate

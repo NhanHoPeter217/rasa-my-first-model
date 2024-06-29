@@ -25,7 +25,7 @@ pipeline:
     epochs: 100
     constrain_similarities: true
   - name: EntitySynonymMapper
-  - name: pipelines.PrettyPrint.PrettyPrint
+  # - name: pipelines.PrettyPrint.PrettyPrint
   - name: FallbackClassifier
     threshold: 0.7
     ambiguity_threshold: 0.1
