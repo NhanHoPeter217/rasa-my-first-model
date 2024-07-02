@@ -1,0 +1,260 @@
+version: "3.1"
+
+nlu:
+  - intent: thanks
+    examples: |
+      - Em xin cảm ơn
+
+  - intent: greet
+    examples: |
+      - Em chào Thầy, Cô!
+      - Hi Anh, Chị
+      - Xin hỏi
+
+  - intent: ask_working_time
+    examples: |
+      - Cho em hỏi giờ đăng ký
+
+  - intent: ask_contact
+    examples: |
+      - Làm sao để em liên lạc với Trung tâm?
+      - Em có thể trao đổi với nơi đào tạo chứng chỉ bằng cách nào?
+
+  - intent: ask_exam_time
+    examples: |
+      - Mình học bao lâu thì mới thi ạ?
+      - Thời gian thì thường là khi nào ạ?
+
+  - intent: ask_exam_venue
+    examples: |
+      - Mình sẽ thi ở đâu ạ?
+      - Địa điểm thi thường là ở đâu ạ?
+
+  - intent: ask_select_exam_date
+    examples: |
+      - Em có thể lựa chọn ngày thi không?
+      - Nếu bận việc đột xuất thì em xin lựa chọn ngày thi được chứ?
+
+  - intent: ask_fee_inquiry
+    examples: |
+      - Lệ phí thi là bao nhiêu ạ?
+      - Lệ phí thi có thay đổi cho từng đối tượng không ạ?
+
+  - intent: ask_student_discount
+    examples: |
+      - Chi phí cho chứng chỉ có ưu đãi cho từng đối tượng không ạ?
+      - Em học trong trường thì có được giảm tiền không ạ?
+
+  - intent: ask_late_graduate_discount
+    examples: |
+      - Nếu em tốt nghiệp trễ thì có được bớt lệ phí thi không ạ?
+      - Trường có giảm tiền thi khi SV bị ra trường trễ không ạ?
+
+  - intent: ask_exam_registration_docs
+    examples: |
+      - Mình phải nộp những loại giấy tờ nào khi thi ạ?
+      - Hồ sơ đăng ký thi gồm những gì ạ?
+
+  - intent: ask_certification_requirement
+    examples: |
+      - CCCD của em có cần công chứng không?
+      - Em có cần phải chứng thực CCCD không?
+
+  - intent: ask_student_id_notarization
+    examples: |
+      - Thẻ SV của em có cần công chứng không?
+      - Thẻ học viên của tôi có cần chứng thực không?
+
+  - intent: ask_competition_registration_process
+    examples: |
+      - Em có thể đăng ký như thế nào?
+      - Làm sao để em ghi danh học ạ?
+
+  - intent: competition_registration_process_far
+    examples: |
+      - Em ở xa thì có cách nào đăng ký cho tiện không ạ?
+      - Ở xa thì mình đăng ký được không ạ?
+
+  - intent: ask_practice_papers
+    examples: |
+      - Tài liệu ôn thi thì mình sẽ nhận ở đâu ạ?
+      - Em sẽ ôn luyện ở đâu ạ?
+
+  - intent: receive_certification+receive_location
+    examples: |
+      - Chứng chỉ thì mình sẽ nhận ở đâu ạ?
+      - Sau khi thi xong thì em nhận chứng chỉ ở đâu ạ?
+
+  - intent: receive_certification
+    examples: |
+      - Khi nhận chứng chỉ thì em cần đem theo giấy tờ gì ạ?
+      - Mình cần đem giấy tờ gì để nhận chứng chỉ ạ?
+
+  - intent: receive_certification+intercede_retrieval
+    examples: |
+      - Nếu em bận thì có thể nhờ người khác nhận chứng chỉ dùm được không ạ?
+      - Mình nhờ người khác nhận chứng chỉ dùm thì cần giấy tờ gì ạ?
+
+  - intent: ask_competition_result_date
+    examples: |
+      - Khoảng bao giờ có kết quả thi ạ?
+      - Mình chờ kết quả thi lâu không ạ?
+
+  - intent: ask_competition_certification_date
+    examples: |
+      - Khi nào có chứng chỉ thi ạ?
+      - Mình thi xong thì có chứng chỉ liền không ạ?
+
+  - intent: ask_competition_information
+    examples: |
+      - Làm cách nào để biết số báo danh và phòng thi ạ?
+      - Khi nào có số báo danh và phòng thi ạ?
+
+  - intent: ask_competition_result_process
+    examples: |
+      - Khi nào thì mình biết điểm thi ạ?
+      - Bao lâu thì em có điểm thi ạ?
+
+  - intent: receive_certification+receive_immediately
+    examples: |
+      - Em muốn nhận chứng chỉ liền thì được không ạ?
+      - Làm sao để nhận chứng chỉ ngay ạ?
+      - Trường có cấp Giấy xác nhận điểm/Giấy chứng nhận tạm thời cho mình không ạ?
+      - Trường có cho nhận chứng chỉ ngay không ạ?
+      - Em cần làm gì để nhận chứng chỉ ngay ạ?
+      - Nếu chưa có chứng chỉ liền thì em xin cấp giấy xác nhận tạm thời được không ạ?
+
+  - intent: ask_result_paper
+    examples: |
+      - Mình nhận giấy xác nhận điểm như thế nào ạ?
+      - Làm sao để em lấy giấy xác nhận điểm ạ?
+
+  - intent: ask_a2_requirement
+    examples: |
+      - Mình đăng ký thi A2 có dễ không ạ?
+      - Thời gian tổ chức thi A2 thường là bao lâu ạ?
+      - Mình nộp những giấy tờ gì để thi A2 ạ?
+      - Học xong thì khi nào sẽ thi A2 ạ?
+
+  - intent: ask_retest_fee
+    examples: |
+      - Mình sẽ được bớt tiền khi thi lại không ạ?
+      - Em lỡ rớt thì có được giảm tiền khi thi lại không ạ?
+
+  - intent: ask_delay
+    examples: |
+      - Em kẹt việc đột xuất thì xin thi lúc khác được chứ ạ?
+      - Em muốn đổi ngày thi thì được không ạ?
+
+  - intent: ask_cancel+ask_refund
+    examples: |
+      - Nếu mình không thi vì có lý do chính đáng thì có được trả lại tiền thi không ạ?
+      - Nếu em bận việc không muốn thi nữa thì Trường có hoàn lại tiền không ạ?
+
+  - intent: ask_receive_lower_certificate
+    examples: |
+      - Nếu em thiếu điểm B1 thì có được xét xuống bằng A1, A2 không ạ?
+      - Lỡ em không đạt đủ điểm B1 thì sẽ thế nào ạ?
+
+  - intent: ask_receive_higher_certificate
+    examples: |
+      - Em đăng ký thi B1 mà điểm cao hơn thì có được cấp sang chứng chỉ B2 không ạ?
+      - Nếu em thi điểm cao thì có được xét bậc cao hơn không ạ?
+
+  - intent: ask_condition_certificate
+    examples: |
+      - Điểm đạt của B1 là thế nào ạ?
+      - Thi bao nhiêu điểm thì đậu B1 ạ?
+      - Điểm đậu của chứng chỉ B2 là bao nhiêu ạ?
+      - Thi bao nhiêu điểm thì đậu B2 ạ?
+      - Mình tính điểm C1 như thế nào ạ?
+      - Bao nhiêu điểm mới đậu C1 ạ?
+      - Mình thi bao nhiêu thì đạt A2 ạ?
+      - Mấy điểm thì đậu A2 ạ?
+
+  - intent: ask_exam_shift_time
+    examples: |
+      - Mình thi sáng hoặc chiều là bắt đầu khi nào ạ?
+      - Thời gian thi như thế nào ạ?
+
+  - intent: ask_exam_form
+    examples: |
+      - Mình sẽ thi như thế nào ạ?
+      - Bài thi gồm những phần nào ạ?
+
+  - intent: ask_tackling_when_wrong_info
+    examples: |
+      - Lúc tra cứu số báo danh mà sai thông tin thì sửa thế nào ạ?
+      - Sau khi đăng kí, nếu thông tin cá nhân bị sai thì sửa được không ạ?
+
+  - intent: ask_refund_because_of_subjective_absence
+    examples: |
+      - Lỡ mình không đi thi đúng ngày qui định thì có được trả lại tiền không ạ?
+      - Nếu em có tên thi mà không dự thi thì có được hoàn tiền lại không ạ?
+
+  - intent: ask_certificate_copy
+    examples: |
+      - Phải làm sao để được cấp lại bản sao ạ?
+      - Để được cấp bản sao thì mình cần làm gì ạ?
+
+  - intent: ask_lost_certificate
+    examples: |
+      - Nếu làm mất chứng chỉ thì em xin cấp lại được không ạ?
+      - Lỡ em mất chứng chỉ thì phải làm sao ạ?
+
+  - intent: receive_certification+wrong_information
+    examples: |
+      - Trường hợp em sơ ý và khi nhận chứng chỉ mới phát hiện thông tin sai thì có sửa được không ạ?
+      - Nếu khi nhận chứng chỉ mà thông tin vẫn sai thì phải làm sao ạ?
+
+  - intent: ask_contenst_fee_banking
+    examples: |
+      - Trường có cho chuyển khoản không ạ?
+      - Em ở xa nên muốn chuyển khoản được không ạ?
+
+  - intent: ask_export_invoice
+    examples: |
+      - Trường có xuất hóa đơn không ạ?
+      - Em muốn xuất hóa đơn thì sao ạ?
+
+  - intent: ask_VSTEP_hard
+    examples: |
+      - Thi VSTEP có dễ không ạ?
+      - Thi VSTEP dễ hay khó ạ?
+
+  - intent: ask_what_if_not_pass
+    examples: |
+      - Điểm thấp quá thì có được cấp chứng chỉ không ạ?
+      - Nếu thi không đủ điểm thì sao ạ?
+
+  - intent: ask_card_photo_requirement
+    examples: |
+      - Có qui định nộp ảnh thẻ nền màu gì không ạ?
+      - Trường yêu cầu nộp ảnh thẻ thế nào ạ?
+
+  - intent: ask_certification_due_date
+    examples: |
+      - Có qui định thời hạn của chứng chỉ không ạ?
+      - Chứng chỉ có giá trị bao lâu ạ?
+
+  - intent: ask_recheck_exam_process
+    examples: |
+      - Làm sao để phúc khảo bài thi ạ?
+      - Em không đủ điểm thì có xin phúc khảo được không ạ?
+
+  - intent: ask_recheck_exam_fee
+    examples: |
+      - Lệ phí để phúc khảo có nhiều không ạ?
+      - Mình đóng bao nhiêu để phúc khảo ạ?
+
+  - intent: ask_recheck_exam_result
+    examples: |
+      - Điểm phúc khảo có chờ lâu không ạ?
+      - Khi nào thì có điểm phúc khảo ạ?
+      - Làm sao để biết điểm phúc khảo ạ?
+      - Mình tự tra điểm phúc khảo bằng cách nào ạ?
+
+  - intent: ask_recheck_lower_point
+    examples: |
+      - Có trường hợp phúc khảo nào bị hạ điểm không ạ?
+      - Lỡ điểm phúc khảo không lên được thì sẽ thế nào ạ?S
