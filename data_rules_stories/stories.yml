@@ -48,10 +48,10 @@ stories:
       - intent: ask_exam_registration_docs
       - action: utter_exam_registration_docs
 
-  - story: ask_certification_requirement
+  - story: ask_paper_notarization
     steps:
-      - intent: ask_certification_requirement
-      - action: utter_certification_requirement
+      - intent: ask_paper_notarization
+      - action: utter_paper_notarization
 
   - story: ask_student_id_notarization
     steps:
@@ -77,7 +77,7 @@ stories:
 
   - story: ask_certification_retrieval_place
     steps:
-      - intent: receive_certification+receive_location
+      - intent: receive_location
       - action: utter_certification_retrieval_place
 
   - story: receive_certification
@@ -87,7 +87,7 @@ stories:
 
   - story: intercede_certification_retrieval
     steps:
-      - intent: receive_certification+intercede_retrieval
+      - intent: intercede_retrieval
       - action: utter_intercede_certification_retrieval
 
   - story: ask_competition_result_date
@@ -112,7 +112,7 @@ stories:
 
   - story: ask_certification_retrieval_immediately
     steps:
-      - intent: receive_certification+receive_immediately
+      - intent: receive_immediately
       - action: utter_certification_retrieval_immediately
 
   - story: ask_result_paper
@@ -149,14 +149,6 @@ stories:
           - refund: refund
       - action: utter_refund
 
-  - story: Thí sinh hủy thi và hoàn tiền
-    steps:
-      - intent: ask_cancel+ask_refund
-        entities:
-          - refund: refund
-          - cancel: competition_cancel
-      - action: utter_refund
-
   - story: Hỏi nhận bằng thấp hơn
     steps:
       - intent: ask_receive_lower_certificate
@@ -166,8 +158,8 @@ stories:
     steps:
       - intent: ask_receive_higher_certificate
       - action: utter_receive_higher_certificate
-    
-  - story: Hỏi 
+
+  - story: Hỏi
     steps:
       - intent: ask_condition_certificate
       - action: action_reply_ask_condition_certificate
@@ -201,21 +193,21 @@ stories:
     steps:
       - intent: ask_certificate_copy
       - action: utter_certificate_copy
-  
+
   - story: Mất chứng chỉ
     steps:
       - intent: ask_lost_certificate
       - action: utter_lost_certificate
-  
+
   - story: Nhận chứng chỉ mà sai thông tin
     steps:
-      - intent: receive_certification+wrong_information
+      - intent: wrong_information
       - action: utter_receive_wrong_information
 
   - story: Hỏi chuyển khoản phí thi
     steps:
-      - intent: ask_contenst_fee_banking
-      - action: utter_contenst_fee_banking
+      - intent: ask_contest_fee_banking
+      - action: utter_contest_fee_banking
 
   - story: Hỏi xuất hóa đơn
     steps:
@@ -226,7 +218,7 @@ stories:
     steps:
       - intent: ask_VSTEP_hard
       - action: utter_VSTEP_hard
-  
+
   - story: Hỏi nếu không đạt
     steps:
       - intent: ask_what_if_not_pass
@@ -241,22 +233,22 @@ stories:
     steps:
       - intent: ask_certification_due_date
       - action: utter_certification_due_date
-  
+
   - story: Hỏi lại quy trình phúc khảo
     steps:
       - intent: ask_recheck_exam_process
       - action: utter_recheck_exam_process
-  
+
   - story: Hỏi lệ phí phúc khảo
     steps:
       - intent: ask_recheck_exam_fee
       - action: utter_recheck_exam_fee
-  
+
   - story: Hỏi kết quả phúc khảo
     steps:
-      - intent: ask_recheck_exam_result
-      - action: utter_recheck_exam_result
-  
+      - intent: ask_recheck_exam_result_time
+      - action: utter_recheck_exam_result_time
+
   - story: Hỏi bị hạ điểm phúc khảo
     steps:
       - intent: ask_recheck_lower_point

@@ -176,3 +176,6 @@ data_preprocessed/
 #  every file start with temp
 temp*
 log*
+
+# any file start with .~
+.~*

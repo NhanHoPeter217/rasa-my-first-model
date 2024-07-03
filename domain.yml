@@ -15,19 +15,19 @@ intents:
 - ask_student_discount
 - ask_late_graduate_discount
 - ask_exam_registration_docs
-- ask_certification_requirement
+- ask_paper_notarization
 - ask_student_id_notarization
 - ask_competition_registration_process
 - competition_registration_process_far
 - ask_practice_papers
 - receive_certification
-- receive_certification+receive_location
-- receive_certification+intercede_retrieval
+- receive_location
+- intercede_retrieval
+- receive_immediately
 - ask_competition_result_date
 - ask_competition_certification_date
 - ask_competition_information
 - ask_competition_result_process
-- ask_certification_retrieval_immediately
 - ask_result_paper
 - ask_a2_requirement
 - ask_retest_fee
@@ -48,7 +48,7 @@ intents:
 - ask_certificate_copy
 - ask_lost_certificate
 - wrong_information
-- ask_contenst_fee_banking
+- ask_contest_fee_banking
 - ask_export_invoice
 - ask_VSTEP_hard
 - ask_what_if_not_pass
@@ -56,7 +56,7 @@ intents:
 - ask_certification_due_date
 - ask_recheck_exam_process
 - ask_recheck_exam_fee
-- ask_recheck_exam_result
+- ask_recheck_exam_result_time
 - ask_recheck_lower_point
 - thanks
 
@@ -93,6 +93,10 @@ responses:
   - text: Chào bạn, trường đại học Sài Gòn có thể giúp gì cho bạn?
   - text: Chào bạn, bạn cần gì?
 
+  utter_thanks:
+  - text: "Rất vui được hỗ trợ cho bạn. Bạn cần trợ giúp thêm điều gì không?"
+  - text: "Rất hân hạnh được hỗ trợ bạn. Bạn còn thắc mắc gì thêm không?"
+
   utter_rephrase:
   - text: Xin lỗi, hiện tại mình chưa hiểu ý bạn. Bạn có thể nói lại được không, đừng dùng từ viết tắt bạn nhé!
 
@@ -128,12 +132,8 @@ responses:
           3. Photo CCCD/CMND/Hộ chiếu\n
           4. Photo thẻ viên chức hoặc thẻ sinh viên, học viên còn hạn/ Giấy xác nhận sinh viên, học viên (đối với viên chức, học viên, sinh viên, học sinh Trường Đại học Sài Gòn, Trường Trung học Thực hành Sài Gòn, Trường Tiểu học Thực hành Đại học Sài Gòn)"
 
-  utter_certification_requirement:
+  utter_paper_notarization:
   - text: "Hiện tại chưa bắt buộc phải công chứng"
-
-  utter_thanks:
-  - text: "Rất vui được hỗ trợ cho bạn. Bạn cần trợ giúp thêm điều gì không?"
-  - text: "Rất hân hạnh được hỗ trợ bạn. Bạn còn thắc mắc gì thêm không?"
 
   utter_student_id_notarization:
   - text: "Thẻ sinh viên / học viên cao học chỉ cần bản photo bạn nhé"
@@ -228,7 +228,7 @@ Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăn
   utter_receive_wrong_information:
   - text: Chưa implement chỗ này!!!!
 
-  utter_contenst_fee_banking:
+  utter_contest_fee_banking:
   - text: Có thể chuyển khoản phí thi nhé bạn
 
   utter_export_invoice:
@@ -254,7 +254,7 @@ Thời gian phúc khảo sẽ được tổ chức đồng thời với thời g
   utter_recheck_exam_fee:
   - text: Lệ phí phúc khảo hiện là 800.000đ (Tám trăm ngàn đồng) ạ
 
-  utter_recheck_exam_result:
+  utter_recheck_exam_result_time:
   - text: "Thời gian phúc khảo sẽ được tổ chức đồng thời với thời gian tổ chức kỳ thi tiếp theo. Trong trường hợp kỳ thi tiếp theo bị dời, thời gian phúc khảo cũng dời theo.
 Sau đó, kết quả phúc khảo có thể được tra cứu tại trang web bằng số CCCD/CMND/hộ chiếu"
 

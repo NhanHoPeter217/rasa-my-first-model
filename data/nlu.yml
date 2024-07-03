@@ -175,7 +175,7 @@ nlu:
       - Những giấy tờ cần thiết khi [đăng ký](register) thi có thể được tìm thấy ở đâu?
       - Làm thế nào để biết được hồ sơ [đăng ký](register) thi chi tiết?
 
-  - intent: ask_certification_requirement
+  - intent: ask_paper_notarization
     examples: |
       - cccd/cmnd/hộ chiếu có cần công chứng không?
       - cccd/cmnd/hộ chiếu cần công chứng không?
@@ -269,15 +269,9 @@ nlu:
       - Địa điểm nhận chứng chỉ là ở đâu?
       - Nơi nào tôi có thể nhận chứng chỉ?
       - Có thể nhận chứng chỉ ở đâu?
-      - Sau khi hoàn thành, tôi có thể đến đâu để nhận chứng chỉ?
-      - Trường cung cấp dịch vụ nhận chứng chỉ tại đâu?
       - Khi cần, tôi nên đến đâu để lấy chứng chỉ?
-      - Làm thế nào để biết địa điểm nhận chứng chỉ?
       - Có thông tin về địa điểm nhận chứng chỉ không?
-      - Tôi cần phải đến đâu để nhận chứng chỉ sau khi hoàn thành?
-      - Trong trường hợp cần thiết, tôi có thể nhận chứng chỉ ở đâu?
-      - Làm thế nào để biết được địa chỉ nhận chứng chỉ?
-      - Nếu cần, tôi nên đến đâu để nhận chứng chỉ?
+      - Làm thế nào để nhận chứng chỉ?
       - chứng chỉ lấy ở đâu vậy ạ
 
   - intent: receive_certification
@@ -337,13 +331,9 @@ nlu:
     examples: |
       - Bao giờ có chứng chỉ?
       - Thi xong có chứng chỉ ngay không?
-      - Khi nào sẽ được nhận chứng chỉ sau khi thi?
       - Ngày nào chứng chỉ sẽ được phát?
-      - Muốn biết ngày nhận chứng chỉ, tôi phải làm thế nào?
       - Sau khi hoàn thành thi, cần bao lâu để nhận được chứng chỉ?
       - Làm sao để biết khi nào có thể nhận được chứng chỉ sau khi thi?
-      - Khi nào chúng ta có thể nhận chứng chỉ của cuộc thi?
-      - Có lịch trình cụ thể về việc nhận chứng chỉ không?
       - Sau khi kết thúc cuộc thi, bao lâu sau mới nhận được chứng chỉ?
       - Có thông tin nào về ngày phát chứng chỉ sau khi thi không?
       - Khi nào thì chứng chỉ của cuộc thi sẽ được cấp?
@@ -352,15 +342,10 @@ nlu:
     examples: |
       - Em xem sbd ở đâu ạ
       - Làm sao để biết số báo danh?
-      - Làm sao để biết số báo danh?
-      - Khi nào chúng ta có thể biết được số báo danh?
       - Khi nào chúng ta sẽ có thông tin về số báo danh?
       - Có cách nào khác để xem số báo danh không?
       - Cần phải làm gì để biết thông tin về số báo danh?
-      - Có ai có thể giúp tôi biết số báo danh không?
-      - Làm sao để biết thông tin về số báo danh trước ngày thi?
       - Có cách nào để biết số báo danh sớm hơn không?
-      - Làm thế nào để tìm hiểu thông tin về phòng thi của mình trước ngày thi?
 
   - intent: ask_competition_result_process
     examples: |
@@ -471,6 +456,14 @@ nlu:
       - Muốn hủy thi và muốn biết về chính sách hoàn tiền, tôi phải làm thế nào?
       - Khi tôi muốn hủy thi, liệu tôi có thể nhận lại phần nào của tiền đã đóng không?
       - Nếu tôi muốn hủy bỏ kỳ thi, liệu tôi có thể nhận lại tiền đã thanh toán không?
+      - Không muốn thi nữa thì có được [hoàn lệ phí thi](refund) không?
+      - Tới ngày thi không thi được thì trường có [trả lại tiền](refund) không ạ?
+      - Nếu tôi không tham gia kỳ thi, liệu tôi có được [hoàn lại tiền](refund) không?
+      - Có chính sách nào về việc [hoàn lại tiền](refund) thi không tham dự được không?
+      - Nếu tôi bị trở ngại và không thể tham dự kỳ thi, liệu tôi có thể được [trả lại tiền](refund) không?
+      - Làm thế nào để yêu cầu [hoàn lại tiền](refund) nếu tôi không thể tham gia kỳ thi?
+      - Có quy định gì về việc [hoàn tiền](refund) cho những trường hợp không tham dự được kỳ thi không?
+      - Nếu tôi không thể tham dự kỳ thi vì lí do nào đó, liệu tôi có thể [nhận lại tiền](refund) không?
 
   - intent: ask_refund
     examples: |
@@ -481,15 +474,6 @@ nlu:
       - Điều kiện [hoàn phí thi](refund) là như thế nào?
       - Cho em hỏi về điều kiện [hoàn phí thi](refund)
       - em muốn hỏi về vấn đề [hoàn phí thi](refund)
-      - Không muốn thi nữa thì có được [hoàn lệ phí thi](refund) không?
-      - Tới ngày thi không thi được thì trường có [trả lại tiền](refund) không ạ?
-      - Nếu tôi không tham gia kỳ thi, liệu tôi có được [hoàn lại tiền](refund) không?
-      - Có chính sách nào về việc [hoàn lại tiền](refund) thi không tham dự được không?
-      - Nếu tôi bị trở ngại và không thể tham dự kỳ thi, liệu tôi có thể được [trả lại tiền](refund) không?
-      - Làm thế nào để yêu cầu [hoàn lại tiền](refund) nếu tôi không thể tham gia kỳ thi?
-      - Có quy định gì về việc [hoàn tiền](refund) cho những trường hợp không tham dự được kỳ thi không?
-      - Nếu tôi không thể tham dự kỳ thi vì lí do nào đó, liệu tôi có thể [nhận lại tiền](refund) không?
-      - Khi tôi không thể tham dự kỳ thi, liệu tôi có thể được [hoàn trả tiền](refund) đã đóng không?
 
   - intent: ask_cancel
     examples: |
@@ -642,7 +626,16 @@ nlu:
       - Nhận chứng chỉ mà phát hiện sai thông tin thì sao?
       - Em mới nhận thì thấy chứng chỉ bị sai thông tin ạ, giờ em phải làm sao?
 
-  - intent: ask_contenst_fee_banking
+  - intent: wrong_information
+    examples: |
+      - Chứng chỉ bị sai thông tin thì làm sao?
+      - chứng chỉ em in sai tên rồi ạ giờ em làm sao ad ơi?
+      - chứng chỉ in sai rồi ad ơi?
+      - điểm trên chứng chỉ bị sai rồi ạ
+      - chứng chỉ in sai ngày tháng năm sinh rồi ạ
+      - ngày tháng năm sinh trên chứng chỉ bị sai rồi ạ
+
+  - intent: ask_contest_fee_banking
     examples: |
       - Có chuyển khoản lệ phí thi được không?
       - Lệ phí thi có thể chuyển khoản không?
@@ -712,7 +705,7 @@ nlu:
       - Lệ phí phúc khảo
       - Phí phúc khảo bài thi
 
-  - intent: ask_recheck_exam_result
+  - intent: ask_recheck_exam_result_time
     examples: |
       - Phúc khảo bài thi trong bao lâu?
       - Phúc khảo bài thi trong thời gian bao lâu?
