@@ -10,11 +10,9 @@ language: vi
 
 pipeline:
   - name: pipelines.Preprocesser.Preprocesser
-  # - name: pipelines.VnCoreNLP.VnCoreNLPTokenizer
   - name: pipelines.Spacy.SpacyTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
-  # - name: CRFEntityExtractor
   - name: EntitySynonymMapper
   - name: CountVectorsFeaturizer
   - name: LanguageModelFeaturizer # output: dense_feature
@@ -25,7 +23,6 @@ pipeline:
     epochs: 100
     constrain_similarities: true
   - name: EntitySynonymMapper
-  # - name: pipelines.PrettyPrint.PrettyPrint
   - name: FallbackClassifier
     threshold: 0.7
     ambiguity_threshold: 0.1
@@ -36,9 +33,9 @@ pipeline:
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
-# No configuration for policies was provided. The following default policies were used to train your model.
-# If you'd like to customize them, uncomment and adjust the policies.
-# See https://rasa.com/docs/rasa/policies for more information.
+  # No configuration for policies was provided. The following default policies were used to train your model.
+  # If you'd like to customize them, uncomment and adjust the policies.
+  # See https://rasa.com/docs/rasa/policies for more information.
   - name: MemoizationPolicy
   - name: RulePolicy
   # - name: UnexpecTEDIntentPolicy

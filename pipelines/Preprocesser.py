@@ -12,6 +12,64 @@ import os
 import sys
 from pprint import pprint
 import yaml
+import re
+
+# coding=utf-8
+# Copyright (c) 2021 VinAI Research
+
+dict_map = {
+    "òa": "oà",
+    "Òa": "Oà",
+    "ÒA": "OÀ",
+    "óa": "oá",
+    "Óa": "Oá",
+    "ÓA": "OÁ",
+    "ỏa": "oả",
+    "Ỏa": "Oả",
+    "ỎA": "OẢ",
+    "õa": "oã",
+    "Õa": "Oã",
+    "ÕA": "OÃ",
+    "ọa": "oạ",
+    "Ọa": "Oạ",
+    "ỌA": "OẠ",
+    "òe": "oè",
+    "Òe": "Oè",
+    "ÒE": "OÈ",
+    "óe": "oé",
+    "Óe": "Oé",
+    "ÓE": "OÉ",
+    "ỏe": "oẻ",
+    "Ỏe": "Oẻ",
+    "ỎE": "OẺ",
+    "õe": "oẽ",
+    "Õe": "Oẽ",
+    "ÕE": "OẼ",
+    "ọe": "oẹ",
+    "Ọe": "Oẹ",
+    "ỌE": "OẸ",
+    "ùy": "uỳ",
+    "Ùy": "Uỳ",
+    "ÙY": "UỲ",
+    "úy": "uý",
+    "Úy": "Uý",
+    "ÚY": "UÝ",
+    "ủy": "uỷ",
+    "Ủy": "Uỷ",
+    "ỦY": "UỶ",
+    "ũy": "uỹ",
+    "Ũy": "Uỹ",
+    "ŨY": "UỸ",
+    "ụy": "uỵ",
+    "Ụy": "Uỵ",
+    "ỤY": "UỴ",
+    }
+
+def replace_all(text, dict_map):
+    for i, j in dict_map.items():
+        text = text.replace(i, j)
+    return text
+
 
 
 BASE_PATH = os.getcwd()
@@ -74,6 +132,8 @@ class Preprocesser(GraphComponent):
                 print(f"\nPREPROCESS: {TEXT} | {example.get(TEXT)}")
                 
                 self.normalize(example, TEXT)
+                
+                print(f"OUTPUT: {TEXT} | {example.get(TEXT)}")
         
         return training_data
 
@@ -88,19 +148,23 @@ class Preprocesser(GraphComponent):
     @classmethod
     def normalize(cls, message: Message, attribute: Text) -> None:
         sentence : str = message.get(attribute)
+        
+        # remove redundant spaces
+        sentence = re.sub(' +', ' ', sentence)
+        
+        # lowercase
         sentence = sentence.lower()
 
         # Replace short hand
         sentence = cls.replace_abbreviations(sentence)
-        print(f"###### Replace abbreviations: {sentence}")
 
         # Tone Normalize
         sentence = VietnameseTextNormalizer.Normalize(sentence)
-        print(f"###### Normalize: {sentence}")
 
         # Remove stop words & symbols
         # sentence = cls.remove_words(sentence, cls.stopwords) #########################
-        # print(f"###### Remove symbols & Stop words: {sentence}")
+        
+        sentence = replace_all(sentence, dict_map)
 
         sentence = sentence.strip()
         

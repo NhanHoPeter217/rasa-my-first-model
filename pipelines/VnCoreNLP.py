@@ -9,6 +9,8 @@ from rasa.shared.nlu.training_data.message import Message
 
 import py_vncorenlp
 import os
+import regex
+import pprint
 
 # Automatically download VnCoreNLP components from the original repository
 # and save them in some local working folder
@@ -17,6 +19,7 @@ VNCORE_NLP = '/home/nam/codeproj/rasa-my-first-model'
 @DefaultV1Recipe.register(
     [DefaultV1Recipe.ComponentType.MESSAGE_TOKENIZER], is_trainable=False
 )
+
 
 class VnCoreNLPTokenizer(Tokenizer):    
     @classmethod
@@ -34,9 +37,9 @@ class VnCoreNLPTokenizer(Tokenizer):
         """Returns the component's default config."""
         return {
             # Flag to check whether to split intents
-            "intent_tokenization_flag": False,
+            "intent_tokenization_flag": True,
             # Symbol on which intent should be split
-            "intent_split_symbol": "_",
+            "intent_split_symbol": "+",
             # Regular expression to detect tokens
             "token_pattern": None,
             # Symbol on which prefix should be split
@@ -57,19 +60,18 @@ class VnCoreNLPTokenizer(Tokenizer):
 
 
     def tokenize(self, message: Message, attribute: Text) -> List[Token]:
-        text = message.get(attribute)
-        temp = ""
         try:
-            segmented = self.rdrsegmenter.annotate_text(text).get(0)
+            text = message.get(attribute)
+            segmented : List[str] = self.rdrsegmenter.annotate_text(text).get(0)
             words : List[str] = []
-
-            for i in segmented:
-                wordForm : Text = i.get('wordForm')
-                temp = wordForm.replace('_', ' ')
-                words.append(temp)
+            temp = ''
             
-            return self._convert_words_to_tokens(words, text)
+            words = [i.get('wordForm').replace('_', ' ') for i in segmented if regex.match(r'[^._~:/?#\[\]()@!$&*+,;=-]', i.get('wordForm'))]
+            
+            tokens = self._convert_words_to_tokens(words, text)
+    
+            return self._apply_token_pattern(tokens)
 
         except Exception as e:
-            print(f"An exception occurred in the VnCoreNLP Component: {e} || word: {temp} || in text: {text} || words: {words}") 
-            return []
+            print(f"[Err]: {e} || word: {temp} || in text: {text} || words: {words}") 
+            return words

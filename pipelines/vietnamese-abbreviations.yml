@@ -44,3 +44,7 @@
   shorthands: |
     cc
     cert
+
+- value: gì
+  shorthands: |
+    j

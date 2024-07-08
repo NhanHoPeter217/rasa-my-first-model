@@ -58,6 +58,7 @@ intents:
 - ask_recheck_exam_fee
 - ask_recheck_exam_result_time
 - ask_recheck_lower_point
+- ask_wrong_information_when_lookup_id
 - thanks
 
 entities:
