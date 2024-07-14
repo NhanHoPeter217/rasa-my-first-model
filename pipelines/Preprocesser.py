@@ -107,6 +107,9 @@ class Preprocesser(GraphComponent):
     def __init__(
         self,
         config: Dict[Text, Any],
+        model_storage: ModelStorage,
+        resource: Resource,
+        execution_context: ExecutionContext
     ) -> None:
         self.config = config
         super().__init__()
@@ -127,11 +130,10 @@ class Preprocesser(GraphComponent):
 
         with open(stopword_file, "r") as f:
             cls.stopwords = [word.strip() for word in f]
-        
-        if config.get("remove_stopwords"):
-            print("[Preprocesser] - Remove stopwords turned on")
 
-        return cls(config)
+        print("[Preprocesser] - Remove stopwords turned " + ("on" if config.get("remove_stopwords") else "off"))
+
+        return cls(config, model_storage, resource, execution_context)
     
 
     def process_training_data(self, training_data: TrainingData) -> TrainingData:

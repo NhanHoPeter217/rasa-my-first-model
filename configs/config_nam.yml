@@ -10,6 +10,7 @@ language: vi
 
 pipeline:
   - name: pipelines.Preprocesser.Preprocesser
+    remove_stopwords: false
   - name: pipelines.Spacy.SpacyTokenizer
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
