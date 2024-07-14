@@ -55,7 +55,7 @@ nlu:
       - Mình phải nộp những loại giấy tờ nào khi thi ạ?
       - Hồ sơ đăng ký thi gồm những gì ạ?
 
-  - intent: ask_certification_requirement
+  - intent: ask_paper_notarization
     examples: |
       - CCCD của em có cần công chứng không?
       - Em có cần phải chứng thực CCCD không?
@@ -68,7 +68,6 @@ nlu:
   - intent: ask_competition_registration_process
     examples: |
       - Em có thể đăng ký như thế nào?
-      - Làm sao để em ghi danh học ạ?
 
   - intent: competition_registration_process_far
     examples: |
