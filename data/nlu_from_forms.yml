@@ -10,36 +10,46 @@ nlu:
       - Chào ad, em có một số thắc mắc mong ad có thể giải đáp giúp em ạ
       - Chào ad, em có thắc mắc muốn hỏi.
       - Chào ad.
+      - Chào trường ạ
       - Dạ chào trường, em có một số câu hỏi muốn hỏi ạ.
       - Dạ em chào admin
+      - Dạ xin chào
       - Helo
       - Hi bạn
       - Xin chào
       - alo
       - bonjour
       - chao xìn
+      - chào ad ạ
       - chào bạn
       - chào bạn nhá
+      - dạ em chào sốp
+      - hello ad
       - xin chào 
 
   - intent: ask_exam_time
     examples: |
       - 1 tháng
       - Bao giờ thì thi ta
+      - Cho em hỏi lịch thi với ạ
       - Cho em xin lịch tổ chức thi VSTEP của trường được ko ạ
       - Các mốc thời gian tổ chức thi trong năm?
       - Cụ thể là ngày nào và mấy giờ ạ
       - Khi nào sẽ có kỳ thi tiếp theo ạ?
+      - Khi nào tổ chức thi nữa ạ
       - Khi nào tổ chức thi ạ
       - Kỳ thi tiếp theo sẽ được tổ chức khi nào ạ?
       - Lịch thi sắp tới ra sao ạ?
+      - Một năm có bao nhiêu đợt thi ạ
       - Thời gian thi là khi nào
       - Thời gian thi là khi nào?
       - Thời gian tổ chức thi là khi nào vậy?
       - Trường sẽ tổ chức thi vào thời gian nào ạ,
+      - khi nào mình tổ chức thi ạ
       - lịch thi sắp tới là gì
       - lỡ rớt, thì bao lâu thi lại
       - mình có ca thi giữa đêm ko ạ 
+      - thời gian tỏ chức khi nào ạ
       - thời gian tổ chức các đợt sau
       - thời gian tổ chức thi vào khoảng nào
 
@@ -47,8 +57,10 @@ nlu:
     examples: |
       - Cho em hỏi mình có giảm giá cho học sinh sinh viên không ạ
       - Cho em hỏi sinh viên của trường có được giảm giá không ạ?
+      - Cho em hỏi sv đại học qg có giảm giá k ạ
       - Chương trình có hỗ trợ giảm giá với sinh viên không ạ
       - Có
+      - Có giảm giá cho hssv k ạ
       - Em là sinh viên của trường thì có được giảm lệ phí thi ko ạ
       - Em là sinh viên thì có ưu đãi gì không ạ
       - Là sinh viên của trường đại học danh tiếng có được hỗ trợ học phí không
@@ -56,7 +68,10 @@ nlu:
       - Nếu là sinh viên thì có được giảm giá không ạ
       - Sinh viên có được giảm lệ phí thi không nhỉ?
       - Trường có chính sách giảm giá cho sinh viên không ạ?
+      - cho em hỏi nhận bằng ở đâu
+      - có những chính sách học bổng hay giảm lệ phí học cho sv ko ạ
       - có ưu đãi gì không ạ
+      - em hỏi ưu đãi cho sv ạ
       - mình là sv của trường có ưu đãi gì ko ạ
       - sinh viên của trường có được giảm tiền không
       - sinh viên thì có được ưu đãi không 
@@ -66,6 +81,8 @@ nlu:
 
   - intent: ask_student_id_notarization
     examples: |
+      - Cho em hỏi thẻ SV ko công chứng dc thì làm sao ạ
+      - Cho em hỏi thẻ sv không công chứng được thì s ạ
       - Cho mình hỏi thẻ sinh viên không công chứng thì được sử dụng bình thường không
       - Em có thể làm cách nào khác nếu thẻ SV không công chứng được, có thể thay bằng giấy tờ khác được không?
       - Em cần công chứng thẻ sinh viên nhưng bên công chứng báo không hỗ trợ thì phải làm sao thưa Thầy/Cô
@@ -78,8 +95,11 @@ nlu:
       - Thẻ sinh viên của em không công chứng được thì có thể thi không ạ
       - Thẻ sinh viên không được công chứng thì có hợp lệ để nộp hồ sơ không ạ
       - Thẻ sinh viên ko công chứng được thì có em phải làm gì ạ?
+      - Thẻ sv k công chứng có đc k ạ
       - Trường hợp thẻ sinh viên/học viên cao học không công chứng được thì phải làm sao ạ 
       - biện pháp thay thế thẻ sinh viên
+      - cho em hỏi thẻ sv ko công chứng được thì làm thế nào ạ
+      - em gặp vấn đề trong việc công chứng thẻ SV ạ
       - em khỏi cần công chứng thẻ sv đc ko
       - gấp quá mình khôgn công chứng kịp thẻ sv có sao ko ạ
       - thẻ sinh viên không công chức được thì phải làm sao
@@ -87,11 +107,13 @@ nlu:
 
   - intent: receive_certification+receive_location
     examples: |
+      - Cho e hỏi bằng sẽ nhận ở đâu v ạ
       - Cho em hỏi mình nhận chứng chỉ ở đâu ạ
       - Cho em hỏi địa điểm nhận chứng chỉ là ở đâu ạ?
       - Chổ tổ chức thi
       - Có các hình thức nào để nhận chứng chỉ ạ?
       - E nhận bằn ở đâu vậy ạ
+      - E nhận bằng ở đâu
       - Em có thể nhận chứng chỉ này ở đâu ạ
       - Em nhận bằng ở điểm thi hay phải đến đâu ạ
       - Mình có thể nhận chứng chỉ ở đâu?
@@ -99,9 +121,12 @@ nlu:
       - Mình sẽ nhận bằng ở đâu
       - Nhận chứng chỉ như thế nào ạ
       - Tôi có thể nhận bằng trực tiếp hay giao tận nơi?
+      - cho em hỏi nhận bằng ở đâu
       - làm sao để nhận được chứng chỉ ạ? mình đến trực tiếp hay có bưu điện gửi về?
       - nhận bằng
       - nhận cc ở đâu
+      - nhận chứng chỉ ở đâu ạ
+      - nếu em đủ điểm đạt chứng chỉ thì nhận nó ở đâu ạ
       - trường gửi bằng về cho em hay em tự lấy ở đâu ạ
       - Địa điểm nhận chứng chỉ là ở đâu ạ?
       - địa điểm nhận bằng
@@ -112,9 +137,11 @@ nlu:
       - Chứng chỉ thì khi nào thì nhận được vậy ạ
       - Chứng chỉ được cấp sau ngày thi bao nhiêu ngày ạ?
       - Em thi ngày CN thì có được nhận chứng chỉ ngay không hay phải đợi sang tuần sau ạ
+      - Em thi t2 vừa r thì nào có kết quả ạ
       - Em thi vào thứ 5 tuần trước thì bao giờ có kết quả ạ
       - Em thi vào thứ Bảy rồi thì khi nào có kết quả ạ?
       - Em thi xong bao lâu thì có chứng chỉ ạ?
+      - Khi nào có kq từ đợt thi gần nhất ạ
       - Khi nào mình sẽ nhận được chứng chỉ?
       - Khoảng bao lâu sau thi sẽ có bằng ạ?
       - Khoảng tháng mấy thì em có chứng chỉ ạ
@@ -125,13 +152,18 @@ nlu:
       - bao giờ thì có chứng chỉ ạ? ngay sau khi thi hay sau 1 tuần ạ?
       - bao lâu sẽ có chứng chỉ, mình thi từ hôm thứ 3
       - cho em hỏi bao lâu có kq, rồi khi nào trường cấp chứng chỉ
+      - em thi t7 vừa rồi thì khi nào có kq
+      - em vừa thi chứng chỉ xong ở đợt này thì tầm bao lâu em nhận kết quả ạ
+      - khi nào có kq ạ
       - thời gian có kq
 
   - intent: ask_result_paper
     examples: |
+      - Cho e hỏi xin bảng điểm thì cần làm gì ạ
       - Em có thể nhận bảng điểm qua hình thức nào ạ
       - Em cần xin giấy xác nhận điểm thì phải làm sao ạ?
       - Em muốn lấy bảng điểm thì cần làm những gì ạ?
+      - Em muốn nhận bảng điểm làm s ạ
       - Em muốn xin giấy xác nhận điểm thì liên hệ qua đâu ạ
       - Em muốn xin xác nhận điểm thì phải làm sao ạ?
       - Làm sao để nhận Giấy xác nhận điểm ạ
@@ -142,18 +174,23 @@ nlu:
       - Mình xin bảng điểm bằng cách nào ạ
       - Nếu trường em yêu cầu giấy xác nhận điểm, trung tâm có thể cấp giúp em được không ạ?
       - Tới nơi để xin xác nhận
+      - cho em hỏi em muốn xin bảng điểm thì làm sao ạ
       - cho em xin bảng điểm
       - danh sách bảng điểm xem ở đâu 
+      - em muốn nhận giấy xác nhận điểm thì làm sao ạ
+      - em muốn xin bảng điểm
       - mình muốn xin bảng điểm, cách thức như nào
       - mình muốn xin gcn điểm
       - thi xong sao biết điểm
 
   - intent: ask_cancel+ask_refund
     examples: |
+      - Cho em hỏi là em bận không đi thi thì có được hoàn tiền lại không ạ
       - Có
       - Có được hoàn tiền đã đóng nếu mình bỏ thi không
       - Dạ cho em hỏi, nếu em không muốn đăng ký thi nữa thì có thể hoàn lệ phí được không ạ
       - Dạ nếu em muốn huỷ đăng ký thi thì có được hỗ trợ hoàn lại lệ phí ko ạ
+      - K đi thi có đc hoàn lệ phí k ạ
       - Lệ phí có được hoàn trong trường hợp huỷ thi không ạ
       - Nếu em không muốn thi nữa thì có được hoàn lại lệ phí không ạ?
       - Nếu em không thể đi thi thì có được hoàn lại lệ phí không ạ?
@@ -163,25 +200,37 @@ nlu:
       - Nếu như em có việc đột xuất không thi được thì bên mình có hoàn lệ phí thi không ạ
       - Nếu như em không thể thi được nữa thì em có được hoàn lệ phí thi không ạ
       - Về việc hoàn lệ phí, có được hoàn trả nếu mình không muốn thi nữa không ạ?
+      - cho em hỏi em ko đi thi dc thì có lấy lại tiền dc ko ạ
       - có đc hoàn tiền k ạ
       - em không muốn thi thì có được hoàn tiền không
+      - em xin hoàn tiền do không thi ạ
       - lỡ em có lịch thi vào ngày đó thì cách giải quyết bên mình sao ạ
       - lỡ đăng ký rồi mà không muốn thi nữa thì trường có trả lại phí thi không
+      - nếu không thi thì em có được hoàn lệ phí thi ko
       - tôi đăng kí rồi nhưng bận không đi thi được nữa thì có được hoàn tiền không bạn
 
   - intent: ask_condition_certificate
     examples: |
+      - B1 cần bao nhiêu điểm ạ
+      - B2 tham chiếu qua VSTEP là bao nhiêu điểm ạ
       - Bao nhiêu điểm thì đạt B1 được
       - Bao nhiêu điểm thì đạt được B2
       - Bao nhiêu điểm để đạt A2 ạ?
       - Bậc C1 có yêu cầu điểm thành phần tối thiểu không ạ
+      - C1 so với ielts là bao nhiêu
       - Cho em hỏi C1 cần bao nhiêu điểm để đậu ạ
       - Cho em hỏi bằng B2 thì tương ứng vs bao nhiêu điểm ạ
       - Cho em hỏi cần bao nhiêu điểm để đạt chứng chỉ A2 ạ?
       - Cho em hỏi là bao nhiêu điểm thì đạt B2 ạ
+      - Cho em hỏi như thế nào thì đủ điều kiện đạt A2
+      - Cho em hỏi điều kiện đạt bậc 4 ạ
       - Cho em hỏi điểm thi em cần đạt bao nhiêu để đạt A2 ạ ?
       - Cho em hỏi điểm thi trong khoảng bao nhiêu thì đạt trình độ B2 ạ
+      - Cho mình hỏi là cần bao nhiêu điểm để đạt bậc A2 ạ?
+      - Cho mình hỏi thi bn điểm để đạt A2 ạ?
       - Cần bao nhiêu điểm để đạt chứng chỉ C1 ạ?
+      - Cần bao nhiêu điểm để đạt trình độ A2 ạ?
+      - Cần học gì để thi Vstep ạ 
       - Cần thi bao nhiêu điểm để đạt bậc 2 ạ
       - Cần thi được bao nhiêu điểm thì tương ứng bằng B2 ạ
       - Dạ cho em hỏi A2 thì thí sinh phải đạt bao nhiêu điểm?
@@ -191,19 +240,26 @@ nlu:
       - Dạ để đạt được C1 thì cần bao nhiêu điểm ạ?
       - Dạ, điểm thi cần đạt được là bao nhiêu để đạt được c1 ạ
       - Em cần đạt bao nhiêu điểm để được chứng chỉ C1 ạ?
+      - Làm sao để đại B1 ạ
+      - Mình cần đạt bnhiu để đc B2 ạ
       - Mấy điểm thì đậu
       - Mốc điểm để đạt bậc C1 (bậc 5) trong cuộc thi VSTEP?
       - Mỗi điểm thành phần có yêu cầu gì để đạt B2 không ạ
       - Mức B2 yêu cầu tối thiểu bao nhiêu điểm ak
+      - Mức chuẩn để đạt C1 ra sao?
       - Tiêu chí chấm đạt b1 là j v ạ
       - bao nhiêu điểm thì đạt B2
+      - bao nhiêu điểm thì đạt c1 v ạ
       - bao nhiêu điểm để đạt B2
       - bnh điểm là đạt A2 ạ
       - bậc B1 cần điểm mỗi phần ra sao ạ
+      - cho em hỏi điểm thi bao nhiêu để đạt B2 ạ
+      - chỉ tiêu đạt a2
       - cần thi bao nhiêu buổi để đạt B2?
       - làm sao đạt c1
       - làm sao để đạt được bậc 4 nhỉ?
       - mấy điểm đạt b2
+      - nguyện vọng của em là B1 để tốt nghiệp, vậy cần đạt bao nhiêu điểm để có thể được bậc B1 thưa cô
       - Điều kiện để đạt B2 là gì?
       - Điều kiện để đạt C1 là bao nhiêu điểm ạ
       - Điều kiện để đạt điểm A2 ạ
@@ -211,21 +267,28 @@ nlu:
       - Điểm A2 là bao nhiêu
       - Điểm B1 là bao nhiêu
       - Điểm C1 là bao nhiêu ạ
+      - Điểm bao nhiêu là đạt đc ít nhất là bằng A2?
       - Điểm cần thiết để đạt chứng chỉ B1 là bao nhiêu ạ?
+      - Điểm mức bao nhiêu mới đạt được bằng A2 ạ
       - Điểm thi bao nhiêu thì mới đạt chứng chỉ B1 ạ?
       - Điểm thi bao nhiêu thì tương đương với bằng A2 vậy ạ
       - Điểm thi bao nhiêu thì tương ứng với bằng B1 ạ
       - Điểm thi cần bao nhiêu để đạt chứng chỉ A2 ạ?
       - Điểm thi cần đạt bao nhiêu để có chứng chỉ B2 ạ?
+      - Điểm thi như thế nào thì đạt c1 khi thi b1 ạ
       - Đạt bao nhiêu điểm thì được mức A2 nhỉ?
       - Đậu
       - Để đạt được chứng chỉ A2 thì cần những điều kiện gì vậy?
+      - Đối vs bac 2 cần bao nhiu điểm để đạt
       - điều kiện đủ điểm B2 ạ
       - điểm thi bao nhiêu để đạt chứng chỉ b2
+      - điểm thi của mình bao nhiêu để đủ điều kiện đạt B2 ạ
       - điểm thi tầm bao nhiêu thì đạt bậc C1 ạ
 
   - intent: ask_exam_form
     examples: |
+      -  cho em hỏi mình thi trên máy tính đúng ko ạ
+      - Cho e hỏi hình thức thi là thi giấy hay thi trên máy v ạ
       - Cho em hỏi thi bằng hình thức nào vậy ạ? Có phải thi trên máy tính không ạ?
       - Cho em hỏi thi bằng hình thức nào ạ? Thi trên máy tính hay giấy ạ?
       - Cách thứt thi bên mình sao vậy ạ
@@ -238,7 +301,9 @@ nlu:
       - Mình có được lựa chọn hình thức thi như nào không ạ?
       - Mình thi B2 trên giấy hay máy tính nhỉ?
       - Mình thi trên máy tính đúng hong ạ
+      - Mình thi trên đâu ạ
       - Trắc nghiệm
+      - cho em xác nhận hình thức thi của mình được ko ạ
       - có những hình thức thi nào vậy ạ?
       - em làm bài thi online được không
       - em muốn làm bài trên bàn được không ạ
@@ -249,6 +314,7 @@ nlu:
     examples: |
       - Chi phí để phúc khảo bài thi là bao nhiêu ạ?
       - Cho em hỏi lệ phí để phúc khảo là bao nhiêu ạ
+      - Cho em hỏi phí phúc khảo sao ạ
       - Cho em hỏi phúc khảo có phải đóng lệ phí không ạ
       - Cho em tham khảo lệ phí thi với ạ
       - Lệ phí nếu mình có nhu cầu phúc khảo là bao nhiêu?
@@ -259,17 +325,23 @@ nlu:
       - Phí phúc khảo thi lại là bao nhiêu
       - Phúc khảo có tính phí không ạ? Có thì bao nhiêu
       - Phúc khảo thì mất bao nhiêu vậy ạ
+      - Tiền phúc khảo s ạ
+      - cho em hỏi lệ phí khi phúc khảo là bao nhiêu ạ
+      - cho em hỏi tiền phúc khảo bao nhiêu ạ
       - cho mình hỏi phí phúc khảo đi
       - lệ phí phúc khảo khoảng bao nhiêu
       - lệ phí phúc khảo?
       - phúc khảo bao nhiêu xiền
       - phúc khảo tốn bao nhiêu tiền
+      - phúc khảo ở đâu ạ
 
   - intent: ask_what_if_not_pass
     examples: |
+      - Cho e hỏi thi rớt thì sao ạ
       - Cho em hỏi lỡ e thi e rớt thì làm sao ạ
       - Cho em hỏi nếu em thi rớt thì sao ạ
       - Dưới mức bao nhiêu được xem là rớt ạ và mình có lưu ý gì sau khi bị rớt không??
+      - E thi rớt có đc hoàn tiền đky thi k ạ
       - Em cần thi lại thì bên anh/chị có hỗ trợ thủ tục không ạ
       - Em đăng ký thi nhưng nếu thi rớt thì sẽ như thế nào ạ?
       - Ko
@@ -280,15 +352,20 @@ nlu:
       - Thi rớt được thi lại hong
       - Trong trường hợp thi rớt thì em có phải làm gì tiếp ạ?
       - Trường hợp em thi rớt thì như thế nào ạ
+      - cho em hỏi lỡ em thi rớt thì sao ạ
       - mình thì rớt có ảnh hưởng gì không
+      - nếu em thi không đủ điểm đạt chứng chỉ thì sao ạ
       - nếu em thi rớt thì có được thi lại không ạ?
       - nếu rớt thì sao
       - thi rớt thì phải làm sao ạ
+      - thi trượt thì sao ạ
       - trường có bao đậu không
 
   - intent: ask_contenst_fee_banking
     examples: |
       - Báo lên
+      - Cho em hỏi thông tin dự thi của em sai thì điều chỉnh sao ạ
+      - E bị sai thông tin làm s ạ
       - Em có tra cứu SBD nhưng hệ thống báo không hợp lệ thì phải làm sao ạ
       - Lúc em tra số báo danh, nhưng thông tin bị sai thì em phải làm sao ak
       - Lúc mình tra số báo danh, thông tin mình bị sai, không biết mình phải làm gì nhỉ
@@ -302,19 +379,24 @@ nlu:
       - Trong lúc tra cứu SBD em thấy thông tin của mình bị sai thì giờ phải làm sao ạ
       - Trong trường hợp thông tin bị sai thì phải làm sao?
       - ad cho em cập nhật lại thông tin ạ
+      - cho em hỏi thông tin em bị sai thì sao a
+      - em bị sai thông tin ạ, làm sao tiếp ạ
       - nếu bị sai thông tin lúc tra cứu thì làm sao ?
+      - nếu thông tin bị sai khi em tra cứu sbd thì em phải làm sao ạ
       - sửa thông tin sai được không ạ
       - thông tin bị sai thì phải làm sao
       - thông tin sai khi tra cứu sbd thì liên hệ ai để sửa
 
   - intent: has_certificate+ask_delay
     examples: |
+      - Cho em hỏi là em có việc gấp có thể hoãn thi đc k ạ
       - Cho em hỏi muốn dời thời gian thi thì phải làm sao ạ
       - Còn thủ tục dời ngày thi thì sao ạ
       - Có thể xin hoãn hay dời thi không?
       - Em có lịch bận đột xuất vào ngày thi nhưng mà em đã có trong danh sách thi thì có được dời thi hoặc hoãn thi không ạ
       - Em có thể hoãn hay dời lịch thi nếu có việc bận vào ngày dự thi ban đầu không?
       - Em kẹt việc nhà nên ngày đó không thể đi thi được, em xin dời lại đợt sau được không ạ?
+      - Em muốn dời thi thì s ạ
       - Em muốn hoãn thi thì làm sao ạ
       - Em muốn hoãn thi thì phải làm sao ạ
       - Em muốn lấy bảng điểm thì cần làm những gì ạ?
@@ -322,15 +404,20 @@ nlu:
       - Mình muốn tìm cách thức hoãn thi
       - Trong trường hợp em muốn hoãn thi thì cần làm gì ạ
       - Xin phép 
+      - cho em hỏi em muốn hoãn thi
       - cách hoãn thi là như thế nào
       - em bị ốm không thể thi được muốn hoãn thi thì phải làm sao ạ
+      - em có việc bận muốn hoãn thi
       - em muốn dời lịch
+      - em muốn hoãn thi được ki ạ
       - em xin hoãn thi được không
       - làm sao để xin được hoãn thi 1 cách dễ dàng
 
   - intent: thanks
     examples: |
+      - Bai
       - Cám ơn ad nhiều ạaaa
+      - Cảm ơn
       - Cảm ơn ad nhé!
       - Em cảm ơn ad
       - End chat.
@@ -340,6 +427,7 @@ nlu:
       - Then kiu ad nhìu <3
       - dạ em cám ơn ạ
       - tks
+      - tks ad
       - Đa tạ 
 
   - intent: ask_exam_venue
@@ -347,8 +435,10 @@ nlu:
       - Chi nhánh cuộc thi VSTEP là ở đâu?
       - Cho em xin địa điểm tổ chức thi với nhé
       - Dạ địa điểm thi là ở đâu vậy ạ
+      - Hế lo, thi ở đâu nhỉ
       - Kỳ thi sẽ được tổ chức ở đâu ạ?
       - Mình thi ở chỗ nào tar
+      - Nơi thi diễn ra ở đâu
       - Thi chỗ nào
       - em sẽ thi ở quận mấy ạ
       - thi tại đâu ạ
@@ -356,12 +446,15 @@ nlu:
       - Địa điểm thi ở đâu vậy ạ?
       - Địa điểm tổ chức cuộc thi ở đâu vậy ạ?
       - địa điểm thi kv hcm
+      - địa điểm thi là ở đâu ạ
+      - Ở nước ngoài có thi onl được không
 
   - intent: ask_late_graduate_discount
     examples: |
       - Bên mình có discount cho sinh viên tốt nghiệp trễ khum ạ
       - Cho hỏi, em tốt nghiệp trễ thì có discount j ko ạ
       - Có hỗ trợ cho người tốt nghiệp không đúng hạn không
+      - Cựu sinh viên hoặc nghiên cứu sinh thì có miễn phí không
       - Dạ nếu em tốt nghiệp trễ thì vẫn được giảm lệ phí không ạ?
       - Dạ sinh viên tốt nghiệp trễ có được giảm phí thi không ạ
       - E thuộc diện tốt nghiệp trễ thì có được support gì về học phí ko ạ
@@ -369,26 +462,34 @@ nlu:
       - Những loại sinh viên nào được giảm lệ phí khi thi VSTEP?
       - Nếu em tốt nghiệp muộn thì có được giảm lệ phí thi không ạ?
       - Sinh viên tốt nghiệp muộn có được giảm lệ phí thi không ạ?
+      - Sinh viên tốt nghiệp trễ có được giảm phí gì không ạ?
+      - cho em hỏi em tốt nghiệp trễ thì có dc giảm giá ko ạ
       - sinh viên tốt nghiệp trễ hạn có được đăng ký thi với mức 1tr2 không ạ
+      - tốt nghiệp trễ thì có đc giảm giá k ạ
       - ưu đãi cho sv năm 5
 
   - intent: ask_competition_registration_process
     examples: |
       - Cách thức đăng kí thi như nào ạ
       - Cách đăng ký cuộc thi VSTEP là như thế nào?
+      - Cần những thông tin gì 
       - Dạ e muốn được hỗ trợ đăng kí thi ạ
       - Em có thể đăng ký theo cách nào ạ
       - Em cần làm gì để đăng ký thi ạ?
       - Em muốn đăng ký thi VSTEP thì cần làm gì ạ
       - Em muốn đăng ký thi thì cần phải làm gì vậy ad ơi
       - Em muốn đăng ký thi thì phải làm sao ạ?
+      - Hế lo, how can i đăng ký thi nhỉ?
+      - Làm sao để đăng ký thi
       - Mình đk bằng cách nào ạ
       - cho em hỏi các bước đăng ký thi 
       - cách đk thi
+      - có quy trình đky thi k ạ
       - Đăng kí thi như mô nợ
 
   - intent: receive_certification
     examples: |
+      - Có thể cầm thẻ sinh viên thay cho cccd được không
       - Cần j để lấy đc chứng chỉ
       - Em có cần cầm theo giấy tờ gì khi đi nhận chứng chỉ không ạ?
       - Em nên có cần mang theo căn cước công dân khi nhận cert dc hk ak
@@ -396,10 +497,12 @@ nlu:
       - Khi đi nhận chứng chỉ cần mang theo gì ạ
       - Khi đi nhận chứng chỉ, em có cần mang theo biên lai không ạ?
       - Lúc nhận chứng chỉ em nên cầm theo giấy tờ gì ko ạ
+      - Lưu ý gì khi đi nhận chứng chỉ ạ
       - Sau khi hoàn thành cuộc thi, làm sao để tôi có thể nhận chứng chỉ?
       - em cần mang CCCD thôi hay cả biên lai để nhận chứng chỉ ạ
       - khi nhận chứng chỉ em cần mang theo những gì ạ
       - khi nhận chứng chỉ, mình cần mang theo gì ko ad
+      - nhận chứng chỉ nên mang theo j k ạ
 
   - intent: ask_competition_information
     examples: |
@@ -409,10 +512,13 @@ nlu:
       - Em có thể xem sbd và số phòng ở đâu ạ
       - Em muốn xem thông tin về số báo danh và phòng thi thì làm sao ạ?
       - Em đã đăng ký thi rồi thì xem thông tin về số báo danh và phòng thi ở đâu ạ?
+      - Hãy cho tôi biết làm sao để xem được số báo danh phòng thoi
       - Mình muốn biết thông tin dự thi thì cần xem ở đâu ạ
       - Mình xem số báo danh ở đâu vậy ạ
       - Sao khi đăng ký thì thông tin số báo danh, phòng thi nhận qua đâu ạ?
+      - Tìm phòng + sbd ở đâu
       - Xem sbd ở đâu
+      - e xem info phòng thi ở đâu ạ
       - thông tin địa điểm thi của sbd 123456
       - xem số báo danh và phòng thi ở đâu ạ
 
@@ -424,25 +530,31 @@ nlu:
       - Em muốn đăng ký thi A2 thì phải làm sao? Khi nào có kỳ thi A2 tiếp theo ạ?
       - Hình thức đăng ký thi A2 như thế nào vậy ad ơi, ad có thể cung cấp em thời gian thi A2 không ạ?
       - Khi nào có lịch thi A2 vậy ạ em muốn đăng ký để thi ạ
+      - Làm sao để đăng ký thi A2
       - Thời gian tổ chức thi A2 như nào vậy ạ
       - em có thể đăng ký ở đâu và thời gian thi rơi vào tháng mấy ạ
       - em muốn đăng ký thi A2
       - em muốn đăng ký thi A2 thì phải làm thế nào? Khi nào có kỳ thi A2 ạ?
       - em đã hoàn thành xong a1, em có nên thi a2 khôgn
+      - làm sao để đky thi A2 v ạ
       - Đăng kí thi A2 ở đâu ạ, khi nào vậy ạ
+      - Đăng ký thi
 
   - intent: ask_receive_lower_certificate
     examples: |
       - B1 rớt thì sao
       - Cho em hỏi dưới B1 là Bậc A phải không ạ
       - Cho em hỏi, nếu có trường hợp không đậu B1, thì có được nhận các chứng chỉ bậc thấp hơn đối với số điểm nhận được không ạ
+      - Có Nguyện vọng 2 không
       - Dạ nếu đăng kí thi B1 mà rớt thì có được cấp bằng thấp hơn không ạ
+      - Nếu em không đủ điểm B1 nhưng đủ A2 thì có được cấp bằng A2 không?
       - Nếu em không đủ điểm đạt B1 thì em có được cấp bằng thấp hơn ko ạ
       - Nếu em thi B1 mà không đủ điểm thì có được cấp chứng chỉ A1 hoặc A2 không ạ?
       - Nếu em thi B1 mà không đủ điểm thì có được cấp chứng chỉ A1, A2 không ạ?
       - Nếu mà e thi rớt bằng B1 nhma đủ điểm A1 A2 thì có được cấp chứng chỉ A1 A2 ko ạ
       - Nếu như không đủ mốc điểm cho bậc cao hơn thì tôi có được điểm cho các bậc thấp hơn không?
       - cho em hỏi nếu em đăng kí thi b1 mà rớt thì có đc cấp chứng chỉ ko ạ
+      - nếu thi rớt b1 thì vẫn đc cấp chứng chỉ phải k ạ?
       - trường có cấp chứng chỉ cho bậc A1,A2 không ạ
       - Điểm bằng B1 và A1, A2 có liên quan nhau không ạ
 
@@ -451,14 +563,17 @@ nlu:
       - Bên mình ảnh thẻ có yêu cầu gì ko ạ
       - Cho em hỏi ảnh thẻ nền đen có được chấp nhận không ạ?
       - Chịp ảnh nên chọn nền nào được vậy ạ
+      - Có qui định gì về ảnh thẻ không?
       - E dùng ảnh nền trắng được không ạ
       - Em phải chụp nền trắng hay đen hay không bắt buộc màu nền ạ
       - Điều kiện nộp ảnh thẻ cuộc thi VSTEP?
       - Ảnh hồ sơ cần nộp có yêu cầu nền màu gì không ạ?
       - Ảnh thẻ của em nền đen có được chấp nhận không ạ?
+      - Ảnh thẻ màu gì
       - Ảnh thẻ như nào là ok vậy
       - Ảnh thẻ yêu cầu nền như thế nào ạ?
       - ảnh thẻ cần chụp như thế nào ạ
+      - ảnh thẻ của em nền màu khác đc k ạ
       - ảnh thẻ em nền xanh ổn ko ạ
 
   - intent: ask_recheck_exam_result
@@ -467,35 +582,49 @@ nlu:
       - Bao giờ phúc khảo mới có kết quả, lâu quá đi thôi
       - Cho em hỏi cách để tra cứu điểm phúc khảo ?
       - Cho em hỏi làm sao để xem điểm phúc khảo vậy ạ
+      - Cách phúc khảo như thế nào 
       - Dạ nếu đăng ký phúc khảo thì khoảng bao lâu sẽ có kết quả ạ
       - Em có thể tra cứu điểm phúc khảo như thế nào?
+      - Em có thể xem kết quả phúc khảo ở đâu ạ
       - Em muốn xem kết quả phúc khảo ạ
+      - Em xem điểm phúc khảo như thế nào ạ?
       - Khi nào có kết quả phúc khảo ạ
       - Khi nào có kết quả phúc khảo ạ?
       - Khi nào thì phúc khảo có kết quả ạ
       - Kết quả phúc khảo sẽ có khi nào ạ?
       - Làm cách nào để em có thể tra cứu điểm phúc khảo được ạ?
+      - Làm sao xem dc điểm phúc khảo
       - Làm sao để phúc khảo ạ?
       - Làm sao để tra cứu kết quả phúc khảo ạ?
+      - Làm sao để xem kết quả phúc khảo ạ?
+      - MÌnh tra điểm phúc khảo sao ạ
       - Mình xem điểm phúc khảo ở đâu vậy ạ
+      - Nếu mình muốn phúc khảo thì phải làm s?
       - Nếu vào trường hợp đăng ký phúc khảo, thì em sẽ phải đợi bao lâu để có kết quả ạ?
       - Phương thức tra cứu điểm phúc khảo như thế nao?
+      - Sau bao lâu thì có kết quả phúc khảo vậy ạ?
+      - Thời gian phúc khảo
       - Thời gian phúc khảo kết quả thi VSTEP?
       - Thời gian phúc khảo lâu không ạ
+      - Tra điểm thi như thế nào vậy ?
       - Xem điểm phúc khảo ở đâu ạ
       - Xem điểm pk ở đâu ạ
+      - bao giờ có kqua phúc khảo ạ
       - em cần xem kết quả phúc khảo thì phải xem ở đâu ạ
       - em muốn xem phúc khảo thì xem ở đâu ạ?
       - khi nào có kq phúc khảo
       - thời gian có kết quả phúc khảo tầm bao lâu ạ
+      - tra cứu kết quả phúc khảo
 
   - intent: ask_VSTEP_hard
     examples: |
       - Bài thi có đơn giản không ạ
       - Dạ thi VSTEP có khó lắm không ạ?
       - Mặt bằng chung của Vstep phần trăm đậu cao không ạ?
+      - So sánh vstep với các cuộc thi tương tự
       - So sánh độ khó của cuộc thi VSTEP?
       - Thi VSTEP có dễ đậu không vậy ạ?
+      - Thi cái này có khó không?
       - Thi vstep khó không ạ
       - VSTEP có dễ đậu không ạ?
       - VSTEP thi có dễ khum ạ
@@ -503,6 +632,7 @@ nlu:
       - mình ngu tiếng anh. xác suất mình rớt là bao nhiu v
       - thi VSTEP có dễ đậu không ạ
       - tỉ lệ đậu hằng năm là bao nhiêu ạ
+      - vstep dễ pass k ạ
 
   - intent: receive_certification+wrong_information
     examples: |
@@ -511,10 +641,14 @@ nlu:
       - Cách để sửa thông tin bị sai trên chứng chỉ VSTEP?
       - Có sửa đc tên trên chứng chỉ ko ạ
       - Em cần sửa thông tin cá nhân trong chứng chỉ ạ
+      - Hế lô, my certificate has wrong information
+      - Làm sao để cập nhật thông tin chứng chỉ khi bị sai
       - Nếu chứng chỉ bị in sai tên thì phải làm sao ạ
       - Nếu phát hiện chứng chỉ bị in sai thông tin thì phải xử lý thế nào ạ?
       - Sai thông tin trên chứng chỉ thì làm sao ạ
+      - Thông tin sai được tìm thấy khi nhận chứng chỉ
       - Trong trường hợp sai thông tin trên chứng chỉ thì em cần làm gì để được giải quyết ạ
+      - chứng chỉ sai info thì e phải làm sao ạ
       - thông tin trên chứng chỉ của em không đúng thì làm sao ạ
       - tên em in trong chứng chỉ bị sai chữ Nhật thành Nhựt, bây giờ em làm sao ạ
       - Ý là lỡ đến lúc nhận chứng chỉ, thông tin trên đó bị sai thì sao ạ?
@@ -522,116 +656,173 @@ nlu:
   - intent: has_certificate+ask_certificate+ask_refund
     examples: |
       - Có hay không? Việc hoàn trả lệ phí thi khi bận công việc đột xuất và không thể tham gia cuộc thi VSTEP?
+      - Dạ cho em hỏi không nếu em không thi thì có được hoàn tiền không ạ
       - Dạ e đăng kí thi rồi nhưng không đi thi thì có được hoàn tiền không ạ
       - Dạ trong trường hợp đã có danh sách thi nhưng vướng việc nên không đến thi được thì em có được hỗ trợ hoàn phí ko ạ?
       - Em có thắc mắc là trong trường hợp em có tên trong danh sách thi, nhưng đến đấy có việc đột xuất, không đi thi được thì có được hoàn lại lệ phí thi không ạ?
       - Em không dự thi được thì có hỗ trợ hoàn phí không ạ
       - Em không đi thi thì có dc chả lại tiền hông ạ
+      - Hoàn tiền khi vắng thi
       - Nhỡ không thi được thì hoàn tiền không
       - Nếu em không thể đi thi sau khi đã có danh sách thi thì có được hoàn lại tiền không ạ?
       - Nếu em không đi thi được sau khi đã có danh sách thi thì có được hoàn lại tiền không ạ?
       - Nếu đến ngày thi mà e ko đi đc thi có đc hoàn lệ phí ko ạ
       - em ko đi thi đc, trung tâm có hỗ trợ hoàn lại tiền ko ạ
       - em muốn hoàn lại tiền do không tham gia thi có được không ạ
+      - ví dụ e k đi thi đc thì có đc hoàn tiền lại k ạ
 
   - intent: ask_working_time
     examples: |
       - Bên mình mở cửa mấy giờ
+      - Cho em hỏi giờ làm việc của bên mình ạ?
       - Cho em hỏi giờ làm việc để đăng ký thi là khi nào ạ?
+      - Cho em hỏi giờ đăng ký 
       - Cho em hỏi thời gian làm việc của phòng hỗ trợ ạ
       - Cho em hỏi trung tâm mình làm việc vào những giờ nào vậy?
+      - Chừng nào cơ sở đăng ký thi mở cửa để đăng ký vậy anh/chị ?
       - Em liên hệ với trung tâm bằng cách nào ?
+      - Em muốn hỏi về thời gian đăng kí thi
       - Hệ thống làm vc giờ hc hay 24/7 ạ
+      - Mình làm việc lúc mấy giờ để đăng ký được ạ
+      - Mình đăng ký thi lúc nào ạ
       - Mấy giờ đăng kí được ạ?
+      - Thoi han dki
       - Thời gian làm việc của bên minhg như nào nhỉ?
+      - Thời gian làm việc của mình mỗi ngày là như thế nào ạ?
       - Thời gian làm việc của phòng đăng ký như thế nào ạ
       - Thời gian làm việc như thế nào ạ
       - Thời gian đăng ký là bao giờ ạ
       - Thời gian để thí sinh đăng ký dự thi là khi nào?
+      - giờ mở cửa
       - lúc nào là đăng kí được ạ?
 
   - intent: ask_select_exam_date
     examples: |
       - Cho em hỏi em có thể chọn ngày thi không ạ?
       - Có thể lựa ngày thi không ạ
+      - Có được chọn ngày để thi kh?
       - Dạ cho em hỏi nếu có 2 ngày thi thì thí sinh có được quyền chọn ngày thi khôn ạ?
       - Dạ mình có được chọn ngày thi không hay ngày thi là cố định ạ
       - Em chọn ngày thi được không ạ?
+      - Em có thể chọn 1 trong 2 ngày thi không ạ?
       - Em có thể chọn ngày thi trong danh sách thông báo hay không?
       - Em có thể chọn ngày thi được không ạ?
       - Em có thể chọn ngày thi được không?
       - Em có thể lựa chọn ngày thi không hay thi theo lịch của trường ?
+      - Em có thể được chọn ngày thi không ạ?
       - Mình chọn thi ngày nào cx dc ạ
+      - Mình có thể tự fp chọn ngày và h thi hk
       - Mình có được chọn ngày thi ko ạ
+      - Mình thấy thông báo để 2 ngày thi, z mình có đc chọn ngày thi ko?
+      - Mình được tự chọn ngày thi không ạ
       - Theo thông báo thì có 2 ngày thi, không biết là em có thể chọn ngày thi không ạ
+      - Thi ngày nào cũng đc trong 2 ngày thi phải không?
+      - Thi trong bao nhiêu đợt một năm 
       - em được chọn 1 trong 2 ngày thi kh ạ?
+      - lựa chọn lịch thi
       - ngày thi hoàn toàn do trung tâm sắp xếp hay em được chọn ạ
 
   - intent: ask_exam_registration_docs
     examples: |
+      - Cho em hỏi hồ sơ đăng ký thi bao gồm những gì vậy ạ?
       - Cho em hỏi muốn đăng kí thi vstep cần làm gì?
       - Cho em hỏi để đăng ký thi thì cần chuẩn bị những gì ạ?
       - Các bước đăng ký thi như thế nào ạ
+      - Em cần chuẩn bị gì để đăng ký dự thi ạ?
       - Em cần chuẩn bị gì để đăng ký thi ạ
       - Hồ sơ đăng kí có những gì ạ?
       - Hồ sơ đăng kí minh cần những gì
       - Hồ sơ đăng kí thi cần những gì ạ
       - Hồ sơ đăng ký bao gồm những gì?
+      - Hồ sơ đăng ký có cần ảnh thẻ không 
       - Hồ sơ đăng ký thi cần chuẩn bị những gì vậy anh/chị?
+      - Hồ sơ đăng ký yêu cầu gì ạ?
+      - Khi dang ki du thi can chuan bi nhung ho sogi
       - Khi đăng ký thi em cần chuẩn bị gì ạ ?
+      - Làm hồ sơ thi cần những gì ạ?
+      - cho em hỏi đăng ký mình có cần đem giấy tờ gì không ạ
+      - cách đăng ký thi chứng chỉ 
       - e cần những gì khi đk thi ạ
       - hồ sơ đăng kí bao gồm những gì ạ?
       - Đăng ký thi thì mình cần chuẩn bị những hồ sơ gì ạ
+      - Đăng ký thì cần những gì ?
       - Để đăng ký thi thì cần những giấy tờ gì ạ?
 
   - intent: competition_registration_process_far
     examples: |
       - Bên mình có hỗ trợ cho việc đk onl không
       - Bên mình có hỗ trợ đăng ký online không ạ do nhà em hơi xa địa điểm đăng ký
+      - Có cách nào để đăng ký mà ko cần tới cơ sở không ?
+      - Có mở đăng ký online ko ạ?
       - Có thể đăng ký online không ạ
+      - Có đăng ký ôn đc không 
+      - Có được đăng ký thi online không ạ?
+      - Em có thể đăng ký thi online được không ạ?
+      - Em muốn đăng kí online được không, hay phải đăng kí trực tiếp?
       - Em ở ngoại thành có hỗ trợ đk online k ad
       - Em ở nhà xa, em có thể nhờ người thân đăng ký hộ được không ?
       - Em ở xa nên đăng kí thi onl được không ạ?
+      - Minh dăng kí từ xa được không ạ
       - Mình đang ở xa, có cách nào để mình đăng ký thi hay không?
       - Nhà em ở xa không lên trung tâm đăng ký được thì có cách khác không ạ
       - Nhà em ở xa thì em có thể đăng ký thi online được không ạ?
       - Nhà em ở xa thì em có đăng ký online được hong ạ
       - Nếu em ở xa thì đăng ký thi như thế nào ạ?
+      - Nếu kh thể trực tiếp dki thì có thể ho tro dki onl dc kh
       - Nếu nhà em ở xa thì em có thể đăng ký thi online được không ạ?
       - Thí sinh ở xa có thể đăng ký online không?
       - nhà em ở xa thì có cách nào đăng kí được không?
+      - đăng ký thi online
 
   - intent: receive_certification+intercede_retrieval
     examples: |
+      - Có bắt buộc phải chính mình nhận bằng không 
+      - Có thể nhờ người nhận giùm chứng chỉ không ạ
       - Có thể nhờ người qurn nhận chứng chỉ dùm được không?
+      - Có thể nhờ người thân nhận dùm chứng chỉ được ko, nếu được thì cần mang theo gì để người thân nhận giùm được ?
       - Em có thể nhờ người khác nhận chứng chỉ giùm được không ạ? Cần những giấy tờ gì để nhận giùm?
       - Em có thể nhờ người khác nhận chứng chỉ giùm được không? Cần những giấy tờ gì để nhận giùm?
       - Em có thể nhờ người khác nhận chứng chỉ giùm được không? Nếu được thì cần chuẩn bị giấy tờ gì?
       - Em có thể nhờ người khác nhận chứng chỉ hộ được hong ạ
+      - Em có thể nhờ người quen nhận giùm được không, và khi đi thì cần mang theo giấy tờ gì?
+      - Em có thể nhờ người thân nhận chứng chỉ hộ được không, nếu được thì người thân cần mang theo giấy tờ gì?
       - Em có thể nhờ người thân nhận dùm chứng chỉ được không ạ và như vậy sẽ cần đem gì để xác nhận ạ
       - Em muốn nhờ người nhà nhận hộ chứng chỉ có đc ko ạ
       - Em nhờ người khác nhận dùm được không ạ?
       - Em nhờ người nhận thay đc k ạ
       - Em nhờ người quen nhận giúp được hông ạ
       - Khi có kết quả thi thí sinh có thể nhờ người nhận thay được không?
+      - Lúc nhận chứng chỉ có bắt buộc tự lấy ko ạ?
       - Nhận giùm chứng chỉ có được không?
+      - Nếu có việc bạn có thể nhờ người khác nhan dc hk
+      - Nếu em muốn nhận dùm người nhà e thì e cần làm gì?
       - Trường hợp em không nhận được, em có thể nhờ người khác nhận cho em được không ?
       - em nhờ bạn nhận giùm được không?
+      - nhận hộ chứng chỉ
 
   - intent: ask_competition_result_process
     examples: |
       - Cho em hỏi sau khi thi xong thí sinh sẽ xem kết quả ở đâu?
+      - Coi điểm ở trang web nào vậy ?
+      - Cách tra cứu điểm thi 
       - Có những cách thức nào để xem điểm thi của mình?
+      - Em có thể xem điểm thi bằng cách nào ạ?
+      - Em có thể xem điểm thi ở đâu v ạ
       - Em muốn biết điểm thi của mình thì phải làm sao ạ?
       - Em muốn biết điểm thi thì xem ở đâu ạ?
+      - Hình thức trả kết quả
       - Làm thế nào để em biết được điểm thi ?
+      - Mình muốn xem điểm thì xem ở đâu?
       - Mình xem điểm thi ở đâu vậy ạ
       - Mình xem điểm thi ở đâu ấy ạ
       - Tra điểm thi ở đâu
+      - Xem kết quả thi như thế nào ạ?
       - Xem điểm thi như thế nào ạ
       - Xem điểm thi ở đâu ạ?
       - Xem điểm ở đâu ạ
       - em coi điểm ở đâu đc ạ
+      - kết quả thi tiếng Anh
+      - mình coi điểm như thế nào ạ
       - xem điểm ntn ạ?
 
   - intent: ask_retest_fee
@@ -643,30 +834,48 @@ nlu:
       - Em thi lại thì có được giảm phí thi không
       - Nếu em thi lại thì có được giảm lệ phí thi không ạ
       - Nếu em thi lại thì có được nhận khuyến mãi hay giảm giá không ạ
+      - Nếu em thi lần 2 thì có nhận được ưu đãi nào về giá không ạ?
       - Nếu em đăng ký thi lại lần hai thì có được giảm lệ phí không ạ?
+      - Nếu kh đậu lần 1 có dc giảm phí cho lần thi lại kh
       - Nếu mình đăng ký thi lại thì có được giảm giá hay không?
+      - Nếu thi lại lần 2 thì có được giảm lệ phí thi kh
+      - Nếu đăng kí thi lại thì mình có được giảm giá không?
+      - Thi lại có giảm giá không 
       - Thi lại có được giảm giá tiền không anh/chị?
       - Thi lại lần sau có được hỗ trợ về chi phí không
       - Thi lại thì mình có được giảm lệ phí thi ko ạ
       - Thi lần 2 có được giảm giá không ạ?
+      - Thí dụ em thi rớt thì khi đăng ký thi lần 2 có được giảm giá không?
       - em thi lại thì có chính sách giảm giá kh ạ?
+      - khuyến mãi thi nhiều lần
+      - mình thi lại có giảm giá thành không ạ
+      - Đăng ký thi lại lần 2 thì có được giảm giá ko ạ?
 
   - intent: ask_receive_higher_certificate
     examples: |
       -  cho em hỏi nếu em đăng kí thi b1 mà em thi dc b2 thì dc cấp chứng chỉ nào ạ?
       - Cho em hỏi nếu em chọn thi B1 nhưng điểm em đạt được B2 thì em được cấp chứng chỉ nào ?
+      - Cho em hỏi nếu em đăng kí thi B1 thi đc B2 thì đc cấp B2 ko?
       - Cho em hỏi nếu thí sinh đăng ký b1 mà điểm cao tương đương b2 thì được cấp chứng chỉ nao?
+      - Câu này xàm quá ko đặt câu hỏi đc?
       - Dạ cho em hỏi nếu em thi bậc B1 được điểm cao thì có được cấp chứng chỉ B2 hong ạ
       - Em đăng ký B1 và đạt đủ điểm cho chứng chỉ B2, em sẽ nhận được chứng chỉ nào?
+      - Lỡ đăng ký B1 mà được điểm B2 luôn thì có được cấp chứng chỉ B2 kkhông ạ
+      - Neu dki bac 1 mà thi kết quả dc bac 2 thi dc cấp chung chi nào
+      - Nếu bậc B1 em thi được điểm cao thì có cấp chứng chỉ B2 kh?
+      - Nếu em đki thi b1 nhưng đạt được mức điểm b2 thì em đc cấp chứng chỉ nào ạ
       - Nếu em đăng kí thi B1 mà em thi dc B2 thì dc cấp chứng chỉ nào ạ
       - Nếu em đăng ký thi B1 mà đc điểm cao thì có xem xét cấp chứng chỉ B2 được ko ạ
       - Nếu em đăng ký thi B1 mà điểm cao thì có được cấp chứng chỉ B2 không ạ?
       - Nếu em đăng ký thi B1 mà đạt điểm B2 thì được cấp chứng chỉ nào ạ?
       - Nếu em đăng ký thi B1 mà đạt điểm cao hơn thì có được cấp chứng chỉ B2 không ạ?
+      - Nếu em đăng ký thi B1 nhưng đạt đủ điểm đậu B2 thì em có nhận được chứng chỉ B2 không ạ?
       - Nếu đăng kí thi B1 mà điểm đủ đậu B2 thì xin nhận chứng chỉ B2 được hay không
       - Nếu đăng ký thi B1 mà kết quả cap thì coa được cấp thẳng chứng chỉ b2 không?
       - vậy nếu em đăng kí thi b1 mà em thi dc b2 thì dc cấp chứng chỉ nào ạ
       - Điểm sẽ xét đạt bậc nào hay phải thi riêng cho mỗi bậc ạ
+      - Đăng ký thi bậc B1 cao thì có lợi như thế nào 
+      - điểm cao b1 thi có được nâng bằng lên b2 không
 
   - intent: ask_certification_due_date
     examples: |
@@ -675,13 +884,21 @@ nlu:
       - Chứng chỉ có giới hạn hiẹu lực không ạ
       - Chứng chỉ có hạn 2 năm hay bao lâu ạ
       - Chứng chỉ có thời hạn bao lâu ạ?
+      - Chứng chỉ có thời hạn trong bao lâu?
+      - Chứng chỉ này có giá trị trong mấy năm ?
+      - Chứng chỉ này mình xài trong bao lâu được ạ
       - Chứng chỉ vstep có thời hạn bao lâu?
+      - Có giới hạn thời gian sử dụng chứng chỉ không?
       - Hiệu lực của chứng chỉ là bao lâu ạ
+      - Sau khi nhan chung chi thi thoi gian su dung toi da la bao lau
+      - Thời gia liệu có phải Vĩnh viễn không 
       - Thời hạn chứng chỉ là bao lâu ạ?
       - Thời hạn của chứng chỉ là bao lâu ạ
+      - Thời hạn của chứng chỉ là bao lâu ạ?
       - Thời hạn của chứng chỉ là bao lâu?
       - Thời hạn của chứng chỉ là mấy năm ấy ạ
       - cho tôi hỏi là chứng chỉ này có thời hạn là bao lâu
+      - thời hạn chứng chỉ
       - thời hạn chứng chỉ là bnh v ạ
 
   - intent: ask_export_invoice
@@ -689,60 +906,91 @@ nlu:
       - Bên mình có xuất hóa đơn cho lệ phí thi không ạ
       - Cho em hỏi lệ phí thi có xuất hóa đơn không ạ?
       - Có hóa đơn lệ phí không ạ?
+      - Có xuất hoá đơn lúc mình thanh toán lệ phí thi không?
+      - Có xuất hóa đơn khi đóng lệ phí thi không
       - Có xuất hóa đơn lệ phí thi không
+      - Có xuất hóa đơn phí thi cho en được ko?
       - Em có thể xuất hóa đơn của lệ phí thi được không ?
       - Hóa đơn có không ạ
       - Lệ phí thi có xuất hoá đơn không ạ
+      - Lệ phí thi có xuất hoá đơn không ạ?
       - Lệ phí thi có xuất hóa đơn không ạ?
       - Lệ phí thi có được xuất hoá đơn không?
+      - Lệ phí thi onl thì xuất hoá đơn như thế nào 
+      - Mình có xuất hóa đơn lệ phí không ạ
+      - Nộp lệ phí thi có nhận dc hóa don
+      - Sau khi nộp lệ phí thì có xuất hóa đơn không ạ?
       - Sau khi đóng phí thì bên mình có xuất hoá đơn không ạ
       - Trung tâm mình có xuất hóa đơn không ạ?
       - em có nhận được hoá đơn lệ phí không ạ?
       - em cần đơn đóng lệ phí để công ty hỗ trợ thì nhận lúc đóng luôn hay cần yêu cầu xuất ạ
+      - hóa đơn thanh toán như nào
       - Đóng lệ phí có được đóng hóa đơn không
 
   - intent: ask_lost_certificate
     examples: |
+      - Cho em hỏi lỡ làm mất chứng chỉ khi chưa hết hạn thì có đc cấp lại ko ạ? Có thì làm thế nào ạ?
+      - Cần làm gì để lấy lại bằng đã mất 
       - Em bị mất chứng chỉ thì xin cấp lại được không ạ
       - Em lỡ làm mất chứng chỉ rồi thì có cách nào cấp lại được hong ạ
       - Em lỡ làm mất chứng chỉ rồi, giờ xin cấp lại như thế nào ạ?
+      - Em lỡ làm mất thì có được cấp lại chứng chỉ ko và làm như thế nào ạ
+      - H em mất chứng chỉ thì có được cấp lại cái mới không? Cấp lại thì cần làm thủ tục ntn 
       - Lỡ làm mất thì có được cấp lại chứng chỉ không ạ?
       - Lỡ làm mất tín chỉ, mình có được xin cấp lại không?
       - Lỡ mất cert thì có được cấp lại ko
       - Mất chứng chỉ có thể cấp lại được không
       - Nếu em làm mất chứng chỉ thì có thể xin cấp lại không ạ?
+      - Nếu em làm mất chứng chỉ thì em có được cấp lại không ạ?
       - Nếu em lỡ làm mất chứng chỉ thì có được xin cấp lại hong ạ
       - Nếu em mất chứng chỉ thì có thể xin cấp lại không ạ?
+      - Nếu làm mất cc có thể xin cấp lại kh
+      - Nếu mình làm mất chứng chỉ thì có đc cấp lại kh?
       - Nếu thí sinh mất hoặc thất lạc thì có được cấp lại chứng chỉ không?
       - Trường hợp em làm mất chứng chỉ, em có thể nhờ trung tâm cấp lại được không ạ ?
       - em bị mất chứng chỉ thì cấp lại như thế nào ạ
       - em mới làm mất có cách nào để được cấp lại kh ạ
+      - mình mất chứng chỉ có sao không ạ, có được cấp lại không ạ
+      - xin cấp lại chứng chỉ
 
   - intent: ask_when_to_get_certificate
     examples: |
       - Bao lâu thì em nhận được bằng
+      - Bao lâu thì mình đc nhận chứng chỉ ạ?
       - Bao lâu thì nhận được chứng chỉ
       - Cho em hỏi khi nào em nhận được chứng chỉ ạ?
+      - Chừng nào em đi nhận chứng chỉ được ?
       - Dạ cho em hỏi khi có kết quả thi thì bao lâu được nhận chứng chỉ ạ?
+      - Em cần chờ bao lâu thì nhận được bằng ạ?
+      - Em thi xong thì bao lâu nhận đc bằng ạ
       - Khi nào có kết quả và nhận bằng ạ
       - Khi nào em nhận được chứng chỉ ạ?
       - Khi nào thì mình nhận được chứng chỉ ạ
+      - Sau khi thi bao lâu thì được nhận tiền 
+      - Sau khi thi bao nhiêu ngày em sẽ nhận được chứng chỉ ạ?
+      - Sau khi thi thì bao lâu có chúng chỉ
       - Sau khi thi thì khoảng bao lâu em nhận được bằng ấy ạ
       - Sau khi thi xong khi nào em nhận được bằng ạ ?
       - Thi xong bao giờ có bằng ạ?
+      - Thi xong thì khi nào có bằng ạ
       - Thời gian phát chứng chỉ là bao giờ ạ
       - Thời gian phát chứng chỉ là khi nào vậy ạ ?
       - bao lâu là sẽ có bằng ạ?
       - khi nào em sẽ đc nhận chứng chỉ ạ
+      - thời gian nhận kết quả
 
   - intent: ask_contact
     examples: |
+      - EM liên Hệ ai để hỏi về kì thi được ạ
       - Em có thể liên lạc với người phụ trách kì thi như nào ạ
       - Em muốn hỏi thêm về thông tin của chứng chỉ thì liên hệ qua đâu ạ
       - Em muốn hỏi thông tin về kỳ thi thì liên hệ ai ạ?
       - Em muốn hỏi thông tin về kỳ thi thì liên hệ với ai ạ?
       - Liên hệ ai để hỏi thêm thôgn tin đc?
+      - Liên hệ đâu để thêm thông tin ạ
+      - Thông tin liên hệ
       - Thông tin về liên hệ xem ở đâu
+      - còn về các thông tin chi tiết về kỳ thi hay hỗ trợ hotline thì trường mình có không ạ.
       - e có thể lh đâu để hỏi về kỳ thi ạ
 
   - intent: ask_fee_inquiry
@@ -753,7 +1001,11 @@ nlu:
       - Lệ phí thi của cuộc thi này là bao nhiêu
       - Lệ phí thi là bao nhiêu ạ
       - Lệ phí thi là bao nhiêu ạ?
+      - Mình thi bao nhiêu tiền ạ
+      - Thi đóng bao nhiêu tiền ạ
+      - cho em biết thêm chi tiết lệ phí thi kỳ này của mình với.
       - lệ phí thi cho kỳ thi sắp tới vẫn như đợt trước hay sẽ tăng ạ
+      - Đống bao nhiêu tiền để thì
 
   - intent: ask_paper_notarization
     examples: |
@@ -761,35 +1013,48 @@ nlu:
       - CCCD không công chứng có nộp đc k ạ
       - Cho hỏi CCCD có cần phải công chứng không ạ?
       - Có cần công chứng CCCd không
+      - Có cần công chứng cccd không
       - Có cần phải công chứng bản sao CCCD để nộp hồ sơ hong ạ
       - Em có cần công chứng CCCD không ạ?
       - Em cần công chứng giấy tờ tùy thân như CCCD k ạ
+      - Giấy tờ có cần công chứng không ạ
       - Thẻ CCCD cần phải công chứng không ạ?
+      - cho em hỏi giấy tờ tuỳ thân của mình có cần phải đem đi công chứng không.
+      - mình cần CCCD gì không ạ
 
   - intent: ask_practice_papers
     examples: |
       - Có nguồn tham khảo để ôn tập k ạ
+      - Mình có các buổi ôn luyện gì không ạ
       - Trường có lớp ôn luyện nào không ạ
       - Trường có tổ chức các lớp ôn tập hay cung cấp tài liệu ôn thi không ạ?
       - Trường có tổ chức các lớp ôn tập hoặc cung cấp tài liệu ôn thi không ạ?
       - Trường có tổ chức ôn luyện cho sinh viên không ạ?
       - Tài liệu có được cung cấp không
       - Tài liệu ôn thi ở đâu
+      - Tìm tài liệu ôn thi ở đâu ạ
       - trung tâm có cung cấp tài liệu ôn thi không ạ
+      - trường có cung cấp /hỗ trợ ôn luyện hay tài liệu cho thí sinh không.
+      - Ôn thi vstep như thế nào
 
   - intent: ask_competition_result_date
     examples: |
+      - Bao lâu có kết quả sau khi thi ạ
+      - Bao lâu có điểm
       - Chừng nào cod kết quả thi vậy ạ
       - Khi nào có kq ạ
       - Khi nào có kết quả thi ạ?
+      - Khi nào có điểm thi ạ
       - Sau khi thi thì khoảng bao lâu có kết quả thi ạ
       - Sau thi bao lâu thì em có kết quả ạ?
       - bao giờ có kêt quả thi vậy ạ?
       - khoảng bao lâu em nhận được điểm thi ạ
+      - mình có tham dự thi buổi ngày 32/13 mà nay chưa thấy kết quả, kbiet khi nào có kết quả ạ.
       - tuần sau có kết quả thi chưa ạ?
 
   - intent: ask_certification_retrieval_immediately
     examples: |
+      - Bao lâu có chứng chỉ ạ
       - Cho em hỏi em muốn nhận chứng chỉ ngay thì phải làm thế nào? Trường có cấp Giấy xác nhận điểm hoặc Giấy chứng nhận tạm thời không ạ?
       - Chứng chỉ có được cấp ngay hay không hay phải chờ bao lâu?
       - Chứng chỉ nhận ngay trong ngày được không
@@ -797,15 +1062,22 @@ nlu:
       - Em cần giấy xác nhận điểm trong thời gian đợi bằng để nộp cho cơ quan, trung tâm có hỗ trợ k ạ
       - Em muốn nhận chứng chỉ ngay thì phải làm thế nào? Trường có cấp giấy xác nhận điểm hoặc giấy chứng nhận tạm thời không ạ?
       - Mình có cho phép nhận chứng chỉ ngay không ạ, hoặc cấp giấy chứng nhận tạm thời cũng được ạ
+      - Nhận chứng chỉ liền ntn
+      - Thi xong em cần chứng chỉ gấp thì lấy sớm được không ạ
+      - bây giờ mình cần giấy chứng nhận luôn không biết làm như nào, trường hỗ trợ mình với. ,mình vừa thi buổi thứ 3.
 
   - intent: ask_delay
     examples: |
       - Cho e xin dời ngày thi đc k ạ
       - Em có thể dời ngày thi được không ạ?
       - Em muốn dời ngày thi thì có được không ạ?
+      - Làm sao để dời ngày thi
       - Mình có thể xin dời ngày thi được không ạ?
       - Mình có được dời ngày thi hong ạ
       - Ngày thi có dời lại được k?
+      - Nếu có việc đột xuất, em xin dời ngày thi được không ạ
+      - Thay đổi ngày thi ntn
+      - buổi thi tuần sau mình có việc cá nhân không thể tham gia được, trường có thể hỗ trợ mình được không.
       - trung tâm có hỗ trợ dời ngày thi k ạ
       - Đăng kí ngày thi rồi thì có đổi được nữa không
 
@@ -814,21 +1086,29 @@ nlu:
       - Buổi thi sẽ diễn ra trong bao lâu ạ
       - Cho em hỏi mỗi ca thi diễn ra trong bao lâu ạ?
       - Dạ một ca thi bao lâu ạ?
+      - Mình thi bao lâu ạ
       - Mỗi ca thi có thời gian quy định ra sao ạ
       - Mỗi ca thi kèo dài khoảng bao lâu ạ
       - Mỗi ca thi kéo dài trong bao lâu ạ?
       - Mỗi ca thi trong bao lâu
+      - Thi trong bao lâu vậy ạ
       - Thời gian cho mỗi ca thi là bao nhiêu, có được đi vệ sinh trong lúc thi không
+      - Thời gian thi kéo dài bao lâu
+      - thời gian thi của mình là như nào vậy.
 
   - intent: ask_recheck_exam_process
     examples: |
       - Cho em hỏi em muốn phúc khảo bài thi thì phải làm thủ tục gì ạ
+      - Cách phúc khảo 
       - Em muốn phúc khảo bài thi thì phải làm sao ạ
       - Em muốn phúc khảo bài thi thì phải làm sao ạ?
       - Em muốn phúc khảo thì làm thủ tục như nào ạ?
       - Làm sao để phúc khảo điểm hi
       - Nếu muốn phúc khảo thì cần thực hiện những bước gì
+      - Phúc khảo thì mình cần làm những gì ạ
       - Quy trình phúc khảo là gì?
+      - Thủ tục phúc khảo như thế nào ạ
+      - phúc khảo thì như naiò z
       - quy trình phúc khảo gồm những bước nào ạ
 
   - intent: ask_recheck_lower_point
@@ -836,29 +1116,41 @@ nlu:
       - Dạ nếu phúc khảo điểm k cao bằng trc thì s ak
       - Nếu em phúc khảo mà điểm thấp hơn thì có bị hạ điểm không ạ?
       - Nếu phúc khảo không lên được điểm thì em có bị trừ điểm không ạ
+      - Phúc kháo mà điểm không tăng thì có ảnh hưởng kết quả cũ không ạ, có bị hạ điểm không ạ
+      - Phúc khảo bị hạ điểm thì sao ạ
+      - Phúc khảo có bị trừ điểm không ạ
       - Phúc khảo có khả năng bị giảm điểm k ?
+      - nếu điểm phúc khảo không thay đổi theo ý mình thì có thể tiếp tục phúc khảo hay có nhứng phương án nào khác nữa. 
       - thông thường phúc khảo có bị hạ điểm k ạ
       - Điểm phúc khảo có khi nào thấp hơn so với trc đó ko
 
   - intent: ask_wrong_information_when_lookup_id
     examples: |
       - Cho e xin thông tin chuyển khoản lệ phí thi vs ạ
+      - Có chuyển khoản được không
       - Có thể chuyển khoản lệ phí thi đc k
+      - EM  chuyển khoản lệ phí được không ạ
       - Em chuyển khoản lệ phí thi đc ko ạ
       - Em chuyển qua ngân hàng có được không ạ?
       - Em có thể đóng lệ phí thi bằng cách chuyển khoản không ạ?
       - Em có thể đóng tiền thi bằng cách chuyển khoản được không ạ?
       - Em đóng tiền qua hình thức chuyển khoảng đc k ad
+      - Lệ phí chuyển khoản ở đâu
       - Mình cần đóng lệ phí trực tiếp hay chuyển khoản vẫn được
+      - nộp phí thi mình có nhận những phương thức nào, có nhận chuyển khoản không vậy trường? nếu có cho em xin số tài khoản cùng thông tin thanh toán của trường.
 
   - intent: ask_certificate_copy
     examples: |
       - Cho em hỏi em có thể xin thêm bản sao chứng chỉ được không ạ?
       - Cấp bản sao cần thủ tục j k ạ
       - Em muốn xin thêm bản sao chứng chỉ thì phải làm thế nào ạ?
+      - Em muốn xin thêm bản sao của chứng chỉ thì làm như thế nào ạ
       - Em muốn đăng ký nhận thêm bản sao của tín chỉ thì làm như nào ạ?
       - Em muốn được cấp bản sao của chứng chỉ được hong ạ
       - Làm sao để cấp bản sao được
+      - Làm sao để lấy bản sao ạ
       - Muốn nộp chứng chỉ cho nhiều công ty thì phải làm sao
+      - Số lượng Bản sao chứng chỉ
       - em cần cấp bản sao chứng chỉ thì phải làm thủ tục gì ạ
+      - em cần thêm 5 bản sao chứng chỉ để nộp xét tốt nghiệp cho trường, không biết là trường có hỗ trợ thêm bản sao cho thí sinh không.
 

@@ -98,9 +98,17 @@ class Preprocesser(GraphComponent):
         supported_languages = ["vi"]
         return supported_languages
 
+    @staticmethod
+    def get_default_config() -> Dict[Text, Any]:
+        return {
+            "remove_stopwords": False,
+        }
+
     def __init__(
         self,
+        config: Dict[Text, Any],
     ) -> None:
+        self.config = config
         super().__init__()
 
     @classmethod
@@ -111,7 +119,7 @@ class Preprocesser(GraphComponent):
         resource: Resource,
         execution_context: ExecutionContext
     ) -> GraphComponent:
-        print('initialising Preprocesser')
+        print('[Preprocesser] - Init Preprocesser')
 
         with open(abbreviations_file, "r") as f:
             arrs = yaml.safe_load(f)
@@ -119,8 +127,11 @@ class Preprocesser(GraphComponent):
 
         with open(stopword_file, "r") as f:
             cls.stopwords = [word.strip() for word in f]
+        
+        if config.get("remove_stopwords"):
+            print("[Preprocesser] - Remove stopwords turned on")
 
-        return cls()
+        return cls(config)
     
 
     def process_training_data(self, training_data: TrainingData) -> TrainingData:
@@ -160,11 +171,12 @@ class Preprocesser(GraphComponent):
 
         # Tone Normalize
         sentence = VietnameseTextNormalizer.Normalize(sentence)
-
-        # Remove stop words & symbols
-        # sentence = cls.remove_words(sentence, cls.stopwords) #########################
         
         sentence = replace_all(sentence, dict_map)
+
+        # Remove stop words
+        if cls.config.get("remove_stopwords"):
+            sentence = cls.remove_words(sentence, cls.stopwords)
 
         sentence = sentence.strip()
         
