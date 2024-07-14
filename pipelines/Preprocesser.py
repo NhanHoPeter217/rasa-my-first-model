@@ -144,7 +144,7 @@ class Preprocesser(GraphComponent):
             ):
                 print(f"\nPREPROCESS: {TEXT} | {example.get(TEXT)}")
                 
-                self.normalize(example, TEXT)
+                self.normalize(example, TEXT, self.config.get("remove_stopwords"))
                 
                 print(f"OUTPUT: {TEXT} | {example.get(TEXT)}")
         
@@ -154,12 +154,12 @@ class Preprocesser(GraphComponent):
     def process(self, messages: List[Message]) -> List[Message]:
         # Preprocess user input
         for message in messages:
-            self.normalize(message, TEXT)
+            self.normalize(message, TEXT, self.config.get("remove_stopwords"))
 
         return messages
 
     @classmethod
-    def normalize(cls, message: Message, attribute: Text) -> None:
+    def normalize(cls, message: Message, attribute: Text, stopwords: bool) -> None:
         sentence : str = message.get(attribute)
         
         # remove redundant spaces
@@ -177,7 +177,7 @@ class Preprocesser(GraphComponent):
         sentence = replace_all(sentence, dict_map)
 
         # Remove stop words
-        if cls.config.get("remove_stopwords"):
+        if stopwords:
             sentence = cls.remove_words(sentence, cls.stopwords)
 
         sentence = sentence.strip()
