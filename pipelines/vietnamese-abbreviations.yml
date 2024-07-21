@@ -48,3 +48,14 @@
 - value: gì
   shorthands: |
     j
+
+- value: sinh viên
+  shorthands: |
+    sv
+    hssv
+    svien
+    sviên
+
+- value: vậy
+  shorthands: |
+    v

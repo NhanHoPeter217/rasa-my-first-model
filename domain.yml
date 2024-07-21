@@ -40,7 +40,6 @@ intents:
 - ask_condition_certificate
 - ask_exam_shift_time
 - ask_exam_form
-- ask_tackling_when_wrong_info
 - ask_refund_because_of_subjective_absence
 - ask_exam_room
 # - ask

@@ -533,7 +533,7 @@ nlu:
       - hình thức thi của kỳ thi
       - cho em hỏi về hình thức thi
 
-  - intent: ask_tackling_when_wrong_info
+  - intent: ask_wrong_information_when_lookup_id
     examples: |
       - Nếu thông tin bị sai lúc tra cứu số báo danh thì phải làm sao?
       - Tôi phải làm gì nếu thông tin tra cứu bị sai?
@@ -620,13 +620,13 @@ nlu:
       - em làm mất chứng chỉ VSTEP rồi giờ sao ạ?
       - chứng chỉ VSTEP mất thì làm sao ạ?
 
-  - intent: receive_certification+wrong_information
+  - intent: receive_certification+ask_wrong_information_in_certificate
     examples: |
       - Lúc nhận chứng chỉ mới phát hiện sai thông tin thì làm sao?
       - Nhận chứng chỉ mà phát hiện sai thông tin thì sao?
       - Em mới nhận thì thấy chứng chỉ bị sai thông tin ạ, giờ em phải làm sao?
 
-  - intent: wrong_information
+  - intent: ask_wrong_information_in_certificate
     examples: |
       - Chứng chỉ bị sai thông tin thì làm sao?
       - chứng chỉ em in sai tên rồi ạ giờ em làm sao ad ơi?
