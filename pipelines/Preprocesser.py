@@ -102,6 +102,7 @@ class Preprocesser(GraphComponent):
     def get_default_config() -> Dict[Text, Any]:
         return {
             "remove_stopwords": False,
+            "output": False,
         }
 
     def __init__(
@@ -131,7 +132,8 @@ class Preprocesser(GraphComponent):
         with open(stopword_file, "r") as f:
             cls.stopwords = [word.strip() for word in f]
 
-        print("[Preprocesser] - Remove stopwords turned " + ("on" if config.get("remove_stopwords") else "off"))
+        if config.get("output"):
+            print("[Preprocesser] - Remove stopwords turned " + ("on" if config.get("remove_stopwords") else "off"))
 
         return cls(config, model_storage, resource, execution_context)
     
@@ -142,11 +144,13 @@ class Preprocesser(GraphComponent):
                 example.get(TEXT) is not None
                 and not example.get(TEXT) == ""
             ):
-                print(f"\nPREPROCESS: {TEXT} | {example.get(TEXT)}")
+                if self.config.get("output"):
+                    print(f"\nPREPROCESS: {TEXT} | {example.get(TEXT)}")
                 
                 self.normalize(example, TEXT, self.config.get("remove_stopwords"))
                 
-                print(f"OUTPUT: {TEXT} | {example.get(TEXT)}")
+                if self.config.get("output"):
+                    print(f"OUTPUT: {TEXT} | {example.get(TEXT)}")
         
         return training_data
 

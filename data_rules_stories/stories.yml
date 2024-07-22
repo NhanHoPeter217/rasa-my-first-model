@@ -75,29 +75,29 @@ stories:
       - intent: ask_practice_papers
       - action: utter_practice_papers
 
-  - story: ask_certification_retrieval_place
+  - story: ask_receive_certification_place
     steps:
-      - intent: receive_location
-      - action: utter_certification_retrieval_place
+      - intent: receive_certification_place
+      - action: utter_receive_certification_place
 
-  - story: receive_certification
+  - story: receive_certification_docs
     steps:
-      - intent: receive_certification
-      - action: utter_receive_certification
+      - intent: receive_certification_docs
+      - action: utter_receive_certification_docs
 
-  - story: intercede_certification_retrieval
+  - story: Nhận giùm chứng chỉ
     steps:
-      - intent: intercede_retrieval
-      - action: utter_intercede_certification_retrieval
+      - intent: ask_intercede_retrieve_certificate
+      - action: utter_intercede_retrieve_certificate
 
   - story: ask_competition_result_date
     steps:
       - intent: ask_competition_result_date
       - action: utter_competition_result_date
 
-  - story: ask_competition_certification_date
+  - story: ask_when_to_get_certificate
     steps:
-      - intent: ask_competition_certification_date
+      - intent: ask_when_to_get_certificate
       - action: utter_competition_certification_date
 
   - story: ask_competition_information
@@ -110,10 +110,10 @@ stories:
       - intent: ask_competition_result_process
       - action: utter_competition_result_process
 
-  - story: ask_certification_retrieval_immediately
+  - story: Nhận chứng chỉ ngay lập tức
     steps:
-      - intent: receive_immediately
-      - action: utter_certification_retrieval_immediately
+      - intent: receive_certification_immediately
+      - action: utter_receive_certification_immediately
 
   - story: ask_result_paper
     steps:
@@ -134,13 +134,6 @@ stories:
     steps:
       - intent: ask_delay
       - action: utter_delay
-
-  - story: Thí sinh hủy thi
-    steps:
-      - intent: ask_cancel
-        entities:
-          - cancel: competition_cancel
-      - action: utter_refund
 
   - story: Thí sinh hoàn tiền
     steps:
@@ -201,8 +194,8 @@ stories:
 
   - story: Nhận chứng chỉ mà sai thông tin
     steps:
-      - intent: wrong_information
-      - action: utter_receive_wrong_information
+      - intent: ask_wrong_information_in_certificate
+      - action: utter_wrong_information_in_certificate
 
   - story: Hỏi chuyển khoản phí thi
     steps:

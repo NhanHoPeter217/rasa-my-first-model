@@ -79,17 +79,17 @@ nlu:
       - Tài liệu ôn thi thì mình sẽ nhận ở đâu ạ?
       - Em sẽ ôn luyện ở đâu ạ?
 
-  - intent: receive_certification+receive_location
+  - intent: receive_certification_place
     examples: |
       - Chứng chỉ thì mình sẽ nhận ở đâu ạ?
       - Sau khi thi xong thì em nhận chứng chỉ ở đâu ạ?
 
-  - intent: receive_certification
+  - intent: receive_certification_docs
     examples: |
       - Khi nhận chứng chỉ thì em cần đem theo giấy tờ gì ạ?
       - Mình cần đem giấy tờ gì để nhận chứng chỉ ạ?
 
-  - intent: receive_certification+intercede_retrieval
+  - intent: ask_intercede_retrieve_certificate
     examples: |
       - Nếu em bận thì có thể nhờ người khác nhận chứng chỉ dùm được không ạ?
       - Mình nhờ người khác nhận chứng chỉ dùm thì cần giấy tờ gì ạ?
@@ -99,7 +99,7 @@ nlu:
       - Khoảng bao giờ có kết quả thi ạ?
       - Mình chờ kết quả thi lâu không ạ?
 
-  - intent: ask_competition_certification_date
+  - intent: ask_when_to_get_certificate
     examples: |
       - Khi nào có chứng chỉ thi ạ?
       - Mình thi xong thì có chứng chỉ liền không ạ?
@@ -114,7 +114,7 @@ nlu:
       - Khi nào thì mình biết điểm thi ạ?
       - Bao lâu thì em có điểm thi ạ?
 
-  - intent: receive_certification+receive_immediately
+  - intent: receive_certification_immediately
     examples: |
       - Em muốn nhận chứng chỉ liền thì được không ạ?
       - Làm sao để nhận chứng chỉ ngay ạ?
@@ -145,7 +145,7 @@ nlu:
       - Em kẹt việc đột xuất thì xin thi lúc khác được chứ ạ?
       - Em muốn đổi ngày thi thì được không ạ?
 
-  - intent: ask_cancel+ask_refund
+  - intent: ask_refund
     examples: |
       - Nếu mình không thi vì có lý do chính đáng thì có được trả lại tiền thi không ạ?
       - Nếu em bận việc không muốn thi nữa thì Trường có hoàn lại tiền không ạ?
@@ -201,12 +201,12 @@ nlu:
       - Nếu làm mất chứng chỉ thì em xin cấp lại được không ạ?
       - Lỡ em mất chứng chỉ thì phải làm sao ạ?
 
-  - intent: receive_certification+wrong_information
+  - intent: ask_wrong_information_in_certificate
     examples: |
       - Trường hợp em sơ ý và khi nhận chứng chỉ mới phát hiện thông tin sai thì có sửa được không ạ?
       - Nếu khi nhận chứng chỉ mà thông tin vẫn sai thì phải làm sao ạ?
 
-  - intent: ask_contenst_fee_banking
+  - intent: ask_contest_fee_banking
     examples: |
       - Trường có cho chuyển khoản không ạ?
       - Em ở xa nên muốn chuyển khoản được không ạ?

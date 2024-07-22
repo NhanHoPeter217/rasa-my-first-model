@@ -167,7 +167,7 @@ nlu:
       - cần những giấy tờ nào để thi?
       - Để tham gia kỳ thi, cần chuẩn bị những tài liệu gì?
       - Hồ sơ [đăng ký](register) thi cần những thông tin gì?
-      - Các giấy tờ cần thiết để [đăng ký](register)thi là gì?
+      - Các giấy tờ cần thiết để [đăng ký](register) thi là gì?
       - Trong quá trình [đăng ký](register) thi, cần chuẩn bị những hồ sơ gì?
       - Để hoàn tất việc [đăng ký](register) thi, cần có những tài liệu gì?
       - Có cần mang theo giấy tờ gì khi đến [đăng ký](register) thi không?
@@ -261,7 +261,7 @@ nlu:
       - Có tài liệu ôn thi chất lượng không?
       - Tài liệu ôn luyện của bạn có đa dạng không?
 
-  - intent: receive_certification+receive_location
+  - intent: receive_certification_place
     examples: |
       - nhận chứng chỉ ở đâu
       - Nhận chứng chỉ ở đâu vậy ạ?
@@ -274,7 +274,7 @@ nlu:
       - Làm thế nào để nhận chứng chỉ?
       - chứng chỉ lấy ở đâu vậy ạ
 
-  - intent: receive_certification
+  - intent: receive_certification_docs
     examples: |
       - Cách để nhận chứng chỉ?
       - Cách lấy chứng chỉ?
@@ -295,7 +295,7 @@ nlu:
       - Quy định về việc cung cấp tài liệu khi nhận chứng chỉ là gì?
       - Đi nhận chứng chỉ thì cần mang theo những giấy tờ chứng thực gì?
 
-  - intent: receive_certification+intercede_retrieval
+  - intent: ask_intercede_retrieve_certificate
     examples: |
       - Có thể nhận chứng chỉ giùm được không?
       - Muốn nhờ người nhận giùm thì cần giấy tờ gì?
@@ -327,10 +327,9 @@ nlu:
       - Có cách nào để tôi biết được ngày công bố kết quả thi không?
       - Có thông tin nào về ngày công bố kết quả cuộc thi không?
 
-  - intent: ask_competition_certification_date
+  - intent: ask_when_to_get_certificate
     examples: |
       - Bao giờ có chứng chỉ?
-      - Thi xong có chứng chỉ ngay không?
       - Ngày nào chứng chỉ sẽ được phát?
       - Sau khi hoàn thành thi, cần bao lâu để nhận được chứng chỉ?
       - Làm sao để biết khi nào có thể nhận được chứng chỉ sau khi thi?
@@ -362,7 +361,7 @@ nlu:
       - Có cách nào để tôi biết kết quả của mình một cách dễ dàng không?
       - Làm thế nào để biết điểm thi mà không cần đến trường?
 
-  - intent: receive_certification+receive_immediately
+  - intent: receive_certification_immediately
     examples: |
       - Có thể muốn nhận chứng chỉ ngay được không?
       - Muốn nhận chứng chỉ ngay thì làm thế nào?
@@ -415,7 +414,6 @@ nlu:
       - Thi lại phí như thế nào?
       - Thi lại phí ra sao?
       - Thi lại phí có giảm giá không?
-      - Trường hợp em thi lại thì sao?
       - Em thi lại có được giảm giá không?
       - Khi phải thi lại, cần phải trả phí bao nhiêu?
       - Phải đóng bao nhiêu tiền khi muốn thi lại?
@@ -441,7 +439,7 @@ nlu:
       - Làm thế nào để thay đổi ngày thi một cách nhanh chóng?
       - Khi nào thì tôi có thể yêu cầu dời ngày thi một cách hợp lý?
 
-  - intent: ask_cancel+ask_refund
+  - intent: ask_refund
     examples: |
       - Không muốn thi nữa thì có được hoàn lệ phí thi không?
       - Không muốn thi nữa thì có được hoàn tiền không?
@@ -475,7 +473,7 @@ nlu:
       - Cho em hỏi về điều kiện [hoàn phí thi](refund)
       - em muốn hỏi về vấn đề [hoàn phí thi](refund)
 
-  - intent: ask_cancel
+  - intent: ask_refund
     examples: |
       - Mình muốn hủy thi ạ
       - [Đăng ký](register) rồi có hủy thi được không?
@@ -533,7 +531,7 @@ nlu:
       - hình thức thi của kỳ thi
       - cho em hỏi về hình thức thi
 
-  - intent: ask_wrong_information_when_lookup_id
+  - intent: ask_tackling_when_wrong_info
     examples: |
       - Nếu thông tin bị sai lúc tra cứu số báo danh thì phải làm sao?
       - Tôi phải làm gì nếu thông tin tra cứu bị sai?
@@ -620,14 +618,11 @@ nlu:
       - em làm mất chứng chỉ VSTEP rồi giờ sao ạ?
       - chứng chỉ VSTEP mất thì làm sao ạ?
 
-  - intent: receive_certification+ask_wrong_information_in_certificate
+  - intent: ask_wrong_information_in_certificate
     examples: |
       - Lúc nhận chứng chỉ mới phát hiện sai thông tin thì làm sao?
       - Nhận chứng chỉ mà phát hiện sai thông tin thì sao?
       - Em mới nhận thì thấy chứng chỉ bị sai thông tin ạ, giờ em phải làm sao?
-
-  - intent: ask_wrong_information_in_certificate
-    examples: |
       - Chứng chỉ bị sai thông tin thì làm sao?
       - chứng chỉ em in sai tên rồi ạ giờ em làm sao ad ơi?
       - chứng chỉ in sai rồi ad ơi?
@@ -715,9 +710,7 @@ nlu:
       - Kết quả phúc khảo bao giờ có
       - Đăng ký phúc khảo thì bao giờ có kết quả ạ?
       - Em gửi phúc khảo thì bao giờ có kết quả ạ?
-      - cách tra cứu điểm phúc khảo
       - có kết quả phúc khảo chưa ạ
-      - mình tra cứu kết quả phúc khảo sao ạ
 
   - intent: ask_recheck_lower_point
     examples: |

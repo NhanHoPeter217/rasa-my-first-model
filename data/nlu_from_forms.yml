@@ -50,6 +50,7 @@ nlu:
       - Lịch thi sắp tới ra sao ạ?
       - Mình sẽ thi trong khoản thời gian nào
       - Một năm có bao nhiêu đợt thi ạ
+      - Ngày thi trong tháng này
       - Thời gian thi là khi nào
       - Thời gian thi là khi nào?
       - Thời gian tổ chức thi là khi nào vậy?
@@ -121,7 +122,7 @@ nlu:
       - thẻ sinh viên mình không có công chứng thì có sao không?
       - thẻ sinh viên/ học viên cao học kh công chứng được thì phải làm sao
 
-  - intent: receive_certification+receive_location
+  - intent: receive_certification_place
     examples: |
       - Cho e hỏi bằng sẽ nhận ở đâu v ạ
       - Cho em hỏi mình nhận chứng chỉ ở đâu vậy ạ?
@@ -201,7 +202,7 @@ nlu:
       - mình muốn xin gcn điểm
       - thi xong sao biết điểm
 
-  - intent: ask_cancel+ask_refund
+  - intent: ask_refund
     examples: |
       - Cho em hỏi khi hủy đăng kí thì có được hoàn lệ phí không ạ?
       - Cho em hỏi là em bận không đi thi thì có được hoàn tiền lại không ạ
@@ -224,7 +225,6 @@ nlu:
       - Nếu không muốn tiếp tục thi thì có được hoàn lệ phí không?
       - Nếu như em có việc đột xuất không thi được thì bên mình có hoàn lệ phí thi không ạ
       - Nếu như em không thể thi được nữa thì em có được hoàn lệ phí thi không ạ
-      - Tự nhiên thấy trong người mệt rồi nghỉ thi thì có được trả tiền không
       - Về việc hoàn lệ phí, có được hoàn trả nếu mình không muốn thi nữa không ạ?
       - cho em hỏi em ko đi thi dc thì có lấy lại tiền dc ko ạ
       - có đc hoàn tiền k ạ
@@ -398,7 +398,6 @@ nlu:
       - Nếu tôi thi rớt thì sao?
       - Thi B2 có đảm bảo đậu 100% không ạ?
       - Thi mà rớt thì phải làm sao ạ
-      - Thi rớt có được hỗ trợ khi thi lại không
       - Thi rớt được thi lại hong
       - Trong trường hợp thi rớt thì em có phải làm gì tiếp ạ?
       - Trường hợp em thi rớt thì như thế nào ạ
@@ -414,7 +413,7 @@ nlu:
       - Đi thi có bị học lại không
       - Đăng kí thi là phải đậu chứ nhỉ?
 
-  - intent: ask_wrong_information_when_lookup_id
+  - intent: ask_tackling_when_wrong_info
     examples: |
       - Cho em hỏi thông tin dự thi của em sai thì điều chỉnh sao ạ
       - Cho em khi bị sai thông tin thì phải xử lý như thế nào ạ?
@@ -445,27 +444,38 @@ nlu:
       - thông tin bị sai thì phải làm sao
       - thông tin sai khi tra cứu sbd thì liên hệ ai để sửa
 
-  - intent: has_certificate+ask_delay
+  - intent: ask_delay
     examples: |
+      - Cho e xin dời ngày thi đc k ạ
       - Cho em hỏi là em có việc gấp có thể hoãn thi đc k ạ
       - Cho em hỏi muốn dời thời gian thi thì phải làm sao ạ
       - Còn thủ tục dời ngày thi thì sao ạ
       - Có danh sách thi rồi mà quải quá không muốn thi nữa thì làm sao
       - Có thể xin hoãn hay dời thi không?
       - Em có lịch bận đột xuất vào ngày thi nhưng mà em đã có trong danh sách thi thì có được dời thi hoặc hoãn thi không ạ
+      - Em có thể dời ngày thi được không ạ?
       - Em có thể hoãn hay dời lịch thi nếu có việc bận vào ngày dự thi ban đầu không?
       - Em kẹt việc nhà nên ngày đó không thể đi thi được, em xin dời lại đợt sau được không ạ?
+      - Em muốn dời ngày thi thì có được không ạ?
       - Em muốn dời thi thì s ạ
       - Em muốn hoãn thi thì làm sao ạ
       - Em muốn hoãn thi thì phải làm sao ạ
-      - Em muốn lấy bảng điểm thì cần làm những gì ạ?
       - Hoãn thi như thế nào khi sát luchj thi
+      - Hôm đó em  có việc đột xuất thì có thể xin dời ngày thi được không ạ?
+      - Làm sao để dời ngày thi
       - Lúc nào em thích thi thì thi đúng không?
       - Mình có thể dời lịch thi 1 tháng sau được không?
+      - Mình có thể xin dời ngày thi được không ạ?
+      - Mình có được dời ngày thi hong ạ
       - Mình muốn tìm cách thức hoãn thi
+      - Ngày thi có dời lại được k?
+      - Nếu có việc đột xuất, em xin dời ngày thi được không ạ
       - Nếu mình có mong muốn hoãn thi thì sao ạ
+      - Nếu như vào ngày thi em gặp trường hợp bất khả kháng không thể dự thi được thì em có được dời ngày thi không ạ, nếu được dời thì sẽ phải liên hệ ai ạ
       - Sau khi đăng kí thì em có được hoãn thi không ạ?
+      - Thay đổi ngày thi ntn
       - Trong trường hợp em muốn hoãn thi thì cần làm gì ạ
+      - buổi thi tuần sau mình có việc cá nhân không thể tham gia được, trường có thể hỗ trợ mình được không.
       - cho em hỏi em muốn hoãn thi
       - cách hoãn thi là như thế nào
       - em bị ốm không thể thi được muốn hoãn thi thì phải làm sao ạ
@@ -475,7 +485,10 @@ nlu:
       - em xin hoãn thi được không
       - làm sao để xin được hoãn thi 1 cách dễ dàng
       - lỡ em có lịch thi vào ngày đó thì cách giải quyết bên mình sao ạ
+      - mình có thể dời ngày thi đc ko
       - nếu muốn hoãn thi thì làm sao
+      - trung tâm có hỗ trợ dời ngày thi k ạ
+      - Đăng kí ngày thi rồi thì có đổi được nữa không
 
   - intent: thanks
     examples: |
@@ -574,9 +587,8 @@ nlu:
       - Đăng kí thi như mô nợ
       - Đăng ký thi như thế nào?
 
-  - intent: receive_certification
+  - intent: receive_certification_docs
     examples: |
-      - Chi phí nhận chứng chỉ là bao nhiêu?
       - Cần j để lấy đc chứng chỉ
       - Em có cần cầm theo giấy tờ gì khi đi nhận chứng chỉ không ạ?
       - Em có cần phải mang biên lai không ạ?
@@ -694,7 +706,6 @@ nlu:
       - Dạ nếu đăng ký phúc khảo thì khoảng bao lâu sẽ có kết quả ạ
       - Em đã đăng ký phúc khảo thì tầm khi nào có kết quả ạ
       - Khi nào có kết quả phúc khảo ạ
-      - Khi nào có kết quả phúc khảo ạ?
       - Khi nào thì phúc khảo có kết quả ạ
       - Kết quả phúc khảo sẽ có khi nào ạ?
       - Nếu vào trường hợp đăng ký phúc khảo, thì em sẽ phải đợi bao lâu để có kết quả ạ?
@@ -728,7 +739,7 @@ nlu:
       - Đề thi VSTEP có độ khó cao không ạ
       - độ khó đề thi vstep như thế nào?
 
-  - intent: receive_certification+ask_wrong_information_in_certificate
+  - intent: ask_wrong_information_in_certificate
     examples: |
       -  Chứng chỉ bị sai thông tin thì phải như thế nào?
       -  chứng chỉ bị in sai tên thì làm sao ạ
@@ -753,7 +764,7 @@ nlu:
       - tên em in trong chứng chỉ bị sai chữ Nhật thành Nhựt, bây giờ em làm sao ạ
       - Ý là lỡ đến lúc nhận chứng chỉ, thông tin trên đó bị sai thì sao ạ?
 
-  - intent: has_certificate+ask_certificate+ask_refund
+  - intent: ask_refund_because_of_subjective_absence
     examples: |
       - Có hay không? Việc hoàn trả lệ phí thi khi bận công việc đột xuất và không thể tham gia cuộc thi VSTEP?
       - Có quy định gì về việc hoàn lại tiền lệ phí thi cho thí sinh không tham gia thi không?
@@ -893,7 +904,7 @@ nlu:
       - đăng ký thi online
       - ₫ăng ký từ xa như thế nào
 
-  - intent: receive_certification+intercede_retrieval
+  - intent: ask_intercede_retrieve_certificate
     examples: |
       - Có bắt buộc phải chính mình nhận bằng không 
       - Có thể nhờ người nhận giùm chứng chỉ không ạ
@@ -973,6 +984,7 @@ nlu:
       - Thi lại lần sau có được hỗ trợ về chi phí không
       - Thi lại thì mình có được giảm lệ phí thi ko ạ
       - Thi lần 2 có được giảm giá không ạ?
+      - Thi rớt có được hỗ trợ khi thi lại không
       - Thí dụ em thi rớt thì khi đăng ký thi lần 2 có được giảm giá không?
       - em thi lại thì có chính sách giảm giá kh ạ?
       - khuyến mãi thi nhiều lần
@@ -1064,10 +1076,12 @@ nlu:
       - Tra điểm thi như thế nào vậy ?
       - Xem điểm phúc khảo ở đâu ạ
       - Xem điểm pk ở đâu ạ
+      - cách tra cứu điểm phúc khảo
       - em cần xem kết quả phúc khảo thì phải xem ở đâu ạ
       - em muốn xem phúc khảo thì xem ở đâu ạ?
       - em muốn xem điểm phúc khảo thì phải làm j ạ
       - làm thế nào để mình có thể tra cứu lại điểm phjusc khảo nhỉ
+      - mình tra cứu kết quả phúc khảo sao ạ
       - tra cứu kết quả phúc khảo
       - Điểm phúc khảo ở đâu
 
@@ -1181,19 +1195,20 @@ nlu:
 
   - intent: ask_fee_inquiry
     examples: |
+      - Chi phí nhận chứng chỉ là bao nhiêu?
       - Chi phí ra sao
       - Cho em hỏi lệ phí thi là bao nhiêu ạ?
       - Cho em xin được hỏi là lệ phí thi Vstep tổng là bao nhiêu ạ.
       - Cod lệ phí thi k ạ
       - Lệ phí thi của cuộc thi này là bao nhiêu
-      - Lệ phí thi là bao nhiêu a
       - Lệ phí thi là bao nhiêu ạ
-      - Lệ phí thi là bao nhiêu ạ?
       - Mình thi bao nhiêu tiền ạ
+      - Những loại sinh viên nào được giảm lệ phí khi thi VSTEP?
       - Thi đóng bao nhiêu tiền ạ
       - Tổng tiền thi hết bao nhiêu ạ?
       - cho em biết thêm chi tiết lệ phí thi kỳ này của mình với.
       - lệ phí thi cho kỳ thi sắp tới vẫn như đợt trước hay sẽ tăng ạ
+      - Điều kiện để được giảm lệ phí thi là gì?
       - Đống bao nhiêu tiền để thì
 
   - intent: ask_paper_notarization
@@ -1268,7 +1283,7 @@ nlu:
       - thời gian có kq
       - tuần sau có kết quả thi chưa ạ?
 
-  - intent: ask_certification_retrieval_immediately
+  - intent: receive_certification_immediately
     examples: |
       - Bao lâu có chứng chỉ ạ
       - Cho em hỏi em muốn nhận chứng chỉ ngay thì phải làm thế nào? Trường có cấp Giấy xác nhận điểm hoặc Giấy chứng nhận tạm thời không ạ?
@@ -1284,24 +1299,6 @@ nlu:
       - Nhận chứng chỉ liền ntn
       - Thi xong em cần chứng chỉ gấp thì lấy sớm được không ạ
       - bây giờ mình cần giấy chứng nhận luôn không biết làm như nào, trường hỗ trợ mình với. ,mình vừa thi buổi thứ 3.
-
-  - intent: ask_delay
-    examples: |
-      - Cho e xin dời ngày thi đc k ạ
-      - Em có thể dời ngày thi được không ạ?
-      - Em muốn dời ngày thi thì có được không ạ?
-      - Hôm đó em  có việc đột xuất thì có thể xin dời ngày thi được không ạ?
-      - Làm sao để dời ngày thi
-      - Mình có thể xin dời ngày thi được không ạ?
-      - Mình có được dời ngày thi hong ạ
-      - Ngày thi có dời lại được k?
-      - Nếu có việc đột xuất, em xin dời ngày thi được không ạ
-      - Nếu như vào ngày thi em gặp trường hợp bất khả kháng không thể dự thi được thì em có được dời ngày thi không ạ, nếu được dời thì sẽ phải liên hệ ai ạ
-      - Thay đổi ngày thi ntn
-      - buổi thi tuần sau mình có việc cá nhân không thể tham gia được, trường có thể hỗ trợ mình được không.
-      - mình có thể dời ngày thi đc ko
-      - trung tâm có hỗ trợ dời ngày thi k ạ
-      - Đăng kí ngày thi rồi thì có đổi được nữa không
 
   - intent: ask_exam_shift_time
     examples: |
@@ -1327,7 +1324,6 @@ nlu:
       - Cho em hỏi em muốn phúc khảo bài thi thì phải làm thủ tục gì ạ
       - Cách phúc khảo 
       - Em muốn phúc khảo bài thi thì phải làm sao ạ
-      - Em muốn phúc khảo bài thi thì phải làm sao ạ?
       - Em muốn phúc khảo thì làm thủ tục như nào ạ?
       - Hiện tại em đang muốn gửi yêu cầu phúc khảo bài thi của em thì sẽ có các bước như thế nào để phúc khảo ạ
       - Làm sao để phúc khảo điểm hi

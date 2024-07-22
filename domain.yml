@@ -5,7 +5,7 @@ session_config:
   carry_over_slots_to_new_session: true
 
 intents:
-- greet
+# - greet
 - ask_working_time
 - ask_contact
 - ask_exam_time
@@ -20,33 +20,31 @@ intents:
 - ask_competition_registration_process
 - competition_registration_process_far
 - ask_practice_papers
-- receive_certification
-- receive_location
-- intercede_retrieval
-- receive_immediately
+- receive_certification_docs
+- receive_certification_place
+- ask_intercede_retrieve_certificate
+- receive_certification_immediately
 - ask_competition_result_date
 - ask_competition_certification_date
 - ask_competition_information
 - ask_competition_result_process
+- ask_recheck_exam_result
+- ask_when_to_get_certificate
 - ask_result_paper
 - ask_a2_requirement
 - ask_retest_fee
 - ask_delay
-- ask_cancel
 - ask_refund
-- ask_cancel+ask_refund
 - ask_receive_lower_certificate
 - ask_receive_higher_certificate
 - ask_condition_certificate
 - ask_exam_shift_time
 - ask_exam_form
-- ask_refund_because_of_subjective_absence
 - ask_exam_room
 # - ask
 - provide_CCCD_number
 - ask_certificate_copy
 - ask_lost_certificate
-- wrong_information
 - ask_contest_fee_banking
 - ask_export_invoice
 - ask_VSTEP_hard
@@ -57,8 +55,10 @@ intents:
 - ask_recheck_exam_fee
 - ask_recheck_exam_result_time
 - ask_recheck_lower_point
-- ask_wrong_information_when_lookup_id
-- thanks
+- ask_tackling_when_wrong_info
+- ask_wrong_information_in_certificate
+- ask_refund_because_of_subjective_absence
+# - thanks
 
 entities:
 #  - working_time
@@ -74,7 +74,6 @@ entities:
 #  - competition_fee
 #  - delay
   - refund
-#  - cancel
   - distance
   - level_1
   - level_2
@@ -150,14 +149,14 @@ responses:
   - text: "Nếu bạn đang tìm kiếm tài liệu ôn thi. Hãy liên hệ Trung tâm Ngoại ngữ – Trường Đại học Sài Gòn, số 4 Nguyễn Trãi, phường 3, quận 5, TP HCM,
 Điện thoại: 028.66536787"
 
-  utter_certification_retrieval_place:
+  utter_receive_certification_place:
   - text: "Chứng chỉ sẽ nhận trực tiếp tại Trung tâm Ngoại ngữ – Trường Đại học Sài Gòn, số 4 Nguyễn Trãi, phường 3, quận 5, TP HCM,
 Điện thoại: 028.66536787"
 
-  utter_receive_certification:
+  utter_receive_certification_docs:
   - text: "Khi đi nhận chứng chỉ cầm theo CCCD/CMND/ hộ chiếu để xác minh chính chủ nhận"
 
-  utter_intercede_certification_retrieval:
+  utter_intercede_retrieve_certificate:
   - text: "Trong trường hợp nhận giùm chứng chỉ, người nhận giùm cần cầm theo Giấy ủy quyền có xác nhận của cơ quan chức năng kèm sao y công chứng giấy tờ tùy thân của người đi thi và người nhận giùm"
 
   utter_competition_result_date:
@@ -173,7 +172,7 @@ Khi nào hoàn tất các thủ tục cấp chứng chỉ, Trung tâm sẽ đăn
   utter_competition_result_process:
   - text: "Bạn có thể tra cứu tại trang web bằng số CCCD/CMND/hộ chiếu"
 
-  utter_certification_retrieval_immediately:
+  utter_receive_certification_immediately:
   - text: "Trong thời gian đợi có chứng chỉ, Trung tâm sẽ hỗ trợ cấp Giấy xác nhận kết quả thi cho trường hợp nào có nhu cầu."
 
   utter_result_paper:
@@ -226,7 +225,7 @@ Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăn
   - text: Chứng chỉ mất rồi sẽ không được cấp lại. Trung tâm chỉ cấp lại Bản sao từ sổ gốc nhé bạn
 
   utter_receive_wrong_information:
-  - text: Chưa implement chỗ này!!!!
+  - text: Liên hệ phòng Ghi danh để được hướng dẫn làm thủ tục điều chỉnh thông tin trên chứng chỉ. 
 
   utter_contest_fee_banking:
   - text: Có thể chuyển khoản phí thi nhé bạn
@@ -260,6 +259,9 @@ Sau đó, kết quả phúc khảo có thể được tra cứu tại trang web 
 
   utter_recheck_lower_point:
   - text: Hiện chưa có trường hợp bị hạ điểm khi đăng ký phúc khảo ạ
+
+  utter_wrong_information_in_certificate:
+  - text: Liên hệ phòng Ghi danh để được hướng dẫn làm thủ tục điều chỉnh thông tin trên chứng chỉ. 
 
 
 actions:
