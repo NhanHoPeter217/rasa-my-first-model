@@ -1,0 +1,24 @@
+version: "3.1"
+
+stories:
+  - intent: Thí sinh hỏi điểm thi
+    steps:
+      - action: ask_competition_result_process
+      - intent: utter_please_provide_CCCD
+      - action: provide_CCCD_number
+      - intent: action_return_results
+
+  - intent: Thí sinh hỏi phòng thi
+    steps:
+      - action: ask_exam_venue
+      - intent: utter_exam_venue
+      - action: ask_exam_room
+      - intent: utter_please_provide_CCCD
+      - action: provide_CCCD_number
+      - intent: action_return_exam_room
+
+  - intent: Thí sinh hỏi ca thi
+    steps:
+      - action: ask_recheck_exam_result
+      - intent: action_return_recheck_exam_result
+
