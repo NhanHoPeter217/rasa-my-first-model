@@ -105,10 +105,10 @@ stories:
       - intent: ask_competition_information
       - action: utter_competition_information
 
-  - story: ask_competition_result_process
-    steps:
-      - intent: ask_competition_result_process
-      - action: utter_competition_result_process
+  # - story: ask_competition_result_process
+  #   steps:
+  #     - intent: ask_competition_result_process
+  #     - action: utter_competition_result_process
 
   - story: Nhận chứng chỉ ngay lập tức
     steps:
@@ -177,10 +177,10 @@ stories:
       - intent: ask_refund_because_of_subjective_absence
       - action: utter_refund_because_of_subjective_absence
 
-  - story: Thí sinh hỏi thông tin phòng thi
-    steps:
-      - intent: ask_exam_room
-      - action: utter_exam_room
+  # - story: Thí sinh hỏi thông tin phòng thi
+  #   steps:
+  #     - intent: ask_exam_room
+  #     - action: utter_please_provide_CCCD
 
   - story: Cấp bản sao
     steps:

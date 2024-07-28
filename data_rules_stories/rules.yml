@@ -3,8 +3,13 @@ version: "3.1"
 rules:
   - rule: Cung cấp thông tin phòng thi
     steps:
-      - intent: provide_CCCD_number
-      - action: action_show_exam_room
+      - intent: ask_exam_room
+      - action: action_return_exam_room
+
+  - rule: Cung cấp thông tin điểm thi
+    steps:
+      - intent: ask_competition_result_process
+      - action: action_return_results
 
   - rule: Điều kiện đạt bằng
     steps:

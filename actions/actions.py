@@ -30,7 +30,7 @@
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
-from rasa_sdk.events import SlotSet
+from rasa_sdk.events import SlotSet, ActionExecuted
 from rasa_sdk.executor import CollectingDispatcher
 import logging
 
@@ -39,6 +39,7 @@ import actions._globals as _globals
 class ActionReplyForConditionScore(Action):
     def name(self) -> Text:
         return "action_reply_ask_condition_certificate"
+    
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
@@ -88,51 +89,113 @@ class ActionReplyForReceivingDifferentCertificate(Action):
         dispatcher.utter_message(text=message)
         return []
 
-class ActionShowExamRoom(Action):
+class ActionReturnExamRoom(Action):
 
     def name(self) -> Text:
-        return "action_show_exam_room"
+        return "action_return_exam_room"
+    
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        
+        id_card = tracker.get_slot('CCCD_number')
+        
+        if not id_card:
+            entities = tracker.latest_message.get("entities", [])
+            
+            # get first CCCD_number entity in the message
+            for entity in entities:
+                if entity["entity"] == "CCCD_number":
+                    id_card = entity["value"]
+                    break
+            
+            if not id_card:
+                dispatcher.utter_message(template="utter_please_provide_CCCD")
+            
+        else:
+            if id_card in _globals.CCCD_ExamRoom:
+                dispatcher.utter_message(text=f"Dựa theo số CCCD {id_card} của bạn, phòng thi của bạn là {_globals.CCCD_ExamRoom[id_card]}")
+            else:
+                dispatcher.utter_message(text="Xin lỗi, tôi không tìm thấy thông tin của bạn trong hệ thống. Bạn có thể gửi lại được không?")
+        
+        return [SlotSet("CCCD_number", id_card)]
+    
+class ActionReturnResults(Action):
+
+    def name(self) -> Text:
+        return "action_return_results"
 
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        current_CCCD = next(tracker.get_latest_entity_values("CCCD_number"), None)
-
-        if not current_CCCD:
-            dispatcher.utter_message(text="Xin lỗi, tôi không nhận diện được số CCCD của bạn. Bạn có thể gửi lại được không?")
-            return []
-
-        # check the current CCCD in the database
-        if current_CCCD in _globals.CCCD_db:
-            dispatcher.utter_message(text="Phòng thi của bạn là phòng 101")
+        
+        id_card = tracker.get_slot('CCCD_number')
+        
+        if not id_card:
+            entities = tracker.latest_message.get("entities", [])
+            
+            # get first CCCD_number entity in the message
+            for entity in entities:
+                if entity["entity"] == "CCCD_number":
+                    id_card = entity["value"]
+                    break
+            
+            if not id_card:
+                dispatcher.utter_message(template="utter_please_provide_CCCD")
+            
         else:
-            dispatcher.utter_message(text="Xin lỗi, tôi không tìm thấy thông tin của bạn trong hệ thống. Bạn có thể gửi lại được không?")
+            if id_card in _globals.CCCD_ExamScore:
+                dispatcher.utter_message(text=f"Dựa theo số CCCD {id_card} của bạn, điểm thi của bạn là {_globals.CCCD_ExamScore[id_card]}")
+            else:
+                dispatcher.utter_message(text="Xin lỗi, tôi không tìm thấy thông tin của bạn trong hệ thống. Bạn có thể gửi lại được không?")
+        
+        return [SlotSet("CCCD_number", id_card)]
 
-        return [SlotSet("CCCD_number", current_CCCD)]
+# class ActionShowExamRoom(Action):
 
-class ActionShowExamScore(Action):
+#     def name(self) -> Text:
+#         return "action_show_exam_room"
 
-    def name(self) -> Text:
-        return "action_show_exam_score"
+#     def run(self, dispatcher: CollectingDispatcher,
+#             tracker: Tracker,
+#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+#         current_CCCD = next(tracker.get_latest_entity_values("CCCD_number"), None)
 
-    def run(self, dispatcher: CollectingDispatcher,
-            tracker: Tracker,
-            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        current_CCCD = next(tracker.get_latest_entity_values("CCCD_number"), None)
+#         if not current_CCCD:
+#             dispatcher.utter_message(text="Xin lỗi, tôi không nhận diện được số CCCD của bạn. Bạn có thể gửi lại được không?")
+#             return []
 
-        if not current_CCCD:
-            current_CCCD = tracker.get_slot("CCCD_number")
-            if not current_CCCD:
-                dispatcher.utter_message(text="Xin lỗi, tôi không nhận diện được số CCCD của bạn. Bạn có thể gửi lại được không?")
-                return []
+#         # check the current CCCD in the database
+#         if current_CCCD in _globals.CCCD_db:
+#             dispatcher.utter_message(text="Phòng thi của bạn là phòng 101")
+#         else:
+#             dispatcher.utter_message(text="Xin lỗi, tôi không tìm thấy thông tin của bạn trong hệ thống. Bạn có thể gửi lại được không?")
 
-        # check the current CCCD in the database
-        if current_CCCD in _globals.CCCD_db:
-            dispatcher.utter_message(text="Điểm thi của bạn là 9.5")
-        else:
-            dispatcher.utter_message(text="Xin lỗi, tôi không tìm thấy thông tin của bạn trong hệ thống. Bạn có thể gửi lại được không?")
+#         return [SlotSet("CCCD_number", current_CCCD)]
 
-        return [SlotSet("CCCD_number", current_CCCD)]
+# class ActionShowExamScore(Action):
+
+#     def name(self) -> Text:
+#         return "action_show_exam_score"
+
+#     def run(self, dispatcher: CollectingDispatcher,
+#             tracker: Tracker,
+#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+#         current_CCCD = next(tracker.get_latest_entity_values("CCCD_number"), None)
+
+#         if not current_CCCD:
+#             current_CCCD = tracker.get_slot("CCCD_number")
+#             if not current_CCCD:
+#                 dispatcher.utter_message(text="Xin lỗi, tôi không nhận diện được số CCCD của bạn. Bạn có thể gửi lại được không?")
+#                 return []
+
+#         # check the current CCCD in the database
+#         if current_CCCD in _globals.CCCD_db:
+#             dispatcher.utter_message(text="Điểm thi của bạn là 9.5")
+#         else:
+#             dispatcher.utter_message(text="Xin lỗi, tôi không tìm thấy thông tin của bạn trong hệ thống. Bạn có thể gửi lại được không?")
+
+#         return [SlotSet("CCCD_number", current_CCCD)]
 
 class ActionDefaultFallback(Action):
 

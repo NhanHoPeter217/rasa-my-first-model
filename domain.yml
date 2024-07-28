@@ -169,8 +169,8 @@ Khi nào hoàn tất các thủ tục cấp chứng chỉ, Trung tâm sẽ đăn
   utter_competition_information:
   - text: "Trước ngày thi 3 ngày, tra cứu tại trang web bằng số CCCD/CMND/hộ chiếu"
 
-  utter_competition_result_process:
-  - text: "Bạn có thể tra cứu tại trang web bằng số CCCD/CMND/hộ chiếu"
+  # utter_competition_result_process:
+  # - text: "Bạn có thể tra cứu tại trang web bằng số CCCD/CMND/hộ chiếu"
 
   utter_receive_certification_immediately:
   - text: "Trong thời gian đợi có chứng chỉ, Trung tâm sẽ hỗ trợ cấp Giấy xác nhận kết quả thi cho trường hợp nào có nhu cầu."
@@ -212,8 +212,8 @@ Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăn
   utter_refund_because_of_subjective_absence:
   - text: "Đối với các trường hợp vì lý do chủ quan từ cá nhân, Trung tâm từ chối hỗ trợ."
 
-  utter_exam_room:
-  - text: "Bạn hãy cung cấp số CCCD/CMND để tôi có thể cung cấp thông tin phòng thi của bạn."
+  utter_please_provide_CCCD:
+  - text: "Bạn hãy cung cấp số CCCD/CMND để tôi có thể giúp bạn tra cứu"
 
 # use later
 #  utter_iamanassistant:
@@ -265,6 +265,7 @@ Sau đó, kết quả phúc khảo có thể được tra cứu tại trang web 
 
 
 actions:
-  - action_show_exam_room
+  - action_return_exam_room
+  - action_return_results
   - action_reply_for_receiving_different_certificate
   - action_reply_ask_condition_certificate
