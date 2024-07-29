@@ -348,7 +348,7 @@ nlu:
 
   - intent: ask_competition_result_process
     examples: |
-      - Làm sao để biết điểm thi?
+      - Làm sao để biết điểm thi, với CCCD là [123123123](CCCD_number)?
       - Tôi muốn hỏi điểm thi
       - Cho mình hỏi điểm thi với ạ
       - Em muốn biết điểm thi ạ

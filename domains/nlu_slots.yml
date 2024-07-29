@@ -1,9 +1,8 @@
 version: "3.1"
 
-nlu:
 slots:
   CCCD_number:
     type: text
     mappings:
-    - type: from_entity
-      entity: CCCD_number
+      - type: from_entity
+        entity: CCCD_number

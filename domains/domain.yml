@@ -1,0 +1,271 @@
+version: "3.1"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+
+intents:
+# - greet
+- ask_working_time
+- ask_contact
+- ask_exam_time
+- ask_exam_venue
+- ask_select_exam_date
+- ask_fee_inquiry
+- ask_student_discount
+- ask_late_graduate_discount
+- ask_exam_registration_docs
+- ask_paper_notarization
+- ask_student_id_notarization
+- ask_competition_registration_process
+- competition_registration_process_far
+- ask_practice_papers
+- receive_certification_docs
+- receive_certification_place
+- ask_intercede_retrieve_certificate
+- receive_certification_immediately
+- ask_competition_result_date
+- ask_competition_certification_date
+- ask_competition_information
+- ask_competition_result_process
+- ask_recheck_exam_result
+- ask_when_to_get_certificate
+- ask_result_paper
+- ask_a2_requirement
+- ask_retest_fee
+- ask_delay
+- ask_refund
+- ask_receive_lower_certificate
+- ask_receive_higher_certificate
+- ask_condition_certificate
+- ask_exam_shift_time
+- ask_exam_form
+- ask_exam_room
+# - ask
+- provide_CCCD_number
+- ask_certificate_copy
+- ask_lost_certificate
+- ask_contest_fee_banking
+- ask_export_invoice
+- ask_VSTEP_hard
+- ask_what_if_not_pass
+- ask_card_photo_requirement
+- ask_certification_due_date
+- ask_recheck_exam_process
+- ask_recheck_exam_fee
+- ask_recheck_exam_result_time
+- ask_recheck_lower_point
+- ask_tackling_when_wrong_info
+- ask_wrong_information_in_certificate
+- ask_refund_because_of_subjective_absence
+# - thanks
+
+entities:
+#  - working_time
+#  - working_time
+#  - contact
+#  - organization
+#  - practice
+#  - certification
+#  - competition_information
+#  - competition_result
+#  - result_paper
+#  - competition_level
+#  - competition_fee
+#  - delay
+  - refund
+  - distance
+  - level_1
+  - level_2
+  - level_3
+  - level_4
+  - level_5
+  - level_6
+  - CCCD_number
+  - register
+
+groups:
+  - certificate_level
+
+responses:
+  utter_greet:
+  - text: Chào bạn, trường đại học Sài Gòn có thể giúp gì cho bạn?
+  - text: Chào bạn, bạn cần gì?
+
+  utter_thanks:
+  - text: "Rất vui được hỗ trợ cho bạn. Bạn cần trợ giúp thêm điều gì không?"
+  - text: "Rất hân hạnh được hỗ trợ bạn. Bạn còn thắc mắc gì thêm không?"
+
+  utter_rephrase:
+  - text: Xin lỗi, hiện tại mình chưa hiểu ý bạn. Bạn có thể nói lại được không, đừng dùng từ viết tắt bạn nhé!
+
+  utter_working_time:
+  - text: |
+      Thời gian làm việc của Trường ạ:
+      Từ Thứ 2 đến Thứ 6 (sáng từ 8h00 - 11h30, chiều từ 13h30 đến 17h) ; thứ 7 (sáng từ 8h00 - 11h30)
+
+  utter_contact:
+  - text: "Trung tâm Khảo thí – Trường Đại học Sài Gòn, số 4 Nguyễn Trãi, phường 3, quận 5, TP HCM\nemail: etc@sgu.edu.vn\nđiện thoại: 028.3924.4690."
+
+  utter_exam_time:
+  - text: "Dự kiến tổ chức 1 tháng 1 kỳ, lịch thi hàng tháng sẽ được thông báo trên trang web"
+
+  utter_exam_venue:
+  - text: "Cơ sở chính Trường Đại học Sài Gòn, 273 An Dương Vương, phường 3, quận 5, TP HCM"
+
+  utter_select_exam_date:
+  - text: "Hiện tại chưa lựa chọn được ngày thi."
+
+  utter_fee_inquiry:
+  - text: "1.800.000 / thí sinh. Lệ phí thi dành riêng cho viên chức, học viên, sinh viên, học sinh Trường Đại học Sài Gòn, Trường Trung học Thực hành Sài Gòn, Trường Tiểu học Thực hành Đại học Sài Gòn (kèm minh chứng thẻ sinh viên/học viên còn hạn hoặc Giấy xác nhận sinh viên/học viên): 1.200.000 đ/thí sinh"
+
+  utter_student_discount:
+  - text: "Đối với sinh viên/ học viên cao học còn đang theo học của trường (kèm theo thẻ sinh viên/học viên còn hạn hoặc Giấy xác nhận sinh viên/học viên có xác nhận của trường) thì sẽ được xét giảm lệ phí thi."
+
+  utter_late_graduate_discount:
+  - text: "Vẫn được xem xét giảm với điều kiện có Giấy xác nhận sinh viên (có đóng dấu xác nhận) xác nhận vẫn còn là sinh viên đến học kỳ của thời điểm đăng ký thi"
+
+  utter_exam_registration_docs:
+  - text: "1. Phiếu đăng ký thi (tải ở thông báo ghi danh) hoặc lấy trực tiếp ở Phòng ghi danh\n
+          2. 2 ảnh 2x6\n
+          3. Photo CCCD/CMND/Hộ chiếu\n
+          4. Photo thẻ viên chức hoặc thẻ sinh viên, học viên còn hạn/ Giấy xác nhận sinh viên, học viên (đối với viên chức, học viên, sinh viên, học sinh Trường Đại học Sài Gòn, Trường Trung học Thực hành Sài Gòn, Trường Tiểu học Thực hành Đại học Sài Gòn)"
+
+  utter_paper_notarization:
+  - text: "Hiện tại chưa bắt buộc phải công chứng"
+
+  utter_student_id_notarization:
+  - text: "Thẻ sinh viên / học viên cao học chỉ cần bản photo bạn nhé"
+
+  utter_competition_registration_process:
+  - text: "1. Đăng ký trực tiếp tại phòng Ghi danh (có thể nhờ người đăng ký hộ)\n
+2. Gửi hồ sơ đến địa chỉ sô 4 Nguyễn Trãi, phường 3, quận 5, TP HCM trong thời hạn đăng ký"
+
+  utter_competition_registration_process_far:
+  - text: "1. Có thể nhờ người đăng ký hộ, đến trực tiếp tại Trung tâm
+2. Gửi hồ sơ đến Trung tâm theo địa chỉ số 4 Nguyễn Trãi, phường 3, quận 5, TP Hồ Chí Minh trong thời gian hạn đăng ký. Trong trường hợp thời điểm gửi hồ sơ quá gần hạn đăng ký, liên hệ Trung tâm để được xác nhận thông tin."
+
+  utter_practice_papers:
+  - text: "Nếu bạn đang tìm kiếm tài liệu ôn thi. Hãy liên hệ Trung tâm Ngoại ngữ – Trường Đại học Sài Gòn, số 4 Nguyễn Trãi, phường 3, quận 5, TP HCM,
+Điện thoại: 028.66536787"
+
+  utter_receive_certification_place:
+  - text: "Chứng chỉ sẽ nhận trực tiếp tại Trung tâm Ngoại ngữ – Trường Đại học Sài Gòn, số 4 Nguyễn Trãi, phường 3, quận 5, TP HCM,
+Điện thoại: 028.66536787"
+
+  utter_receive_certification_docs:
+  - text: "Khi đi nhận chứng chỉ cầm theo CCCD/CMND/ hộ chiếu để xác minh chính chủ nhận"
+
+  utter_intercede_retrieve_certificate:
+  - text: "Trong trường hợp nhận giùm chứng chỉ, người nhận giùm cần cầm theo Giấy ủy quyền có xác nhận của cơ quan chức năng kèm sao y công chứng giấy tờ tùy thân của người đi thi và người nhận giùm"
+
+  utter_competition_result_date:
+  - text: "Kết quả thi sẽ có sau trung bình 3 ngày làm việc kể từ ngày thi"
+
+  utter_competition_certification_date:
+  - text: "Trung bình trong vòng 30 ngày làm việc kể từ đăng tải kết quả thi.
+Khi nào hoàn tất các thủ tục cấp chứng chỉ, Trung tâm sẽ đăng thông báo tại trang web."
+
+  utter_competition_information:
+  - text: "Trước ngày thi 3 ngày, tra cứu tại trang web bằng số CCCD/CMND/hộ chiếu"
+
+  # utter_competition_result_process:
+  # - text: "Bạn có thể tra cứu tại trang web bằng số CCCD/CMND/hộ chiếu"
+
+  utter_receive_certification_immediately:
+  - text: "Trong thời gian đợi có chứng chỉ, Trung tâm sẽ hỗ trợ cấp Giấy xác nhận kết quả thi cho trường hợp nào có nhu cầu."
+
+  utter_result_paper:
+  - text: "Đối với Giấy Xác nhận điểm, sau khi có kết quả điểm thi, gửi mail yêu cầu đến địa chỉ mail etc@sgu.edu.vn.
+Thời gian có Giấy xác nhận là 3-7 ngày tính từ lúc có mail phản hồi."
+
+  utter_a2_requirement:
+  - text: "Đăng ký thi A2 (bậc 2/6) giống như đăng ký thi bậc 3-5.
+Thời gian tổ chức kỳ thi phụ thuộc vào số lượng người đăng ký thi cùng bậc của đợt đăng ký. Không đủ người đăng ký thì dời đợt thi tiếp theo."
+
+  utter_retest_fee:
+  - text: "Trong trường hợp đăng ký thi lại, lệ phí thi sẽ như đăng ký thi mới."
+
+  utter_delay:
+  - text: "Nếu bạn muốn dời thi, thì trong thời gian còn hạn đăng ký, Trung tâm vẫn hỗ trợ dời hồ sơ và lệ phí đã nộp qua kỳ tiếp theo"
+
+  utter_refund:
+  - text: "Nếu bạn muốn hủy thi, thì trong thời gian còn hạn đăng ký, hãy cầm biên lai thu tiền đến phòng Ghi danh để được hỗ trợ"
+
+  utter_receive_lower_certificate:
+  - text: "Nếu không đủ điểm đạt B1/ bậc 3 thì kết quả sẽ là \"Không xét\", không được hạ xuống chứng chỉ A2"
+
+  utter_receive_higher_certificate:
+  - text: "Việc cấp chứng chỉ phụ thuộc vào kết quả thi thực tế, việc đăng ký bậc thi không ảnh hưởng đến việc cấp chứng chỉ"
+
+  utter_exam_shift_time:
+  - text: "Sáng từ 07g00 đến 11g00, chiều từ 13g00 đến 17g00"
+
+  utter_exam_form:
+  - text: "Thi 4 kỹ năng Nghe, Nói, Đọc, Viết trực tiếp trên máy"
+
+  utter_tackling_when_wrong_info:
+  - text: "Nếu thông tin bị sai, các bạn hãy làm như sau:\n
+  1. Liên hệ với phòng Ghi danh, điện thoại 028.3924.4690\n
+  2. Sau khi thi xong, trước khi ra khỏi phòng thi, điều chỉnh lại thông tin tại Giấy xác nhận thông tin"
+
+  utter_refund_because_of_subjective_absence:
+  - text: "Đối với các trường hợp vì lý do chủ quan từ cá nhân, Trung tâm từ chối hỗ trợ."
+
+  utter_please_provide_CCCD:
+  - text: "Bạn hãy cung cấp số CCCD/CMND để tôi có thể giúp bạn tra cứu"
+
+# use later
+#  utter_iamanassistant:
+#  - text: "Tôi là trợ lý ảo giúp bạn hiểu rõ hơn thông tin về VSTEP. Rất vui khi được giải đáp các thắc mắc của bạn."
+  utter_certificate_copy:
+  - text: Để được cấp bản sao, bạn hãy đến làm đơn yêu cầu cấp lại tại nơi đã nhận chứng chỉ nhé
+
+  utter_lost_certificate:
+  - text: Chứng chỉ mất rồi sẽ không được cấp lại. Trung tâm chỉ cấp lại Bản sao từ sổ gốc nhé bạn
+
+  utter_receive_wrong_information:
+  - text: Liên hệ phòng Ghi danh để được hướng dẫn làm thủ tục điều chỉnh thông tin trên chứng chỉ. 
+
+  utter_contest_fee_banking:
+  - text: Có thể chuyển khoản phí thi nhé bạn
+
+  utter_export_invoice:
+  - text: Nếu bạn muốn yêu cầu xuất hóa đơn, thì thông báo với người phụ trách đăng ký để được hướng dẫn.
+
+  utter_VSTEP_hard:
+  - text: "VSTEP là một hệ thống kiểm tra trình độ tiếng Anh theo khung tham chiếu chung Châu Âu (CEFR) của Hội đồng Châu Âu. VSTEP được thiết kế để đánh giá trình độ tiếng Anh của người học thông qua 4 kỹ năng Nghe, Nói, Đọc, Viết.
+Khó hay không sẽ phụ thuộc vào trình độ/khả năng tiếng Anh của người dự thi nhé bạn"
+
+  utter_what_if_not_pass:
+  - text: Điểm không đạt đến yêu cầu cấp chứng chỉ thì sẽ không được cấp chứng chỉ ạ
+
+  utter_ask_card_photo_requirement:
+  - text: Đối với hình thẻ, hiện chưa có yêu cầu màu nền, ảnh đảm bảo kích thước 4x6 cm và chụp trong vòng 6 tháng là được ạ
+
+  utter_certification_due_date:
+  - text: Trên chứng chỉ hiện không thể hiện nội dung thời hạn. Nhưng tùy thuộc vào yêu cầu của đơn vị cần chứng chỉ mà người có nhu cầu căn cứ để có kế hoạch dự thi phù hợp
+
+  utter_recheck_exam_process:
+  - text: "Đến đăng ký theo mẫu tại phòng Ghi danh Trung tâm Khảo thí.
+Thời gian phúc khảo sẽ được tổ chức đồng thời với thời gian tổ chức kỳ thi tiếp theo. Trong trường hợp kỳ thi tiếp theo bị dời, thời gian phúc khảo cũng dời theo."
+
+  utter_recheck_exam_fee:
+  - text: Lệ phí phúc khảo hiện là 800.000đ (Tám trăm ngàn đồng) ạ
+
+  utter_recheck_exam_result_time:
+  - text: "Thời gian phúc khảo sẽ được tổ chức đồng thời với thời gian tổ chức kỳ thi tiếp theo. Trong trường hợp kỳ thi tiếp theo bị dời, thời gian phúc khảo cũng dời theo.
+Sau đó, kết quả phúc khảo có thể được tra cứu tại trang web bằng số CCCD/CMND/hộ chiếu"
+
+  utter_recheck_lower_point:
+  - text: Hiện chưa có trường hợp bị hạ điểm khi đăng ký phúc khảo ạ
+
+  utter_wrong_information_in_certificate:
+  - text: Liên hệ phòng Ghi danh để được hướng dẫn làm thủ tục điều chỉnh thông tin trên chứng chỉ. 
+
+
+actions:
+  - action_return_exam_room
+  - action_return_results
+  - action_reply_for_receiving_different_certificate
+  - action_reply_ask_condition_certificate
